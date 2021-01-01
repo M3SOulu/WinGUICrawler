@@ -1,0 +1,329 @@
+
+\pagebreak
+
+\hspace{10mm}
+\hrule
+
+\begin{center}
+\Large Nodule 1
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-1011-22.14mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap1,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp1,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od1,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 2
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0091-9.26mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap2,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp2,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od2,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 3
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-1011-22.14mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap3,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp3,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od3,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 4
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0681-16.1mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap4,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp4,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od4,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 5
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0194-20.52mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap5,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp5,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od5,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 6
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0063-8.77mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap6,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp6,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od6,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 7
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0091-9.26mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap7,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp7,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od7,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 8
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0844-10.72mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap8,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp8,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od8,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 9
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0206-9.82mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap9,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp9,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od9,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 10
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0844-10.72mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap10,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp10,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od10,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 11
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0865-20.12mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap11,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp11,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od11,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 12
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0052-16.98mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap12,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp12,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od12,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 13
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0114-9.75mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap13,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp13,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od13,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 14
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0063-8.77mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap14,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp14,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od14,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 15
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0052-16.98mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap15,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp15,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od15,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 16
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0681-16.1mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap16,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp16,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od16,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 17
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0114-9.75mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap17,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp17,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od17,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 18
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0206-9.82mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap18,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp18,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od18,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\pagebreak
+\hrule
+\begin{center}
+\Large Nodule 19
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0865-20.12mm_ordered_ac.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap19,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp19,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od19,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+\vspace{1cm}
+\hrule
+\begin{center}
+\Large Nodule 20
+\end{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{LIDC-IDRI-0194-20.52mm_ordered_fmm.png}
+\end{figure}
+\begin{Form}[]
+    \begin{tcolorbox}
+    \TextField[name=ap20,width=2cm]{Area preservation: \hspace{1.06cm}}\\[2mm]
+    \TextField[name=sp20,width=2cm]{Shape preservation: \hspace{0.86cm}}\\[2mm]
+    \TextField[name=od20,width=2cm]{Overall diagnostic quality: }
+    \end{tcolorbox}
+\end{Form}
+
+
+\end{document}
+
+
