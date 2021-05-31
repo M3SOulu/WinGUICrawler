@@ -24,6 +24,17 @@ synthetic data, so probably not a great idea, but a good intuiton about web-base
 Theoretically we could implement an automated method to extract web-based app ui images and also labeled bounding boxes (if web-based app data is useful in practice).
 https://github.com/tonybeltramelli/pix2code
 
+ReDraw
+Summary: Similar project to pix2code, mobile user interface data. They constuct a dataset by mining screenshots and metadata (extracted using UI-frameworks) to automatically obtain labeled images. 
+https://zenodo.org/record/2530277#.YLSu0iZRVNg
+
+iOS app screen dataset:
+Summary: UI element detection on iOS. Firstly they collect screenshots and metadata by having workers manually traverse apps. Subsequently the workers annotate the images in two steps: segmentation and classification. Fairly straightforward labeling, first they draw bounding boxes and then put them in categories.
+
+CSS frameworks dataset:
+Summary: Small dataset for web-based gui recognition. Images of cropped gui elements taken from CSS framework example pages.
+https://github.com/agylardi/guicore-alpha
+
 # Papers
 Rico: A Mobile App Dataset for Building Data-Driven Design Applications
 https://doi.org/10.1145/3126594.3126651
@@ -33,3 +44,13 @@ https://doi.org/10.1145/3411764.3445762
 
 pix2code: Generating Code from a Graphical User Interface Screenshot
 https://arxiv.org/abs/1705.07962
+
+ReDraw: Machine Learning-Based Prototyping of Graphical User Interfaces for Mobile Apps
+https://arxiv.org/abs/1802.02312
+
+iOS app screen dataset: Screen Recognition - Creating Accessibility Metadata for Mobile Applications from Pixels
+https://arxiv.org/abs/2101.04893
+
+CSS frameworks dataset: Visual Recognition of Graphical User Interface Components using Deep Learning Technique
+http://dx:doi:org/10:21609/jiki:v13i1:845
+
