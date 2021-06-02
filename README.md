@@ -3,13 +3,13 @@
 Name | Link | Paper | Maturity | Domain | Data Collection Method | Summary | Open Questions
 ---- | ---- | ----- | -------- | ------ | ---------------------- | ------- | --------------
 RFW-Eficode | https://github.com/eficode/robotframework-imagehorizonlibrary | NA | 3 |Robot-Framework /  Web? | ? | Project seems active | Where is the image data?
-OpenUIdataset | https://github.com/openuidata/openuidataset | NA | ? | Any Win10 UI | Automated exploration with tool | Idea on GUI screenshots collection | Does it work? What widget data does it collect?
-Rico | https://interactionmining.org/rico | https://doi.org/10.1145/3126594.3126651 | ? | Android | Crowdsourced and automated exploring, labeling unclear | Large scale mobile app dataset with semantic annotations and recorded interactions | How did they label the images?   
-VINS | https://github.com/sbunian/VINS | https://doi.org/10.1145/3411764.3445762 | ? | Android and iOS | Some screenshots from Rico and some collected manually, labeling was crowdsourced | Smaller dataset than Rico, they state better labeling and content hierarcy. | ? 
-Pix2code | https://github.com/tonybeltramelli/pix2code | https://arxiv.org/abs/1705.07962 | ? | Android, iOS and Web | Synthetic data created via UI generator | transform images into layout code, good intuition on web apps | How useful is synthetic data in practice? 
-
- 
-
+OpenUIdataset | https://github.com/openuidata/openuidataset | NA | ? | Any Win10 UI | Automated exploration with tool | Idea on GUI screenshots collection | Working? Collects what widget data?
+Rico | https://interactionmining.org/rico | https://doi.org/10.1145/3126594.3126651 | ? | Android | Crowdsourced and automated exploring, labeling unclear | Large dataset with semantic annotations and recorded interactions | How did they label the images?   
+VINS | https://github.com/sbunian/VINS | https://doi.org/10.1145/3411764.3445762 | ? | Android and iOS |Screenshots from Rico and collected manually, crowdsourced labeling | Smaller than Rico, better labeling and content hierarcy. | ? 
+Pix2code | https://github.com/tonybeltramelli/pix2code | https://arxiv.org/abs/1705.07962 | ? | Android, iOS and Web | Synthetic data created via UI generator | transform images into layout code, good intuition on web apps | How useful is synthetic data?
+ReDraw | https://zenodo.org/record/2530277#.YLSu0iZRVNg | https://arxiv.org/abs/1802.02312 | ? | Android | mined screenshots and metadata (using uiautomate) | Similar project to pix2code, automatic labeling with extracted metadata | ?
+iOS screen | NA | https://arxiv.org/abs/2101.04893 | ? | iOS | Workers collect screenshots, then segment and classify | UI element detection on iOS, straightforward labeling | ?
+CSS frameworks | https://github.com/agylardi/guicore-alpha | http://dx:doi:org/10:21609/jiki:v13i1:845 | ? | Web | Manually cropped element images taken from CSS example pages | Small dataset for web gui recognition | ?
 
 # Data / Libraries
 
