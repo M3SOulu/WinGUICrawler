@@ -1,8 +1,8 @@
 # GUI-Element-Identification
 
-Name | Link | Paper | Maturity | Domain | Summary | Open Questions
----- | ---- | ----- | -------- | ------ | ------- | --------------
-RFW-Eficode|https://github.com/eficode/robotframework-imagehorizonlibrary | NA |3|Robot-Framework /  Web? |Project seems active|Where is the image data?
+Name | Link | Paper | Maturity | Domain | Data Collection Method | Summary | Open Questions
+---- | ---- | ----- | -------- | ------ | ---------------------- | ------- | --------------
+RFW-Eficode|https://github.com/eficode/robotframework-imagehorizonlibrary | NA |3|Robot-Framework /  Web? | ? |Project seems active|Where is the image data?
 
 
 # Data / Libraries
