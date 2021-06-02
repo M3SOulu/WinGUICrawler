@@ -2,8 +2,8 @@
 
 Name | Link | Paper | Maturity | Domain | Data Collection Method | Summary | Open Questions
 ---- | ---- | ----- | -------- | ------ | ---------------------- | ------- | --------------
-RFW-Eficode|https://github.com/eficode/robotframework-imagehorizonlibrary | NA |3|Robot-Framework /  Web? | ? |Project seems active|Where is the image data?
-
+RFW-Eficode | https://github.com/eficode/robotframework-imagehorizonlibrary | NA | 3 |Robot-Framework /  Web? | ? | Project seems active | Where is the image data?
+OpenUIdataset | https://github.com/openuidata/openuidataset | NA | ? | Any UI displayed on Win10 | Automated GUI exploration using Testar Tool to get screenshots and widget data | An idea on how to collect GUI screenshots | How well does it work? What widget data can it collect? 
 
 # Data / Libraries
 
