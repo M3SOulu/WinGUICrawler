@@ -11,6 +11,8 @@ Name | Paper | Maturity | Domain | Data Collection Method | Summary | Open Quest
 [ReDraw](https://zenodo.org/record/2530277#.YLSu0iZRVNg) | https://arxiv.org/abs/1802.02312 | ? | Android | mined screenshots and metadata (using uiautomate) | Similar project to pix2code, automatic labeling with extracted metadata | ?
 iOS screen | https://arxiv.org/abs/2101.04893 | ? | iOS | Workers collect screenshots, then segment and classify | UI element detection on iOS, straightforward labeling | ?
 [CSS frameworks](https://github.com/agylardi/guicore-alpha) | http://dx:doi:org/10:21609/jiki:v13i1:845 | ? | Web | Manually cropped element images taken from CSS example pages | Small dataset for web gui recognition | ?
+DL vs. Old | https://arxiv.org/pdf/2008.05132.pdf | | | Android| None use Rico | Summary: Combination of DL and old works best| |
+
 
 # Data / Libraries
 
@@ -65,3 +67,6 @@ https://arxiv.org/abs/2101.04893
 
 CSS frameworks dataset: Visual Recognition of Graphical User Interface Components using Deep Learning Technique
 http://dx:doi:org/10:21609/jiki:v13i1:845
+
+Object Detection for Graphical User Interface: Old Fashioned orDeep Learning or a Combination?
+https://arxiv.org/pdf/2008.05132.pdf
