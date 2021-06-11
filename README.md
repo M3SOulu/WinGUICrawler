@@ -2,6 +2,7 @@
 
 Name | Paper | Maturity | Domain | Data Collection Method | Summary | Open Questions
 ---- | ----- | -------- | ------ | ---------------------- | ------- | --------------
+[Robocorp](https://github.com/robocorp/rpaframework/tree/master/packages/recognition)| [Doc1](https://robocorp.com/docs/developer-tools/robocorp-lab/locating-and-targeting-UI-elements) [Doc-Web](https://robocorp.com/docs/development-guide/browser/how-to-find-user-interface-elements-using-locators-in-web-applications) [Doc-Win10](https://robocorp.com/docs/development-guide/desktop/how-to-find-user-interface-elements-using-locators-and-keyboard-shortcuts-in-windows-applications) | NA | ? | Robot-Framework|?|?
 [RFW-Eficode](https://github.com/eficode/robotframework-imagehorizonlibrary) | NA | 3 |Robot-Framework /  Web? | ? | Project seems active | Where is the image data?
 [OpenUIdataset](https://github.com/openuidata/openuidataset) | NA | ? | Any Win10 UI | Automated exploration with tool | Idea on GUI screenshots collection | Working? Collects what widget data?
 [Rico](https://interactionmining.org/rico) | https://doi.org/10.1145/3126594.3126651 | ? | Android | Crowdsourced and automated exploring, labeling unclear | Large dataset with semantic annotations and recorded interactions | How did they label the images?   
