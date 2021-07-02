@@ -14,6 +14,8 @@ Name | Paper | Domain | Data Collection Method | Summary | Open Questions
 iOS screen | https://arxiv.org/abs/2101.04893 | iOS | Workers collect screenshots, then segment and classify | UI element detection on iOS, straightforward labeling | ?
 [CSS frameworks](https://github.com/agylardi/guicore-alpha) | http://dx:doi:org/10:21609/jiki:v13i1:845 | Web | Manually cropped element images taken from CSS example pages | Small dataset for web gui recognition | ?
 [WinAppDriver](https://github.com/Microsoft/WinAppDriver)| ... | Windows | ... | supports Selenium-like UI Test Automation on Windows Applications, developed by Microsoft | Project dead?    
+[UI Image to GUI Skeleton](http://tagreorder.appspot.com/ui2code.html) |  https://chunyang-chen.github.io/publication/ui2code.pdf | Android | Automated exploration of apps | During exploration actions are assigned dynamic weights, removed duplicate screens by comparing gui code hashes | ...
+
 ## Algorithmic Papers
 
 Name | Paper | Domain | Data Collection Method | Summary | Open Questions
@@ -60,6 +62,10 @@ WinAppDriver:\
 Test automation tool developed by Microsoft (seems either dead or on hiatus), best alternative for collecting data on windows and most isssues can be resolved with community workarounds
 https://github.com/Microsoft/WinAppDriver
 
+UI Image to GUI Skeleton:\
+Neureal Network approach to translate Android UI images to GUI skeletons, the network is trained on data collected via a GUI exploration tool. The exploration tool prioritizes actions to execute based on dynamic weights, duplicate images are found by comparing hashes of underlying ui design code.
+https://chunyang-chen.github.io/publication/ui2code.pdf
+
 # Papers
 Rico: A Mobile App Dataset for Building Data-Driven Design Applications
 https://doi.org/10.1145/3126594.3126651
@@ -84,3 +90,6 @@ https://arxiv.org/pdf/2008.05132.pdf
 
 Learning Design Semantics for Mobile Apps
 https://dl.acm.org/doi/10.1145/3242587.3242650
+
+From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation
+https://chunyang-chen.github.io/publication/ui2code.pdf
