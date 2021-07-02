@@ -13,8 +13,8 @@ Name | Paper | Domain | Data Collection Method | Summary | Open Questions
 [ReDraw](https://zenodo.org/record/2530277#.YLSu0iZRVNg) | https://arxiv.org/abs/1802.02312 | Android | mined screenshots and metadata (using uiautomate) | Similar project to pix2code, automatic labeling with extracted metadata | ?
 iOS screen | https://arxiv.org/abs/2101.04893 | iOS | Workers collect screenshots, then segment and classify | UI element detection on iOS, straightforward labeling | ?
 [CSS frameworks](https://github.com/agylardi/guicore-alpha) | http://dx:doi:org/10:21609/jiki:v13i1:845 | Web | Manually cropped element images taken from CSS example pages | Small dataset for web gui recognition | ?
-[WinAppDriver](https://github.com/Microsoft/WinAppDriver)| ... | Windows | ... | supports Selenium-like UI Test Automation on Windows Applications, developed by Microsoft | Project dead?    
-[UI Image to GUI Skeleton](http://tagreorder.appspot.com/ui2code.html) |  https://chunyang-chen.github.io/publication/ui2code.pdf | Android | Automated exploration of apps | During exploration actions are assigned dynamic weights, removed duplicate screens by comparing gui code hashes | ...
+[WinAppDriver](https://github.com/Microsoft/WinAppDriver)| ... | Windows | ... | Selenium-like UI Test Automation on Windows Applications, developed by Microsoft | Project dead?    
+[UI Image to GUI Skeleton](http://tagreorder.appspot.com/ui2code.html) |  https://chunyang-chen.github.io/publication/ui2code.pdf | Android | Automated exploration of apps | Exploration actions assigned dynamic weights, removed duplicates by comparing gui code hashes | ...
 
 ## Algorithmic Papers
 
