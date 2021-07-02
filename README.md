@@ -22,6 +22,7 @@ Name | Paper | Domain | Data Collection Method | Summary | Open Questions
 ---- | ----- | ------ | ---------------------- | ------- | --------------
 DL vs. Old | https://arxiv.org/pdf/2008.05132.pdf | Android| None use Rico | Combination of DL and old works best| ? |
 Mobile Semantics | https://dl.acm.org/doi/10.1145/3242587.3242650 | Android | Rico, reclassified according to lexical database | Deeper classification of ui elements ( 25 UI component categories, 197 text button concepts, and 99 classes of icons), UI components and text buttons code-based classification and icons with a CNN | ...
+GUI detection and segmentation DL | https://link.springer.com/chapter/10.1007/978-3-030-64214-3_13 | Android | Mostly Rico, some from app stores | Screenshots are manually labeled, gui element recognition by Mask R-CNN | ...
 
 # Data / Libraries
 
@@ -93,3 +94,7 @@ https://dl.acm.org/doi/10.1145/3242587.3242650
 
 From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation
 https://chunyang-chen.github.io/publication/ui2code.pdf
+
+Detection and Segmentation of Graphical Elements on GUIs for Mobile Apps Based on Deep Learning
+https://link.springer.com/chapter/10.1007/978-3-030-64214-3_13
+
