@@ -55,17 +55,17 @@ python take_screen.py
 ```
 After waiting for several seconds the prompt will ask for a keypress, pressing "p" takes a screenshot and pressing "e" exits the script. After taking a screenshot wait for a couple of seconds for the prompt to ask again before taking another one.
 
-- The crawler is implemented in **dfs_crawl.py**, similarly to the previous script, unless differently specified everything gets saved in the *./screens*_temp directory. Furthermore the same things apply with regards to WinAppDriver running in background and desired_caps["app"] being set to the desired application. After making sure everything is set, run the crawler:
+- The crawler is implemented in **dfs_crawl.py**, similarly to the previous script, unless differently specified everything gets saved in the *./screens*_temp directory. Furthermore the same things apply with regards to WinAppDriver running in background and desired_caps["app"] being set to the desired application. <br> The crawler takes in an argument which is a non negative integer N, if N==0 the crawler keeps going until the whole application is explored, if N > 0 the crawler does N passes. Each pass will make the crawler go from Root to the end of a branch of the traversal graph.
+After making sure everything is set, run the crawler:
 ```Python
-python dfs_crawl.py
+python dfs_crawl.py 0 #the crawler runs until root dies and the application is fully explored
 ```
-Each execution will make it go from Root to the end of a branch of the traversal graph. To fully crawl an app, just run the crawler several times (depends on application, at least several hundred executions are needed). For example to run it 100 times use:
+Or
 ```Python
-for /L %n in (1,1,100) do python dfs_crawl.py
+python dfs_crawl.py 10 #the crawler runs 10 passes
 ```
-When the crawler has explored the whole application the root node will be killed and "Root is dead" will be printed. This script produces images, xml metadata and a graph which is saved as two dictionaries in the file *graphs*.
 
-(Maybe add a script that automatically runs the crawler until "Root is dead" is reached)
+ This script produces images, xml metadata and a graph which is saved as two dictionaries in the file *graphs*.
 
 - To visualise the application traversal graph the script **visualize_graph.py** can be run directly, without the need for WinAppDriver. Assuming the crawler has been run before and produced the pickled file *graphs* (comprised of two dicts) which is contained in the *./screens_temp* directory. Run:
 ```Python
