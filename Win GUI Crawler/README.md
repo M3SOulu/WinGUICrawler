@@ -20,6 +20,14 @@ pip install opencv-python
 pip install psutil
 pip install lxml
 ```
+Install graphviz from https://graphviz.org/download/ or if using anaconda simly run
+```bash
+conda install python-graphviz
+```
+Install graphviz module for python
+```bash
+pip install graphviz
+```
 Install Windows Application Driver from https://github.com/microsoft/WinAppDriver
 
 ## Usage
