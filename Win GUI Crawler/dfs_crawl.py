@@ -1,6 +1,6 @@
 #This script is used to take crawl an application in dfs fashion, while gathering image screenshots and gui metadata
-#Each execution of the script has the crawler going from root to an end of the graph. The crawler is made persistent with saved dicts
-#Run the crawler N times (depends on the app, hundreds of times usually), until root becomes dead
+#Each execution of the crawl function has the crawler going from root to an end of the graph. The crawler is made persistent with saved dicts
+#Run the crawler until Root dies (meaning the application has been explored completely) with argument 0, and N times with argument N being a positive integer
 
 from appium import webdriver
 import time
@@ -20,14 +20,7 @@ import sys
 import traceback
 from win32api import GetSystemMetrics
 
-#directory where the screenshots (.png and .xml) will be saved
-directory = '%s/' % os.getcwd()+"screens_temp/"
 
-#List of the types of elements that are considered clickable, i.e. permit interaction and could produce new screens
-clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem","CheckBox"]
-
-#A set that keeps track of all clickable items that have been seen during traversal
-union_traversed = set([])
 
 class Node(object):
     '''Creates a node object'''
@@ -74,7 +67,7 @@ def load_dict(filename):
     return output_dict
 
 #This function extracts gui metadata from the application
-def take_metadata(driver):
+def take_metadata(driver,clickable_items):
     time.sleep(1)
     #winappdriver extracts the metadata and copies it into a string
     source = driver.page_source
@@ -186,18 +179,23 @@ def get_unique_xpath(element):
         el_xpath += "/"+el
     return el_xpath
 
-if __name__ == '__main__':
+#Crawler function
+def crawl():
+    #directory where the screenshots (.png and .xml) will be saved
+    directory = '%s/' % os.getcwd()+"screens_temp/"
 
-    #ciao = "C:\\Users\\watas\\Desktop\\gui_test-master/screens_temp/screenshot-Root_+_WindowPanePanePaneGroupPaneGroupButton[@Name='Hideorshowregion']_+_WindowPanePanePaneGroupPaneGroupButton[@Name='Newblankdocument']_+_WindowPaneToolBarPanePanePaneStatusBarButton[@Name='Zoom100%'].png"
-    #print(xpath_to_name(ciao))
-    #exit()
+    #List of the types of elements that are considered clickable, i.e. permit interaction and could produce new screens
+    clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem","CheckBox"]
+
+    #A set that keeps track of all clickable items that have been seen during traversal
+    union_traversed = set([])
 
     #opens the application via webdriver
     desired_caps = {}
     #desired_caps["app"] = r"C:\Users\watas\AppData\Roaming\Zoom\bin\Zoom.exe"
     #desired_caps["app"] = "C:\Windows\System32\explorer.exe"
-    desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
-    #desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+    #desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
+    desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
     #desired_caps["app"] = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
     #desired_caps["app"] = r"C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
     #desired_caps["app"] = r"C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
@@ -252,6 +250,7 @@ if __name__ == '__main__':
     if not rootNode.alive:
         #If root is dead, it means that the whole application has been visited, the crawler is done
         print("Root is dead")
+        return True
     else:
         while DeadEnd == False:
             #If it's not been visited take metadata and info to store in node, if it's unique take a screen otherwise declare it dead
@@ -261,7 +260,7 @@ if __name__ == '__main__':
             if current_node.visited == False:
                 #get metdata
                 try:
-                    xmlsource, clickable, els, rect = take_metadata(driver)
+                    xmlsource, clickable, els, rect = take_metadata(driver,clickable_items)
                 except Exception as error:
                     #If the application crashes unexpectedly (errors or close has been clicked), the node is killed
                     print("Caught exception, window might be closed")
@@ -273,7 +272,7 @@ if __name__ == '__main__':
                     with open(directory+"graphs","wb") as fp:
                         pickle.dump(graph,fp)
                         pickle.dump(nodes,fp)
-                    exit()
+                    return False
                 #update node info
                 current_node.visited = True
                 #create children and add to graph
@@ -286,8 +285,9 @@ if __name__ == '__main__':
                 #Create all it's children that are reach with their respective clickable actions
                 for clickable_el in unique_list:
                     #parse the name from path
-                    clt = (clickable_el.split("/")[-1]).split("[@Name = \'")
-                    clickable_el_name = clt[0]+"-"+clt[1][:-2]
+                    clt = clickable_el.split("[@Name = \'")
+                    clickable_el_name = clt[0].split("/")[-1]+"-"+clt[1][:-2]
+
                     #Create child
                     child_name = current_node.name+"_+_"+clickable_el_name
                     child_path = current_node.path+"_+_"+clickable_el
@@ -361,4 +361,41 @@ if __name__ == '__main__':
     with open(directory+"graphs","wb") as fp:
         pickle.dump(graph,fp)
         pickle.dump(nodes,fp)
-    exit()
+    return False
+
+if __name__ == '__main__':
+    #If input is an integer N>0, then execute the crawler N times
+    #if the input is N=0, then execute crawler until root dies
+    iterations = int(sys.argv[1])
+    Root_dead_flag = False
+    if iterations > 0:
+        for i in range(0,iterations):
+            print("********************************")
+            print("*                              *")
+            print("*    Crawling application      *")
+            print("*                              *")
+            print("********************************")
+            Root_dead_flag = crawl()
+            if Root_dead_flag:
+                print("********************************")
+                print("*                              *")
+                print("*   Root Dead, Crawling over   *")
+                print("*                              *")
+                print("********************************")
+                break
+    else:
+        if iterations == 0:
+            while not Root_dead_flag:
+                print("********************************")
+                print("*                              *")
+                print("*    Crawling application      *")
+                print("*                              *")
+                print("********************************")
+                Root_dead_flag = crawl()
+            print("********************************")
+            print("*                              *")
+            print("*   Root Dead, Crawling over   *")
+            print("*                              *")
+            print("********************************")
+        else:
+            print("Please input a non negative integer")

@@ -20,11 +20,8 @@ from win32api import GetSystemMetrics
 #directory where the screenshots (.png and .xml) will be saved
 directory = '%s/' % os.getcwd()+"taken_screens/"
 
-#Not needed here, placeholder to keep the take_metadata function the same as in the crawler
-clickable_items = []
-
 #This function extracts gui metadata from the application
-def take_metadata(driver):
+def take_metadata(driver,clickable_items):
     time.sleep(1)
     #winappdriver extracts the metadata and copies it into a string
     source = driver.page_source
@@ -149,7 +146,7 @@ if __name__ == '__main__':
             break
         if input == "p":
             #Take screenshot
-            xmlsource, clickable, els, rect = take_metadata(driver)
+            xmlsource, clickable, els, rect = take_metadata(driver,[]) #clickable items is not needed here, but still kept to have take_metadata same as in crawler
             date_time = datetime.now().strftime("%m%d%Y%H%M%S")
             take_screen(driver,date_time,xmlsource,els,rect)
             print("Screenshot taken")

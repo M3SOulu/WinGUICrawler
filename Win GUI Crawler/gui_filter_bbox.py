@@ -5,6 +5,7 @@ import cv2
 import sys
 from lxml import etree
 import random
+import numpy as np
 
 #Retrieves an xpath for the element
 def get_unique_xpath(element):
@@ -83,7 +84,8 @@ def clean_parent_offscreen(list_off_screen):
 
 #Draws bounding boxes and saves image to file, from non blacklisted elements
 def draw_bboxes(imgname,result_name,list_of_el,blacklist,rgb):
-    img = cv2.imread(imgname)
+    #Use decode instead of imread, because it can't take unicode characters
+    img = cv2.imdecode(np.fromfile(imgname,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
     result = img.copy()
     index_rgb = 0
     list_on_screen = []
@@ -234,7 +236,8 @@ def filter_bbox(imgname_previous,imgname_current):
     #Check overlap and create list of overlapping elements
     list_of_overlapping_current = overlap_check(list_of_current_on_screen)
 
-    img = cv2.imread(imgname_current)
+    #Use decode instead of imread, because it can't take unicode characters
+    img = cv2.imdecode(np.fromfile(imgname_current,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
     result = img.copy()
     #List of blacklisted elemnts
     blacklist = []

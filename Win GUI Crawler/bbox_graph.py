@@ -87,7 +87,7 @@ while (not end_flag):
             last = ""
             imgname_current = directory+"screenshot-"+replace_illegal_char(nodes[current].name)+".png"
             gui_filter_bbox.filter_bbox("",imgname_current)
-        print("Filtering: ",nodes[current].name,"-",nodes[last].name if last != "" else last)
+        print("Filtering: ",nodes[current].name,"        ",nodes[last].name if last != "" else last)
         #Add node to visited
         visited.append(current)
 
