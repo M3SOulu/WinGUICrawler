@@ -20,6 +20,7 @@ pip install keyboard
 pip install opencv-python
 pip install psutil
 pip install lxml
+pip install graphviz
 ```
 Install Windows Application Driver from https://github.com/microsoft/WinAppDriver
 
