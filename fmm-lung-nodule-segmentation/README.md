@@ -1,1 +1,0 @@
-# fmm-lung-nodule-segmentation
