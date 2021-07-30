@@ -77,7 +77,7 @@ This will produce an .svg image of the graph. In this way the nodes and their st
 ```Python
 python bbox_graph.py
 ```
-The script will output images with cleaner bounding boxes (maybe also add new .xml files or some other way of saving). **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph.
+The script will output images with cleaner bounding boxes. **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph.
 
 ## Limitations
 
