@@ -20,7 +20,8 @@ import sys
 import traceback
 from win32api import GetSystemMetrics
 
-
+#directory where the screenshots (.png and .xml) will be saved
+directory = '%s/' % os.getcwd()+"screens_temp/"
 
 class Node(object):
     '''Creates a node object'''
@@ -179,10 +180,9 @@ def get_unique_xpath(element):
         el_xpath += "/"+el
     return el_xpath
 
+
 #Crawler function
 def crawl():
-    #directory where the screenshots (.png and .xml) will be saved
-    directory = '%s/' % os.getcwd()+"screens_temp/"
 
     #List of the types of elements that are considered clickable, i.e. permit interaction and could produce new screens
     clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem","CheckBox"]
