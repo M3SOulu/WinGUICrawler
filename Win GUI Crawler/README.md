@@ -43,7 +43,7 @@ Run WinAppDriver.exe from the installation directory (E.g. C:\Program Files (x86
 ```bash
 WinAppDriver.exe 4724
 ```
-There several scripts in this project. Let's go through each one and their usage.
+There are several scripts in this project. Let's go through each one and their usage.
 
 - Taking screenshots by keypress is possible with **take_screen.py**, everything will be saved in the *./take_screen* directory unless differently specified. Before running it, the Windows application under test needs to be specified under *desired_caps["app"]* (either by automation Id or exe location). To run mspaint for example:
 ```Python
@@ -55,7 +55,7 @@ python take_screen.py
 ```
 After waiting for several seconds the prompt will ask for a keypress, pressing "p" takes a screenshot and pressing "e" exits the script. After taking a screenshot wait for a couple of seconds for the prompt to ask again before taking another one.
 
-- The crawler is implemented in **dfs_crawl.py**, similarly to the previous script, unless differently specified everything gets saved in the *./screens*_temp directory. Furthermore the same things apply with regards to WinAppDriver running in background and desired_caps["app"] being set to the desired application. <br> The crawler takes in an argument which is a non negative integer N, if N==0 the crawler keeps going until the whole application is explored, if N > 0 the crawler does N passes. Each pass will make the crawler go from Root to the end of a branch of the traversal graph.
+- The crawler is implemented in **dfs_crawl.py**, similarly to the previous script, unless differently specified everything gets saved in the *./screens_temp* directory. Furthermore the same things apply with regards to WinAppDriver running in background and desired_caps["app"] being set to the desired application. <br> The crawler takes in an argument which is a non negative integer N, if N==0 the crawler keeps going until the whole application is explored, if N > 0 the crawler does N passes. Each pass will make the crawler go from Root to the end of a branch of the traversal graph.
 After making sure everything is set, run the crawler:
 ```Python
 python dfs_crawl.py 0 #the crawler runs until root dies and the application is fully explored
@@ -77,9 +77,9 @@ This will produce an .svg image of the graph. In this way the nodes and their st
 ```Python
 python bbox_graph.py
 ```
-The script will output images with cleaner bounding boxes. **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph.
+The script will output images with cleaner bounding boxes. **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to be inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph.
 
 ## Limitations
 
-There are some limitations with the current implementation. Firstly applications which use GTK or other frameworks don't provide access to all element metadata. For example GIMP only provides access to the window containing the application and not to the content inside the window, other application like Adobe Reader have several panes containing gui element metadata that can't be accessed. These limitations are inherently present since WinAppDriver is the backbone and only Win32 framework metadata can be extracted. <br>
-Another limitation which is due to how some applications are designed is due to the fact that some applications open windows/panes within a new process or within a window/pane that is not contained within the main application. This could be overcome by opening WinAppDriver in Root mode, meaning that it is not affixed to a specific application or process, but to the entire Desktop. Although this solution comes with new issues, when dealing with the whole Desktop WinAppDriver needs to query every application that's open and this takes a lot longer and can lead to new complications (frequent crashes). Another issue arises in detecting which elements on the Desktop are linked to the application under test, since it is not discernible with a unique method that works on all applications. In some applications it might be impossible since there are no fixed naming conventions or there is no available information to link the windows and processes.
+There are some limitations with the current implementation. Firstly, applications which use GTK or other frameworks don't provide access to all element metadata. For example GIMP only provides access to the window containing the application and not to the content inside the window, other application like Adobe Reader have several panes containing gui element metadata that can't be accessed. These limitations are inherently present since WinAppDriver is the backbone and only Win32 framework metadata can be extracted. <br>
+Another limitation is due to the fact that some applications open windows/panes within a new process or within a window/pane that is not contained within the main application window. This could be fixed by opening WinAppDriver in Root mode, meaning that it is not affixed to a specific application or process, but to the entire Desktop. However, this solution comes with new issues, when dealing with the whole Desktop WinAppDriver needs to query every application that's open and this takes a lot longer and can lead to frequent crashes. Another issue arises in detecting which elements on the Desktop are linked to the application under test, since it is not discernible with a unique method that works on all applications. In some applications it might be impossible since there are no fixed naming conventions or there is no available information to link the windows and processes.
