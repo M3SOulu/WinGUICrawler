@@ -1,0 +1,2421 @@
+{
+  "tag": "Window",
+  "name": "XnConvert",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    310,
+    110
+  ],
+  "bottomright": [
+    1592,
+    876
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Choose a directory",
+      "type": "dialogue",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        321,
+        155
+      ],
+      "bottomright": [
+        1261,
+        865
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "View Slider Control",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1138,
+            194
+          ],
+          "bottomright": [
+            1408,
+            592
+          ],
+          "children": [
+            {
+              "tag": "Slider",
+              "name": "Slider",
+              "type": "slider",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1150,
+                203
+              ],
+              "bottomright": [
+                1191,
+                586
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Page up",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1162,
+                    214
+                  ],
+                  "bottomright": [
+                    1168,
+                    274
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1152,
+                    274
+                  ],
+                  "bottomright": [
+                    1181,
+                    291
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page down",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1162,
+                    291
+                  ],
+                  "bottomright": [
+                    1168,
+                    575
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Extra large icons",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                202
+              ],
+              "bottomright": [
+                1401,
+                247
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Extra large icons",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    202
+                  ],
+                  "bottomright": [
+                    1401,
+                    239
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Large icons",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                262
+              ],
+              "bottomright": [
+                1401,
+                307
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Large icons",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    262
+                  ],
+                  "bottomright": [
+                    1401,
+                    299
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Medium-sized icons",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                305
+              ],
+              "bottomright": [
+                1401,
+                350
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Medium-sized icons",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    305
+                  ],
+                  "bottomright": [
+                    1401,
+                    342
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Small icons",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                370
+              ],
+              "bottomright": [
+                1401,
+                415
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Small icons",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    370
+                  ],
+                  "bottomright": [
+                    1401,
+                    407
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "List",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                415
+              ],
+              "bottomright": [
+                1401,
+                460
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "List",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    415
+                  ],
+                  "bottomright": [
+                    1401,
+                    452
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Details",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                460
+              ],
+              "bottomright": [
+                1401,
+                505
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Details",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    460
+                  ],
+                  "bottomright": [
+                    1401,
+                    497
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Tiles",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                503
+              ],
+              "bottomright": [
+                1401,
+                548
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Tiles",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    503
+                  ],
+                  "bottomright": [
+                    1401,
+                    540
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "Content",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1202,
+                547
+              ],
+              "bottomright": [
+                1401,
+                592
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Content",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1202,
+                    547
+                  ],
+                  "bottomright": [
+                    1401,
+                    584
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            322,
+            259
+          ],
+          "bottomright": [
+            1260,
+            735
+          ],
+          "children": [
+            {
+              "tag": "ToolBar",
+              "name": "Command Module",
+              "type": "tool bar",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                322,
+                259
+              ],
+              "bottomright": [
+                1260,
+                308
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "&Help",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    1204,
+                    262
+                  ],
+                  "bottomright": [
+                    1246,
+                    303
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "SplitButton",
+                  "name": "Views",
+                  "type": "split button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    1115,
+                    262
+                  ],
+                  "bottomright": [
+                    1192,
+                    303
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "View Slider",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        1156,
+                        262
+                      ],
+                      "bottomright": [
+                        1177,
+                        303
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Organise",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    327,
+                    262
+                  ],
+                  "bottomright": [
+                    459,
+                    303
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "New folder",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    459,
+                    262
+                  ],
+                  "bottomright": [
+                    592,
+                    303
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "Control Host",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                322,
+                308
+              ],
+              "bottomright": [
+                556,
+                735
+              ],
+              "children": [
+                {
+                  "tag": "Tree",
+                  "name": "Tree View",
+                  "type": "tree",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    322,
+                    308
+                  ],
+                  "bottomright": [
+                    556,
+                    735
+                  ],
+                  "children": [
+                    {
+                      "tag": "ScrollBar",
+                      "name": "Vertical",
+                      "type": "scroll bar",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        530,
+                        308
+                      ],
+                      "bottomright": [
+                        556,
+                        735
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Line up",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            530,
+                            308
+                          ],
+                          "bottomright": [
+                            556,
+                            334
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Page up",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            530,
+                            334
+                          ],
+                          "bottomright": [
+                            556,
+                            371
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Thumb",
+                          "name": "Position",
+                          "type": "thumb",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            530,
+                            371
+                          ],
+                          "bottomright": [
+                            556,
+                            690
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Page down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            530,
+                            690
+                          ],
+                          "bottomright": [
+                            556,
+                            709
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Line down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            530,
+                            709
+                          ],
+                          "bottomright": [
+                            556,
+                            735
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "TreeItem",
+                      "name": "Quick access",
+                      "type": "tree item",
+                      "offscreen": "True",
+                      "blacklisted": "False",
+                      "topleft": [
+                        0,
+                        0
+                      ],
+                      "bottomright": [
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "tag": "TreeItem",
+                          "name": "Desktop (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            308
+                          ],
+                          "bottomright": [
+                            468,
+                            344
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Downloads (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            344
+                          ],
+                          "bottomright": [
+                            491,
+                            380
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Documents (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            380
+                          ],
+                          "bottomright": [
+                            492,
+                            416
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Pictures (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            416
+                          ],
+                          "bottomright": [
+                            462,
+                            452
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "(old)GUI test scripts",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            452
+                          ],
+                          "bottomright": [
+                            530,
+                            488
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "gui_test-master",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            488
+                          ],
+                          "bottomright": [
+                            523,
+                            524
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "screens_temp",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            524
+                          ],
+                          "bottomright": [
+                            508,
+                            560
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "screens_temp",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            397,
+                            560
+                          ],
+                          "bottomright": [
+                            508,
+                            596
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "TreeItem",
+                      "name": "Desktop",
+                      "type": "tree item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        0,
+                        0
+                      ],
+                      "bottomright": [
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "tag": "TreeItem",
+                          "name": "OneDrive",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            385,
+                            608
+                          ],
+                          "bottomright": [
+                            463,
+                            644
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "This PC",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            385,
+                            656
+                          ],
+                          "bottomright": [
+                            446,
+                            692
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Network",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            385,
+                            704
+                          ],
+                          "bottomright": [
+                            456,
+                            735
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "Shell Folder View",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                562,
+                308
+              ],
+              "bottomright": [
+                1260,
+                735
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "Items View",
+                  "type": "list",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    562,
+                    308
+                  ],
+                  "bottomright": [
+                    1260,
+                    735
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Camera Roll",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        583,
+                        317
+                      ],
+                      "bottomright": [
+                        741,
+                        494
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            589,
+                            320
+                          ],
+                          "bottomright": [
+                            735,
+                            464
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            613,
+                            464
+                          ],
+                          "bottomright": [
+                            713,
+                            491
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "New folder",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        752,
+                        317
+                      ],
+                      "bottomright": [
+                        910,
+                        494
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            758,
+                            320
+                          ],
+                          "bottomright": [
+                            904,
+                            464
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            785,
+                            464
+                          ],
+                          "bottomright": [
+                            878,
+                            491
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "New folder (2)",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        921,
+                        317
+                      ],
+                      "bottomright": [
+                        1079,
+                        494
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            927,
+                            320
+                          ],
+                          "bottomright": [
+                            1073,
+                            464
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            942,
+                            464
+                          ],
+                          "bottomright": [
+                            1060,
+                            491
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Saved Pictures",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        1090,
+                        317
+                      ],
+                      "bottomright": [
+                        1248,
+                        494
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            1096,
+                            320
+                          ],
+                          "bottomright": [
+                            1242,
+                            464
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            1110,
+                            464
+                          ],
+                          "bottomright": [
+                            1230,
+                            491
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Tree",
+              "name": "Application Controls",
+              "type": "tree",
+              "offscreen": "True",
+              "blacklisted": "False",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Folder:",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            507,
+            767
+          ],
+          "bottomright": [
+            561,
+            792
+          ],
+          "children": []
+        },
+        {
+          "tag": "Edit",
+          "name": "Folder:",
+          "type": "edit",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            569,
+            761
+          ],
+          "bottomright": [
+            1234,
+            799
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Select Folder",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            923,
+            807
+          ],
+          "bottomright": [
+            1084,
+            846
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Cancel",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1102,
+            807
+          ],
+          "bottomright": [
+            1234,
+            846
+          ],
+          "children": []
+        },
+        {
+          "tag": "Thumb",
+          "name": "",
+          "type": "thumb",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1234,
+            838
+          ],
+          "bottomright": [
+            1260,
+            864
+          ],
+          "children": []
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            322,
+            200
+          ],
+          "bottomright": [
+            1260,
+            259
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                322,
+                204
+              ],
+              "bottomright": [
+                443,
+                252
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "Navigation buttons",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    328,
+                    207
+                  ],
+                  "bottomright": [
+                    443,
+                    252
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Back (Alt + Left Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        328,
+                        207
+                      ],
+                      "bottomright": [
+                        373,
+                        252
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Forward (Alt + Right Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        373,
+                        207
+                      ],
+                      "bottomright": [
+                        418,
+                        252
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Recent locations",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        418,
+                        207
+                      ],
+                      "bottomright": [
+                        440,
+                        252
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                443,
+                206
+              ],
+              "bottomright": [
+                479,
+                250
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "Up band toolbar",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    443,
+                    212
+                  ],
+                  "bottomright": [
+                    479,
+                    256
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Up to \"This PC\" (Alt + Up Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        443,
+                        212
+                      ],
+                      "bottomright": [
+                        479,
+                        248
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                479,
+                200
+              ],
+              "bottomright": [
+                933,
+                256
+              ],
+              "children": [
+                {
+                  "tag": "ProgressBar",
+                  "name": "",
+                  "type": "progress bar",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    481,
+                    205
+                  ],
+                  "bottomright": [
+                    931,
+                    252
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        481,
+                        205
+                      ],
+                      "bottomright": [
+                        831,
+                        252
+                      ],
+                      "children": [
+                        {
+                          "tag": "ToolBar",
+                          "name": "Address: Pictures",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            481,
+                            205
+                          ],
+                          "bottomright": [
+                            831,
+                            252
+                          ],
+                          "children": [
+                            {
+                              "tag": "SplitButton",
+                              "name": "All locations",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                481,
+                                205
+                              ],
+                              "bottomright": [
+                                534,
+                                251
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "SplitButton",
+                              "name": "This PC",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                534,
+                                205
+                              ],
+                              "bottomright": [
+                                624,
+                                251
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "MenuItem",
+                              "name": "Pictures",
+                              "type": "menu item",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                624,
+                                205
+                              ],
+                              "bottomright": [
+                                693,
+                                251
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ToolBar",
+                      "name": "Address band toolbar",
+                      "type": "tool bar",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        831,
+                        205
+                      ],
+                      "bottomright": [
+                        931,
+                        252
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Previous Locations",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            831,
+                            205
+                          ],
+                          "bottomright": [
+                            881,
+                            252
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Refresh \"Pictures\" (F5)",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            881,
+                            205
+                          ],
+                          "bottomright": [
+                            931,
+                            252
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                937,
+                227
+              ],
+              "bottomright": [
+                943,
+                228
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                943,
+                201
+              ],
+              "bottomright": [
+                1249,
+                254
+              ],
+              "children": [
+                {
+                  "tag": "Edit",
+                  "name": "SearchEditBox",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    943,
+                    204
+                  ],
+                  "bottomright": [
+                    1249,
+                    253
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1253,
+                227
+              ],
+              "bottomright": [
+                1260,
+                228
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            346,
+            158
+          ],
+          "bottomright": [
+            1260,
+            200
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "blacklisted": "False",
+              "topleft": [
+                215,
+                111
+              ],
+              "bottomright": [
+                237,
+                133
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "blacklisted": "False",
+                  "topleft": [
+                    215,
+                    111
+                  ],
+                  "bottomright": [
+                    237,
+                    133
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1209,
+                156
+              ],
+              "bottomright": [
+                1261,
+                200
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        335,
+        113
+      ],
+      "bottomright": [
+        1591,
+        155
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "blacklisted": "False",
+          "topleft": [
+            207,
+            81
+          ],
+          "bottomright": [
+            229,
+            103
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "blacklisted": "False",
+              "topleft": [
+                207,
+                81
+              ],
+              "bottomright": [
+                229,
+                103
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1380,
+            111
+          ],
+          "bottomright": [
+            1451,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1451,
+            111
+          ],
+          "bottomright": [
+            1521,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1521,
+            111
+          ],
+          "bottomright": [
+            1592,
+            155
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Group",
+      "name": "",
+      "type": "group",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        311,
+        155
+      ],
+      "bottomright": [
+        1591,
+        875
+      ],
+      "children": [
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            322,
+            166
+          ],
+          "bottomright": [
+            1580,
+            819
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "custom",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                324,
+                194
+              ],
+              "bottomright": [
+                1576,
+                815
+              ],
+              "children": [
+                {
+                  "tag": "Group",
+                  "name": "",
+                  "type": "group",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    324,
+                    194
+                  ],
+                  "bottomright": [
+                    1576,
+                    815
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "",
+                      "type": "group",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        335,
+                        205
+                      ],
+                      "bottomright": [
+                        1565,
+                        724
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "View as:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            348,
+                            218
+                          ],
+                          "bottomright": [
+                            408,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Small thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            417,
+                            218
+                          ],
+                          "bottomright": [
+                            571,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            581,
+                            218
+                          ],
+                          "bottomright": [
+                            696,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Big thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            706,
+                            218
+                          ],
+                          "bottomright": [
+                            843,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "List",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            853,
+                            218
+                          ],
+                          "bottomright": [
+                            909,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "You can drag&drop your files on the list below.",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            348,
+                            250
+                          ],
+                          "bottomright": [
+                            1552,
+                            269
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "custom",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            348,
+                            278
+                          ],
+                          "bottomright": [
+                            1552,
+                            667
+                          ],
+                          "children": [
+                            {
+                              "tag": "Group",
+                              "name": "",
+                              "type": "group",
+                              "offscreen": "False",
+                              "blacklisted": "True",
+                              "topleft": [
+                                348,
+                                278
+                              ],
+                              "bottomright": [
+                                1552,
+                                667
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Custom",
+                                  "name": "",
+                                  "type": "custom",
+                                  "offscreen": "False",
+                                  "blacklisted": "True",
+                                  "topleft": [
+                                    361,
+                                    291
+                                  ],
+                                  "bottomright": [
+                                    1539,
+                                    654
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "List",
+                                      "name": "",
+                                      "type": "list",
+                                      "offscreen": "False",
+                                      "blacklisted": "True",
+                                      "topleft": [
+                                        361,
+                                        291
+                                      ],
+                                      "bottomright": [
+                                        1539,
+                                        654
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "Tree",
+                                      "name": "",
+                                      "type": "tree",
+                                      "offscreen": "False",
+                                      "blacklisted": "False",
+                                      "topleft": [
+                                        0,
+                                        0
+                                      ],
+                                      "bottomright": [
+                                        0,
+                                        0
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Add files...",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            348,
+                            676
+                          ],
+                          "bottomright": [
+                            464,
+                            711
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Add folder...",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            473,
+                            676
+                          ],
+                          "bottomright": [
+                            585,
+                            710
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Remove",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1319,
+                            676
+                          ],
+                          "bottomright": [
+                            1431,
+                            711
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Remove all",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1440,
+                            676
+                          ],
+                          "bottomright": [
+                            1552,
+                            710
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Remove filtered",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        1297,
+                        730
+                      ],
+                      "bottomright": [
+                        1419,
+                        764
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Remove unfiltered",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        1425,
+                        730
+                      ],
+                      "bottomright": [
+                        1565,
+                        764
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Edit",
+                      "name": "",
+                      "type": "edit",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        813,
+                        733
+                      ],
+                      "bottomright": [
+                        1291,
+                        761
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Hot folders...",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        335,
+                        770
+                      ],
+                      "bottomright": [
+                        447,
+                        804
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Tab",
+              "name": "Input: 0 file(s)",
+              "type": "tab",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                322,
+                166
+              ],
+              "bottomright": [
+                925,
+                193
+              ],
+              "children": [
+                {
+                  "tag": "TabItem",
+                  "name": "Input: 0 file(s)",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    322,
+                    166
+                  ],
+                  "bottomright": [
+                    461,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Actions [0/0]",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    461,
+                    166
+                  ],
+                  "bottomright": [
+                    590,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Output",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    590,
+                    166
+                  ],
+                  "bottomright": [
+                    675,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Status",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    675,
+                    166
+                  ],
+                  "bottomright": [
+                    754,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Settings",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    754,
+                    166
+                  ],
+                  "bottomright": [
+                    846,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "About",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    846,
+                    166
+                  ],
+                  "bottomright": [
+                    925,
+                    193
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            322,
+            825
+          ],
+          "bottomright": [
+            921,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Presets:",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                324,
+                827
+              ],
+              "bottomright": [
+                380,
+                862
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                386,
+                829
+              ],
+              "bottomright": [
+                417,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                423,
+                832
+              ],
+              "bottomright": [
+                603,
+                857
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                609,
+                829
+              ],
+              "bottomright": [
+                640,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                646,
+                829
+              ],
+              "bottomright": [
+                677,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Export for NConvert...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                723,
+                827
+              ],
+              "bottomright": [
+                919,
+                862
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            1102,
+            825
+          ],
+          "bottomright": [
+            1170,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1102,
+                829
+              ],
+              "bottomright": [
+                1133,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1139,
+                829
+              ],
+              "bottomright": [
+                1170,
+                859
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Convert",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1350,
+            827
+          ],
+          "bottomright": [
+            1462,
+            862
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1468,
+            827
+          ],
+          "bottomright": [
+            1580,
+            861
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

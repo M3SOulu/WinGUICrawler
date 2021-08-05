@@ -6,13 +6,52 @@ import sys
 from lxml import etree
 import random
 import numpy as np
+import json
+
+#Needed for json output
+class TreeNode(dict):
+    def __init__(self, tag, name, type, offscreen, blacklisted, topleft, bottomright, children=None):
+        super().__init__()
+        self.__dict__ = self
+        self.tag = tag
+        self.name = name
+        self.type = type
+        self.offscreen = offscreen
+        self.blacklisted = blacklisted
+        self.topleft = topleft
+        self.bottomright = bottomright
+        self.children = list(children) if children is not None else []
+
+#If an element doesn't have name attribute it becomes an empty string instead of None type object
+def get_el_name(el):
+    if 'Name' in el.attrib:
+        return el.attrib['Name']
+    else:
+        return ""
+
+#Recursive function that constructs a tree that can be converted to json
+def recursive_json_tree(branch, element, list_el, blacklist):
+    list_of_children = []
+    for child in list_el:
+        if child.getparent() == element:
+            list_of_children.append(child)
+    if len(list_of_children) == 0:
+        return
+    else:
+        for child in list_of_children:
+            tl = [int(child.attrib['x']), int(child.attrib['y'])]
+            br = [tl[0]+int(child.attrib['width']), tl[1]+int(child.attrib['height'])]
+            isBlacklisted = ("True" if child in blacklist else "False")
+            newnode = TreeNode(child.tag, get_el_name(child), child.attrib["LocalizedControlType"],child.attrib["IsOffscreen"],isBlacklisted,tl,br)
+            branch.children.append(newnode)
+            recursive_json_tree(branch.children[-1],child,list_el,blacklist)
 
 #Retrieves an xpath for the element
 def get_unique_xpath(element):
     el_xpath = ""
     finished = False
     list_path = []
-    list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+    list_path.append(element.tag+"[@Name = \'"+get_el_name(element)+"\']")
     while not finished:
         if element.getparent() == None:
             finished = True
@@ -178,6 +217,7 @@ def filter_bbox(imgname_previous,imgname_current):
     list_of_previous_el = []
     cavolo_current = imgname_current.split('.png')
     xmlname_current  = cavolo_current[0]+".xml"
+    json_txt_name_current  = cavolo_current[0]+".txt"
     result_name_current = cavolo_current[0]+"_bbox_result"+".png"
     result_name_filtered = cavolo_current[0]+"_bbox_result_filtered"+".png"
 
@@ -202,10 +242,7 @@ def filter_bbox(imgname_previous,imgname_current):
 
     #Create list of elements in current screen
     for elt in tree_current.iter():
-        #ignore elements without name tag, they don't produce useful bounding boxes
-        if 'Name' in elt.attrib:
-            #if elt.attrib['Name'] != "":
-            list_of_current_el.append(elt)
+        list_of_current_el.append(elt)
 
     #Lists of offscreen elements
     list_of_current_off_screen =  []
@@ -304,7 +341,7 @@ def filter_bbox(imgname_previous,imgname_current):
         br = (tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height']))
         cv2.rectangle(result, tl, br, rgb[index_rgb%len(rgb)],2)
         font = cv2.FONT_HERSHEY_SIMPLEX
-        text = el.tag+":"+el.attrib['Name']
+        text = el.tag+":"+get_el_name(el)
         textsize = cv2.getTextSize(text, font, 1, 2)[0]
         cv2.putText(result, text, (tl[0],tl[1]), font, 0.5, rgb[index_rgb%len(rgb)], 1)
 
@@ -313,6 +350,21 @@ def filter_bbox(imgname_previous,imgname_current):
 
     #Draw and save filtered bounding boxes
     list_of_current_filtered = draw_bboxes(imgname_current,result_name_filtered,list_of_current_el,blacklist,rgb)
+
+    #Get the first element with no parent (tree root), should be enough to just get the first element, but it's better to be sure it's the root element
+    for el in list_of_current_el:
+        if (el.getparent()) == None:
+            tl = [int(el.attrib['x']), int(el.attrib['y'])]
+            br = [tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height'])]
+            isBlacklisted = ("True" if el in blacklist else "False")
+            root = TreeNode(el.tag, get_el_name(el), el.attrib["LocalizedControlType"],el.attrib["IsOffscreen"],isBlacklisted,tl,br)
+            root_el = el
+            break
+
+
+    recursive_json_tree(root,root_el,list_of_current_el,blacklist)
+    with open(json_txt_name_current, 'w') as outfile:
+        json.dump(root, outfile,indent=2)
 
 if __name__ == "__main__":
     filename_prev = sys.argv[1]
