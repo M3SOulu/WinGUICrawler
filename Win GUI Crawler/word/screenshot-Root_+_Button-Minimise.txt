@@ -1,0 +1,736 @@
+{
+  "tag": "Window",
+  "name": "Word",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    0,
+    0
+  ],
+  "bottomright": [
+    1942,
+    1042
+  ],
+  "children": [
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        11,
+        11
+      ],
+      "bottomright": [
+        1931,
+        1031
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "Pane",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            11,
+            11
+          ],
+          "bottomright": [
+            1931,
+            1031
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "Pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                11,
+                66
+              ],
+              "bottomright": [
+                221,
+                1031
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "File",
+                  "type": "List",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    11,
+                    66
+                  ],
+                  "bottomright": [
+                    221,
+                    1031
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Home",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        134
+                      ],
+                      "bottomright": [
+                        221,
+                        326
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "New",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        326
+                      ],
+                      "bottomright": [
+                        221,
+                        518
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Open",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        518
+                      ],
+                      "bottomright": [
+                        221,
+                        710
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Account",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        824
+                      ],
+                      "bottomright": [
+                        221,
+                        885
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Feedback",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        885
+                      ],
+                      "bottomright": [
+                        221,
+                        946
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Options",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        11,
+                        946
+                      ],
+                      "bottomright": [
+                        221,
+                        1007
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "TitleBar",
+              "name": "Word",
+              "type": "Title Bar",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                221,
+                11
+              ],
+              "bottomright": [
+                1372,
+                62
+              ],
+              "children": []
+            },
+            {
+              "tag": "MenuItem",
+              "name": "Marko Savic",
+              "type": "Menu Item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1372,
+                11
+              ],
+              "bottomright": [
+                1559,
+                58
+              ],
+              "children": [
+                {
+                  "tag": "Image",
+                  "name": "Marko Savic",
+                  "type": "Image",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    1505,
+                    16
+                  ],
+                  "bottomright": [
+                    1541,
+                    52
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Help",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1655,
+                11
+              ],
+              "bottomright": [
+                1724,
+                58
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Minimize",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1724,
+                11
+              ],
+              "bottomright": [
+                1793,
+                58
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Restore Down",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1793,
+                11
+              ],
+              "bottomright": [
+                1862,
+                58
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1862,
+                11
+              ],
+              "bottomright": [
+                1931,
+                58
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "Backstage view",
+              "type": "Pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                221,
+                67
+              ],
+              "bottomright": [
+                1931,
+                1031
+              ],
+              "children": [
+                {
+                  "tag": "Group",
+                  "name": "Home",
+                  "type": "Group",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    221,
+                    67
+                  ],
+                  "bottomright": [
+                    1931,
+                    1031
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "",
+                      "type": "Pane",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        221,
+                        67
+                      ],
+                      "bottomright": [
+                        1931,
+                        136
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "Good afternoon",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            281,
+                            78
+                          ],
+                          "bottomright": [
+                            517,
+                            123
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ScrollBar",
+                          "name": "",
+                          "type": "ScrollBar",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1905,
+                            67
+                          ],
+                          "bottomright": [
+                            1931,
+                            135
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Pane",
+                      "name": "Home",
+                      "type": "Pane",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        221,
+                        136
+                      ],
+                      "bottomright": [
+                        1931,
+                        1031
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "New",
+                          "type": "Group",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            221,
+                            136
+                          ],
+                          "bottomright": [
+                            1845,
+                            218
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Hide or show region",
+                              "type": "Button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                239,
+                                159
+                              ],
+                              "bottomright": [
+                                275,
+                                195
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "New blank document",
+                              "type": "Button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                281,
+                                154
+                              ],
+                              "bottomright": [
+                                519,
+                                200
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Group",
+                          "name": "Search",
+                          "type": "Group",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            221,
+                            218
+                          ],
+                          "bottomright": [
+                            1845,
+                            284
+                          ],
+                          "children": [
+                            {
+                              "tag": "Edit",
+                              "name": "Search",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                377,
+                                245
+                              ],
+                              "bottomright": [
+                                977,
+                                275
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Group",
+                          "name": "Open",
+                          "type": "Group",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            221,
+                            296
+                          ],
+                          "bottomright": [
+                            1845,
+                            471
+                          ],
+                          "children": [
+                            {
+                              "tag": "Tab",
+                              "name": "",
+                              "type": "Pane",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                281,
+                                314
+                              ],
+                              "bottomright": [
+                                1845,
+                                362
+                              ],
+                              "children": [
+                                {
+                                  "tag": "TabItem",
+                                  "name": "Recent",
+                                  "type": "Tab Item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    281,
+                                    314
+                                  ],
+                                  "bottomright": [
+                                    375,
+                                    362
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "TabItem",
+                                  "name": "Pinned",
+                                  "type": "Tab Item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    375,
+                                    314
+                                  ],
+                                  "bottomright": [
+                                    483,
+                                    362
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "TabItem",
+                                  "name": "Shared with Me",
+                                  "type": "Tab Item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    483,
+                                    314
+                                  ],
+                                  "bottomright": [
+                                    666,
+                                    362
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "Text",
+                              "name": "You haven't opened any documents recently. Click Open to browse for a document.",
+                              "type": "Text",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                281,
+                                380
+                              ],
+                              "bottomright": [
+                                944,
+                                405
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "List",
+                              "name": "Recent",
+                              "type": "List",
+                              "offscreen": "True",
+                              "blacklisted": "True",
+                              "topleft": [
+                                11,
+                                11
+                              ],
+                              "bottomright": [
+                                11,
+                                11
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "HyperLink",
+                              "name": "More documents",
+                              "type": "Hyperlink",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                1664,
+                                428
+                              ],
+                              "bottomright": [
+                                1845,
+                                453
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ScrollBar",
+                          "name": "",
+                          "type": "ScrollBar",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1905,
+                            136
+                          ],
+                          "bottomright": [
+                            1931,
+                            1031
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        536,
+        160
+      ],
+      "bottomright": [
+        1447,
+        710
+      ],
+      "children": []
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        44,
+        11
+      ],
+      "bottomright": [
+        1931,
+        45
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            11,
+            11
+          ],
+          "bottomright": [
+            33,
+            33
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                11,
+                11
+              ],
+              "bottomright": [
+                33,
+                33
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            1831,
+            10
+          ],
+          "bottomright": [
+            1866,
+            45
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Restore",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1864,
+            10
+          ],
+          "bottomright": [
+            1899,
+            45
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1897,
+            10
+          ],
+          "bottomright": [
+            1932,
+            45
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

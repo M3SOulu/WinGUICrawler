@@ -1,0 +1,653 @@
+{
+  "tag": "Window",
+  "name": "Word",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    7,
+    11
+  ],
+  "bottomright": [
+    1447,
+    747
+  ],
+  "children": [
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        9,
+        13
+      ],
+      "bottomright": [
+        1445,
+        745
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "Pane",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            9,
+            13
+          ],
+          "bottomright": [
+            1445,
+            745
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "Pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                9,
+                68
+              ],
+              "bottomright": [
+                219,
+                745
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "File",
+                  "type": "List",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    9,
+                    68
+                  ],
+                  "bottomright": [
+                    219,
+                    745
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Home",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        136
+                      ],
+                      "bottomright": [
+                        219,
+                        197
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "New",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        197
+                      ],
+                      "bottomright": [
+                        219,
+                        258
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Open",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        258
+                      ],
+                      "bottomright": [
+                        219,
+                        319
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Account",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        538
+                      ],
+                      "bottomright": [
+                        219,
+                        599
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Feedback",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        599
+                      ],
+                      "bottomright": [
+                        219,
+                        660
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Options",
+                      "type": "List Item",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        9,
+                        660
+                      ],
+                      "bottomright": [
+                        219,
+                        721
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "TitleBar",
+              "name": "Word",
+              "type": "Title Bar",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                219,
+                13
+              ],
+              "bottomright": [
+                886,
+                64
+              ],
+              "children": []
+            },
+            {
+              "tag": "MenuItem",
+              "name": "Marko Savic",
+              "type": "Menu Item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                886,
+                13
+              ],
+              "bottomright": [
+                1073,
+                60
+              ],
+              "children": [
+                {
+                  "tag": "Image",
+                  "name": "Marko Savic",
+                  "type": "Image",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    1019,
+                    18
+                  ],
+                  "bottomright": [
+                    1055,
+                    54
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Help",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1169,
+                13
+              ],
+              "bottomright": [
+                1238,
+                60
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Minimize",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1238,
+                13
+              ],
+              "bottomright": [
+                1307,
+                60
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Maximize",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1307,
+                13
+              ],
+              "bottomright": [
+                1376,
+                60
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "Button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                1376,
+                13
+              ],
+              "bottomright": [
+                1445,
+                60
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "Backstage view",
+              "type": "Pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                219,
+                69
+              ],
+              "bottomright": [
+                1445,
+                745
+              ],
+              "children": [
+                {
+                  "tag": "Group",
+                  "name": "Feedback",
+                  "type": "Group",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    219,
+                    69
+                  ],
+                  "bottomright": [
+                    1445,
+                    745
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Feedback",
+                      "type": "Text",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        279,
+                        69
+                      ],
+                      "bottomright": [
+                        521,
+                        174
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Group",
+                      "name": "I Like Something",
+                      "type": "Group",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        279,
+                        174
+                      ],
+                      "bottomright": [
+                        1399,
+                        309
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Send a Smile",
+                          "type": "Button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            286,
+                            174
+                          ],
+                          "bottomright": [
+                            415,
+                            301
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "I Like Something",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            174
+                          ],
+                          "bottomright": [
+                            639,
+                            212
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "It's nice to know when we've made a positive change.",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            216
+                          ],
+                          "bottomright": [
+                            864,
+                            241
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Group",
+                      "name": "I Don't Like Something",
+                      "type": "Group",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        279,
+                        324
+                      ],
+                      "bottomright": [
+                        1399,
+                        459
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Send a Frown",
+                          "type": "Button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            286,
+                            324
+                          ],
+                          "bottomright": [
+                            415,
+                            451
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "I Don't Like Something",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            324
+                          ],
+                          "bottomright": [
+                            711,
+                            362
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "If something's not right we'd like to know so we can fix it.",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            366
+                          ],
+                          "bottomright": [
+                            897,
+                            391
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Group",
+                      "name": "I Have a Suggestion",
+                      "type": "Group",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        279,
+                        474
+                      ],
+                      "bottomright": [
+                        1399,
+                        609
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Send a Suggestion",
+                          "type": "Button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            286,
+                            474
+                          ],
+                          "bottomright": [
+                            415,
+                            601
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "I Have a Suggestion",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            474
+                          ],
+                          "bottomright": [
+                            679,
+                            512
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Do you have an idea for a new feature or an improvement?",
+                          "type": "Text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            440,
+                            516
+                          ],
+                          "bottomright": [
+                            910,
+                            541
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        534,
+        162
+      ],
+      "bottomright": [
+        1445,
+        712
+      ],
+      "children": []
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        51,
+        22
+      ],
+      "bottomright": [
+        1436,
+        56
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            22,
+            22
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                22,
+                22
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1336,
+            21
+          ],
+          "bottomright": [
+            1371,
+            56
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1369,
+            21
+          ],
+          "bottomright": [
+            1404,
+            56
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1402,
+            21
+          ],
+          "bottomright": [
+            1437,
+            56
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
