@@ -1,0 +1,1202 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    69,
+    48
+  ],
+  "bottomright": [
+    551,
+    848
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        268,
+        49
+      ],
+      "bottomright": [
+        550,
+        97
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            343,
+            49
+          ],
+          "bottomright": [
+            412,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            412,
+            49
+          ],
+          "bottomright": [
+            481,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            481,
+            49
+          ],
+          "bottomright": [
+            550,
+            97
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        70,
+        49
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            88,
+            61
+          ],
+          "bottomright": [
+            167,
+            85
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            841
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Expression is ",
+              "type": "text",
+              "offscreen": "True",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Display is 0",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                191
+              ],
+              "bottomright": [
+                550,
+                263
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Open history flyout",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                490,
+                97
+              ],
+              "bottomright": [
+                550,
+                157
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Angle operators",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                77,
+                265
+              ],
+              "bottomright": [
+                230,
+                317
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Radians toggle",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    77,
+                    265
+                  ],
+                  "bottomright": [
+                    152,
+                    317
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Scientific notation",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    155,
+                    265
+                  ],
+                  "bottomright": [
+                    230,
+                    317
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Memory controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                77,
+                320
+              ],
+              "bottomright": [
+                545,
+                372
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear all memory",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    77,
+                    320
+                  ],
+                  "bottomright": [
+                    152,
+                    372
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Memory Recall",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    155,
+                    320
+                  ],
+                  "bottomright": [
+                    230,
+                    372
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Memory Add",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    320
+                  ],
+                  "bottomright": [
+                    309,
+                    372
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Memory Subtract",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    312,
+                    320
+                  ],
+                  "bottomright": [
+                    387,
+                    372
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Memory Store",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    320
+                  ],
+                  "bottomright": [
+                    466,
+                    372
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Open memory flyout",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    470,
+                    320
+                  ],
+                  "bottomright": [
+                    545,
+                    372
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "List",
+              "name": "Scientific Operator Panels",
+              "type": "list",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                75,
+                373
+              ],
+              "bottomright": [
+                546,
+                430
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Trigonometry",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    75,
+                    373
+                  ],
+                  "bottomright": [
+                    271,
+                    430
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Trigonometry",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        76,
+                        374
+                      ],
+                      "bottomright": [
+                        269,
+                        428
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "Trigonometry",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            126,
+                            389
+                          ],
+                          "bottomright": [
+                            232,
+                            412
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Functions",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    271,
+                    373
+                  ],
+                  "bottomright": [
+                    429,
+                    430
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Functions",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        272,
+                        374
+                      ],
+                      "bottomright": [
+                        427,
+                        428
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "Function",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            322,
+                            389
+                          ],
+                          "bottomright": [
+                            390,
+                            412
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Inverse Function",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                76,
+                431
+              ],
+              "bottomright": [
+                167,
+                487
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Pi",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                170,
+                431
+              ],
+              "bottomright": [
+                261,
+                487
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Euler's number",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                264,
+                431
+              ],
+              "bottomright": [
+                355,
+                487
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                359,
+                431
+              ],
+              "bottomright": [
+                544,
+                487
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    359,
+                    431
+                  ],
+                  "bottomright": [
+                    450,
+                    487
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    431
+                  ],
+                  "bottomright": [
+                    544,
+                    487
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Scientific functions",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                76,
+                490
+              ],
+              "bottomright": [
+                167,
+                841
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Square",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    490
+                  ],
+                  "bottomright": [
+                    167,
+                    546
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Square root",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    549
+                  ],
+                  "bottomright": [
+                    167,
+                    604
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "'X' to the exponent",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    608
+                  ],
+                  "bottomright": [
+                    167,
+                    664
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Ten to the exponent",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    667
+                  ],
+                  "bottomright": [
+                    167,
+                    723
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Log",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    726
+                  ],
+                  "bottomright": [
+                    167,
+                    782
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Natural log",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    76,
+                    785
+                  ],
+                  "bottomright": [
+                    167,
+                    841
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Reciprocal",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                170,
+                490
+              ],
+              "bottomright": [
+                261,
+                546
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Absolute Value",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                264,
+                490
+              ],
+              "bottomright": [
+                355,
+                546
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Exponential",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                359,
+                490
+              ],
+              "bottomright": [
+                450,
+                546
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Modulo",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                453,
+                490
+              ],
+              "bottomright": [
+                544,
+                546
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Left parenthesis",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                170,
+                549
+              ],
+              "bottomright": [
+                261,
+                604
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Right parenthesis",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                264,
+                549
+              ],
+              "bottomright": [
+                355,
+                604
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Factorial",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                359,
+                549
+              ],
+              "bottomright": [
+                450,
+                604
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Standard operators",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                453,
+                549
+              ],
+              "bottomright": [
+                544,
+                840
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Divide by",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    549
+                  ],
+                  "bottomright": [
+                    544,
+                    604
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Multiply by",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    608
+                  ],
+                  "bottomright": [
+                    544,
+                    664
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Minus",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    667
+                  ],
+                  "bottomright": [
+                    544,
+                    723
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Plus",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    726
+                  ],
+                  "bottomright": [
+                    544,
+                    782
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Equals",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    453,
+                    785
+                  ],
+                  "bottomright": [
+                    544,
+                    841
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Positive Negative",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                170,
+                785
+              ],
+              "bottomright": [
+                261,
+                841
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                170,
+                608
+              ],
+              "bottomright": [
+                449,
+                841
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    264,
+                    785
+                  ],
+                  "bottomright": [
+                    355,
+                    841
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    170,
+                    726
+                  ],
+                  "bottomright": [
+                    261,
+                    782
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    264,
+                    726
+                  ],
+                  "bottomright": [
+                    355,
+                    782
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    359,
+                    726
+                  ],
+                  "bottomright": [
+                    450,
+                    782
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    170,
+                    667
+                  ],
+                  "bottomright": [
+                    261,
+                    723
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    264,
+                    667
+                  ],
+                  "bottomright": [
+                    355,
+                    723
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    359,
+                    667
+                  ],
+                  "bottomright": [
+                    450,
+                    723
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    170,
+                    608
+                  ],
+                  "bottomright": [
+                    261,
+                    664
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    264,
+                    608
+                  ],
+                  "bottomright": [
+                    355,
+                    664
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    359,
+                    608
+                  ],
+                  "bottomright": [
+                    450,
+                    664
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    359,
+                    785
+                  ],
+                  "bottomright": [
+                    450,
+                    841
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Scientific Calculator mode",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            142,
+            105
+          ],
+          "bottomright": [
+            265,
+            145
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                97
+              ],
+              "bottomright": [
+                130,
+                157
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        97
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": []
+    }
+  ]
+}

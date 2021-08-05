@@ -1,0 +1,1469 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    69,
+    50
+  ],
+  "bottomright": [
+    821,
+    850
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        142,
+        306
+      ],
+      "bottomright": [
+        374,
+        558
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                356
+              ],
+              "bottomright": [
+                295,
+                404
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Watts",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    306
+                  ],
+                  "bottomright": [
+                    372,
+                    355
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Watts",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        315
+                      ],
+                      "bottomright": [
+                        354,
+                        343
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilowatts",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    356
+                  ],
+                  "bottomright": [
+                    372,
+                    405
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilowatts",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        364
+                      ],
+                      "bottomright": [
+                        354,
+                        392
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Horsepower (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    405
+                  ],
+                  "bottomright": [
+                    372,
+                    454
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Horsepower (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        413
+                      ],
+                      "bottomright": [
+                        354,
+                        441
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Foot-pounds/minute",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    454
+                  ],
+                  "bottomright": [
+                    372,
+                    502
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Foot-pounds/minute",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        462
+                      ],
+                      "bottomright": [
+                        354,
+                        490
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "BTUs/minute",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    502
+                  ],
+                  "bottomright": [
+                    372,
+                    551
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "BTUs/minute",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        511
+                      ],
+                      "bottomright": [
+                        354,
+                        538
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Horsepower (US)",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                454
+              ],
+              "bottomright": [
+                205,
+                651
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                652
+              ],
+              "bottomright": [
+                370,
+                700
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Horsepower (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    142,
+                    652
+                  ],
+                  "bottomright": [
+                    322,
+                    700
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Horsepower (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        142,
+                        652
+                      ],
+                      "bottomright": [
+                        322,
+                        700
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "About equal to",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                160,
+                751
+              ],
+              "bottomright": [
+                280,
+                775
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 BTUs/minute",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                160,
+                779
+              ],
+              "bottomright": [
+                258,
+                807
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 Foot-pounds/minute",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                282,
+                779
+              ],
+              "bottomright": [
+                382,
+                807
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                574,
+                160
+              ],
+              "bottomright": [
+                815,
+                294
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    160
+                  ],
+                  "bottomright": [
+                    693,
+                    294
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    160
+                  ],
+                  "bottomright": [
+                    815,
+                    294
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                452,
+                298
+              ],
+              "bottomright": [
+                815,
+                844
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    709
+                  ],
+                  "bottomright": [
+                    693,
+                    844
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    572
+                  ],
+                  "bottomright": [
+                    571,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    572
+                  ],
+                  "bottomright": [
+                    693,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    572
+                  ],
+                  "bottomright": [
+                    815,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    435
+                  ],
+                  "bottomright": [
+                    571,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    435
+                  ],
+                  "bottomright": [
+                    693,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    435
+                  ],
+                  "bottomright": [
+                    815,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    298
+                  ],
+                  "bottomright": [
+                    571,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    298
+                  ],
+                  "bottomright": [
+                    693,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    298
+                  ],
+                  "bottomright": [
+                    815,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    709
+                  ],
+                  "bottomright": [
+                    815,
+                    844
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Positive Negative",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                452,
+                710
+              ],
+              "bottomright": [
+                571,
+                844
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        538,
+        51
+      ],
+      "bottomright": [
+        820,
+        99
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            0,
+            2
+          ],
+          "bottomright": [
+            0,
+            2
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                2
+              ],
+              "bottomright": [
+                0,
+                2
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            613,
+            51
+          ],
+          "bottomright": [
+            682,
+            99
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            682,
+            51
+          ],
+          "bottomright": [
+            751,
+            99
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            751,
+            51
+          ],
+          "bottomright": [
+            820,
+            99
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        51
+      ],
+      "bottomright": [
+        820,
+        849
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            88,
+            63
+          ],
+          "bottomright": [
+            167,
+            87
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            142,
+            159
+          ],
+          "bottomright": [
+            815,
+            844
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                2
+              ],
+              "bottomright": [
+                0,
+                2
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Kilowatts",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                159
+              ],
+              "bottomright": [
+                207,
+                356
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                356
+              ],
+              "bottomright": [
+                295,
+                404
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Watts",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    306
+                  ],
+                  "bottomright": [
+                    372,
+                    355
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Watts",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        315
+                      ],
+                      "bottomright": [
+                        354,
+                        343
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilowatts",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    356
+                  ],
+                  "bottomright": [
+                    372,
+                    405
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilowatts",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        364
+                      ],
+                      "bottomright": [
+                        354,
+                        392
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Horsepower (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    405
+                  ],
+                  "bottomright": [
+                    372,
+                    454
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Horsepower (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        413
+                      ],
+                      "bottomright": [
+                        354,
+                        441
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Foot-pounds/minute",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    454
+                  ],
+                  "bottomright": [
+                    372,
+                    502
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Foot-pounds/minute",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        462
+                      ],
+                      "bottomright": [
+                        354,
+                        490
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "BTUs/minute",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    144,
+                    502
+                  ],
+                  "bottomright": [
+                    372,
+                    551
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "BTUs/minute",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        161,
+                        511
+                      ],
+                      "bottomright": [
+                        354,
+                        538
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Horsepower (US)",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                454
+              ],
+              "bottomright": [
+                205,
+                651
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                142,
+                652
+              ],
+              "bottomright": [
+                370,
+                700
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Horsepower (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    142,
+                    652
+                  ],
+                  "bottomright": [
+                    322,
+                    700
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Horsepower (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        142,
+                        652
+                      ],
+                      "bottomright": [
+                        322,
+                        700
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "About equal to",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                160,
+                751
+              ],
+              "bottomright": [
+                280,
+                775
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 BTUs/minute",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                160,
+                779
+              ],
+              "bottomright": [
+                258,
+                807
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 Foot-pounds/minute",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                282,
+                779
+              ],
+              "bottomright": [
+                382,
+                807
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                574,
+                160
+              ],
+              "bottomright": [
+                815,
+                294
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    160
+                  ],
+                  "bottomright": [
+                    693,
+                    294
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    160
+                  ],
+                  "bottomright": [
+                    815,
+                    294
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                452,
+                298
+              ],
+              "bottomright": [
+                815,
+                844
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    709
+                  ],
+                  "bottomright": [
+                    693,
+                    844
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    572
+                  ],
+                  "bottomright": [
+                    571,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    572
+                  ],
+                  "bottomright": [
+                    693,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    572
+                  ],
+                  "bottomright": [
+                    815,
+                    706
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    435
+                  ],
+                  "bottomright": [
+                    571,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    435
+                  ],
+                  "bottomright": [
+                    693,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    435
+                  ],
+                  "bottomright": [
+                    815,
+                    569
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    452,
+                    298
+                  ],
+                  "bottomright": [
+                    571,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    574,
+                    298
+                  ],
+                  "bottomright": [
+                    693,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    298
+                  ],
+                  "bottomright": [
+                    815,
+                    432
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    696,
+                    709
+                  ],
+                  "bottomright": [
+                    815,
+                    844
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Positive Negative",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                452,
+                710
+              ],
+              "bottomright": [
+                571,
+                844
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Power Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            142,
+            107
+          ],
+          "bottomright": [
+            227,
+            147
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            99
+          ],
+          "bottomright": [
+            820,
+            849
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                99
+              ],
+              "bottomright": [
+                130,
+                159
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    2
+                  ],
+                  "bottomright": [
+                    0,
+                    2
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        99
+      ],
+      "bottomright": [
+        820,
+        849
+      ],
+      "children": []
+    }
+  ]
+}

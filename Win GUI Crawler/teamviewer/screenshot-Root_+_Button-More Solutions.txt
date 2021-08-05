@@ -578,7 +578,7 @@
                                   "name": "",
                                   "type": "group",
                                   "offscreen": "True",
-                                  "blacklisted": "False",
+                                  "blacklisted": "True",
                                   "topleft": [
                                     -214,
                                     -60
@@ -744,7 +744,7 @@
                                   "name": "",
                                   "type": "group",
                                   "offscreen": "True",
-                                  "blacklisted": "False",
+                                  "blacklisted": "True",
                                   "topleft": [
                                     -214,
                                     -60

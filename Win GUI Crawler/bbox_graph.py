@@ -5,7 +5,8 @@ import os
 import gui_filter_bbox
 
 #directory where the screenshots (.png and .xml) are saved
-directory = '%s/' % os.getcwd()+"screens_temp/"
+#directory = '%s/' % os.getcwd()+"screens_temp/"
+directory = '%s/' % os.getcwd()+"paint/"
 
 class Node(object):
     '''Creates a node object'''

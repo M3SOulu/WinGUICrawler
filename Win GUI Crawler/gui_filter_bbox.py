@@ -334,12 +334,21 @@ def filter_bbox(imgname_previous,imgname_current):
                     blacklist.append(el_pair[0])
                 else:
                     DONOTHING ="DONOTHING" #filtering by size or number of overlaps doesn't always make sense, so it's better to just leave them be
+
+    #Also add elemnts that are too small in area to blacklist, they don't correspond to visible elemnts
+    for el in list_of_current_el:
+        if (int(el.attrib["width"])<=5) and (int(el.attrib["height"])<=5):
+            blacklist.append(el)
+            #draw_list.append(el)
+            #print(el.tag,"-",el.attrib["Name"])
     #Used to draw bboxes in the draw_list (mostly for debugging)
     index_rgb = 0
     for el in draw_list:
         tl = (int(el.attrib['x']), int(el.attrib['y']))
         br = (tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height']))
         cv2.rectangle(result, tl, br, rgb[index_rgb%len(rgb)],2)
+        cv2.circle(result, tl, 50, (0,0,0), 2)
+        print(tl)
         font = cv2.FONT_HERSHEY_SIMPLEX
         text = el.tag+":"+get_el_name(el)
         textsize = cv2.getTextSize(text, font, 1, 2)[0]

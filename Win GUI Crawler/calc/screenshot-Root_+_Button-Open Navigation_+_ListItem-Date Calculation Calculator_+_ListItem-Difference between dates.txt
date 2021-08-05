@@ -1,0 +1,755 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    69,
+    48
+  ],
+  "bottomright": [
+    551,
+    848
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        88,
+        165
+      ],
+      "bottomright": [
+        506,
+        270
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            70,
+            38
+          ],
+          "bottomright": [
+            1990,
+            1058
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                38
+              ],
+              "bottomright": [
+                1990,
+                1058
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Calculation mode",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                175
+              ],
+              "bottomright": [
+                379,
+                205
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Difference between dates",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    90,
+                    166
+                  ],
+                  "bottomright": [
+                    504,
+                    215
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Difference between dates",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        107,
+                        173
+                      ],
+                      "bottomright": [
+                        487,
+                        201
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Add or subtract days",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    90,
+                    215
+                  ],
+                  "bottomright": [
+                    504,
+                    264
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Add or subtract days",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        107,
+                        223
+                      ],
+                      "bottomright": [
+                        487,
+                        251
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    38
+                  ],
+                  "bottomright": [
+                    1990,
+                    1058
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "From",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                231
+              ],
+              "bottomright": [
+                252,
+                313
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "From",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    231
+                  ],
+                  "bottomright": [
+                    136,
+                    259
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    273
+                  ],
+                  "bottomright": [
+                    204,
+                    303
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "To",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                349
+              ],
+              "bottomright": [
+                252,
+                431
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "To",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    349
+                  ],
+                  "bottomright": [
+                    110,
+                    377
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    391
+                  ],
+                  "bottomright": [
+                    204,
+                    422
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Difference",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                467
+              ],
+              "bottomright": [
+                532,
+                494
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Difference Same dates",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                494
+              ],
+              "bottomright": [
+                532,
+                534
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        268,
+        49
+      ],
+      "bottomright": [
+        550,
+        97
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            343,
+            49
+          ],
+          "bottomright": [
+            412,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            412,
+            49
+          ],
+          "bottomright": [
+            481,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            481,
+            49
+          ],
+          "bottomright": [
+            550,
+            97
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        49
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            88,
+            61
+          ],
+          "bottomright": [
+            167,
+            85
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            88,
+            175
+          ],
+          "bottomright": [
+            532,
+            535
+          ],
+          "children": [
+            {
+              "tag": "ComboBox",
+              "name": "Calculation mode",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                175
+              ],
+              "bottomright": [
+                379,
+                205
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Difference between dates",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    90,
+                    166
+                  ],
+                  "bottomright": [
+                    504,
+                    215
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Difference between dates",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        107,
+                        173
+                      ],
+                      "bottomright": [
+                        487,
+                        201
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Add or subtract days",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    90,
+                    215
+                  ],
+                  "bottomright": [
+                    504,
+                    264
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Add or subtract days",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        107,
+                        223
+                      ],
+                      "bottomright": [
+                        487,
+                        251
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    38
+                  ],
+                  "bottomright": [
+                    1990,
+                    1058
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "From",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                231
+              ],
+              "bottomright": [
+                252,
+                313
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "From",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    231
+                  ],
+                  "bottomright": [
+                    136,
+                    259
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    273
+                  ],
+                  "bottomright": [
+                    204,
+                    303
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "To",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                349
+              ],
+              "bottomright": [
+                252,
+                431
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "To",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    349
+                  ],
+                  "bottomright": [
+                    110,
+                    377
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    88,
+                    391
+                  ],
+                  "bottomright": [
+                    204,
+                    422
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Difference",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                467
+              ],
+              "bottomright": [
+                532,
+                494
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Difference Same dates",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                88,
+                494
+              ],
+              "bottomright": [
+                532,
+                534
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Date calculation mode",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            142,
+            105
+          ],
+          "bottomright": [
+            366,
+            145
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                97
+              ],
+              "bottomright": [
+                130,
+                157
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        97
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": []
+    }
+  ]
+}
