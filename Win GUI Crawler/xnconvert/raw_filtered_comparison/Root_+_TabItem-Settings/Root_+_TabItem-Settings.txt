@@ -1,0 +1,1296 @@
+{
+  "tag": "Window",
+  "name": "XnConvert",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    310,
+    110
+  ],
+  "bottomright": [
+    1592,
+    876
+  ],
+  "children": [
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        335,
+        113
+      ],
+      "bottomright": [
+        1591,
+        155
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "blacklisted": "False",
+          "topleft": [
+            207,
+            81
+          ],
+          "bottomright": [
+            229,
+            103
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "blacklisted": "False",
+              "topleft": [
+                207,
+                81
+              ],
+              "bottomright": [
+                229,
+                103
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1380,
+            111
+          ],
+          "bottomright": [
+            1451,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1451,
+            111
+          ],
+          "bottomright": [
+            1521,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1521,
+            111
+          ],
+          "bottomright": [
+            1592,
+            155
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Group",
+      "name": "",
+      "type": "group",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        311,
+        155
+      ],
+      "bottomright": [
+        1591,
+        875
+      ],
+      "children": [
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            322,
+            166
+          ],
+          "bottomright": [
+            1580,
+            819
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "custom",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                324,
+                194
+              ],
+              "bottomright": [
+                1576,
+                815
+              ],
+              "children": [
+                {
+                  "tag": "Group",
+                  "name": "",
+                  "type": "group",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    324,
+                    194
+                  ],
+                  "bottomright": [
+                    1576,
+                    815
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "",
+                      "type": "group",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        335,
+                        205
+                      ],
+                      "bottomright": [
+                        988,
+                        374
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "Language",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            347,
+                            217
+                          ],
+                          "bottomright": [
+                            415,
+                            247
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ComboBox",
+                          "name": "",
+                          "type": "combo box",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            421,
+                            217
+                          ],
+                          "bottomright": [
+                            976,
+                            247
+                          ],
+                          "children": [
+                            {
+                              "tag": "List",
+                              "name": "",
+                              "type": "list",
+                              "offscreen": "False",
+                              "blacklisted": "True",
+                              "topleft": [
+                                0,
+                                0
+                              ],
+                              "bottomright": [
+                                0,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "tag": "ListItem",
+                                  "name": "<Autodetect>",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    0
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    19
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "English (en)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    19
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    38
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Catal\u00e0 [ca] Antoni Clavell",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    38
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    57
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "\u010ce\u0161tina [cs] Richard Gabriel",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    57
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    76
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Dansk [da] Rejmond Jensen",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    76
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    95
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Deutsch [de] Helmut M\u00fcller",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    95
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    114
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Espa\u00f1ol [es] Javier Mayoral (jamaro)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    114
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    133
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "et",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    133
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    152
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Suomi [fi] SeppoK",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    152
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    171
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Fran\u00e7ais [fr] Pierre-e Gougelet",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    171
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    190
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Magyar [hu] Nagy Ferenc",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    190
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    209
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Armenian [hy] \u0540\u0580\u0561\u0576\u057f \u0555\u0570\u0561\u0576\u0575\u0561\u0576 \u00bb\u00bb http://haysoft.org",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    209
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    228
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Italiano [it] Armando R. La Mura",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    228
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    247
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "\u65e5\u672c\u8a9e [ja] Sato Kazuyuki",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    247
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    266
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "\ud55c\uad6d\uc5b4 [ko] NamPro (KOREA)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    266
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    287
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Norsk [nb] Imre Kristoffer Eilertsen",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    287
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    306
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Nederlands [nl]  - Stephan Paternotte, Ebel Geertsema",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    306
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    325
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "polski [pl] Skiff",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    325
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    344
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Portugu\u00eas - Europeu [pt] o seu nome",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    344
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    363
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Portugu\u00eas do Brasil [pt_BR] Elias do Carmo Corr\u00eado",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    363
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    382
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 [ru] \u0421\u0443\u0445\u043e\u0440\u0443\u043a\u043e\u0432 \u0421\u0435\u0440\u0433\u0435\u0439",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    382
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    401
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Slovensk\u00fd [sk] Tibor Kozma",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    401
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    420
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "sl",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    420
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    439
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Svenska [sv] Martin Trokenheim, \u00c5ke Engelbrektson 2019",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    439
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    458
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "T\u00fcrk\u00e7e [tr] ad\u0131n\u0131z: Mehmet Ke\u00e7eci, \u0130brahim Halil Kutluay, Adem Mavili",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    458
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    477
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "\u7e41\u9ad4\u4e2d\u6587(\u53f0\u7063) [tw] Scott Chu @ Taiwan",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    477
+                                  ],
+                                  "bottomright": [
+                                    614,
+                                    496
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Check for program updates",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            347,
+                            253
+                          ],
+                          "bottomright": [
+                            540,
+                            278
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ComboBox",
+                          "name": "",
+                          "type": "combo box",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            546,
+                            253
+                          ],
+                          "bottomright": [
+                            637,
+                            278
+                          ],
+                          "children": [
+                            {
+                              "tag": "List",
+                              "name": "",
+                              "type": "list",
+                              "offscreen": "False",
+                              "blacklisted": "True",
+                              "topleft": [
+                                0,
+                                0
+                              ],
+                              "bottomright": [
+                                0,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Never",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    0
+                                  ],
+                                  "bottomright": [
+                                    640,
+                                    19
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Daily",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    19
+                                  ],
+                                  "bottomright": [
+                                    640,
+                                    38
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Weekly",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    38
+                                  ],
+                                  "bottomright": [
+                                    640,
+                                    57
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Monthly",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    0,
+                                    57
+                                  ],
+                                  "bottomright": [
+                                    640,
+                                    76
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "CheckBox",
+                          "name": "Load last script used at startup",
+                          "type": "checkbox",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            347,
+                            284
+                          ],
+                          "bottomright": [
+                            594,
+                            307
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "CheckBox",
+                          "name": "Add 'Convert with XnConvert' to context menu",
+                          "type": "checkbox",
+                          "offscreen": "False",
+                          "blacklisted": "True",
+                          "topleft": [
+                            347,
+                            313
+                          ],
+                          "bottomright": [
+                            706,
+                            336
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Note: You need to start with admin rights to be able to change this setting",
+                          "type": "text",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            379,
+                            342
+                          ],
+                          "bottomright": [
+                            976,
+                            362
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "Rotate images according to EXIF orientation tag",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        335,
+                        537
+                      ],
+                      "bottomright": [
+                        703,
+                        560
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "'Hot folders' process files",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        335,
+                        479
+                      ],
+                      "bottomright": [
+                        541,
+                        502
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "Restore previous input file list",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        335,
+                        508
+                      ],
+                      "bottomright": [
+                        576,
+                        531
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Text",
+                      "name": "Preview background color",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        335,
+                        380
+                      ],
+                      "bottomright": [
+                        518,
+                        415
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        524,
+                        380
+                      ],
+                      "bottomright": [
+                        563,
+                        415
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Load format settings...",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        335,
+                        566
+                      ],
+                      "bottomright": [
+                        988,
+                        600
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "Save actions list at exiting",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        335,
+                        421
+                      ],
+                      "bottomright": [
+                        548,
+                        444
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "CheckBox",
+                      "name": "Clear filename field at startup",
+                      "type": "checkbox",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        335,
+                        450
+                      ],
+                      "bottomright": [
+                        574,
+                        473
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Registration...",
+                      "type": "button",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        1453,
+                        272
+                      ],
+                      "bottomright": [
+                        1565,
+                        306
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Tab",
+              "name": "Settings",
+              "type": "tab",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                322,
+                166
+              ],
+              "bottomright": [
+                925,
+                193
+              ],
+              "children": [
+                {
+                  "tag": "TabItem",
+                  "name": "Input: 0 file(s)",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    322,
+                    166
+                  ],
+                  "bottomright": [
+                    461,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Actions [0/0]",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    461,
+                    166
+                  ],
+                  "bottomright": [
+                    590,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Output",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    590,
+                    166
+                  ],
+                  "bottomright": [
+                    675,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Status",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    675,
+                    166
+                  ],
+                  "bottomright": [
+                    754,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Settings",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    754,
+                    166
+                  ],
+                  "bottomright": [
+                    846,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "About",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    846,
+                    166
+                  ],
+                  "bottomright": [
+                    925,
+                    193
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            322,
+            825
+          ],
+          "bottomright": [
+            921,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Presets:",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                324,
+                827
+              ],
+              "bottomright": [
+                380,
+                862
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                386,
+                829
+              ],
+              "bottomright": [
+                417,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                423,
+                832
+              ],
+              "bottomright": [
+                603,
+                857
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                609,
+                829
+              ],
+              "bottomright": [
+                640,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                646,
+                829
+              ],
+              "bottomright": [
+                677,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Export for NConvert...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                723,
+                827
+              ],
+              "bottomright": [
+                919,
+                862
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1102,
+            825
+          ],
+          "bottomright": [
+            1170,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1102,
+                829
+              ],
+              "bottomright": [
+                1133,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1139,
+                829
+              ],
+              "bottomright": [
+                1170,
+                859
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Convert",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1350,
+            827
+          ],
+          "bottomright": [
+            1462,
+            862
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1468,
+            827
+          ],
+          "bottomright": [
+            1580,
+            861
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

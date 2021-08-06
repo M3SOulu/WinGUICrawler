@@ -111,7 +111,7 @@ def take_metadata(driver,clickable_items):
 
 #This function takes an image screenshot, writes it and also writes the metadata onto an xml file
 def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
-    imgname = directory +'screenshot-'+appended_name+'.png'
+    imgname = directory+"/raw_screens/" +'screenshot-'+appended_name+'.png'
     #get the top left corner of the focused window relative to the whole screen
     pos = driver.get_window_position()
     #add the offset to the top left corner and calulate width/height
@@ -130,20 +130,9 @@ def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
         img.save(imgname)
 
         #write gui metadata to file
-        xml_file = open(directory+"screenshot-"+appended_name+".xml","wb")
+        xml_file = open(directory+"/raw_screens/"+"screenshot-"+appended_name+".xml","wb")
         xml_file.write(xmlmeta.encode("utf-16"))
         xml_file.close()
-
-        #Write an image with bounding boxes of all elements superimposed on it
-        result_name = directory+"bbox_result-"+appended_name+".png"
-        #Use decode instead of imread, because it can't take unicode characters
-        img = cv2.imdecode(np.fromfile(imgname,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
-        result = img.copy()
-        for el in list_of_elements:
-            tl = (int(el['x']), int(el['y']))
-            br = (tl[0]+int(el['width']), tl[1]+int(el['height']))
-            cv2.rectangle(result, tl, br, (0,0,255),2)
-        cv2.imwrite(result_name,result)
         return True
     else:
         #If the coordinates are larger than the screen (meaning something strange happened), the screenshot is not taken
@@ -183,7 +172,8 @@ def get_unique_xpath(element):
 
 #Crawler function
 def crawl():
-
+    if not os.path.exists(directory+"/raw_screens"):
+        os.mkdir(directory+"/raw_screens")
     #List of the types of elements that are considered clickable, i.e. permit interaction and could produce new screens
     clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem","CheckBox"]
 
@@ -230,8 +220,8 @@ def crawl():
     rootNodeName = "Root"
 
     #Checks if the graph already exists and loads it
-    if os.path.isfile(directory+"graphs"):
-        with open(directory+"graphs","rb") as fp:
+    if os.path.isfile(directory+"/raw_screens/"+"graphs"):
+        with open(directory+"/raw_screens/"+"graphs","rb") as fp:
             graph = pickle.load(fp)
             nodes = pickle.load(fp)
         rootNode = nodes[rootNodeName]
@@ -269,7 +259,7 @@ def crawl():
                     DeadEnd = True
                     #Quits and save the graph
                     driver.quit()
-                    with open(directory+"graphs","wb") as fp:
+                    with open(directory+"/raw_screens/"+"graphs","wb") as fp:
                         pickle.dump(graph,fp)
                         pickle.dump(nodes,fp)
                     return False
@@ -358,7 +348,7 @@ def crawl():
     time.sleep(1)
     driver.quit()
     #Save the graphs
-    with open(directory+"graphs","wb") as fp:
+    with open(directory+"/raw_screens/"+"graphs","wb") as fp:
         pickle.dump(graph,fp)
         pickle.dump(nodes,fp)
     return False

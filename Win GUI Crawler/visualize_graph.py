@@ -59,8 +59,8 @@ def replace_illegal_char(input):
 
 rootNodeName = "Root"
 #Load graph
-if os.path.isfile(directory+"graphs"):
-    with open(directory+"graphs","rb") as fp:
+if os.path.isfile(directory+"raw_screens/graphs"):
+    with open(directory+"raw_screens/graphs","rb") as fp:
         graph = pickle.load(fp)
         nodes = pickle.load(fp)
     rootNode = nodes[rootNodeName]

@@ -7,6 +7,7 @@ from lxml import etree
 import random
 import numpy as np
 import json
+import shutil
 
 #Needed for json output
 class TreeNode(dict):
@@ -61,6 +62,22 @@ def get_unique_xpath(element):
     for el in list_path[::-1]:
         el_xpath += "/"+el
     return el_xpath
+
+#retrieves a list of xpaths of gui elements
+def get_xpath_list(list_of_elements):
+    list_of_xpaths = []
+    for el in list_of_elements:
+        list_of_xpaths.append(get_unique_xpath(el))
+    return list_of_xpaths
+
+#compares the sets of elements to check whether they are the same
+def detect_duplicate(current_filtered, all_filtered):
+    set_current_xpaths = set(get_xpath_list(current_filtered))
+    for i_filtered in all_filtered:
+        set_i_xpaths = set(get_xpath_list(i_filtered))
+        if set_i_xpaths == set_current_xpaths:
+            return True
+    return False
 
 #Cleans the parents of offscreen elements, meaning that if an element has offscreen children they get cropped out of it's area (makes the parent bbox look nicer)
 def clean_parent_offscreen(list_off_screen):
@@ -210,23 +227,31 @@ def intersection_over_small(tl1x,tl1y,br1x,br1y,tl2x,tl2y,br2x,br2y):
 
     return interArea/minboxArea
 
-#Main funtion of the script, which filters the bboxes based on previous and current screen
-def filter_bbox(imgname_previous,imgname_current):
+#Main funtion of the script, which filters the bboxes based on previous and current screen, also avoids saving duplicates
+def filter_bbox(imgname_previous,imgname_current,all_filtered):
     #Handles all the file names
     list_of_current_el = []
     list_of_previous_el = []
-    cavolo_current = imgname_current.split('.png')
-    xmlname_current  = cavolo_current[0]+".xml"
-    json_txt_name_current  = cavolo_current[0]+".txt"
-    result_name_current = cavolo_current[0]+"_bbox_result"+".png"
-    result_name_filtered = cavolo_current[0]+"_bbox_result_filtered"+".png"
+    splitname_current = imgname_current.split('.png')
+    filepath = splitname_current[0]
+    xmlname_current  = filepath+".xml"
+
+    nodename = filepath.split("/screenshot-")[-1]
+    foldername = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
+    if not os.path.exists(foldername):
+        os.mkdir(foldername)
+
+    filepath = foldername+"/"+nodename
+
+    json_txt_name_current  = filepath+".txt"
+    result_name_current = filepath+"_unfiltered"+".png"
+    result_name_filtered = filepath+".png"
 
     #Prepares filenames and tree in case previous exists (not in Root)
     #If previous doesn't exists, the list stays empty and the algorithm works without any changes
     if len(imgname_previous)>0:
-        cavolo_previous  = imgname_previous.split('.png')
-        xmlname_previous  = cavolo_previous[0]+".xml"
-        result_name_previous = cavolo_previous[0]+"_bbox_result"+".png"
+        splitname_previous  = imgname_previous.split('.png')
+        xmlname_previous  = splitname_previous[0]+".xml"
 
         #Create tree of previous screen
         tree_previous = etree.parse(xmlname_previous)
@@ -374,6 +399,22 @@ def filter_bbox(imgname_previous,imgname_current):
     recursive_json_tree(root,root_el,list_of_current_el,blacklist)
     with open(json_txt_name_current, 'w') as outfile:
         json.dump(root, outfile,indent=2)
+
+    #filtered doesn't contain duplicates
+    if not detect_duplicate(list_of_current_filtered, all_filtered):
+        all_filtered.append(list_of_current_filtered)
+        #copy files to filtered folder
+        files = [json_txt_name_current, result_name_filtered]
+        direc = json_txt_name_current.split("raw_filtered_comparison")[0]
+        for f in files:
+            shutil.copy(f, direc+"filtered")
+    else:
+        print("..........................")
+        print("..........................")
+        print("Duplicate is: ",result_name_filtered)
+        print("..........................")
+        print("..........................")
+    return all_filtered
 
 if __name__ == "__main__":
     filename_prev = sys.argv[1]

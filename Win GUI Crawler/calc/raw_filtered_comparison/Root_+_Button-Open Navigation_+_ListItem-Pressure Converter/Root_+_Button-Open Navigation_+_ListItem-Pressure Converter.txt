@@ -1,0 +1,637 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    69,
+    48
+  ],
+  "bottomright": [
+    551,
+    848
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        268,
+        49
+      ],
+      "bottomright": [
+        550,
+        97
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            343,
+            49
+          ],
+          "bottomright": [
+            412,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            412,
+            49
+          ],
+          "bottomright": [
+            481,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            481,
+            49
+          ],
+          "bottomright": [
+            550,
+            97
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        70,
+        49
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            88,
+            61
+          ],
+          "bottomright": [
+            167,
+            85
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            70,
+            157
+          ],
+          "bottomright": [
+            544,
+            842
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Atmospheres",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                157
+              ],
+              "bottomright": [
+                135,
+                241
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                241
+              ],
+              "bottomright": [
+                262,
+                289
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Atmospheres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    70,
+                    241
+                  ],
+                  "bottomright": [
+                    214,
+                    289
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Atmospheres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        70,
+                        241
+                      ],
+                      "bottomright": [
+                        214,
+                        289
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Bars",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                289
+              ],
+              "bottomright": [
+                133,
+                373
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                373
+              ],
+              "bottomright": [
+                177,
+                421
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Bars",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    70,
+                    373
+                  ],
+                  "bottomright": [
+                    129,
+                    421
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Bars",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "False",
+                      "topleft": [
+                        70,
+                        373
+                      ],
+                      "bottomright": [
+                        129,
+                        421
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                234,
+                495
+              ],
+              "bottomright": [
+                544,
+                562
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    234,
+                    495
+                  ],
+                  "bottomright": [
+                    387,
+                    562
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    495
+                  ],
+                  "bottomright": [
+                    544,
+                    562
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                77,
+                565
+              ],
+              "bottomright": [
+                544,
+                842
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    775
+                  ],
+                  "bottomright": [
+                    387,
+                    842
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    77,
+                    705
+                  ],
+                  "bottomright": [
+                    231,
+                    772
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    705
+                  ],
+                  "bottomright": [
+                    387,
+                    772
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    705
+                  ],
+                  "bottomright": [
+                    544,
+                    772
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    77,
+                    635
+                  ],
+                  "bottomright": [
+                    231,
+                    702
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    635
+                  ],
+                  "bottomright": [
+                    387,
+                    702
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    635
+                  ],
+                  "bottomright": [
+                    544,
+                    702
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    77,
+                    565
+                  ],
+                  "bottomright": [
+                    231,
+                    632
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    565
+                  ],
+                  "bottomright": [
+                    387,
+                    632
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    565
+                  ],
+                  "bottomright": [
+                    544,
+                    632
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    775
+                  ],
+                  "bottomright": [
+                    544,
+                    842
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Pressure Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            142,
+            105
+          ],
+          "bottomright": [
+            257,
+            145
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                70,
+                97
+              ],
+              "bottomright": [
+                130,
+                157
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        97
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": []
+    }
+  ]
+}

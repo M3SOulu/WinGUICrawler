@@ -51,14 +51,20 @@ def replace_illegal_char(input):
 
 rootNodeName = "Root"
 #Loads graph
-if os.path.isfile(directory+"graphs"):
-    with open(directory+"graphs","rb") as fp:
+if os.path.isfile(directory+"raw_screens/graphs"):
+    with open(directory+"raw_screens/graphs","rb") as fp:
         graph = pickle.load(fp)
         nodes = pickle.load(fp)
     rootNode = nodes[rootNodeName]
 else:
     print("No file found")
 
+if not os.path.exists(directory+"filtered/"):
+    os.mkdir(directory+"filtered/")
+if not os.path.exists(directory+"raw_filtered_comparison/"):
+    os.mkdir(directory+"raw_filtered_comparison/")
+
+list_of_all_filtered = []
 end_flag = False
 last = ""
 current = rootNodeName
@@ -77,16 +83,16 @@ while (not end_flag):
                 last_counter += 1
                 len_last += (len(current.split('_+_')[-last_counter])+3)
                 last = current[:-len_last]
-                imgname_previous = directory+"screenshot-"+replace_illegal_char(nodes[last].name)+".png"
+                imgname_previous = directory+"raw_screens/screenshot-"+replace_illegal_char(nodes[last].name)+".png"
                 isPreviousScreen = os.path.isfile(imgname_previous)
-            imgname_current = directory+"screenshot-"+replace_illegal_char(nodes[current].name)+".png"
+            imgname_current = directory+"raw_screens/screenshot-"+replace_illegal_char(nodes[current].name)+".png"
             #Applies bbox filtering
-            gui_filter_bbox.filter_bbox(imgname_previous,imgname_current)
+            list_of_all_filtered = gui_filter_bbox.filter_bbox(imgname_previous,imgname_current,list_of_all_filtered)
         else:
             #In case of Root, there is no previous screen
             last = ""
-            imgname_current = directory+"screenshot-"+replace_illegal_char(nodes[current].name)+".png"
-            gui_filter_bbox.filter_bbox("",imgname_current)
+            imgname_current = directory+"raw_screens/screenshot-"+replace_illegal_char(nodes[current].name)+".png"
+            list_of_all_filtered = gui_filter_bbox.filter_bbox("",imgname_current,list_of_all_filtered)
         print("Filtering: ",nodes[current].name,"        ",nodes[last].name if last != "" else last)
         #Add node to visited
         visited.append(current)

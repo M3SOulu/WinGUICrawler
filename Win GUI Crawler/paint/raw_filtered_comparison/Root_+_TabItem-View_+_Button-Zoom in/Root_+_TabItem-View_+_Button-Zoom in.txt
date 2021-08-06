@@ -1,0 +1,1112 @@
+{
+  "tag": "Window",
+  "name": "Untitled - Paint",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    0,
+    2
+  ],
+  "bottomright": [
+    1516,
+    856
+  ],
+  "children": [
+    {
+      "tag": "Pane",
+      "name": "UIRibbonDockTop",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        1,
+        47
+      ],
+      "bottomright": [
+        1515,
+        220
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "Ribbon",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1,
+            47
+          ],
+          "bottomright": [
+            1515,
+            220
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "Ribbon",
+              "type": "pane",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1,
+                47
+              ],
+              "bottomright": [
+                1515,
+                220
+              ],
+              "children": [
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    1,
+                    47
+                  ],
+                  "bottomright": [
+                    1515,
+                    267
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "Ribbon",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        1,
+                        0
+                      ],
+                      "bottomright": [
+                        1515,
+                        220
+                      ],
+                      "children": [
+                        {
+                          "tag": "ToolBar",
+                          "name": "Quick Access Toolbar",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            54,
+                            8
+                          ],
+                          "bottomright": [
+                            182,
+                            40
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Save",
+                              "type": "button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                54,
+                                6
+                              ],
+                              "bottomright": [
+                                86,
+                                40
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Undo",
+                              "type": "button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                86,
+                                6
+                              ],
+                              "bottomright": [
+                                118,
+                                40
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Redo",
+                              "type": "button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                118,
+                                6
+                              ],
+                              "bottomright": [
+                                150,
+                                40
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Print",
+                              "type": "button",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                150,
+                                6
+                              ],
+                              "bottomright": [
+                                182,
+                                40
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Customise Quick Access Toolbar",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            183,
+                            8
+                          ],
+                          "bottomright": [
+                            202,
+                            41
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "File tab",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1,
+                            47
+                          ],
+                          "bottomright": [
+                            85,
+                            81
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Tab",
+                          "name": "Ribbon tabs",
+                          "type": "tab",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            85,
+                            47
+                          ],
+                          "bottomright": [
+                            1451,
+                            81
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                85,
+                                47
+                              ],
+                              "bottomright": [
+                                1451,
+                                81
+                              ],
+                              "children": [
+                                {
+                                  "tag": "TabItem",
+                                  "name": "Home",
+                                  "type": "tab item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    85,
+                                    47
+                                  ],
+                                  "bottomright": [
+                                    167,
+                                    81
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "TabItem",
+                                  "name": "View",
+                                  "type": "tab item",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    168,
+                                    47
+                                  ],
+                                  "bottomright": [
+                                    242,
+                                    81
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Minimise the Ribbon",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1451,
+                            48
+                          ],
+                          "bottomright": [
+                            1483,
+                            80
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Help",
+                          "type": "button",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1483,
+                            48
+                          ],
+                          "bottomright": [
+                            1515,
+                            80
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "Lower Ribbon",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "blacklisted": "False",
+                          "topleft": [
+                            1,
+                            81
+                          ],
+                          "bottomright": [
+                            1515,
+                            220
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "blacklisted": "False",
+                              "topleft": [
+                                1,
+                                81
+                              ],
+                              "bottomright": [
+                                1515,
+                                220
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Custom",
+                                  "name": "View",
+                                  "type": "",
+                                  "offscreen": "False",
+                                  "blacklisted": "False",
+                                  "topleft": [
+                                    1,
+                                    81
+                                  ],
+                                  "bottomright": [
+                                    1515,
+                                    220
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Zoom",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "blacklisted": "False",
+                                      "topleft": [
+                                        7,
+                                        85
+                                      ],
+                                      "bottomright": [
+                                        206,
+                                        219
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Button",
+                                          "name": "Zoom in",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            10,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            72,
+                                            187
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Zoom out",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            72,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            134,
+                                            187
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "100%",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            134,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            196,
+                                            187
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Show or hide",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "blacklisted": "False",
+                                      "topleft": [
+                                        208,
+                                        85
+                                      ],
+                                      "bottomright": [
+                                        328,
+                                        219
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "CheckBox",
+                                          "name": "Rulers",
+                                          "type": "checkbox",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            211,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            293,
+                                            121
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "CheckBox",
+                                          "name": "Gridlines",
+                                          "type": "checkbox",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            211,
+                                            121
+                                          ],
+                                          "bottomright": [
+                                            311,
+                                            154
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "CheckBox",
+                                          "name": "Status bar",
+                                          "type": "checkbox",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            211,
+                                            154
+                                          ],
+                                          "bottomright": [
+                                            318,
+                                            187
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Display",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "blacklisted": "False",
+                                      "topleft": [
+                                        330,
+                                        85
+                                      ],
+                                      "bottomright": [
+                                        486,
+                                        219
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Button",
+                                          "name": "Full screen",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            333,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            395,
+                                            187
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Thumbnail",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "blacklisted": "False",
+                                          "topleft": [
+                                            395,
+                                            88
+                                          ],
+                                          "bottomright": [
+                                            476,
+                                            187
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        1,
+        220
+      ],
+      "bottomright": [
+        1515,
+        816
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "Using Brush tool on Canvas",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1,
+            220
+          ],
+          "bottomright": [
+            1515,
+            816
+          ],
+          "children": [
+            {
+              "tag": "ScrollBar",
+              "name": "Vertical",
+              "type": "scroll bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1489,
+                220
+              ],
+              "bottomright": [
+                1515,
+                790
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Line up",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1489,
+                    220
+                  ],
+                  "bottomright": [
+                    1515,
+                    246
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1489,
+                    246
+                  ],
+                  "bottomright": [
+                    1515,
+                    472
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page down",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1489,
+                    472
+                  ],
+                  "bottomright": [
+                    1515,
+                    764
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Line down",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1489,
+                    764
+                  ],
+                  "bottomright": [
+                    1515,
+                    790
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ScrollBar",
+              "name": "Horizontal",
+              "type": "scroll bar",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1,
+                790
+              ],
+              "bottomright": [
+                1489,
+                816
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Column left",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1,
+                    790
+                  ],
+                  "bottomright": [
+                    27,
+                    816
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    27,
+                    790
+                  ],
+                  "bottomright": [
+                    950,
+                    816
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page right",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    950,
+                    790
+                  ],
+                  "bottomright": [
+                    1463,
+                    816
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Column right",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1463,
+                    790
+                  ],
+                  "bottomright": [
+                    1489,
+                    816
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1489,
+                790
+              ],
+              "bottomright": [
+                1515,
+                816
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        1,
+        2
+      ],
+      "bottomright": [
+        1515,
+        220
+      ],
+      "children": []
+    },
+    {
+      "tag": "StatusBar",
+      "name": "",
+      "type": "status bar",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        1,
+        816
+      ],
+      "bottomright": [
+        1515,
+        855
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1201,
+            819
+          ],
+          "bottomright": [
+            1486,
+            854
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "200%",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1204,
+                819
+              ],
+              "bottomright": [
+                1264,
+                854
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Zoom out",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1270,
+                819
+              ],
+              "bottomright": [
+                1303,
+                854
+              ],
+              "children": []
+            },
+            {
+              "tag": "Slider",
+              "name": "Zoom slider",
+              "type": "slider",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1303,
+                819
+              ],
+              "bottomright": [
+                1453,
+                854
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Page left",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1314,
+                    831
+                  ],
+                  "bottomright": [
+                    1377,
+                    837
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1377,
+                    821
+                  ],
+                  "bottomright": [
+                    1394,
+                    850
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page right",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    1394,
+                    831
+                  ],
+                  "bottomright": [
+                    1442,
+                    837
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Zoom in",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1453,
+                819
+              ],
+              "bottomright": [
+                1486,
+                854
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1,
+            818
+          ],
+          "bottomright": [
+            246,
+            855
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            248,
+            818
+          ],
+          "bottomright": [
+            491,
+            855
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "1152 \u00d7 648\u200fpx",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            493,
+            818
+          ],
+          "bottomright": [
+            736,
+            855
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            738,
+            818
+          ],
+          "bottomright": [
+            981,
+            855
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            983,
+            818
+          ],
+          "bottomright": [
+            1194,
+            855
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            1196,
+            818
+          ],
+          "bottomright": [
+            1491,
+            855
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        25,
+        5
+      ],
+      "bottomright": [
+        1515,
+        50
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1,
+            13
+          ],
+          "bottomright": [
+            34,
+            46
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "False",
+              "topleft": [
+                1,
+                13
+              ],
+              "bottomright": [
+                34,
+                46
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1304,
+            3
+          ],
+          "bottomright": [
+            1375,
+            47
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1375,
+            3
+          ],
+          "bottomright": [
+            1445,
+            47
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            1445,
+            3
+          ],
+          "bottomright": [
+            1516,
+            47
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

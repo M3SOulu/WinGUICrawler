@@ -1,0 +1,2265 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "blacklisted": "False",
+  "topleft": [
+    69,
+    344
+  ],
+  "bottomright": [
+    551,
+    1144
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "False",
+      "topleft": [
+        70,
+        324
+      ],
+      "bottomright": [
+        274,
+        1066
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "blacklisted": "False",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                669
+              ],
+              "bottomright": [
+                224,
+                717
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Millilitres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    271,
+                    375
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Millilitres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        335
+                      ],
+                      "bottomright": [
+                        255,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic centimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    375
+                  ],
+                  "bottomright": [
+                    271,
+                    424
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic centimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        382
+                      ],
+                      "bottomright": [
+                        255,
+                        410
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Litres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    271,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Litres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        255,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic metres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    473
+                  ],
+                  "bottomright": [
+                    271,
+                    521
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic metres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        481
+                      ],
+                      "bottomright": [
+                        255,
+                        509
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Teaspoons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    522
+                  ],
+                  "bottomright": [
+                    271,
+                    571
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Teaspoons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        530
+                      ],
+                      "bottomright": [
+                        255,
+                        558
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tablespoons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    570
+                  ],
+                  "bottomright": [
+                    271,
+                    619
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tablespoons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        578
+                      ],
+                      "bottomright": [
+                        255,
+                        606
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Fluid ounces (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    620
+                  ],
+                  "bottomright": [
+                    271,
+                    669
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Fluid ounces (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        628
+                      ],
+                      "bottomright": [
+                        255,
+                        656
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cups (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    669
+                  ],
+                  "bottomright": [
+                    271,
+                    718
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cups (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        677
+                      ],
+                      "bottomright": [
+                        255,
+                        705
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pints (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    718
+                  ],
+                  "bottomright": [
+                    271,
+                    766
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pints (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        726
+                      ],
+                      "bottomright": [
+                        255,
+                        753
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Quarts (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    767
+                  ],
+                  "bottomright": [
+                    271,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Quarts (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        775
+                      ],
+                      "bottomright": [
+                        255,
+                        802
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gallons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    816
+                  ],
+                  "bottomright": [
+                    271,
+                    865
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gallons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        824
+                      ],
+                      "bottomright": [
+                        255,
+                        852
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic inches",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    865
+                  ],
+                  "bottomright": [
+                    271,
+                    914
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic inches",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        873
+                      ],
+                      "bottomright": [
+                        255,
+                        900
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic feet",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    914
+                  ],
+                  "bottomright": [
+                    271,
+                    963
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic feet",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        922
+                      ],
+                      "bottomright": [
+                        255,
+                        950
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic yards",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    963
+                  ],
+                  "bottomright": [
+                    271,
+                    1012
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic yards",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        971
+                      ],
+                      "bottomright": [
+                        255,
+                        999
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Teaspoons (UK)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    1012
+                  ],
+                  "bottomright": [
+                    271,
+                    1061
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Teaspoons (UK)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        1020
+                      ],
+                      "bottomright": [
+                        255,
+                        1047
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tablespoons (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tablespoons (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Fluid ounces (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Fluid ounces (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pints (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pints (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Quarts (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Quarts (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gallons (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gallons (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                234,
+                791
+              ],
+              "bottomright": [
+                544,
+                858
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    234,
+                    791
+                  ],
+                  "bottomright": [
+                    387,
+                    858
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    791
+                  ],
+                  "bottomright": [
+                    544,
+                    858
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                77,
+                861
+              ],
+              "bottomright": [
+                544,
+                1138
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    1071
+                  ],
+                  "bottomright": [
+                    387,
+                    1138
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    1001
+                  ],
+                  "bottomright": [
+                    231,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    1001
+                  ],
+                  "bottomright": [
+                    387,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    1001
+                  ],
+                  "bottomright": [
+                    544,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    931
+                  ],
+                  "bottomright": [
+                    231,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    931
+                  ],
+                  "bottomright": [
+                    387,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    931
+                  ],
+                  "bottomright": [
+                    544,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    861
+                  ],
+                  "bottomright": [
+                    231,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    861
+                  ],
+                  "bottomright": [
+                    387,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    861
+                  ],
+                  "bottomright": [
+                    544,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    1071
+                  ],
+                  "bottomright": [
+                    544,
+                    1138
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        268,
+        345
+      ],
+      "bottomright": [
+        550,
+        393
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            0,
+            296
+          ],
+          "bottomright": [
+            0,
+            296
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                296
+              ],
+              "bottomright": [
+                0,
+                296
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            343,
+            345
+          ],
+          "bottomright": [
+            412,
+            393
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            412,
+            345
+          ],
+          "bottomright": [
+            481,
+            393
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            481,
+            345
+          ],
+          "bottomright": [
+            550,
+            393
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        345
+      ],
+      "bottomright": [
+        550,
+        1143
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            88,
+            357
+          ],
+          "bottomright": [
+            167,
+            381
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            453
+          ],
+          "bottomright": [
+            544,
+            1138
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "blacklisted": "True",
+              "topleft": [
+                0,
+                296
+              ],
+              "bottomright": [
+                0,
+                296
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Teaspoons (US)",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                453
+              ],
+              "bottomright": [
+                135,
+                537
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                537
+              ],
+              "bottomright": [
+                282,
+                585
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Teaspoons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    537
+                  ],
+                  "bottomright": [
+                    234,
+                    585
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Teaspoons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        70,
+                        537
+                      ],
+                      "bottomright": [
+                        234,
+                        585
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Millilitres",
+              "type": "text",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                585
+              ],
+              "bottomright": [
+                133,
+                669
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                669
+              ],
+              "bottomright": [
+                224,
+                717
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Millilitres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    271,
+                    375
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Millilitres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        335
+                      ],
+                      "bottomright": [
+                        255,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic centimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    375
+                  ],
+                  "bottomright": [
+                    271,
+                    424
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic centimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        382
+                      ],
+                      "bottomright": [
+                        255,
+                        410
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Litres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    271,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Litres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        255,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic metres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    473
+                  ],
+                  "bottomright": [
+                    271,
+                    521
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic metres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        481
+                      ],
+                      "bottomright": [
+                        255,
+                        509
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Teaspoons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    522
+                  ],
+                  "bottomright": [
+                    271,
+                    571
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Teaspoons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        530
+                      ],
+                      "bottomright": [
+                        255,
+                        558
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tablespoons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    570
+                  ],
+                  "bottomright": [
+                    271,
+                    619
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tablespoons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        578
+                      ],
+                      "bottomright": [
+                        255,
+                        606
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Fluid ounces (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    620
+                  ],
+                  "bottomright": [
+                    271,
+                    669
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Fluid ounces (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        628
+                      ],
+                      "bottomright": [
+                        255,
+                        656
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cups (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    669
+                  ],
+                  "bottomright": [
+                    271,
+                    718
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cups (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        677
+                      ],
+                      "bottomright": [
+                        255,
+                        705
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pints (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    718
+                  ],
+                  "bottomright": [
+                    271,
+                    766
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pints (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        726
+                      ],
+                      "bottomright": [
+                        255,
+                        753
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Quarts (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    767
+                  ],
+                  "bottomright": [
+                    271,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Quarts (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        775
+                      ],
+                      "bottomright": [
+                        255,
+                        802
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gallons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    816
+                  ],
+                  "bottomright": [
+                    271,
+                    865
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gallons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        824
+                      ],
+                      "bottomright": [
+                        255,
+                        852
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic inches",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    865
+                  ],
+                  "bottomright": [
+                    271,
+                    914
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic inches",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        873
+                      ],
+                      "bottomright": [
+                        255,
+                        900
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic feet",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    914
+                  ],
+                  "bottomright": [
+                    271,
+                    963
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic feet",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        922
+                      ],
+                      "bottomright": [
+                        255,
+                        950
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Cubic yards",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    963
+                  ],
+                  "bottomright": [
+                    271,
+                    1012
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Cubic yards",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        971
+                      ],
+                      "bottomright": [
+                        255,
+                        999
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Teaspoons (UK)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    72,
+                    1012
+                  ],
+                  "bottomright": [
+                    271,
+                    1061
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Teaspoons (UK)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "blacklisted": "True",
+                      "topleft": [
+                        89,
+                        1020
+                      ],
+                      "bottomright": [
+                        255,
+                        1047
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tablespoons (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tablespoons (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Fluid ounces (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Fluid ounces (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pints (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pints (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Quarts (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Quarts (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gallons (UK)",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gallons (UK)",
+                      "type": "text",
+                      "offscreen": "True",
+                      "blacklisted": "True",
+                      "topleft": [
+                        0,
+                        296
+                      ],
+                      "bottomright": [
+                        0,
+                        296
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                234,
+                791
+              ],
+              "bottomright": [
+                544,
+                858
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    234,
+                    791
+                  ],
+                  "bottomright": [
+                    387,
+                    858
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    791
+                  ],
+                  "bottomright": [
+                    544,
+                    858
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                77,
+                861
+              ],
+              "bottomright": [
+                544,
+                1138
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    233,
+                    1071
+                  ],
+                  "bottomright": [
+                    387,
+                    1138
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    1001
+                  ],
+                  "bottomright": [
+                    231,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    1001
+                  ],
+                  "bottomright": [
+                    387,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    1001
+                  ],
+                  "bottomright": [
+                    544,
+                    1068
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    931
+                  ],
+                  "bottomright": [
+                    231,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    931
+                  ],
+                  "bottomright": [
+                    387,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    931
+                  ],
+                  "bottomright": [
+                    544,
+                    998
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    77,
+                    861
+                  ],
+                  "bottomright": [
+                    231,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    233,
+                    861
+                  ],
+                  "bottomright": [
+                    387,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "True",
+                  "topleft": [
+                    390,
+                    861
+                  ],
+                  "bottomright": [
+                    544,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "blacklisted": "False",
+                  "topleft": [
+                    390,
+                    1071
+                  ],
+                  "bottomright": [
+                    544,
+                    1138
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Volume Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            142,
+            401
+          ],
+          "bottomright": [
+            246,
+            441
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "blacklisted": "True",
+          "topleft": [
+            70,
+            393
+          ],
+          "bottomright": [
+            550,
+            1143
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "blacklisted": "True",
+              "topleft": [
+                70,
+                393
+              ],
+              "bottomright": [
+                130,
+                453
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "blacklisted": "True",
+                  "topleft": [
+                    0,
+                    296
+                  ],
+                  "bottomright": [
+                    0,
+                    296
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "blacklisted": "True",
+      "topleft": [
+        70,
+        393
+      ],
+      "bottomright": [
+        550,
+        1143
+      ],
+      "children": []
+    }
+  ]
+}
