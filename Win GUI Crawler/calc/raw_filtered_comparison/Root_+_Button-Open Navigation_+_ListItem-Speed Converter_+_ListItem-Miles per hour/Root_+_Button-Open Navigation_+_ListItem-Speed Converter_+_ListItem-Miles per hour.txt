@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     197
@@ -18,7 +18,7 @@
       "name": "Pop-upHost",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         192
@@ -33,7 +33,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             70,
             0
@@ -48,7 +48,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 0
@@ -64,7 +64,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 390
@@ -79,7 +79,7 @@
                   "name": "Centimetres per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     194
@@ -94,7 +94,7 @@
                       "name": "Centimetres per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         201
@@ -112,7 +112,7 @@
                   "name": "Metres per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     243
@@ -127,7 +127,7 @@
                       "name": "Metres per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         250
@@ -145,7 +145,7 @@
                   "name": "Kilometres per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     292
@@ -160,7 +160,7 @@
                       "name": "Kilometres per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         300
@@ -178,7 +178,7 @@
                   "name": "Feet per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     341
@@ -193,7 +193,7 @@
                       "name": "Feet per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         349
@@ -211,7 +211,7 @@
                   "name": "Miles per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     390
@@ -226,7 +226,7 @@
                       "name": "Miles per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         398
@@ -244,7 +244,7 @@
                   "name": "Knots",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     438
@@ -259,7 +259,7 @@
                       "name": "Knots",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         446
@@ -277,7 +277,7 @@
                   "name": "Mach",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     488
@@ -292,7 +292,7 @@
                       "name": "Mach",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         496
@@ -310,7 +310,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -328,7 +328,7 @@
               "name": "Converts into 0 Kilometres per hour",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 438
@@ -344,7 +344,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 522
@@ -359,7 +359,7 @@
                   "name": "Kilometres per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     522
@@ -374,7 +374,7 @@
                       "name": "Kilometres per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         522
@@ -394,7 +394,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 644
@@ -409,7 +409,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     644
@@ -425,7 +425,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     644
@@ -443,7 +443,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 714
@@ -458,7 +458,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     924
@@ -474,7 +474,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     854
@@ -490,7 +490,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     854
@@ -506,7 +506,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     854
@@ -522,7 +522,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     784
@@ -538,7 +538,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     784
@@ -554,7 +554,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     784
@@ -570,7 +570,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     714
@@ -586,7 +586,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     714
@@ -602,7 +602,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     714
@@ -618,7 +618,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     924
@@ -640,7 +640,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         268,
         198
@@ -655,7 +655,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             149
@@ -670,7 +670,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 149
@@ -688,7 +688,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             198
@@ -704,7 +704,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             198
@@ -720,7 +720,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             198
@@ -738,7 +738,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         198
@@ -753,7 +753,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             210
@@ -769,7 +769,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             306
@@ -784,7 +784,7 @@
               "name": "Not busy\u2026",
               "type": "progress ring",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 149
@@ -800,7 +800,7 @@
               "name": "Convert from 0 Miles per hour",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 306
@@ -816,7 +816,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 390
@@ -831,7 +831,7 @@
                   "name": "Centimetres per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     194
@@ -846,7 +846,7 @@
                       "name": "Centimetres per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         201
@@ -864,7 +864,7 @@
                   "name": "Metres per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     243
@@ -879,7 +879,7 @@
                       "name": "Metres per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         250
@@ -897,7 +897,7 @@
                   "name": "Kilometres per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     292
@@ -912,7 +912,7 @@
                       "name": "Kilometres per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         300
@@ -930,7 +930,7 @@
                   "name": "Feet per second",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     341
@@ -945,7 +945,7 @@
                       "name": "Feet per second",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         349
@@ -963,7 +963,7 @@
                   "name": "Miles per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     390
@@ -978,7 +978,7 @@
                       "name": "Miles per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         398
@@ -996,7 +996,7 @@
                   "name": "Knots",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     438
@@ -1011,7 +1011,7 @@
                       "name": "Knots",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         446
@@ -1029,7 +1029,7 @@
                   "name": "Mach",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     488
@@ -1044,7 +1044,7 @@
                       "name": "Mach",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         496
@@ -1062,7 +1062,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -1080,7 +1080,7 @@
               "name": "Converts into 0 Kilometres per hour",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 438
@@ -1096,7 +1096,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 522
@@ -1111,7 +1111,7 @@
                   "name": "Kilometres per hour",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     522
@@ -1126,7 +1126,7 @@
                       "name": "Kilometres per hour",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         522
@@ -1146,7 +1146,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 644
@@ -1161,7 +1161,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     644
@@ -1177,7 +1177,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     644
@@ -1195,7 +1195,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 714
@@ -1210,7 +1210,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     924
@@ -1226,7 +1226,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     854
@@ -1242,7 +1242,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     854
@@ -1258,7 +1258,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     854
@@ -1274,7 +1274,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     784
@@ -1290,7 +1290,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     784
@@ -1306,7 +1306,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     784
@@ -1322,7 +1322,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     714
@@ -1338,7 +1338,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     714
@@ -1354,7 +1354,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     714
@@ -1370,7 +1370,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     924
@@ -1390,7 +1390,7 @@
           "name": "Speed Converter mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             142,
             254
@@ -1406,7 +1406,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             246
@@ -1421,7 +1421,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 246
@@ -1436,7 +1436,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     149
@@ -1458,7 +1458,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         246

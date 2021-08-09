@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     344
@@ -18,7 +18,7 @@
       "name": "Pop-upHost",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         324
@@ -33,7 +33,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             70,
             0
@@ -48,7 +48,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 0
@@ -64,7 +64,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 669
@@ -79,7 +79,7 @@
                   "name": "Carats",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     326
@@ -94,7 +94,7 @@
                       "name": "Carats",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         335
@@ -112,7 +112,7 @@
                   "name": "Milligrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     375
@@ -127,7 +127,7 @@
                       "name": "Milligrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         382
@@ -145,7 +145,7 @@
                   "name": "Centigrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     424
@@ -160,7 +160,7 @@
                       "name": "Centigrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         432
@@ -178,7 +178,7 @@
                   "name": "Decigrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     473
@@ -193,7 +193,7 @@
                       "name": "Decigrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         481
@@ -211,7 +211,7 @@
                   "name": "Grams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     522
@@ -226,7 +226,7 @@
                       "name": "Grams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         530
@@ -244,7 +244,7 @@
                   "name": "Decagrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     570
@@ -259,7 +259,7 @@
                       "name": "Decagrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         578
@@ -277,7 +277,7 @@
                   "name": "Hectograms",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     620
@@ -292,7 +292,7 @@
                       "name": "Hectograms",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         628
@@ -310,7 +310,7 @@
                   "name": "Kilograms",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     669
@@ -325,7 +325,7 @@
                       "name": "Kilograms",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         677
@@ -343,7 +343,7 @@
                   "name": "Metric tonnes",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     718
@@ -358,7 +358,7 @@
                       "name": "Metric tonnes",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         726
@@ -376,7 +376,7 @@
                   "name": "Ounces",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     767
@@ -391,7 +391,7 @@
                       "name": "Ounces",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         775
@@ -409,7 +409,7 @@
                   "name": "Pounds",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     816
@@ -424,7 +424,7 @@
                       "name": "Pounds",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         824
@@ -442,7 +442,7 @@
                   "name": "Stone",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     865
@@ -457,7 +457,7 @@
                       "name": "Stone",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         873
@@ -475,7 +475,7 @@
                   "name": "Short tons (US)",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     914
@@ -490,7 +490,7 @@
                       "name": "Short tons (US)",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         922
@@ -508,7 +508,7 @@
                   "name": "Long tons (UK)",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     963
@@ -523,7 +523,7 @@
                       "name": "Long tons (UK)",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         971
@@ -541,7 +541,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -559,7 +559,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 791
@@ -574,7 +574,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     791
@@ -590,7 +590,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     791
@@ -608,7 +608,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 861
@@ -623,7 +623,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     1071
@@ -639,7 +639,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     1001
@@ -655,7 +655,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     1001
@@ -671,7 +671,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     1001
@@ -687,7 +687,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     931
@@ -703,7 +703,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     931
@@ -719,7 +719,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     931
@@ -735,7 +735,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     861
@@ -751,7 +751,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     861
@@ -767,7 +767,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     861
@@ -783,7 +783,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     1071
@@ -805,7 +805,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         268,
         345
@@ -820,7 +820,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             296
@@ -835,7 +835,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 296
@@ -853,7 +853,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             345
@@ -869,7 +869,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             345
@@ -885,7 +885,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             345
@@ -903,7 +903,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         345
@@ -918,7 +918,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             357
@@ -934,7 +934,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             453
@@ -949,7 +949,7 @@
               "name": "Not busy\u2026",
               "type": "progress ring",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 296
@@ -965,7 +965,7 @@
               "name": "Convert from 0 Pounds",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 453
@@ -981,7 +981,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 537
@@ -996,7 +996,7 @@
                   "name": "Pounds",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     537
@@ -1011,7 +1011,7 @@
                       "name": "Pounds",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         537
@@ -1031,7 +1031,7 @@
               "name": "Converts into 0 Kilograms",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 585
@@ -1047,7 +1047,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 669
@@ -1062,7 +1062,7 @@
                   "name": "Carats",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     326
@@ -1077,7 +1077,7 @@
                       "name": "Carats",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         335
@@ -1095,7 +1095,7 @@
                   "name": "Milligrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     375
@@ -1110,7 +1110,7 @@
                       "name": "Milligrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         382
@@ -1128,7 +1128,7 @@
                   "name": "Centigrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     424
@@ -1143,7 +1143,7 @@
                       "name": "Centigrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         432
@@ -1161,7 +1161,7 @@
                   "name": "Decigrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     473
@@ -1176,7 +1176,7 @@
                       "name": "Decigrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         481
@@ -1194,7 +1194,7 @@
                   "name": "Grams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     522
@@ -1209,7 +1209,7 @@
                       "name": "Grams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         530
@@ -1227,7 +1227,7 @@
                   "name": "Decagrams",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     570
@@ -1242,7 +1242,7 @@
                       "name": "Decagrams",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         578
@@ -1260,7 +1260,7 @@
                   "name": "Hectograms",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     620
@@ -1275,7 +1275,7 @@
                       "name": "Hectograms",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         628
@@ -1293,7 +1293,7 @@
                   "name": "Kilograms",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     669
@@ -1308,7 +1308,7 @@
                       "name": "Kilograms",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         677
@@ -1326,7 +1326,7 @@
                   "name": "Metric tonnes",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     718
@@ -1341,7 +1341,7 @@
                       "name": "Metric tonnes",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         726
@@ -1359,7 +1359,7 @@
                   "name": "Ounces",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     767
@@ -1374,7 +1374,7 @@
                       "name": "Ounces",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         775
@@ -1392,7 +1392,7 @@
                   "name": "Pounds",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     816
@@ -1407,7 +1407,7 @@
                       "name": "Pounds",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         824
@@ -1425,7 +1425,7 @@
                   "name": "Stone",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     865
@@ -1440,7 +1440,7 @@
                       "name": "Stone",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         873
@@ -1458,7 +1458,7 @@
                   "name": "Short tons (US)",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     914
@@ -1473,7 +1473,7 @@
                       "name": "Short tons (US)",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         922
@@ -1491,7 +1491,7 @@
                   "name": "Long tons (UK)",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     963
@@ -1506,7 +1506,7 @@
                       "name": "Long tons (UK)",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         971
@@ -1524,7 +1524,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -1542,7 +1542,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 791
@@ -1557,7 +1557,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     791
@@ -1573,7 +1573,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     791
@@ -1591,7 +1591,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 861
@@ -1606,7 +1606,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     233,
                     1071
@@ -1622,7 +1622,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     1001
@@ -1638,7 +1638,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     1001
@@ -1654,7 +1654,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     1001
@@ -1670,7 +1670,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     931
@@ -1686,7 +1686,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     931
@@ -1702,7 +1702,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     931
@@ -1718,7 +1718,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     861
@@ -1734,7 +1734,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     861
@@ -1750,7 +1750,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     861
@@ -1766,7 +1766,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     390,
                     1071
@@ -1786,7 +1786,7 @@
           "name": "Weight and Mass Converter mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             142,
             401
@@ -1802,7 +1802,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             393
@@ -1817,7 +1817,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 393
@@ -1832,7 +1832,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     296
@@ -1854,7 +1854,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         393

@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     148
@@ -18,7 +18,7 @@
       "name": "Pop-upHost",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         324
@@ -33,7 +33,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             70,
             0
@@ -48,7 +48,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 0
@@ -64,7 +64,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 473
@@ -79,7 +79,7 @@
                   "name": "Nanometres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     326
@@ -94,7 +94,7 @@
                       "name": "Nanometres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         334
@@ -112,7 +112,7 @@
                   "name": "Microns",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     374
@@ -127,7 +127,7 @@
                       "name": "Microns",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         383
@@ -145,7 +145,7 @@
                   "name": "Millimetres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     424
@@ -160,7 +160,7 @@
                       "name": "Millimetres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         432
@@ -178,7 +178,7 @@
                   "name": "Centimetres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     473
@@ -193,7 +193,7 @@
                       "name": "Centimetres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         481
@@ -211,7 +211,7 @@
                   "name": "Metres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     522
@@ -226,7 +226,7 @@
                       "name": "Metres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         530
@@ -244,7 +244,7 @@
                   "name": "Kilometres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     570
@@ -259,7 +259,7 @@
                       "name": "Kilometres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         579
@@ -277,7 +277,7 @@
                   "name": "Inches",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     620
@@ -292,7 +292,7 @@
                       "name": "Inches",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         627
@@ -310,7 +310,7 @@
                   "name": "Feet",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     669
@@ -325,7 +325,7 @@
                       "name": "Feet",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         677
@@ -343,7 +343,7 @@
                   "name": "Yards",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     718
@@ -358,7 +358,7 @@
                       "name": "Yards",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         726
@@ -376,7 +376,7 @@
                   "name": "Miles",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     767
@@ -391,7 +391,7 @@
                       "name": "Miles",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         775
@@ -409,7 +409,7 @@
                   "name": "Nautical Miles",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     816
@@ -424,7 +424,7 @@
                       "name": "Nautical Miles",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         824
@@ -442,7 +442,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -460,7 +460,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 595
@@ -475,7 +475,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     595
@@ -491,7 +491,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     595
@@ -509,7 +509,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 665
@@ -524,7 +524,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     875
@@ -540,7 +540,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     805
@@ -556,7 +556,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     805
@@ -572,7 +572,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     805
@@ -588,7 +588,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     735
@@ -604,7 +604,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     735
@@ -620,7 +620,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     735
@@ -636,7 +636,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     665
@@ -652,7 +652,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     665
@@ -668,7 +668,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     665
@@ -684,7 +684,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     875
@@ -706,7 +706,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         268,
         149
@@ -721,7 +721,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             100
@@ -736,7 +736,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 100
@@ -754,7 +754,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             149
@@ -770,7 +770,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             149
@@ -786,7 +786,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             149
@@ -804,7 +804,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         149
@@ -819,7 +819,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             161
@@ -835,7 +835,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             257
@@ -850,7 +850,7 @@
               "name": "Not busy\u2026",
               "type": "progress ring",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 100
@@ -866,7 +866,7 @@
               "name": "Convert from 0 Inches",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 257
@@ -882,7 +882,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 341
@@ -897,7 +897,7 @@
                   "name": "Inches",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     341
@@ -912,7 +912,7 @@
                       "name": "Inches",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         341
@@ -932,7 +932,7 @@
               "name": "Converts into 0 Centimetres",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 389
@@ -948,7 +948,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 473
@@ -963,7 +963,7 @@
                   "name": "Nanometres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     326
@@ -978,7 +978,7 @@
                       "name": "Nanometres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         334
@@ -996,7 +996,7 @@
                   "name": "Microns",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     374
@@ -1011,7 +1011,7 @@
                       "name": "Microns",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         383
@@ -1029,7 +1029,7 @@
                   "name": "Millimetres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     424
@@ -1044,7 +1044,7 @@
                       "name": "Millimetres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         432
@@ -1062,7 +1062,7 @@
                   "name": "Centimetres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     473
@@ -1077,7 +1077,7 @@
                       "name": "Centimetres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         481
@@ -1095,7 +1095,7 @@
                   "name": "Metres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     522
@@ -1110,7 +1110,7 @@
                       "name": "Metres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         530
@@ -1128,7 +1128,7 @@
                   "name": "Kilometres",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     570
@@ -1143,7 +1143,7 @@
                       "name": "Kilometres",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         579
@@ -1161,7 +1161,7 @@
                   "name": "Inches",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     620
@@ -1176,7 +1176,7 @@
                       "name": "Inches",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         627
@@ -1194,7 +1194,7 @@
                   "name": "Feet",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     669
@@ -1209,7 +1209,7 @@
                       "name": "Feet",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         677
@@ -1227,7 +1227,7 @@
                   "name": "Yards",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     718
@@ -1242,7 +1242,7 @@
                       "name": "Yards",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         726
@@ -1260,7 +1260,7 @@
                   "name": "Miles",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     767
@@ -1275,7 +1275,7 @@
                       "name": "Miles",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         775
@@ -1293,7 +1293,7 @@
                   "name": "Nautical Miles",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     816
@@ -1308,7 +1308,7 @@
                       "name": "Nautical Miles",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         824
@@ -1326,7 +1326,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -1344,7 +1344,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 595
@@ -1359,7 +1359,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     595
@@ -1375,7 +1375,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     595
@@ -1393,7 +1393,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 665
@@ -1408,7 +1408,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     875
@@ -1424,7 +1424,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     805
@@ -1440,7 +1440,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     805
@@ -1456,7 +1456,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     805
@@ -1472,7 +1472,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     735
@@ -1488,7 +1488,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     735
@@ -1504,7 +1504,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     735
@@ -1520,7 +1520,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     665
@@ -1536,7 +1536,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     665
@@ -1552,7 +1552,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     665
@@ -1568,7 +1568,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     875
@@ -1588,7 +1588,7 @@
           "name": "Length Converter mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             142,
             205
@@ -1604,7 +1604,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             197
@@ -1619,7 +1619,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 197
@@ -1634,7 +1634,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     100
@@ -1656,7 +1656,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         197

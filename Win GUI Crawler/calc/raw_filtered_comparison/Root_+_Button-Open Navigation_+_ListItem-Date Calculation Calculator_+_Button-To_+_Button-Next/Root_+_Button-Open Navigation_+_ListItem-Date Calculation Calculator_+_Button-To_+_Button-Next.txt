@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     48
@@ -18,7 +18,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         268,
         49
@@ -33,7 +33,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -48,7 +48,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 0
@@ -66,7 +66,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             49
@@ -82,7 +82,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             49
@@ -98,7 +98,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             49
@@ -116,7 +116,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         49
@@ -131,7 +131,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "True",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -146,7 +146,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 241
@@ -161,7 +161,7 @@
                   "name": "",
                   "type": "calendar",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     261
@@ -176,7 +176,7 @@
                       "name": "\u200eAugust\u200e \u200e2021",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         90,
                         261
@@ -192,7 +192,7 @@
                       "name": "Previous",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         414,
                         263
@@ -208,7 +208,7 @@
                       "name": "Next",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         482,
                         263
@@ -224,7 +224,7 @@
                       "name": "Monday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         92,
                         338
@@ -240,7 +240,7 @@
                       "name": "Tuesday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         164,
                         338
@@ -256,7 +256,7 @@
                       "name": "Wednesday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         229,
                         338
@@ -272,7 +272,7 @@
                       "name": "Thursday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         300,
                         338
@@ -288,7 +288,7 @@
                       "name": "Friday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         370,
                         338
@@ -304,7 +304,7 @@
                       "name": "Saturday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         437,
                         338
@@ -320,7 +320,7 @@
                       "name": "Sunday",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         504,
                         338
@@ -336,7 +336,7 @@
                       "name": "",
                       "type": "pane",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         72,
                         378
@@ -351,7 +351,7 @@
                           "name": "19",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -367,7 +367,7 @@
                           "name": "20",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -383,7 +383,7 @@
                           "name": "21",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -399,7 +399,7 @@
                           "name": "22",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -415,7 +415,7 @@
                           "name": "23",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -431,7 +431,7 @@
                           "name": "24",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -447,7 +447,7 @@
                           "name": "25",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -463,7 +463,7 @@
                           "name": "26",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             74,
                             379
@@ -479,7 +479,7 @@
                           "name": "27",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             141,
                             379
@@ -495,7 +495,7 @@
                           "name": "28",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             209,
                             379
@@ -511,7 +511,7 @@
                           "name": "29",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             277,
                             379
@@ -527,7 +527,7 @@
                           "name": "30",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             345,
                             379
@@ -543,7 +543,7 @@
                           "name": "31",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             414,
                             379
@@ -559,7 +559,7 @@
                           "name": "1",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             482,
                             379
@@ -575,7 +575,7 @@
                           "name": "2",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             74,
                             442
@@ -591,7 +591,7 @@
                           "name": "3",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             141,
                             442
@@ -607,7 +607,7 @@
                           "name": "4",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             209,
                             442
@@ -623,7 +623,7 @@
                           "name": "5",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             277,
                             442
@@ -639,7 +639,7 @@
                           "name": "6",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             345,
                             442
@@ -655,7 +655,7 @@
                           "name": "7",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             414,
                             442
@@ -671,7 +671,7 @@
                           "name": "8",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             482,
                             442
@@ -687,7 +687,7 @@
                           "name": "9",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             74,
                             505
@@ -703,7 +703,7 @@
                           "name": "10",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             141,
                             505
@@ -719,7 +719,7 @@
                           "name": "11",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             209,
                             505
@@ -735,7 +735,7 @@
                           "name": "12",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             277,
                             505
@@ -751,7 +751,7 @@
                           "name": "13",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             345,
                             505
@@ -767,7 +767,7 @@
                           "name": "14",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             414,
                             505
@@ -783,7 +783,7 @@
                           "name": "15",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             482,
                             505
@@ -799,7 +799,7 @@
                           "name": "16",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             74,
                             568
@@ -815,7 +815,7 @@
                           "name": "17",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             141,
                             568
@@ -831,7 +831,7 @@
                           "name": "18",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             209,
                             568
@@ -847,7 +847,7 @@
                           "name": "19",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             277,
                             568
@@ -863,7 +863,7 @@
                           "name": "20",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             345,
                             568
@@ -879,7 +879,7 @@
                           "name": "21",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             414,
                             568
@@ -895,7 +895,7 @@
                           "name": "22",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             482,
                             568
@@ -911,7 +911,7 @@
                           "name": "23",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             74,
                             631
@@ -927,7 +927,7 @@
                           "name": "24",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             141,
                             631
@@ -943,7 +943,7 @@
                           "name": "25",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             209,
                             631
@@ -959,7 +959,7 @@
                           "name": "26",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             277,
                             631
@@ -975,7 +975,7 @@
                           "name": "27",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             345,
                             631
@@ -991,7 +991,7 @@
                           "name": "28",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             414,
                             631
@@ -1007,7 +1007,7 @@
                           "name": "29",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             482,
                             631
@@ -1023,7 +1023,7 @@
                           "name": "30",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             74,
                             694
@@ -1039,7 +1039,7 @@
                           "name": "31",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             141,
                             694
@@ -1055,7 +1055,7 @@
                           "name": "1",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             209,
                             694
@@ -1071,7 +1071,7 @@
                           "name": "2",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             277,
                             694
@@ -1087,7 +1087,7 @@
                           "name": "3",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             345,
                             694
@@ -1103,7 +1103,7 @@
                           "name": "4",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             414,
                             694
@@ -1119,7 +1119,7 @@
                           "name": "5",
                           "type": "data item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             482,
                             694
@@ -1135,7 +1135,7 @@
                           "name": "6",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1151,7 +1151,7 @@
                           "name": "7",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1167,7 +1167,7 @@
                           "name": "8",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1183,7 +1183,7 @@
                           "name": "9",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1199,7 +1199,7 @@
                           "name": "10",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1215,7 +1215,7 @@
                           "name": "11",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1231,7 +1231,7 @@
                           "name": "12",
                           "type": "data item",
                           "offscreen": "True",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             0,
                             0
@@ -1255,7 +1255,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             49
@@ -1271,7 +1271,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             88,
             61
@@ -1287,7 +1287,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             175
@@ -1302,7 +1302,7 @@
               "name": "Calculation mode",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 88,
                 175
@@ -1317,7 +1317,7 @@
                   "name": "Difference between dates",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     175
@@ -1332,7 +1332,7 @@
                       "name": "Difference between dates",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         88,
                         175
@@ -1352,7 +1352,7 @@
               "name": "From",
               "type": "calendar date picker",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 88,
                 231
@@ -1367,7 +1367,7 @@
                   "name": "From",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     231
@@ -1383,7 +1383,7 @@
                   "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     88,
                     273
@@ -1401,7 +1401,7 @@
               "name": "To",
               "type": "calendar date picker",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 88,
                 349
@@ -1416,7 +1416,7 @@
                   "name": "To",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     349
@@ -1432,7 +1432,7 @@
                   "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     391
@@ -1450,7 +1450,7 @@
               "name": "Difference",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 88,
                 467
@@ -1466,7 +1466,7 @@
               "name": "Difference Same dates",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 88,
                 494
@@ -1484,7 +1484,7 @@
           "name": "Date calculation mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             142,
             105
@@ -1500,7 +1500,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             97
@@ -1515,7 +1515,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 70,
                 97
@@ -1530,7 +1530,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     0
@@ -1552,7 +1552,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         97

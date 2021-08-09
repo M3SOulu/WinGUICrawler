@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     50
@@ -18,7 +18,7 @@
       "name": "Pop-upHost",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         192
@@ -33,7 +33,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             70,
             0
@@ -48,7 +48,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 0
@@ -64,7 +64,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 243
@@ -79,7 +79,7 @@
                   "name": "Electron volts",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     194
@@ -94,7 +94,7 @@
                       "name": "Electron volts",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         202
@@ -112,7 +112,7 @@
                   "name": "Joules",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     243
@@ -127,7 +127,7 @@
                       "name": "Joules",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         251
@@ -145,7 +145,7 @@
                   "name": "Kilojoules",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     292
@@ -160,7 +160,7 @@
                       "name": "Kilojoules",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         300
@@ -178,7 +178,7 @@
                   "name": "Thermal calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     341
@@ -193,7 +193,7 @@
                       "name": "Thermal calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         349
@@ -211,7 +211,7 @@
                   "name": "Food calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     390
@@ -226,7 +226,7 @@
                       "name": "Food calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         398
@@ -244,7 +244,7 @@
                   "name": "Foot-pounds",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     439
@@ -259,7 +259,7 @@
                       "name": "Foot-pounds",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         447
@@ -277,7 +277,7 @@
                   "name": "British thermal units",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     487
@@ -292,7 +292,7 @@
                       "name": "British thermal units",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         496
@@ -310,7 +310,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -328,7 +328,7 @@
               "name": "Converts into 0 Food calories",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 291
@@ -344,7 +344,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 375
@@ -359,7 +359,7 @@
                   "name": "Food calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     375
@@ -374,7 +374,7 @@
                       "name": "Food calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         375
@@ -394,7 +394,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 497
@@ -409,7 +409,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     497
@@ -425,7 +425,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     497
@@ -443,7 +443,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 567
@@ -458,7 +458,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     777
@@ -474,7 +474,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     707
@@ -490,7 +490,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     707
@@ -506,7 +506,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     707
@@ -522,7 +522,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     637
@@ -538,7 +538,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     637
@@ -554,7 +554,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     637
@@ -570,7 +570,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     567
@@ -586,7 +586,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     567
@@ -602,7 +602,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     567
@@ -618,7 +618,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     777
@@ -640,7 +640,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         268,
         51
@@ -655,7 +655,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             2
@@ -670,7 +670,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 2
@@ -688,7 +688,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             51
@@ -704,7 +704,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             51
@@ -720,7 +720,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             51
@@ -738,7 +738,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         51
@@ -753,7 +753,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             63
@@ -769,7 +769,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             159
@@ -784,7 +784,7 @@
               "name": "Not busy\u2026",
               "type": "progress ring",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 2
@@ -800,7 +800,7 @@
               "name": "Convert from 0 Joules",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 159
@@ -816,7 +816,7 @@
               "name": "Input unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 243
@@ -831,7 +831,7 @@
                   "name": "Electron volts",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     194
@@ -846,7 +846,7 @@
                       "name": "Electron volts",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         202
@@ -864,7 +864,7 @@
                   "name": "Joules",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     243
@@ -879,7 +879,7 @@
                       "name": "Joules",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         251
@@ -897,7 +897,7 @@
                   "name": "Kilojoules",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     292
@@ -912,7 +912,7 @@
                       "name": "Kilojoules",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         300
@@ -930,7 +930,7 @@
                   "name": "Thermal calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     341
@@ -945,7 +945,7 @@
                       "name": "Thermal calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         349
@@ -963,7 +963,7 @@
                   "name": "Food calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     390
@@ -978,7 +978,7 @@
                       "name": "Food calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         398
@@ -996,7 +996,7 @@
                   "name": "Foot-pounds",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     439
@@ -1011,7 +1011,7 @@
                       "name": "Foot-pounds",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         447
@@ -1029,7 +1029,7 @@
                   "name": "British thermal units",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     487
@@ -1044,7 +1044,7 @@
                       "name": "British thermal units",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         89,
                         496
@@ -1062,7 +1062,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -1080,7 +1080,7 @@
               "name": "Converts into 0 Food calories",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 291
@@ -1096,7 +1096,7 @@
               "name": "Output unit",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 375
@@ -1111,7 +1111,7 @@
                   "name": "Food calories",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     375
@@ -1126,7 +1126,7 @@
                       "name": "Food calories",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         375
@@ -1146,7 +1146,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 234,
                 497
@@ -1161,7 +1161,7 @@
                   "name": "Clear entry",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     234,
                     497
@@ -1177,7 +1177,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     497
@@ -1195,7 +1195,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 77,
                 567
@@ -1210,7 +1210,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     777
@@ -1226,7 +1226,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     707
@@ -1242,7 +1242,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     707
@@ -1258,7 +1258,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     707
@@ -1274,7 +1274,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     637
@@ -1290,7 +1290,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     637
@@ -1306,7 +1306,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     637
@@ -1322,7 +1322,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     77,
                     567
@@ -1338,7 +1338,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     233,
                     567
@@ -1354,7 +1354,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     567
@@ -1370,7 +1370,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     390,
                     777
@@ -1390,7 +1390,7 @@
           "name": "Energy Converter mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             142,
             107
@@ -1406,7 +1406,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             99
@@ -1421,7 +1421,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 99
@@ -1436,7 +1436,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     2
@@ -1458,7 +1458,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         99

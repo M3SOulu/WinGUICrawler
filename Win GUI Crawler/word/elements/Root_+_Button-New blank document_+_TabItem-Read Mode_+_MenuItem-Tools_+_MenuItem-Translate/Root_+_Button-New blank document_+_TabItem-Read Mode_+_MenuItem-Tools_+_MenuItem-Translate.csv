@@ -1,0 +1,851 @@
+filename,tag,name,type,offscreen,filtered_out,topleft,bottomright
+Window:Document1 - Word.png,Window,Document1 - Word,window,False,False,"[0,0]","[1942,1042]"
+Pane:DropShadowTop.png,Pane,DropShadowTop,pane,False,True,"[11,58]","[1931,67]"
+Pane:MsoDockRight.png,Pane,MsoDockRight,pane,False,False,"[1406,58]","[1931,998]"
+ToolBar:.png,ToolBar,,tool bar,False,False,"[1406,58]","[1931,998]"
+Pane:Translator.png,Pane,Translator,pane,False,False,"[1414,113]","[1923,991]"
+Pane:.png,Pane,,pane,False,False,"[1414,113]","[1923,991]"
+Pane:.png,Pane,,Pane,False,False,"[1414,113]","[1923,991]"
+Custom:Translator.png,Custom,Translator,Custom Control,False,False,"[1414,113]","[1923,991]"
+Custom:.png,Custom,,Custom Control,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:.png,Pane,,pane,False,False,"[1424,125]","[1913,979]"
+Pane:https://ogma.osi.office.net/TradukoApi/UI/index.html?_host_Info=Word$Win32$16.01$en-US$$$$16.png,Pane,https://ogma.osi.office.net/TradukoApi/UI/index.html?_host_Info=Word$Win32$16.01$en-US$$$$16,pane,False,False,"[1424,125]","[1913,979]"
+Pane:Microsoft Office Translator.png,Pane,Microsoft Office Translator,pane,False,False,"[1424,125]","[1913,979]"
+Group:.png,Group,,group,False,False,"[1424,185]","[1913,186]"
+Group:.png,Group,,group,True,True,"[11,11]","[11,11]"
+"Group:Selection
+
+ Document.png",Group,"Selection
+
+ Document",group,False,False,"[1424,110]","[1913,185]"
+"Tab:Selection
+
+ Document.png",Tab,"Selection
+
+ Document",tab,False,True,"[1424,110]","[1913,185]"
+TabItem:Selection.png,TabItem,Selection,tab item,False,False,"[1424,110]","[1538,170]"
+TabItem:Document.png,TabItem,Document,tab item,False,False,"[1550,110]","[1677,170]"
+Pane:Selection.png,Pane,Selection,tab panel,False,False,"[1424,185]","[1913,979]"
+Text:From.png,Text,From,text,False,False,"[1452,193]","[1510,234]"
+Text:From.png,Text,From,text,False,True,"[11,11]","[11,11]"
+Group:Translate from language.png,Group,Translate from language,group,False,False,"[1502,193]","[1713,242]"
+"ComboBox:Auto-detect
+
+
+Auto-detect
+
+Afrikaans
+
+Albanian
+
+Amharic
+
+Arabic
+
+Armenian
+
+Assamese
+
+Azerbaijani
+
+Bangla
+
+Bosnian
+
+Bulgarian
+
+Cantonese (Traditional)
+
+Catalan
+
+Chinese Simplified
+
+Chinese Traditional
+
+Croatian
+
+Czech
+
+Danish
+
+Dari
+
+Dutch
+
+English
+
+Estonian
+
+Fijian
+
+Filipino
+
+Finnish
+
+French
+
+French (Canada)
+
+German
+
+Greek
+
+Gujarati
+
+Haitian Creole
+
+Hebrew
+
+Hindi
+
+Hmong Daw
+
+Hungarian
+
+Icelandic
+
+Indonesian
+
+Inuktitut
+
+Irish
+
+Italian
+
+Japanese
+
+Kannada
+
+Kazakh
+
+Khmer
+
+Klingon (Latin)
+
+Korean
+
+Kurdish (Central)
+
+Kurdish (Northern)
+
+Lao
+
+Latvian
+
+Lithuanian
+
+Malagasy
+
+Malay
+
+Malayalam
+
+Maltese
+
+Māori
+
+Marathi
+
+Myanmar (Burmese)
+
+Nepali
+
+Norwegian
+
+Odia
+
+Pashto
+
+Persian
+
+Polish
+
+Portuguese (Brazil)
+
+Portuguese (Portugal)
+
+Punjabi
+
+Querétaro Otomi
+
+Romanian
+
+Russian
+
+Samoan
+
+Serbian (Cyrillic)
+
+Serbian (Latin)
+
+Slovak
+
+Slovenian
+
+Spanish
+
+Swahili
+
+Swedish
+
+Tahitian
+
+Tamil
+
+Telugu
+
+Thai
+
+Tigrinya
+
+Tongan
+
+Turkish
+
+Ukrainian
+
+Urdu
+
+Vietnamese
+
+Welsh
+
+Yucatec Maya.png",ComboBox,"Auto-detect
+
+
+Auto-detect
+
+Afrikaans
+
+Albanian
+
+Amharic
+
+Arabic
+
+Armenian
+
+Assamese
+
+Azerbaijani
+
+Bangla
+
+Bosnian
+
+Bulgarian
+
+Cantonese (Traditional)
+
+Catalan
+
+Chinese Simplified
+
+Chinese Traditional
+
+Croatian
+
+Czech
+
+Danish
+
+Dari
+
+Dutch
+
+English
+
+Estonian
+
+Fijian
+
+Filipino
+
+Finnish
+
+French
+
+French (Canada)
+
+German
+
+Greek
+
+Gujarati
+
+Haitian Creole
+
+Hebrew
+
+Hindi
+
+Hmong Daw
+
+Hungarian
+
+Icelandic
+
+Indonesian
+
+Inuktitut
+
+Irish
+
+Italian
+
+Japanese
+
+Kannada
+
+Kazakh
+
+Khmer
+
+Klingon (Latin)
+
+Korean
+
+Kurdish (Central)
+
+Kurdish (Northern)
+
+Lao
+
+Latvian
+
+Lithuanian
+
+Malagasy
+
+Malay
+
+Malayalam
+
+Maltese
+
+Māori
+
+Marathi
+
+Myanmar (Burmese)
+
+Nepali
+
+Norwegian
+
+Odia
+
+Pashto
+
+Persian
+
+Polish
+
+Portuguese (Brazil)
+
+Portuguese (Portugal)
+
+Punjabi
+
+Querétaro Otomi
+
+Romanian
+
+Russian
+
+Samoan
+
+Serbian (Cyrillic)
+
+Serbian (Latin)
+
+Slovak
+
+Slovenian
+
+Spanish
+
+Swahili
+
+Swedish
+
+Tahitian
+
+Tamil
+
+Telugu
+
+Thai
+
+Tigrinya
+
+Tongan
+
+Turkish
+
+Ukrainian
+
+Urdu
+
+Vietnamese
+
+Welsh
+
+Yucatec Maya",combo box,False,False,"[1502,197]","[1713,242]"
+Edit:Auto-detect.png,Edit,Auto-detect,edit,False,False,"[1504,179]","[1708,242]"
+Text:Auto-detect.png,Text,Auto-detect,alert,False,False,"[1522,197]","[1661,222]"
+Edit:Select text from the document or enter text here to translate..png,Edit,Select text from the document or enter text here to translate.,edit,False,False,"[1453,244]","[1884,415]"
+Group:.png,Group,,group,False,False,"[1434,421]","[1903,469]"
+"Button:Swap ""from"" and ""to"" languages..png",Button,"Swap ""from"" and ""to"" languages.",button,False,False,"[1645,421]","[1693,469]"
+Text:To.png,Text,To,text,False,False,"[1452,466]","[1480,507]"
+Text:To.png,Text,To,text,True,True,"[11,11]","[11,11]"
+Group:Translate to language.png,Group,Translate to language,group,False,False,"[1473,466]","[1627,516]"
+"ComboBox:English
+
+
+Afrikaans
+
+Albanian
+
+Amharic
+
+Arabic
+
+Armenian
+
+Assamese
+
+Azerbaijani
+
+Bangla
+
+Bosnian
+
+Bulgarian
+
+Cantonese (Traditional)
+
+Catalan
+
+Chinese Simplified
+
+Chinese Traditional
+
+Croatian
+
+Czech
+
+Danish
+
+Dari
+
+Dutch
+
+English
+
+Estonian
+
+Fijian
+
+Filipino
+
+Finnish
+
+French
+
+French (Canada)
+
+German
+
+Greek
+
+Gujarati
+
+Haitian Creole
+
+Hebrew
+
+Hindi
+
+Hmong Daw
+
+Hungarian
+
+Icelandic
+
+Indonesian
+
+Inuktitut
+
+Irish
+
+Italian
+
+Japanese
+
+Kannada
+
+Kazakh
+
+Khmer
+
+Klingon (Latin)
+
+Korean
+
+Kurdish (Central)
+
+Kurdish (Northern)
+
+Lao
+
+Latvian
+
+Lithuanian
+
+Malagasy
+
+Malay
+
+Malayalam
+
+Maltese
+
+Māori
+
+Marathi
+
+Myanmar (Burmese)
+
+Nepali
+
+Norwegian
+
+Odia
+
+Pashto
+
+Persian
+
+Polish
+
+Portuguese (Brazil)
+
+Portuguese (Portugal)
+
+Punjabi
+
+Querétaro Otomi
+
+Romanian
+
+Russian
+
+Samoan
+
+Serbian (Cyrillic)
+
+Serbian (Latin)
+
+Slovak
+
+Slovenian
+
+Spanish
+
+Swahili
+
+Swedish
+
+Tahitian
+
+Tamil
+
+Telugu
+
+Thai
+
+Tigrinya
+
+Tongan
+
+Turkish
+
+Ukrainian
+
+Urdu
+
+Vietnamese
+
+Welsh
+
+Yucatec Maya.png",ComboBox,"English
+
+
+Afrikaans
+
+Albanian
+
+Amharic
+
+Arabic
+
+Armenian
+
+Assamese
+
+Azerbaijani
+
+Bangla
+
+Bosnian
+
+Bulgarian
+
+Cantonese (Traditional)
+
+Catalan
+
+Chinese Simplified
+
+Chinese Traditional
+
+Croatian
+
+Czech
+
+Danish
+
+Dari
+
+Dutch
+
+English
+
+Estonian
+
+Fijian
+
+Filipino
+
+Finnish
+
+French
+
+French (Canada)
+
+German
+
+Greek
+
+Gujarati
+
+Haitian Creole
+
+Hebrew
+
+Hindi
+
+Hmong Daw
+
+Hungarian
+
+Icelandic
+
+Indonesian
+
+Inuktitut
+
+Irish
+
+Italian
+
+Japanese
+
+Kannada
+
+Kazakh
+
+Khmer
+
+Klingon (Latin)
+
+Korean
+
+Kurdish (Central)
+
+Kurdish (Northern)
+
+Lao
+
+Latvian
+
+Lithuanian
+
+Malagasy
+
+Malay
+
+Malayalam
+
+Maltese
+
+Māori
+
+Marathi
+
+Myanmar (Burmese)
+
+Nepali
+
+Norwegian
+
+Odia
+
+Pashto
+
+Persian
+
+Polish
+
+Portuguese (Brazil)
+
+Portuguese (Portugal)
+
+Punjabi
+
+Querétaro Otomi
+
+Romanian
+
+Russian
+
+Samoan
+
+Serbian (Cyrillic)
+
+Serbian (Latin)
+
+Slovak
+
+Slovenian
+
+Spanish
+
+Swahili
+
+Swedish
+
+Tahitian
+
+Tamil
+
+Telugu
+
+Thai
+
+Tigrinya
+
+Tongan
+
+Turkish
+
+Ukrainian
+
+Urdu
+
+Vietnamese
+
+Welsh
+
+Yucatec Maya",combo box,False,True,"[1473,470]","[1627,516]"
+Edit:English.png,Edit,English,edit,False,True,"[1474,452]","[1642,516]"
+Text:English.png,Text,English,alert,False,False,"[1492,470]","[1575,496]"
+Group:English translation..png,Group,English translation.,group,False,False,"[1452,516]","[1885,657]"
+Group:.png,Group,,group,False,False,"[1461,525]","[1854,526]"
+Button:Preferences.png,Button,Preferences,button,False,False,"[1850,128]","[1898,176]"
+Group:.png,Group,,group,True,True,"[11,11]","[11,11]"
+Group:.png,Group,,group,True,True,"[11,11]","[11,11]"
+MenuItem:Task Pane Options.png,MenuItem,Task Pane Options,menu item,False,False,"[1814,65]","[1862,113]"
+Pane:MsoDockLeft.png,Pane,MsoDockLeft,pane,False,False,"[11,58]","[536,998]"
+ToolBar:.png,ToolBar,,tool bar,False,False,"[11,58]","[536,998]"
+Pane:Navigation.png,Pane,Navigation,pane,False,False,"[19,113]","[528,991]"
+Pane:.png,Pane,,pane,False,False,"[19,113]","[528,991]"
+Pane:.png,Pane,,Pane,False,False,"[19,113]","[528,991]"
+Custom:Navigation.png,Custom,Navigation,Custom Control,False,False,"[19,113]","[528,991]"
+Edit:Search document.png,Edit,Search document,Edit Box,False,False,"[29,136]","[458,167]"
+SplitButton:Search.png,SplitButton,Search,SplitButton,False,False,"[458,135]","[511,169]"
+Button:Search.png,Button,Search,Button,False,False,"[458,135]","[489,169]"
+Image:.png,Image,,Image,False,False,"[462,140]","[485,163]"
+MenuItem:More Options.png,MenuItem,More Options,Menu Item,False,False,"[489,135]","[511,169]"
+Tab:.png,Tab,,Pane,False,False,"[28,187]","[519,232]"
+TabItem:Headings.png,TabItem,Headings,Tab Item,False,False,"[28,187]","[125,232]"
+TabItem:Pages.png,TabItem,Pages,Tab Item,False,False,"[125,187]","[211,232]"
+TabItem:Results.png,TabItem,Results,Tab Item,False,False,"[211,187]","[293,232]"
+"Text:Create an interactive outline of your document.
+
+It’s a great way to keep track of where you are or quickly move your content around. 
+
+To get started, go to the Home tab and apply Heading styles to the headings in your document..png",Text,"Create an interactive outline of your document.
+
+It’s a great way to keep track of where you are or quickly move your content around. 
+
+To get started, go to the Home tab and apply Heading styles to the headings in your document.",Text,False,False,"[28,237]","[512,465]"
+MenuItem:Task Pane Options.png,MenuItem,Task Pane Options,menu item,False,False,"[419,65]","[467,113]"
+Pane:MsoDockTop.png,Pane,MsoDockTop,pane,False,True,"[11,11]","[1931,58]"
+ToolBar:.png,ToolBar,,tool bar,False,True,"[11,11]","[1931,58]"
+Pane:Full screen Reading Menu.png,Pane,Full screen Reading Menu,pane,False,True,"[11,11]","[1931,58]"
+Pane:.png,Pane,,pane,False,True,"[11,11]","[1931,58]"
+Pane:.png,Pane,,Pane,False,True,"[11,11]","[1931,58]"
+Pane:Full screen Reading Menu.png,Pane,Full screen Reading Menu,Pane,False,True,"[11,11]","[1931,58]"
+Button:File Tab.png,Button,File Tab,Button,False,True,"[11,11]","[92,55]"
+MenuItem:Tools.png,MenuItem,Tools,Menu Item,False,True,"[93,11]","[174,55]"
+MenuItem:View.png,MenuItem,View,Menu Item,False,True,"[174,11]","[251,55]"
+TitleBar:‪Document1‬  -  Word.png,TitleBar,‪Document1‬  -  Word,Title Bar,False,True,"[251,11]","[1649,58]"
+Button:Auto-hide Reading Toolbar.png,Button,Auto-hide Reading Toolbar,Button,False,True,"[1655,11]","[1724,58]"
+Button:Minimize.png,Button,Minimize,Button,False,True,"[1724,11]","[1793,58]"
+Button:Restore Down.png,Button,Restore Down,Button,False,True,"[1793,11]","[1862,58]"
+Button:Close.png,Button,Close,Button,False,True,"[1862,11]","[1931,58]"
+Pane:MsoDockBottom.png,Pane,MsoDockBottom,pane,False,False,"[11,998]","[1931,1031]"
+ToolBar:.png,ToolBar,,tool bar,False,False,"[11,998]","[1931,1031]"
+Pane:Status Bar.png,Pane,Status Bar,pane,False,False,"[11,998]","[1931,1031]"
+Pane:.png,Pane,,pane,False,False,"[11,998]","[1931,1031]"
+Pane:.png,Pane,,Pane,False,False,"[11,998]","[1931,1031]"
+StatusBar:Status Bar.png,StatusBar,Status Bar,Status Bar,False,False,"[11,998]","[1931,1031]"
+Button:Page Number Screen 1 of 1 .png,Button,Page Number Screen 1 of 1 ,Button,False,False,"[11,999]","[124,1031]"
+Button:Focus .png,Button,Focus ,Button,False,False,"[1393,999]","[1482,1031]"
+TabItem:Read Mode.png,TabItem,Read Mode,Tab Item,False,False,"[1486,999]","[1546,1031]"
+TabItem:Print Layout.png,TabItem,Print Layout,Tab Item,False,False,"[1546,999]","[1606,1031]"
+TabItem:Web Layout.png,TabItem,Web Layout,Tab Item,False,False,"[1606,999]","[1666,1031]"
+Button:Decrease Text Size.png,Button,Decrease Text Size,Button,False,False,"[1667,999]","[1693,1031]"
+Slider:Text Size.png,Slider,Text Size,Slider,False,False,"[1693,999]","[1843,1031]"
+Button:Zoom Out.png,Button,Zoom Out,Button,False,False,"[1693,999]","[1722,1031]"
+Thumb:Position.png,Thumb,Position,Thumb,False,False,"[1722,1006]","[1730,1023]"
+Button:Zoom In.png,Button,Zoom In,Button,False,False,"[1730,999]","[1843,1031]"
+Button:Increase Text Size.png,Button,Increase Text Size,Button,False,False,"[1843,999]","[1869,1031]"
+Button:Zoom 140%.png,Button,Zoom 140%,Button,False,False,"[1869,999]","[1931,1031]"
+Pane:.png,Pane,,pane,False,False,"[536,58]","[1406,998]"
+Pane:Document1.png,Pane,Document1,pane,False,True,"[525,13]","[1417,1009]"
+Document:Document1.png,Document,Document1,document,False,False,"[536,58]","[1406,972]"
+Custom:Screen 1.png,Custom,Screen 1,page,False,False,"[569,76]","[1373,972]"
+Pane:Horizontal.png,Pane,Horizontal,pane,False,False,"[536,972]","[1406,998]"
+Pane:.png,Pane,,Pane,False,False,"[536,972]","[1406,998]"
+ScrollBar:.png,ScrollBar,,ScrollBar,False,False,"[536,972]","[1406,998]"
+TitleBar:.png,TitleBar,,title bar,False,False,"[569,24]","[1406,58]"
+MenuBar:System.png,MenuBar,System,menu bar,True,False,"[361,20]","[383,42]"
+MenuItem:System.png,MenuItem,System,menu item,True,False,"[361,20]","[383,42]"
+Button:Minimise.png,Button,Minimise,button,False,True,"[1306,23]","[1341,58]"
+Button:Maximise.png,Button,Maximise,button,False,True,"[1339,23]","[1374,58]"
+Button:Close.png,Button,Close,button,False,True,"[1372,23]","[1407,58]"
+TitleBar:.png,TitleBar,,title bar,False,False,"[44,11]","[1931,45]"
+MenuBar:System.png,MenuBar,System,menu bar,False,False,"[11,11]","[33,33]"
+MenuItem:System.png,MenuItem,System,menu item,False,False,"[11,11]","[33,33]"
+Button:Minimise.png,Button,Minimise,button,False,False,"[1831,10]","[1866,45]"
+Button:Restore.png,Button,Restore,button,False,False,"[1864,10]","[1899,45]"
+Button:Close.png,Button,Close,button,False,False,"[1897,10]","[1932,45]"

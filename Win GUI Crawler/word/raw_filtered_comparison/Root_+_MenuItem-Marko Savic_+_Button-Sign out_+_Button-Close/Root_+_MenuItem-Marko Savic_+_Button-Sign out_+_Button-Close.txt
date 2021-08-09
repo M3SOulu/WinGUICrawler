@@ -3,7 +3,7 @@
   "name": "Word",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     0,
     0
@@ -18,7 +18,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         11,
         11
@@ -33,7 +33,7 @@
           "name": "",
           "type": "Pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             11,
             11
@@ -48,7 +48,7 @@
               "name": "",
               "type": "Pane",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 11,
                 66
@@ -63,7 +63,7 @@
                   "name": "File",
                   "type": "List",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     11,
                     66
@@ -78,7 +78,7 @@
                       "name": "Home",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         134
@@ -94,7 +94,7 @@
                       "name": "New",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         326
@@ -110,7 +110,7 @@
                       "name": "Open",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         518
@@ -126,7 +126,7 @@
                       "name": "Account",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         824
@@ -142,7 +142,7 @@
                       "name": "Feedback",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         885
@@ -158,7 +158,7 @@
                       "name": "Options",
                       "type": "List Item",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         11,
                         946
@@ -178,7 +178,7 @@
               "name": "Word",
               "type": "Title Bar",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 221,
                 11
@@ -194,7 +194,7 @@
               "name": "Marko Savic",
               "type": "Menu Item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1372,
                 11
@@ -209,7 +209,7 @@
                   "name": "Marko Savic",
                   "type": "Image",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     1505,
                     16
@@ -227,7 +227,7 @@
               "name": "Help",
               "type": "Button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1655,
                 11
@@ -243,7 +243,7 @@
               "name": "Minimize",
               "type": "Button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1724,
                 11
@@ -259,7 +259,7 @@
               "name": "Restore Down",
               "type": "Button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1793,
                 11
@@ -275,7 +275,7 @@
               "name": "Close",
               "type": "Button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1862,
                 11
@@ -291,7 +291,7 @@
               "name": "Backstage view",
               "type": "Pane",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 221,
                 67
@@ -306,7 +306,7 @@
                   "name": "Home",
                   "type": "Group",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     221,
                     67
@@ -321,7 +321,7 @@
                       "name": "",
                       "type": "Pane",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         221,
                         67
@@ -336,7 +336,7 @@
                           "name": "Good afternoon",
                           "type": "Text",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             281,
                             78
@@ -352,7 +352,7 @@
                           "name": "",
                           "type": "ScrollBar",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             1905,
                             67
@@ -370,7 +370,7 @@
                       "name": "Home",
                       "type": "Pane",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         221,
                         136
@@ -385,7 +385,7 @@
                           "name": "New",
                           "type": "Group",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             221,
                             136
@@ -400,7 +400,7 @@
                               "name": "Hide or show region",
                               "type": "Button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 239,
                                 159
@@ -416,7 +416,7 @@
                               "name": "New blank document",
                               "type": "Button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 281,
                                 154
@@ -434,7 +434,7 @@
                           "name": "Search",
                           "type": "Group",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             221,
                             218
@@ -449,7 +449,7 @@
                               "name": "Search",
                               "type": "edit",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 377,
                                 245
@@ -467,7 +467,7 @@
                           "name": "Open",
                           "type": "Group",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             221,
                             296
@@ -482,7 +482,7 @@
                               "name": "",
                               "type": "Pane",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 281,
                                 314
@@ -497,7 +497,7 @@
                                   "name": "Recent",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "blacklisted": "False",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     281,
                                     314
@@ -513,7 +513,7 @@
                                   "name": "Pinned",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "blacklisted": "False",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     375,
                                     314
@@ -529,7 +529,7 @@
                                   "name": "Shared with Me",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "blacklisted": "False",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     483,
                                     314
@@ -547,7 +547,7 @@
                               "name": "You haven't opened any documents recently. Click Open to browse for a document.",
                               "type": "Text",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 281,
                                 380
@@ -563,7 +563,7 @@
                               "name": "Recent",
                               "type": "List",
                               "offscreen": "True",
-                              "blacklisted": "True",
+                              "filtered_out": "True",
                               "topleft": [
                                 11,
                                 11
@@ -579,7 +579,7 @@
                               "name": "More documents",
                               "type": "Hyperlink",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 1664,
                                 428
@@ -597,7 +597,7 @@
                           "name": "",
                           "type": "ScrollBar",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             1905,
                             136
@@ -623,7 +623,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         536,
         160
@@ -639,7 +639,7 @@
       "name": "",
       "type": "title bar",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         44,
         11
@@ -654,7 +654,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             11,
             11
@@ -669,7 +669,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 11,
                 11
@@ -687,7 +687,7 @@
           "name": "Minimise",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             1831,
             10
@@ -703,7 +703,7 @@
           "name": "Restore",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1864,
             10
@@ -719,7 +719,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1897,
             10

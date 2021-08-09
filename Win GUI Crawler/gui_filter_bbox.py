@@ -8,17 +8,18 @@ import random
 import numpy as np
 import json
 import shutil
+import csv
 
 #Needed for json output
 class TreeNode(dict):
-    def __init__(self, tag, name, type, offscreen, blacklisted, topleft, bottomright, children=None):
+    def __init__(self, tag, name, type, offscreen, filtered_out, topleft, bottomright, children=None):
         super().__init__()
         self.__dict__ = self
         self.tag = tag
         self.name = name
         self.type = type
         self.offscreen = offscreen
-        self.blacklisted = blacklisted
+        self.filtered_out = filtered_out
         self.topleft = topleft
         self.bottomright = bottomright
         self.children = list(children) if children is not None else []
@@ -42,8 +43,8 @@ def recursive_json_tree(branch, element, list_el, blacklist):
         for child in list_of_children:
             tl = [int(child.attrib['x']), int(child.attrib['y'])]
             br = [tl[0]+int(child.attrib['width']), tl[1]+int(child.attrib['height'])]
-            isBlacklisted = ("True" if child in blacklist else "False")
-            newnode = TreeNode(child.tag, get_el_name(child), child.attrib["LocalizedControlType"],child.attrib["IsOffscreen"],isBlacklisted,tl,br)
+            isFilteredOut = ("True" if child in blacklist else "False")
+            newnode = TreeNode(child.tag, get_el_name(child), child.attrib["LocalizedControlType"],child.attrib["IsOffscreen"],isFilteredOut,tl,br)
             branch.children.append(newnode)
             recursive_json_tree(branch.children[-1],child,list_el,blacklist)
 
@@ -52,13 +53,19 @@ def get_unique_xpath(element):
     el_xpath = ""
     finished = False
     list_path = []
-    list_path.append(element.tag+"[@Name = \'"+get_el_name(element)+"\']")
+    if 'Name' in element.attrib:
+        list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+    else:
+        list_path.append(element.tag)
     while not finished:
         if element.getparent() == None:
             finished = True
         else:
             element = element.getparent()
-            list_path.append(element.tag)
+            if 'Name' in element.attrib:
+                list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+            else:
+                list_path.append(element.tag)
     for el in list_path[::-1]:
         el_xpath += "/"+el
     return el_xpath
@@ -237,15 +244,20 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
     xmlname_current  = filepath+".xml"
 
     nodename = filepath.split("/screenshot-")[-1]
-    foldername = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
-    if not os.path.exists(foldername):
-        os.mkdir(foldername)
+    foldername_raw_filt = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
+    foldername_elements = filepath.split("/raw_screens")[0]+"/elements/"+nodename+"/"
+    if not os.path.exists(foldername_raw_filt):
+        os.mkdir(foldername_raw_filt)
+    if os.path.exists(foldername_elements):
+        shutil.rmtree(foldername_elements)
+    os.mkdir(foldername_elements)
+    os.mkdir(foldername_elements+"images/")
+    filepath_raw_filt = foldername_raw_filt+"/"+nodename
+    filepath_elements = foldername_raw_filt+"/"+nodename
 
-    filepath = foldername+"/"+nodename
-
-    json_txt_name_current  = filepath+".txt"
-    result_name_current = filepath+"_unfiltered"+".png"
-    result_name_filtered = filepath+".png"
+    json_txt_name_current  = filepath_raw_filt+".txt"
+    result_name_current = filepath_raw_filt+"_raw"+".png"
+    result_name_filtered = filepath_raw_filt+".png"
 
     #Prepares filenames and tree in case previous exists (not in Root)
     #If previous doesn't exists, the list stays empty and the algorithm works without any changes
@@ -390,15 +402,42 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
         if (el.getparent()) == None:
             tl = [int(el.attrib['x']), int(el.attrib['y'])]
             br = [tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height'])]
-            isBlacklisted = ("True" if el in blacklist else "False")
-            root = TreeNode(el.tag, get_el_name(el), el.attrib["LocalizedControlType"],el.attrib["IsOffscreen"],isBlacklisted,tl,br)
+            isFilteredOut = ("True" if el in blacklist else "False")
+            root = TreeNode(el.tag, get_el_name(el), el.attrib["LocalizedControlType"],el.attrib["IsOffscreen"],isFilteredOut,tl,br)
             root_el = el
+            root_raw = TreeNode(el.tag, get_el_name(el), el.attrib["LocalizedControlType"],el.attrib["IsOffscreen"],isFilteredOut,tl,br)
             break
 
 
     recursive_json_tree(root,root_el,list_of_current_el,blacklist)
+
     with open(json_txt_name_current, 'w') as outfile:
         json.dump(root, outfile,indent=2)
+
+    #crop to images and save in elemnts, also save in .csv
+    img = cv2.imdecode(np.fromfile(imgname_current,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
+    header = ['filename', 'tag', 'name', 'type','offscreen','filtered_out','topleft','bottomright']
+    data_list = []
+
+    for el in list_of_current_el:
+        tl = [int(el.attrib['x']), int(el.attrib['y'])]
+        br = [tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height'])]
+        cropped = img[tl[1]:br[1],tl[0]:br[0]]
+        cropped_name = el.tag+":"+get_el_name(el)+".png"
+        count = 1
+        while os.path.exists(foldername_elements+cropped_name):
+            count+=1
+            cropped_name = el.tag+":"+get_el_name(el)+"("+str(count)+")"+".png"
+        if cropped.size > 0:
+            cv2.imwrite(foldername_elements+"images/"+cropped_name,cropped)
+        isFilteredOut = ("True" if el in blacklist else "False")
+        data_list.append([cropped_name,el.tag,get_el_name(el),el.attrib['LocalizedControlType'],el.attrib['IsOffscreen'],isFilteredOut,'['+str(tl[0])+','+str(tl[1])+']','['+str(br[0])+','+str(br[1])+']'])
+
+    with open(foldername_elements+foldername_elements.split("/elements/")[-1][:-1]+".csv", 'w', encoding='UTF8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+        for d in data_list:
+            writer.writerow(d)
 
     #filtered doesn't contain duplicates
     if not detect_duplicate(list_of_current_filtered, all_filtered):
@@ -407,7 +446,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
         files = [json_txt_name_current, result_name_filtered]
         direc = json_txt_name_current.split("raw_filtered_comparison")[0]
         for f in files:
-            shutil.copy(f, direc+"filtered")
+            shutil.copy(f, direc+"filtered_screens")
     else:
         print("..........................")
         print("..........................")

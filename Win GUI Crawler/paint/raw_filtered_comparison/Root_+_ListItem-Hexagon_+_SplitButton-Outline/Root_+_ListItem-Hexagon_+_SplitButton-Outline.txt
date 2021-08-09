@@ -3,7 +3,7 @@
   "name": "Untitled - Paint",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     0,
     2
@@ -18,7 +18,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         704,
         120
@@ -33,7 +33,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             704,
             370
@@ -49,7 +49,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             854,
             120
@@ -65,7 +65,7 @@
           "name": "Outline",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             704,
             120
@@ -80,7 +80,7 @@
               "name": "Outline",
               "type": "list",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 706,
                 122
@@ -95,7 +95,7 @@
                   "name": "",
                   "type": "",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     706,
                     122
@@ -110,7 +110,7 @@
                       "name": "",
                       "type": "group",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         706,
                         122
@@ -125,7 +125,7 @@
                           "name": "No outline",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             122
@@ -141,7 +141,7 @@
                           "name": "Solid colour",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             158
@@ -157,7 +157,7 @@
                           "name": "Crayon",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             194
@@ -173,7 +173,7 @@
                           "name": "Felt tip",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             230
@@ -189,7 +189,7 @@
                           "name": "Oil",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             266
@@ -205,7 +205,7 @@
                           "name": "Natural pencil",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             302
@@ -221,7 +221,7 @@
                           "name": "Watercolour",
                           "type": "menu item",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             706,
                             338
@@ -247,7 +247,7 @@
       "name": "UIRibbonDockTop",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         1,
         47
@@ -262,7 +262,7 @@
           "name": "Ribbon",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             1,
             47
@@ -277,7 +277,7 @@
               "name": "Ribbon",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1,
                 47
@@ -292,7 +292,7 @@
                   "name": "",
                   "type": "pane",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     1,
                     47
@@ -307,7 +307,7 @@
                       "name": "Ribbon",
                       "type": "pane",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         1,
                         0
@@ -322,7 +322,7 @@
                           "name": "Quick Access Toolbar",
                           "type": "tool bar",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             54,
                             8
@@ -337,7 +337,7 @@
                               "name": "Save",
                               "type": "button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 54,
                                 6
@@ -353,7 +353,7 @@
                               "name": "Undo",
                               "type": "button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 86,
                                 6
@@ -369,7 +369,7 @@
                               "name": "Redo",
                               "type": "button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 118,
                                 6
@@ -385,7 +385,7 @@
                               "name": "Print",
                               "type": "button",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 150,
                                 6
@@ -403,7 +403,7 @@
                           "name": "Customise Quick Access Toolbar",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             183,
                             8
@@ -419,7 +419,7 @@
                           "name": "File tab",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             1,
                             47
@@ -435,7 +435,7 @@
                           "name": "Ribbon tabs",
                           "type": "tab",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             85,
                             47
@@ -450,7 +450,7 @@
                               "name": "",
                               "type": "",
                               "offscreen": "False",
-                              "blacklisted": "False",
+                              "filtered_out": "False",
                               "topleft": [
                                 85,
                                 47
@@ -465,7 +465,7 @@
                                   "name": "Home",
                                   "type": "tab item",
                                   "offscreen": "False",
-                                  "blacklisted": "False",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     85,
                                     47
@@ -481,7 +481,7 @@
                                   "name": "View",
                                   "type": "tab item",
                                   "offscreen": "False",
-                                  "blacklisted": "False",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     168,
                                     47
@@ -501,7 +501,7 @@
                           "name": "Minimise the Ribbon",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             1451,
                             48
@@ -517,7 +517,7 @@
                           "name": "Help",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             1483,
                             48
@@ -533,7 +533,7 @@
                           "name": "Lower Ribbon",
                           "type": "pane",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             1,
                             81
@@ -548,7 +548,7 @@
                               "name": "",
                               "type": "",
                               "offscreen": "False",
-                              "blacklisted": "True",
+                              "filtered_out": "True",
                               "topleft": [
                                 1,
                                 81
@@ -563,7 +563,7 @@
                                   "name": "Home",
                                   "type": "",
                                   "offscreen": "False",
-                                  "blacklisted": "True",
+                                  "filtered_out": "True",
                                   "topleft": [
                                     1,
                                     81
@@ -578,7 +578,7 @@
                                       "name": "Clipboard",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         7,
                                         85
@@ -593,7 +593,7 @@
                                           "name": "Paste",
                                           "type": "group",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             10,
                                             88
@@ -608,7 +608,7 @@
                                               "name": "Paste",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 10,
                                                 88
@@ -624,7 +624,7 @@
                                               "name": "Paste",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 10,
                                                 144
@@ -642,7 +642,7 @@
                                           "name": "Cut",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             72,
                                             88
@@ -658,7 +658,7 @@
                                           "name": "Copy",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             72,
                                             120
@@ -676,7 +676,7 @@
                                       "name": "Image",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         157,
                                         85
@@ -691,7 +691,7 @@
                                           "name": "Select",
                                           "type": "group",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             160,
                                             88
@@ -706,7 +706,7 @@
                                               "name": "Select",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 160,
                                                 88
@@ -722,7 +722,7 @@
                                               "name": "Select",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 160,
                                                 144
@@ -740,7 +740,7 @@
                                           "name": "Crop",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             222,
                                             88
@@ -756,7 +756,7 @@
                                           "name": "Resize",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             222,
                                             120
@@ -772,7 +772,7 @@
                                           "name": "Rotate",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             222,
                                             152
@@ -790,7 +790,7 @@
                                       "name": "Tools",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         328,
                                         85
@@ -805,7 +805,7 @@
                                           "name": "Pencil",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             331,
                                             100
@@ -821,7 +821,7 @@
                                           "name": "Fill with colour",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             365,
                                             100
@@ -837,7 +837,7 @@
                                           "name": "Text",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             401,
                                             100
@@ -853,7 +853,7 @@
                                           "name": "Rubber",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             331,
                                             144
@@ -869,7 +869,7 @@
                                           "name": "Colour picker",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             365,
                                             144
@@ -885,7 +885,7 @@
                                           "name": "Magnifier",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             401,
                                             144
@@ -903,7 +903,7 @@
                                       "name": "",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         445,
                                         85
@@ -918,7 +918,7 @@
                                           "name": "Brushes",
                                           "type": "group",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             448,
                                             88
@@ -933,7 +933,7 @@
                                               "name": "Brushes",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 448,
                                                 88
@@ -949,7 +949,7 @@
                                               "name": "Brushes",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 448,
                                                 144
@@ -969,7 +969,7 @@
                                       "name": "Shapes",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "True",
+                                      "filtered_out": "True",
                                       "topleft": [
                                         522,
                                         85
@@ -984,7 +984,7 @@
                                           "name": "Shapes",
                                           "type": "group",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             525,
                                             88
@@ -999,7 +999,7 @@
                                               "name": "Shapes",
                                               "type": "list",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 526,
                                                 92
@@ -1014,7 +1014,7 @@
                                                   "name": "",
                                                   "type": "",
                                                   "offscreen": "False",
-                                                  "blacklisted": "False",
+                                                  "filtered_out": "False",
                                                   "topleft": [
                                                     527,
                                                     92
@@ -1029,7 +1029,7 @@
                                                       "name": "Line",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         527,
                                                         92
@@ -1045,7 +1045,7 @@
                                                       "name": "Curve",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         557,
                                                         92
@@ -1061,7 +1061,7 @@
                                                       "name": "Oval",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         587,
                                                         92
@@ -1077,7 +1077,7 @@
                                                       "name": "Rectangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         617,
                                                         92
@@ -1093,7 +1093,7 @@
                                                       "name": "Rounded rectangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         647,
                                                         92
@@ -1109,7 +1109,7 @@
                                                       "name": "Polygon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         527,
                                                         122
@@ -1125,7 +1125,7 @@
                                                       "name": "Triangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         557,
                                                         122
@@ -1141,7 +1141,7 @@
                                                       "name": "Right-angled triangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         587,
                                                         122
@@ -1157,7 +1157,7 @@
                                                       "name": "Diamond",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         617,
                                                         122
@@ -1173,7 +1173,7 @@
                                                       "name": "Pentagon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         647,
                                                         122
@@ -1189,7 +1189,7 @@
                                                       "name": "Hexagon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         527,
                                                         152
@@ -1205,7 +1205,7 @@
                                                       "name": "Right arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         557,
                                                         152
@@ -1221,7 +1221,7 @@
                                                       "name": "Left arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         587,
                                                         152
@@ -1237,7 +1237,7 @@
                                                       "name": "Up arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         617,
                                                         152
@@ -1253,7 +1253,7 @@
                                                       "name": "Down arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "blacklisted": "False",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         647,
                                                         152
@@ -1269,7 +1269,7 @@
                                                       "name": "Four-point star",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1285,7 +1285,7 @@
                                                       "name": "Five-point star",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1301,7 +1301,7 @@
                                                       "name": "Six-point star",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1317,7 +1317,7 @@
                                                       "name": "Rounded rectangular callout",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1333,7 +1333,7 @@
                                                       "name": "Oval callout",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1349,7 +1349,7 @@
                                                       "name": "Cloud callout",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1365,7 +1365,7 @@
                                                       "name": "Heart",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1381,7 +1381,7 @@
                                                       "name": "Lightning",
                                                       "type": "list item",
                                                       "offscreen": "True",
-                                                      "blacklisted": "True",
+                                                      "filtered_out": "True",
                                                       "topleft": [
                                                         -394,
                                                         -78
@@ -1401,7 +1401,7 @@
                                               "name": "Row up",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 678,
                                                 92
@@ -1417,7 +1417,7 @@
                                               "name": "Row down",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 678,
                                                 123
@@ -1433,7 +1433,7 @@
                                               "name": "Shapes",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "blacklisted": "False",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 678,
                                                 151
@@ -1451,7 +1451,7 @@
                                           "name": "Outline",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             704,
                                             88
@@ -1467,7 +1467,7 @@
                                           "name": "Fill",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "blacklisted": "True",
+                                          "filtered_out": "True",
                                           "topleft": [
                                             704,
                                             120
@@ -1485,7 +1485,7 @@
                                       "name": "",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "True",
+                                      "filtered_out": "True",
                                       "topleft": [
                                         816,
                                         85
@@ -1500,7 +1500,7 @@
                                           "name": "Size",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "blacklisted": "True",
+                                          "filtered_out": "True",
                                           "topleft": [
                                             819,
                                             88
@@ -1518,7 +1518,7 @@
                                       "name": "Colours",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         893,
                                         85
@@ -1533,7 +1533,7 @@
                                           "name": "Colour 1",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             896,
                                             88
@@ -1549,7 +1549,7 @@
                                           "name": "Colour 2",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             958,
                                             88
@@ -1565,7 +1565,7 @@
                                           "name": "",
                                           "type": "group",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1020,
                                             88
@@ -1581,7 +1581,7 @@
                                           "name": "Edit colours",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1350,
                                             88
@@ -1599,7 +1599,7 @@
                                       "name": "",
                                       "type": "tool bar",
                                       "offscreen": "False",
-                                      "blacklisted": "False",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         1424,
                                         85
@@ -1614,7 +1614,7 @@
                                           "name": "Edit with Paint 3D",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "blacklisted": "False",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1427,
                                             88
@@ -1648,7 +1648,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         1,
         220
@@ -1663,7 +1663,7 @@
           "name": "Using Hexagon tool on Canvas",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             1,
             220
@@ -1678,7 +1678,7 @@
               "name": "Vertical",
               "type": "scroll bar",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1489,
                 220
@@ -1693,7 +1693,7 @@
                   "name": "Line up",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1489,
                     220
@@ -1709,7 +1709,7 @@
                   "name": "Position",
                   "type": "thumb",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1489,
                     246
@@ -1725,7 +1725,7 @@
                   "name": "Page down",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1489,
                     738
@@ -1741,7 +1741,7 @@
                   "name": "Line down",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1489,
                     790
@@ -1763,7 +1763,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         1,
         2
@@ -1779,7 +1779,7 @@
       "name": "",
       "type": "status bar",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         1,
         816
@@ -1794,7 +1794,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1201,
             819
@@ -1809,7 +1809,7 @@
               "name": "100%",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1204,
                 819
@@ -1825,7 +1825,7 @@
               "name": "Zoom out",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1270,
                 819
@@ -1841,7 +1841,7 @@
               "name": "Zoom slider",
               "type": "slider",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 1303,
                 819
@@ -1856,7 +1856,7 @@
                   "name": "Page left",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1314,
                     831
@@ -1872,7 +1872,7 @@
                   "name": "Position",
                   "type": "thumb",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1370,
                     821
@@ -1888,7 +1888,7 @@
                   "name": "Page right",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     1387,
                     831
@@ -1906,7 +1906,7 @@
               "name": "Zoom in",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1453,
                 819
@@ -1924,7 +1924,7 @@
           "name": "",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             818
@@ -1940,7 +1940,7 @@
           "name": "",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             248,
             818
@@ -1956,7 +1956,7 @@
           "name": "1152 \u00d7 648\u200fpx",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             493,
             818
@@ -1972,7 +1972,7 @@
           "name": "",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             738,
             818
@@ -1988,7 +1988,7 @@
           "name": "",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             983,
             818
@@ -2004,7 +2004,7 @@
           "name": "",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1196,
             818
@@ -2022,7 +2022,7 @@
       "name": "",
       "type": "title bar",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         25,
         5
@@ -2037,7 +2037,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             13
@@ -2052,7 +2052,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1,
                 13
@@ -2070,7 +2070,7 @@
           "name": "Minimise",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1304,
             3
@@ -2086,7 +2086,7 @@
           "name": "Maximise",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1375,
             3
@@ -2102,7 +2102,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1445,
             3

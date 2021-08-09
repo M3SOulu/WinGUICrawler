@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     48
@@ -18,7 +18,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         268,
         49
@@ -33,7 +33,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -48,7 +48,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 0
@@ -66,7 +66,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             49
@@ -82,7 +82,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             49
@@ -98,7 +98,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             49
@@ -116,7 +116,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         49
@@ -131,7 +131,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "True",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -146,7 +146,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 202,
                 431
@@ -161,7 +161,7 @@
                   "name": "Absolute Value",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     208,
                     437
@@ -177,7 +177,7 @@
                   "name": "Floor",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     304,
                     437
@@ -193,7 +193,7 @@
                   "name": "Ceiling",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     401,
                     437
@@ -209,7 +209,7 @@
                   "name": "Random",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     208,
                     509
@@ -225,7 +225,7 @@
                   "name": "Degree Minute Second",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     304,
                     509
@@ -241,7 +241,7 @@
                   "name": "Degrees",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     401,
                     509
@@ -261,7 +261,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             49
@@ -277,7 +277,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             88,
             61
@@ -293,7 +293,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             97
@@ -308,7 +308,7 @@
               "name": "Expression is ",
               "type": "text",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 0
@@ -324,7 +324,7 @@
               "name": "Display is 0",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 70,
                 191
@@ -340,7 +340,7 @@
               "name": "Open history flyout",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 490,
                 97
@@ -356,7 +356,7 @@
               "name": "Angle operators",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 77,
                 265
@@ -371,7 +371,7 @@
                   "name": "Degrees toggle",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     77,
                     265
@@ -387,7 +387,7 @@
                   "name": "Scientific notation",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     155,
                     265
@@ -405,7 +405,7 @@
               "name": "Memory controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 77,
                 320
@@ -420,7 +420,7 @@
                   "name": "Clear all memory",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     77,
                     320
@@ -436,7 +436,7 @@
                   "name": "Memory Recall",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     155,
                     320
@@ -452,7 +452,7 @@
                   "name": "Memory Add",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     233,
                     320
@@ -468,7 +468,7 @@
                   "name": "Memory Subtract",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     312,
                     320
@@ -484,7 +484,7 @@
                   "name": "Memory Store",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     390,
                     320
@@ -500,7 +500,7 @@
                   "name": "Open memory flyout",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     470,
                     320
@@ -518,7 +518,7 @@
               "name": "Scientific Operator Panels",
               "type": "list",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 75,
                 373
@@ -533,7 +533,7 @@
                   "name": "Trigonometry",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     75,
                     373
@@ -548,7 +548,7 @@
                       "name": "Trigonometry",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         76,
                         374
@@ -563,7 +563,7 @@
                           "name": "Trigonometry",
                           "type": "text",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             126,
                             389
@@ -583,7 +583,7 @@
                   "name": "Functions",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     271,
                     373
@@ -598,7 +598,7 @@
                       "name": "Functions",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         272,
                         374
@@ -613,7 +613,7 @@
                           "name": "Function",
                           "type": "text",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             322,
                             389
@@ -635,7 +635,7 @@
               "name": "Inverse Function",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 76,
                 431
@@ -651,7 +651,7 @@
               "name": "Pi",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 170,
                 431
@@ -667,7 +667,7 @@
               "name": "Euler's number",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 264,
                 431
@@ -683,7 +683,7 @@
               "name": "Display controls",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 359,
                 431
@@ -698,7 +698,7 @@
                   "name": "Clear",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     359,
                     431
@@ -714,7 +714,7 @@
                   "name": "Backspace",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     453,
                     431
@@ -732,7 +732,7 @@
               "name": "Scientific functions",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 76,
                 490
@@ -747,7 +747,7 @@
                   "name": "Square",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     490
@@ -763,7 +763,7 @@
                   "name": "Square root",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     549
@@ -779,7 +779,7 @@
                   "name": "'X' to the exponent",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     608
@@ -795,7 +795,7 @@
                   "name": "Ten to the exponent",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     667
@@ -811,7 +811,7 @@
                   "name": "Log",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     726
@@ -827,7 +827,7 @@
                   "name": "Natural log",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     76,
                     785
@@ -845,7 +845,7 @@
               "name": "Reciprocal",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 170,
                 490
@@ -861,7 +861,7 @@
               "name": "Absolute Value",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 264,
                 490
@@ -877,7 +877,7 @@
               "name": "Exponential",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 359,
                 490
@@ -893,7 +893,7 @@
               "name": "Modulo",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 453,
                 490
@@ -909,7 +909,7 @@
               "name": "Left parenthesis",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 170,
                 549
@@ -925,7 +925,7 @@
               "name": "Right parenthesis",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 264,
                 549
@@ -941,7 +941,7 @@
               "name": "Factorial",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 359,
                 549
@@ -957,7 +957,7 @@
               "name": "Standard operators",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 453,
                 549
@@ -972,7 +972,7 @@
                   "name": "Divide by",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     453,
                     549
@@ -988,7 +988,7 @@
                   "name": "Multiply by",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     453,
                     608
@@ -1004,7 +1004,7 @@
                   "name": "Minus",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     453,
                     667
@@ -1020,7 +1020,7 @@
                   "name": "Plus",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     453,
                     726
@@ -1036,7 +1036,7 @@
                   "name": "Equals",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     453,
                     785
@@ -1054,7 +1054,7 @@
               "name": "Positive Negative",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 170,
                 785
@@ -1070,7 +1070,7 @@
               "name": "Number pad",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 170,
                 608
@@ -1085,7 +1085,7 @@
                   "name": "Zero",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     264,
                     785
@@ -1101,7 +1101,7 @@
                   "name": "One",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     170,
                     726
@@ -1117,7 +1117,7 @@
                   "name": "Two",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     264,
                     726
@@ -1133,7 +1133,7 @@
                   "name": "Three",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     359,
                     726
@@ -1149,7 +1149,7 @@
                   "name": "Four",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     170,
                     667
@@ -1165,7 +1165,7 @@
                   "name": "Five",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     264,
                     667
@@ -1181,7 +1181,7 @@
                   "name": "Six",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     359,
                     667
@@ -1197,7 +1197,7 @@
                   "name": "Seven",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     170,
                     608
@@ -1213,7 +1213,7 @@
                   "name": "Eight",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     264,
                     608
@@ -1229,7 +1229,7 @@
                   "name": "Nine",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     359,
                     608
@@ -1245,7 +1245,7 @@
                   "name": "Decimal Separator",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     359,
                     785
@@ -1265,7 +1265,7 @@
           "name": "Scientific Calculator mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             142,
             105
@@ -1281,7 +1281,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             97
@@ -1296,7 +1296,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 70,
                 97
@@ -1311,7 +1311,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     0
@@ -1333,7 +1333,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         97

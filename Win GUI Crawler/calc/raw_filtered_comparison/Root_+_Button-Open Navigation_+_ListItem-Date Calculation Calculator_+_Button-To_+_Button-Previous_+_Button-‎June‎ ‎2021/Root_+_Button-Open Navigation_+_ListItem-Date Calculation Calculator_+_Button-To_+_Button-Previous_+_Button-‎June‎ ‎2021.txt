@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     48
@@ -18,7 +18,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         268,
         49
@@ -33,7 +33,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -48,7 +48,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 0
@@ -66,7 +66,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             49
@@ -82,7 +82,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             49
@@ -98,7 +98,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             49
@@ -116,7 +116,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         70,
         49
@@ -131,7 +131,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "True",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             0
@@ -146,7 +146,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 241
@@ -161,7 +161,7 @@
                   "name": "",
                   "type": "calendar",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     72,
                     261
@@ -176,7 +176,7 @@
                       "name": "\u200e2021",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         90,
                         261
@@ -192,7 +192,7 @@
                       "name": "Previous",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         414,
                         263
@@ -208,7 +208,7 @@
                       "name": "Next",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         482,
                         263
@@ -224,7 +224,7 @@
                       "name": "",
                       "type": "pane",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         72,
                         321
@@ -239,7 +239,7 @@
                           "name": "January",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             73,
                             322
@@ -255,7 +255,7 @@
                           "name": "February",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             192,
                             322
@@ -271,7 +271,7 @@
                           "name": "March",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             311,
                             322
@@ -287,7 +287,7 @@
                           "name": "April",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             430,
                             322
@@ -303,7 +303,7 @@
                           "name": "May",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             73,
                             431
@@ -319,7 +319,7 @@
                           "name": "June",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             192,
                             431
@@ -335,7 +335,7 @@
                           "name": "July",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             311,
                             431
@@ -351,7 +351,7 @@
                           "name": "August",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             430,
                             431
@@ -367,7 +367,7 @@
                           "name": "September",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             73,
                             539
@@ -383,7 +383,7 @@
                           "name": "October",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             192,
                             539
@@ -399,7 +399,7 @@
                           "name": "November",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             311,
                             539
@@ -415,7 +415,7 @@
                           "name": "December",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             430,
                             539
@@ -431,7 +431,7 @@
                           "name": "January",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             73,
                             648
@@ -447,7 +447,7 @@
                           "name": "February",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             192,
                             648
@@ -463,7 +463,7 @@
                           "name": "March",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             311,
                             648
@@ -479,7 +479,7 @@
                           "name": "April",
                           "type": "button",
                           "offscreen": "False",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             430,
                             648
@@ -503,7 +503,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             49
@@ -519,7 +519,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             88,
             61
@@ -535,7 +535,7 @@
           "name": "",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             175
@@ -550,7 +550,7 @@
               "name": "Calculation mode",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 88,
                 175
@@ -565,7 +565,7 @@
                   "name": "Difference between dates",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     175
@@ -580,7 +580,7 @@
                       "name": "Difference between dates",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         88,
                         175
@@ -600,7 +600,7 @@
               "name": "From",
               "type": "calendar date picker",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 88,
                 231
@@ -615,7 +615,7 @@
                   "name": "From",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     88,
                     231
@@ -631,7 +631,7 @@
                   "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     88,
                     273
@@ -649,7 +649,7 @@
               "name": "To",
               "type": "calendar date picker",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 88,
                 349
@@ -664,7 +664,7 @@
                   "name": "To",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     88,
                     349
@@ -680,7 +680,7 @@
                   "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     88,
                     391
@@ -698,7 +698,7 @@
               "name": "Difference",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 88,
                 467
@@ -714,7 +714,7 @@
               "name": "Difference Same dates",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 88,
                 494
@@ -732,7 +732,7 @@
           "name": "Date calculation mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             142,
             105
@@ -748,7 +748,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             97
@@ -763,7 +763,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 70,
                 97
@@ -778,7 +778,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     0
@@ -800,7 +800,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         97

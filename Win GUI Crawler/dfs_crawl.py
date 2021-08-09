@@ -158,13 +158,19 @@ def get_unique_xpath(element):
     el_xpath = ""
     finished = False
     list_path = []
-    list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+    if 'Name' in element.attrib:
+        list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+    else:
+        list_path.append(element.tag)
     while not finished:
         if element.getparent() == None:
             finished = True
         else:
             element = element.getparent()
-            list_path.append(element.tag)
+            if 'Name' in element.attrib:
+                list_path.append(element.tag+"[@Name = \'"+element.attrib['Name']+"\']")
+            else:
+                list_path.append(element.tag)
     for el in list_path[::-1]:
         el_xpath += "/"+el
     return el_xpath
@@ -184,8 +190,8 @@ def crawl():
     desired_caps = {}
     #desired_caps["app"] = r"C:\Users\watas\AppData\Roaming\Zoom\bin\Zoom.exe"
     #desired_caps["app"] = "C:\Windows\System32\explorer.exe"
-    #desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
-    desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+    desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
+    #desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
     #desired_caps["app"] = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
     #desired_caps["app"] = r"C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
     #desired_caps["app"] = r"C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
@@ -276,7 +282,9 @@ def crawl():
                 for clickable_el in unique_list:
                     #parse the name from path
                     clt = clickable_el.split("[@Name = \'")
-                    clickable_el_name = clt[0].split("/")[-1]+"-"+clt[1][:-2]
+                    clt2 = clt[-1][:-2]
+                    clt1 = clt[-2].split("/")[-1]
+                    clickable_el_name = clt1+"-"+clt2
 
                     #Create child
                     child_name = current_node.name+"_+_"+clickable_el_name

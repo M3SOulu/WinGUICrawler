@@ -5,7 +5,7 @@ import os
 import gui_filter_bbox
 
 #directory where the screenshots (.png and .xml) are saved
-directory = '%s/' % os.getcwd()+"screens_temp/"
+directory = '%s/' % os.getcwd()+"calc/"
 
 class Node(object):
     '''Creates a node object'''
@@ -59,10 +59,12 @@ if os.path.isfile(directory+"raw_screens/graphs"):
 else:
     print("No file found")
 
-if not os.path.exists(directory+"filtered/"):
-    os.mkdir(directory+"filtered/")
+if not os.path.exists(directory+"filtered_screens/"):
+    os.mkdir(directory+"filtered_screens/")
 if not os.path.exists(directory+"raw_filtered_comparison/"):
     os.mkdir(directory+"raw_filtered_comparison/")
+if not os.path.exists(directory+"elements/"):
+    os.mkdir(directory+"elements/")
 
 list_of_all_filtered = []
 end_flag = False

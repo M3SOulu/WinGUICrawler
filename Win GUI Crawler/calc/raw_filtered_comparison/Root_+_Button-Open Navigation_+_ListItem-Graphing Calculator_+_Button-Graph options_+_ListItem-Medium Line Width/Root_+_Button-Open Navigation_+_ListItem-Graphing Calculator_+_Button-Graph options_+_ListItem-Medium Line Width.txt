@@ -3,7 +3,7 @@
   "name": "Calculator",
   "type": "window",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     69,
     59
@@ -18,7 +18,7 @@
       "name": "Pop-upHost",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         102,
         687
@@ -33,7 +33,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             70,
             0
@@ -48,7 +48,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 0
@@ -64,7 +64,7 @@
               "name": "",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 101,
                 746
@@ -79,7 +79,7 @@
                   "name": "Small Line Width",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     103,
                     694
@@ -94,7 +94,7 @@
                       "name": "Small Line Width",
                       "type": "group",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         155,
                         719
@@ -112,7 +112,7 @@
                   "name": "Medium Line Width",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     103,
                     745
@@ -127,7 +127,7 @@
                       "name": "Medium Line Width",
                       "type": "group",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         155,
                         768
@@ -145,7 +145,7 @@
                   "name": "Large Line Width",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     103,
                     796
@@ -160,7 +160,7 @@
                       "name": "Large Line Width",
                       "type": "group",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         155,
                         818
@@ -178,7 +178,7 @@
                   "name": "Extra Large Line Width",
                   "type": "list item",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     103,
                     847
@@ -193,7 +193,7 @@
                       "name": "Extra Large Line Width",
                       "type": "group",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         155,
                         869
@@ -211,7 +211,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     70,
                     0
@@ -229,7 +229,7 @@
               "name": "Theme",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 101,
                 818
@@ -245,7 +245,7 @@
               "name": "Theme",
               "type": "group",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 101,
                 859
@@ -260,7 +260,7 @@
                   "name": "Always light",
                   "type": "radio button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     101,
                     859
@@ -276,7 +276,7 @@
                   "name": "Match app theme",
                   "type": "radio button",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     11
@@ -294,7 +294,7 @@
               "name": "Vertical",
               "type": "scroll bar",
               "offscreen": "True",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 11
@@ -314,7 +314,7 @@
       "name": "Calculator",
       "type": "",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "True",
       "topleft": [
         268,
         60
@@ -329,7 +329,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             11
@@ -344,7 +344,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 11
@@ -362,7 +362,7 @@
           "name": "Minimise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             343,
             60
@@ -378,7 +378,7 @@
           "name": "Maximise Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             412,
             60
@@ -394,7 +394,7 @@
           "name": "Close Calculator",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             481,
             60
@@ -412,7 +412,7 @@
       "name": "Calculator",
       "type": "window",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "True",
       "topleft": [
         70,
         60
@@ -427,7 +427,7 @@
           "name": "Pop-up",
           "type": "window",
           "offscreen": "True",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             0,
             11
@@ -442,7 +442,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 75,
                 254
@@ -457,7 +457,7 @@
                   "name": "Graph Options",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     273
@@ -473,7 +473,7 @@
                   "name": "Window",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     331
@@ -489,7 +489,7 @@
                   "name": "Reset view",
                   "type": "link",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     411,
                     331
@@ -505,7 +505,7 @@
                   "name": "X-Min",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     378
@@ -520,7 +520,7 @@
                       "name": "X-Min",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         101,
                         378
@@ -538,7 +538,7 @@
                   "name": "X-Max",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     312,
                     378
@@ -553,7 +553,7 @@
                       "name": "X-Max",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         312,
                         378
@@ -571,7 +571,7 @@
                   "name": "Y-Min",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     475
@@ -586,7 +586,7 @@
                       "name": "Y-Min",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         101,
                         475
@@ -604,7 +604,7 @@
                   "name": "Y-Max",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     312,
                     475
@@ -619,7 +619,7 @@
                       "name": "Y-Max",
                       "type": "text",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         312,
                         475
@@ -637,7 +637,7 @@
                   "name": "Units",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     583
@@ -653,7 +653,7 @@
                   "name": "Units",
                   "type": "group",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     624
@@ -668,7 +668,7 @@
                       "name": "Radians",
                       "type": "radio button",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         101,
                         624
@@ -684,7 +684,7 @@
                       "name": "Degrees",
                       "type": "radio button",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         238,
                         624
@@ -700,7 +700,7 @@
                       "name": "Gradians",
                       "type": "radio button",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         374,
                         624
@@ -718,7 +718,7 @@
                   "name": "Line Thickness",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     705
@@ -734,7 +734,7 @@
                   "name": "",
                   "type": "combo box",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     746
@@ -749,7 +749,7 @@
                       "name": "Small Line Width",
                       "type": "list item",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         103,
                         694
@@ -764,7 +764,7 @@
                           "name": "Small Line Width",
                           "type": "group",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             155,
                             719
@@ -782,7 +782,7 @@
                       "name": "Medium Line Width",
                       "type": "list item",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         103,
                         745
@@ -797,7 +797,7 @@
                           "name": "Medium Line Width",
                           "type": "group",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             155,
                             768
@@ -815,7 +815,7 @@
                       "name": "Large Line Width",
                       "type": "list item",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         103,
                         796
@@ -830,7 +830,7 @@
                           "name": "Large Line Width",
                           "type": "group",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             155,
                             818
@@ -848,7 +848,7 @@
                       "name": "Extra Large Line Width",
                       "type": "list item",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         103,
                         847
@@ -863,7 +863,7 @@
                           "name": "Extra Large Line Width",
                           "type": "group",
                           "offscreen": "False",
-                          "blacklisted": "True",
+                          "filtered_out": "True",
                           "topleft": [
                             155,
                             869
@@ -881,7 +881,7 @@
                       "name": "Close",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         70,
                         0
@@ -899,7 +899,7 @@
                   "name": "Theme",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     818
@@ -915,7 +915,7 @@
                   "name": "Theme",
                   "type": "group",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     101,
                     859
@@ -930,7 +930,7 @@
                       "name": "Always light",
                       "type": "radio button",
                       "offscreen": "False",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         101,
                         859
@@ -946,7 +946,7 @@
                       "name": "Match app theme",
                       "type": "radio button",
                       "offscreen": "True",
-                      "blacklisted": "True",
+                      "filtered_out": "True",
                       "topleft": [
                         0,
                         11
@@ -964,7 +964,7 @@
                   "name": "Vertical",
                   "type": "scroll bar",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     11
@@ -984,7 +984,7 @@
           "name": "Calculator",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             88,
             72
@@ -1000,7 +1000,7 @@
           "name": "Switch to equation mode",
           "type": "toggle switch",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             436,
             114
@@ -1015,7 +1015,7 @@
               "name": "x",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 512,
                 132
@@ -1031,7 +1031,7 @@
               "name": "x",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 512,
                 132
@@ -1049,7 +1049,7 @@
           "name": "Graph viewing window, x-axis bounded by 0 and 0, y-axis bounded by 0 and 0, displaying 0 equations",
           "type": "group",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             174
@@ -1065,7 +1065,7 @@
           "name": "Start tracing",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             358,
             191
@@ -1081,7 +1081,7 @@
           "name": "Share",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             417,
             191
@@ -1097,7 +1097,7 @@
           "name": "Graph options",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             474,
             191
@@ -1113,7 +1113,7 @@
           "name": "Zoom In",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             474,
             668
@@ -1129,7 +1129,7 @@
           "name": "Zoom Out",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             474,
             725
@@ -1145,7 +1145,7 @@
           "name": "Graph View",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             474,
             782
@@ -1161,7 +1161,7 @@
           "name": "Graphing Calculator mode",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             142,
             116
@@ -1177,7 +1177,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             70,
             108
@@ -1192,7 +1192,7 @@
               "name": "Open Navigation",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 70,
                 108
@@ -1207,7 +1207,7 @@
                   "name": "",
                   "type": "text",
                   "offscreen": "True",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     0,
                     11
@@ -1229,7 +1229,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         70,
         108

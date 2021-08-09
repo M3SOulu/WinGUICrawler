@@ -3,7 +3,7 @@
   "name": "TeamViewer",
   "type": "dialogue",
   "offscreen": "False",
-  "blacklisted": "False",
+  "filtered_out": "False",
   "topleft": [
     0,
     0
@@ -18,7 +18,7 @@
       "name": "Grant Easy Access",
       "type": "dialogue",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         375,
         305
@@ -33,7 +33,7 @@
           "name": "Create TeamViewer account",
           "type": "dialogue",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             315,
             164
@@ -48,7 +48,7 @@
               "name": "Error",
               "type": "dialogue",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 381,
                 317
@@ -63,7 +63,7 @@
                   "name": "OK",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     967,
                     523
@@ -79,7 +79,7 @@
                   "name": "The password is not safe enough\n",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     504,
                     379
@@ -95,7 +95,7 @@
                   "name": "",
                   "type": "title bar",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     406,
                     320
@@ -110,7 +110,7 @@
                       "name": "System",
                       "type": "menu bar",
                       "offscreen": "True",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         183,
                         199
@@ -125,7 +125,7 @@
                           "name": "System",
                           "type": "menu item",
                           "offscreen": "True",
-                          "blacklisted": "False",
+                          "filtered_out": "False",
                           "topleft": [
                             183,
                             199
@@ -143,7 +143,7 @@
                       "name": "Close",
                       "type": "button",
                       "offscreen": "False",
-                      "blacklisted": "False",
+                      "filtered_out": "False",
                       "topleft": [
                         1058,
                         318
@@ -163,7 +163,7 @@
               "name": "Your name",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 317
@@ -179,7 +179,7 @@
               "name": "E-mail / username",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 366
@@ -195,7 +195,7 @@
               "name": "Confirm password",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 463
@@ -211,7 +211,7 @@
               "name": "Create TeamViewer account",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 339,
                 226
@@ -227,7 +227,7 @@
               "name": "Password",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 415
@@ -243,7 +243,7 @@
               "name": "Password",
               "type": "edit",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 541,
                 317
@@ -259,7 +259,7 @@
               "name": "",
               "type": "edit",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 541,
                 366
@@ -275,7 +275,7 @@
               "name": "",
               "type": "edit",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 541,
                 415
@@ -291,7 +291,7 @@
               "name": "",
               "type": "edit",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 541,
                 463
@@ -307,7 +307,7 @@
               "name": "",
               "type": "image",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 327,
                 507
@@ -323,7 +323,7 @@
               "name": "",
               "type": "image",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 507
@@ -339,7 +339,7 @@
               "name": "General Privacy Policy",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 339,
                 552
@@ -355,7 +355,7 @@
               "name": "",
               "type": "image",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 316,
                 226
@@ -371,7 +371,7 @@
               "name": "",
               "type": "tab",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 316,
                 226
@@ -386,7 +386,7 @@
                   "name": "Create TeamViewer account",
                   "type": "tab item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     318,
                     228
@@ -402,7 +402,7 @@
                   "name": "Create TeamViewer account",
                   "type": "tab item",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     527,
                     228
@@ -420,7 +420,7 @@
               "name": "< Back",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 633,
                 744
@@ -436,7 +436,7 @@
               "name": "Next >",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 746,
                 744
@@ -452,7 +452,7 @@
               "name": "Cancel",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 874,
                 744
@@ -468,7 +468,7 @@
               "name": "",
               "type": "title bar",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 316,
                 167
@@ -483,7 +483,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     952,
                     165
@@ -503,7 +503,7 @@
           "name": "Assign",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             692,
             602
@@ -519,7 +519,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             815,
             602
@@ -535,7 +535,7 @@
           "name": "Assign this device to a TeamViewer account to connect securely without requiring additional passwords.",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             399,
             375
@@ -551,7 +551,7 @@
           "name": "E-mail",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             444,
             453
@@ -567,7 +567,7 @@
           "name": "Password",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             422,
             494
@@ -583,7 +583,7 @@
           "name": "Password",
           "type": "edit",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             513,
             453
@@ -599,7 +599,7 @@
           "name": "",
           "type": "edit",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             513,
             497
@@ -615,7 +615,7 @@
           "name": "Create account",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             507,
             533
@@ -631,7 +631,7 @@
           "name": "",
           "type": "title bar",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             400,
             308
@@ -646,7 +646,7 @@
               "name": "System",
               "type": "menu bar",
               "offscreen": "True",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 179,
                 191
@@ -661,7 +661,7 @@
                   "name": "System",
                   "type": "menu item",
                   "offscreen": "True",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     179,
                     191
@@ -679,7 +679,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 892,
                 306
@@ -699,7 +699,7 @@
       "name": "Ready to connect (secure connection)",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         1,
         45
@@ -714,7 +714,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             8,
             51
@@ -729,7 +729,7 @@
               "name": "Connection",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 8,
                 51
@@ -745,7 +745,7 @@
               "name": "Extras",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 144,
                 51
@@ -761,7 +761,7 @@
               "name": "Help",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 229,
                 51
@@ -779,7 +779,7 @@
           "name": "Feedback",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             306,
             57
@@ -795,7 +795,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             923,
             45
@@ -810,7 +810,7 @@
               "name": "",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 1117,
                 57
@@ -826,7 +826,7 @@
               "name": "",
               "type": "edit",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 930,
                 61
@@ -846,7 +846,7 @@
       "name": "Navigation",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         1,
         151
@@ -861,7 +861,7 @@
           "name": "",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             847
@@ -877,7 +877,7 @@
           "name": "",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             151
@@ -893,7 +893,7 @@
           "name": "Remote Control",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             277
@@ -909,7 +909,7 @@
           "name": "Remote Management",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             349
@@ -925,7 +925,7 @@
           "name": "Meeting",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             421
@@ -941,7 +941,7 @@
           "name": "Computers & Contacts",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             493
@@ -957,7 +957,7 @@
           "name": "Chat",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             565
@@ -973,7 +973,7 @@
           "name": "Augmented Reality",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             637
@@ -989,7 +989,7 @@
           "name": "More Solutions",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1,
             709
@@ -1007,7 +1007,7 @@
       "name": "StateBar",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         109,
         885
@@ -1022,7 +1022,7 @@
           "name": "Ready to connect (secure connection)",
           "type": "text",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             169,
             885
@@ -1040,7 +1040,7 @@
       "name": "InfoBanner",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         1,
         106
@@ -1055,7 +1055,7 @@
           "name": "Free license (non-commercial use only) - Maruko San",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             416,
             113
@@ -1073,7 +1073,7 @@
       "name": "Ready to connect (secure connection)",
       "type": "pane",
       "offscreen": "False",
-      "blacklisted": "True",
+      "filtered_out": "True",
       "topleft": [
         109,
         151
@@ -1088,7 +1088,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             136,
             508
@@ -1103,7 +1103,7 @@
               "name": "Unattended Access",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 136,
                 508
@@ -1119,7 +1119,7 @@
               "name": "Start TeamViewer with Windows",
               "type": "checkbox",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 136,
                 583
@@ -1135,7 +1135,7 @@
               "name": "Grant easy access",
               "type": "checkbox",
               "offscreen": "False",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 136,
                 626
@@ -1153,7 +1153,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             136,
             173
@@ -1168,7 +1168,7 @@
               "name": "Allow Remote Control",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 136,
                 173
@@ -1184,7 +1184,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 136,
                 248
@@ -1199,7 +1199,7 @@
                   "name": "Your ID",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     157,
                     248
@@ -1215,7 +1215,7 @@
                   "name": "Your ID",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     157,
                     276
@@ -1233,7 +1233,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 136,
                 348
@@ -1248,7 +1248,7 @@
                   "name": "Password",
                   "type": "text",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     157,
                     348
@@ -1264,7 +1264,7 @@
                   "name": "Password",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     157,
                     376
@@ -1284,7 +1284,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "blacklisted": "True",
+          "filtered_out": "True",
           "topleft": [
             596,
             173
@@ -1299,7 +1299,7 @@
               "name": "Control Remote Computer",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 173
@@ -1315,7 +1315,7 @@
               "name": "Partner ID",
               "type": "text",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 248
@@ -1331,7 +1331,7 @@
               "name": "Partner ID",
               "type": "combo box",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 290
@@ -1346,7 +1346,7 @@
                   "name": "Partner ID",
                   "type": "edit",
                   "offscreen": "False",
-                  "blacklisted": "True",
+                  "filtered_out": "True",
                   "topleft": [
                     604,
                     301
@@ -1362,7 +1362,7 @@
                   "name": "Open",
                   "type": "button",
                   "offscreen": "True",
-                  "blacklisted": "False",
+                  "filtered_out": "False",
                   "topleft": [
                     571,
                     291
@@ -1380,7 +1380,7 @@
               "name": "Remote control",
               "type": "radio button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 382
@@ -1396,7 +1396,7 @@
               "name": "File transfer",
               "type": "radio button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 425
@@ -1412,7 +1412,7 @@
               "name": "Connect",
               "type": "button",
               "offscreen": "False",
-              "blacklisted": "True",
+              "filtered_out": "True",
               "topleft": [
                 596,
                 500
@@ -1432,7 +1432,7 @@
       "name": "",
       "type": "title bar",
       "offscreen": "False",
-      "blacklisted": "False",
+      "filtered_out": "False",
       "topleft": [
         25,
         3
@@ -1447,7 +1447,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "True",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             -71,
             -13
@@ -1462,7 +1462,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "True",
-              "blacklisted": "False",
+              "filtered_out": "False",
               "topleft": [
                 -71,
                 -13
@@ -1480,7 +1480,7 @@
           "name": "Minimise",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1106,
             1
@@ -1496,7 +1496,7 @@
           "name": "Maximise",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1177,
             1
@@ -1512,7 +1512,7 @@
           "name": "Close",
           "type": "button",
           "offscreen": "False",
-          "blacklisted": "False",
+          "filtered_out": "False",
           "topleft": [
             1247,
             1
