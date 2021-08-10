@@ -39,15 +39,15 @@ WinAppDriver.exe 4724
 ```
 There are several scripts in this project. Let's go through each one and their usage.
 
-- Taking screenshots by keypress is possible with **take_screen.py**, everything will be saved in the *./take_screen* directory unless differently specified. Before running it, the Windows application under test needs to be specified under *desired_caps["app"]* (either by automation Id or exe location). To run mspaint for example:
+- Taking screenshots by keypress is possible with **take_screen.py**, everything will be saved in the *./taken_screens* directory unless differently specified. Before running it, the desired Windows application needs to be specified under *desired_caps["app"]* (either by automation Id or exe location). To run mspaint for example:
 ```Python
 desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
 ```
-To run the scipt, firstly make sure to have WinAppDriver listening on port 4724 in the background, and run:
+To run the scipt, firstly make sure to have WinAppDriver listening on port 4724 in the background, and then run:
 ```Python
 python take_screen.py
 ```
-After waiting for several seconds the prompt will ask for a keypress, pressing "p" takes a screenshot and pressing "e" exits the script. After taking a screenshot wait for a couple of seconds for the prompt to ask again before taking another one.
+After waiting for several seconds the prompt will ask for a keypress (a win10 toast notification will also be displayed), pressing "p" takes a screenshot and pressing "e" exits the script. After taking a screenshot wait for a for the prompt to ask for another keypress before taking another one.
 
 - The crawler is implemented in **dfs_crawl.py**, similarly to the previous script, unless differently specified everything gets saved in the *./screens_temp* directory. Furthermore the same things apply with regards to WinAppDriver running in background and desired_caps["app"] being set to the desired application. <br> The crawler takes in an argument which is a non negative integer N, if N==0 the crawler keeps going until the whole application is explored, if N > 0 the crawler does N passes. Each pass will make the crawler go from Root to the end of a branch of the traversal graph.
 After making sure everything is set, run the crawler:
@@ -61,14 +61,19 @@ python dfs_crawl.py 10 #the crawler runs 10 passes
 
  This script produces images, xml metadata and a graph which is saved as two dictionaries in the file *graphs*.
 
-- To visualise the application traversal graph the script **visualize_graph.py** can be run directly, without the need for WinAppDriver. Assuming the crawler has been run before and produced the pickled file *graphs* (comprised of two dicts) which is contained in the *./screens_temp* directory. Run:
-```Python
-python dfs_crawl.py
-```
-This will produce an .svg image of the graph. In this way the nodes and their states can be inspected visually.
+- To visualise the application traversal graph the script **visualize_graph.py** can be run directly, without the need for WinAppDriver. Assuming the crawler has been run before and produced the pickled file *graphs* (comprised of two dicts) which is contained in the specified directory. The script takes the name of the directory containing the data produced by the crawler as an argument (e.g. *screens_temp*).
 
-- Similarly as the previous script, **bbox_graph.py** can be run separately and relies on the data stored in *./screens_temp*. This script goes through the traversal graph and filters the bounding boxes in order to get a cleaner result by eliminating elements that are partially obstructed or not visible on screen. It is sufficient to run:
+ Run:
 ```Python
-python bbox_graph.py
+python dfs_crawl.py screens_temp
 ```
-The script will output images with cleaner bounding boxes. **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to be inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph.
+This will produce an .svg image of the graph. Making it possible for the nodes and their states to be inspected visually.
+
+- Similarly as the previous script, **bbox_graph.py** can be run separately and relies on the data stored in the specified directory (e.g. *screens_temp*). The directory name is passed as an argument.
+ This script goes through the traversal graph and filters the bounding boxes in order to get a cleaner result by eliminating elements that are partially obstructed or not visible on screen, saving the metadata with relevant tags in json format. Additionally it saves cropped images of all the gui elements and writes the metadata for each element in csv format.
+
+ It is sufficient to run:
+```Python
+python bbox_graph.py screens_temp
+```
+The script will output images with cleaner bounding boxes. **bbox_graph.py** basically runs **gui_filter_bbox.py** over the whole application graph.  **gui_filter_bbox.py** can also be used separately by providing the screen to be inspected and the previous screen (nothing if Root is to be inspected) as arguments, in this way only one screenshot is filtered instead of the whole graph. <br> The script can also be run over data that wasn't obtained from crawling the application (data obtained with **take_screen.py**).
