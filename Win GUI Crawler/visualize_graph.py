@@ -4,9 +4,10 @@ import pickle
 import xml.etree.ElementTree as ET
 import os
 from graphviz import Digraph
+import sys
 
-#directory where the screenshots (.png and .xml) are saved
-directory = '%s/' % os.getcwd()+"screens_temp/"
+#directory where all the application screenshots (.png and .xml) are saved
+directory = '%s/' % os.getcwd()+sys.argv[1]+"/"
 
 class Node(object):
     '''Creates a node object'''

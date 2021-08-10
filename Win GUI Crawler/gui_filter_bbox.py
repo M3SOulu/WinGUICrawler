@@ -235,25 +235,25 @@ def intersection_over_small(tl1x,tl1y,br1x,br1y,tl2x,tl2y,br2x,br2y):
     return interArea/minboxArea
 
 #Main funtion of the script, which filters the bboxes based on previous and current screen, also avoids saving duplicates
-def filter_bbox(imgname_previous,imgname_current,all_filtered):
-    #Handles all the file names
+def filter_bbox(imgname_previous,imgname_current,all_filtered,istree):
     list_of_current_el = []
     list_of_previous_el = []
-    splitname_current = imgname_current.split('.png')
-    print("......")
-    print(splitname_current)
-    filepath = splitname_current[0]
-    print("......")
-    print(filepath)
 
-    xmlname_current  = filepath+".xml"
-
-    nodename = filepath.split("/screenshot-")[-1]
-
-    foldername_raw_filt = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
-    foldername_elements = filepath.split("/raw_screens")[0]+"/elements/"+nodename+"/"
-    print("......")
-    print(foldername_raw_filt)
+    #Handles all the file names
+    if istree:
+        splitname_current = imgname_current.split('.png')
+        filepath = splitname_current[0]
+        xmlname_current  = filepath+".xml"
+        nodename = filepath.split("/screenshot-")[-1]
+        foldername_raw_filt = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
+        foldername_elements = filepath.split("/raw_screens")[0]+"/elements/"+nodename+"/"
+    else:
+        filepath = imgname_current.split('.png')[0]
+        xmlname_current  = filepath+".xml"
+        filepath_split = filepath.split("raw_screens/")
+        nodename = filepath_split[1]
+        foldername_raw_filt = filepath_split[0]+"raw_filtered_comparison/"+nodename+"/"
+        foldername_elements = filepath_split[0]+"elements/"+nodename+"/"
 
     if not os.path.exists(foldername_raw_filt):
         os.mkdir(foldername_raw_filt)
@@ -474,4 +474,4 @@ if __name__ == "__main__":
         os.mkdir(directory+"elements/")
     if not os.path.exists(directory+"filtered_screens/"):
         os.mkdir(directory+"filtered_screens/")
-    filter_bbox(filename_prev,filename_curr,[])
+    filter_bbox(filename_prev,filename_curr,[],True)

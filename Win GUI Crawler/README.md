@@ -12,6 +12,7 @@ pip install keyboard
 pip install opencv-python
 pip install psutil
 pip install lxml
+pip install win10toast
 ```
 Install graphviz from https://graphviz.org/download/ or if using anaconda simly run
 ```bash

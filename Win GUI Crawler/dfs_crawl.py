@@ -111,7 +111,7 @@ def take_metadata(driver,clickable_items):
 
 #This function takes an image screenshot, writes it and also writes the metadata onto an xml file
 def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
-    imgname = directory+"/raw_screens/" +'screenshot-'+appended_name+'.png'
+    imgname = directory+"raw_screens/" +'screenshot-'+appended_name+'.png'
     #get the top left corner of the focused window relative to the whole screen
     pos = driver.get_window_position()
     #add the offset to the top left corner and calulate width/height
@@ -120,23 +120,29 @@ def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
     window_w = abs(rect[0]-rect[2])
     window_h = abs(rect[1]-rect[3])
 
-    #When windows minimise the coordinates can get weirdly high numbers
-    if window_w < 1.5*GetSystemMetrics(0) and window_h < 1.5*GetSystemMetrics(1):
-        #Take a screenshot and crop it to fit the application
-        img = pyautogui.screenshot(region=(window_x,window_y,window_w,window_h))
-        #Write image to file
-        print("Name before saving:")
-        print(imgname)
-        img.save(imgname)
+    #limits width and height to screen size
+    if window_x < 0:
+        window_w = window_w + window_x
+        window_x = 0
+    if window_y < 0:
+        window_h = window_h + window_y
+        window_y = 0
+    if abs(window_w) > GetSystemMetrics(0):
+        window_w = GetSystemMetrics(0)-window_x
+    if abs(window_h) > GetSystemMetrics(1):
+        window_h = GetSystemMetrics(1)-window_y
 
-        #write gui metadata to file
-        xml_file = open(directory+"/raw_screens/"+"screenshot-"+appended_name+".xml","wb")
-        xml_file.write(xmlmeta.encode("utf-16"))
-        xml_file.close()
-        return True
-    else:
-        #If the coordinates are larger than the screen (meaning something strange happened), the screenshot is not taken
-        return False
+    #Take a screenshot and crop it to fit the application
+    img = pyautogui.screenshot(region=(window_x,window_y,window_w,window_h))
+    #Write image to file
+    print("Name before saving:")
+    print(imgname)
+    img.save(imgname)
+
+    #write gui metadata to file
+    xml_file = open(directory+"raw_screens/"+"screenshot-"+appended_name+".xml","wb")
+    xml_file.write(xmlmeta.encode("utf-16"))
+    xml_file.close()
 
 #Removes characters that can't be used in filenames
 def replace_illegal_char(input):
@@ -298,15 +304,9 @@ def crawl():
                     current_node.alive = False
                     DeadEnd = True
                 else:
-                    screen_taken = take_screen(driver,replace_illegal_char(current_node.name),xmlsource,els,rect)
-                    current_node.screen = screen_taken
-                    if screen_taken:
-                        print("Taking screen of: ",current_node.name)
-                    else:
-                        #If there are issues during image acquisition the node is killed
-                        print("Not taking screen")
-                        DeadEnd = True
-                        current_node.alive = False
+                    take_screen(driver,replace_illegal_char(current_node.name),xmlsource,els,rect)
+                    current_node.screen = True
+                    print("Taking screen of: ",current_node.name)
 
             #update union traversed
             union_traversed = union_traversed.union(set(current_node.click_list))

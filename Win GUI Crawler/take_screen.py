@@ -16,7 +16,7 @@ import sys
 import traceback
 from datetime import datetime
 from win32api import GetSystemMetrics
-
+from win10toast import ToastNotifier
 #directory where the screenshots (.png and .xml) will be saved
 directory = '%s/' % os.getcwd()+"taken_screens/"
 
@@ -64,7 +64,7 @@ def take_metadata(driver,clickable_items):
 
 #This function takes an image screenshot, writes it and also writes the metadata onto an xml file
 def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
-    imgname = directory +'screenshot-'+appended_name+'.png'
+    imgname = directory+"raw_screens/" +'screenshot-'+appended_name+'.png'
     #get the top left corner of the focused window relative to the whole screen
     pos = driver.get_window_position()
     #add the offset to the top left corner and calulate width/height
@@ -72,44 +72,41 @@ def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
     window_y = pos['y']+rect[1]
     window_w = abs(rect[0]-rect[2])
     window_h = abs(rect[1]-rect[3])
-    #When windows minimise the coordinates can get weirdly high numbers, this ensures the screenshot exists (even if sometimes it's a 1px placeholder)
-    if window_w > 1.5*GetSystemMetrics(0):
-        window_w = 1
+
+    #limits width and height to screen size
+    if window_x < 0:
+        window_w = window_w + window_x
         window_x = 0
-    if window_h > 1.5*GetSystemMetrics(1):
-        window_h = 1
+    if window_y < 0:
+        window_h = window_h + window_y
         window_y = 0
+    if abs(window_w) > GetSystemMetrics(0):
+        window_w = GetSystemMetrics(0)-window_x
+    if abs(window_h) > GetSystemMetrics(1):
+        window_h = GetSystemMetrics(1)-window_y
+
     #Take a screenshot and crop it to fit the application
     img = pyautogui.screenshot(region=(window_x,window_y,window_w,window_h))
     #Write image to file
+    print("Name before saving:")
+    print(imgname)
     img.save(imgname)
 
     #write gui metadata to file
-    xml_file = open(directory+"screenshot-"+appended_name+".xml","wb")
+    xml_file = open(directory+"raw_screens/"+"screenshot-"+appended_name+".xml","wb")
     xml_file.write(xmlmeta.encode("utf-16"))
     xml_file.close()
-
-    #Write an image with bounding boxes of all elements superimposed on it
-    result_name = directory+"bbox_result-"+appended_name+".png"
-    #Use decode instead of imread, because it can't take unicode characters
-    img = cv2.imdecode(np.fromfile(imgname,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
-    result = img.copy()
-    for el in list_of_elements:
-        tl = (int(el['x']), int(el['y']))
-        br = (tl[0]+int(el['width']), tl[1]+int(el['height']))
-        cv2.rectangle(result, tl, br, (0,0,255),2)
-    cv2.imwrite(result_name,result)
 
 if __name__ == '__main__':
     #opens the application via webdriver
     desired_caps = {}
     #desired_caps["app"] = r"C:\Users\watas\AppData\Roaming\Zoom\bin\Zoom.exe"
     #desired_caps["app"] = "C:\Windows\System32\explorer.exe"
-    #desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
+    desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
     #desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
     #desired_caps["app"] = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
     #desired_caps["app"] = r"C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
-    desired_caps["app"] = r"C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
+    #desired_caps["app"] = r"C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
     #desired_caps["app"] = r"C:\Program Files\XnConvert\xnconvert.exe"
     #desired_caps["app"] = r"C:\Program Files\TeamViewer\TeamViewer.exe"
     #desired_caps["app"] = r"C:\Program Files\Notepad++\notepad++.exe"
@@ -133,13 +130,19 @@ if __name__ == '__main__':
 
     #Extract process ID from metadata, it is needed to close the application
     source = driver.page_source
-    time.sleep(1)
+    time.sleep(2)
     tree = etree.fromstring(source.encode('utf-16'))
     processId = tree.attrib['ProcessId']
 
+    if not os.path.exists(directory+"raw_screens/"):
+        os.mkdir(directory+"raw_screens/")
+
+    toaster = ToastNotifier()
     #If prompt the user to take a screenshot or exit
     while True:
+        time.sleep(1)
         print("Press \"p\" to take a screen and \"e\" to exit")
+        toaster.show_toast("Take as screenshot","Press \"p\" to take a screen and \"e\" to exit",icon_path=None,duration=2)
         input = keyboard.read_key()
         print("You pressed: "+input)
         if input == "e":
@@ -149,6 +152,7 @@ if __name__ == '__main__':
             xmlsource, clickable, els, rect = take_metadata(driver,[]) #clickable items is not needed here, but still kept to have take_metadata same as in crawler
             date_time = datetime.now().strftime("%m%d%Y%H%M%S")
             take_screen(driver,date_time,xmlsource,els,rect)
+            time.sleep(1)
             print("Screenshot taken")
 
     #Terminate the application and exit driver
