@@ -414,7 +414,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
     with open(json_txt_name_current, 'w') as outfile:
         json.dump(root, outfile,indent=2)
 
-    #crop to images and save in elemnts, also save in .csv
+    #crop to images and save in elements, also save as .csv
     img = cv2.imdecode(np.fromfile(imgname_current,dtype=np.uint8),cv2.IMREAD_UNCHANGED)
     header = ['filename', 'tag', 'name', 'type','offscreen','filtered_out','topleft','bottomright']
     data_list = []
