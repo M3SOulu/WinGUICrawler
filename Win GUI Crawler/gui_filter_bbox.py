@@ -240,12 +240,21 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
     list_of_current_el = []
     list_of_previous_el = []
     splitname_current = imgname_current.split('.png')
+    print("......")
+    print(splitname_current)
     filepath = splitname_current[0]
+    print("......")
+    print(filepath)
+
     xmlname_current  = filepath+".xml"
 
     nodename = filepath.split("/screenshot-")[-1]
+
     foldername_raw_filt = filepath.split("/raw_screens")[0]+"/raw_filtered_comparison/"+nodename
     foldername_elements = filepath.split("/raw_screens")[0]+"/elements/"+nodename+"/"
+    print("......")
+    print(foldername_raw_filt)
+
     if not os.path.exists(foldername_raw_filt):
         os.mkdir(foldername_raw_filt)
     if os.path.exists(foldername_elements):
@@ -321,7 +330,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
     draw_list = []
 
     #If two elements are overlaping, and one is a window
-    #Check if the window is the other elemnts parent, if not the it's probably covering it, so blacklist the other element
+    #Check if the window is the other elemnts parent, if not then it's probably covering it, so blacklist the other element
     for el_pair in list_of_overlapping_current:
         isWindow0 = (el_pair[0].tag == "Window")
         isWindow1 = (el_pair[1].tag == "Window")
@@ -356,6 +365,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
                     blacklist.append(el_pair[0])
                 if (not elpair0_equal_prev) and elpair1_equal_prev:
                     blacklist.append(el_pair[1])
+
                 if elpair0_equal_prev == elpair1_equal_prev:
                     #both are either new or old, they get added to another list and evaluated later
                     blacklist_tough_cases.append(el_pair)
@@ -376,9 +386,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
     for el in list_of_current_el:
         if (int(el.attrib["width"])<=5) and (int(el.attrib["height"])<=5):
             blacklist.append(el)
-            #draw_list.append(el)
-            #print(el.tag,"-",el.attrib["Name"])
-    #Used to draw bboxes in the draw_list (mostly for debugging)
+
     index_rgb = 0
     for el in draw_list:
         tl = (int(el.attrib['x']), int(el.attrib['y']))
@@ -445,6 +453,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
         #copy files to filtered folder
         files = [json_txt_name_current, result_name_filtered]
         direc = json_txt_name_current.split("raw_filtered_comparison")[0]
+
         for f in files:
             shutil.copy(f, direc+"filtered_screens")
     else:
@@ -458,4 +467,11 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered):
 if __name__ == "__main__":
     filename_prev = sys.argv[1]
     filename_curr = sys.argv[2]
-    filter_bbox(filename_prev,filename_curr)
+    directory = os.getcwd()+"/"+filename_curr.split("/")[0]+"/"
+    if not os.path.exists(directory+"raw_filtered_comparison/"):
+        os.mkdir(directory+"raw_filtered_comparison/")
+    if not os.path.exists(directory+"elements/"):
+        os.mkdir(directory+"elements/")
+    if not os.path.exists(directory+"filtered_screens/"):
+        os.mkdir(directory+"filtered_screens/")
+    filter_bbox(filename_prev,filename_curr,[])
