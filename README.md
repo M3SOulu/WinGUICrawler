@@ -19,7 +19,7 @@ This feature allows users to manually extract data from an application by keypre
 Labels that can be extracted from the metadata might correspond to elements that are not visible in the image and thus result in wrong labeling. To clean up the labels a filtering scheme is applied which helps improve labeling accuracy.
 
 # Possible uses
--     The main goal of the tool is to gather large amounts of (partially-)annotated data, which with a subsequent fine combed manual annotation step could produce quality data for machine learning methods.​
+- The main goal of the tool is to gather large amounts of (partially-)annotated data, which with a subsequent fine combed manual annotation step could produce quality data for machine learning methods.​
 - Another possible use can be to assist template matching based methods by automatically extracting images of GUI elements
 
 # Limitations
