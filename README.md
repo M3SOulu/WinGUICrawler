@@ -1,27 +1,27 @@
 # Win GUI Crawler
 
-Maybe I can write a shorter version and add methods to the other readme....
-
 ## Intro
 
-This tool was developed in order to compile a large-scale gui image/metadata database with the purpose of using this database to improve gui elements identification with machine learning methods. Existing databases only concern mobile and web gui's, there is no large-scale database in the Desktop domain. In order to fill that gap a crawler was developed that automatically traverses a Windows Desktop application (using Win32 API) and collects screenshots with relative metadata. </br>
-The backbone of this tool is based on [WinAppDriver](https://github.com/microsoft/WinAppDriver), which is a service to support Selenium-like UI Test Automation on Windows Applications.  
 
+This tool was developed in order to compile a large-scale gui image/metadata database with the purpose of using this database to improve GUI elements identification with machine learning methods. <br> GUI element identification is an essential part of VGT (Visual GUI Testing) and RPA (Robotic Process Atuomation) workflows.  Recently machine learning methods have been ubiquitous in image recognition tasks, but they haven't yet become widespread in RPA and VGT applications which still rely on more traditional image processing methods. The absence of a large-scale dataset of desktop GUI images dataset is the leading cause in the lack of machine learning usage in these two related fields, since machine learning relies heavily on large amounts of data. <br>
+Existing databases only concern GUI's in the mobile and web domains, there is no large-scale database in the desktop domain. In order to fill that gap a crawler was developed that automatically traverses a Windows desktop application and collects screenshots with related metadata. </br>
 
+## Features
+The backbone of this tool is based on [WinAppDriver](https://github.com/microsoft/WinAppDriver), which is a service to support Selenium-like UI Test Automation on Windows Applications.
+The Win GUI Crawler has several features which will be briefly explained in this section.
 
-## Features and Methods
+- ### Windows desktop application crawling
+As its name implies, the main objective of this tool is to automatically traverse a windows application and collect data. It crawls the application in a depth first manner and collects unique screenshots, thus extracting GUI images and xml metadata. Additionally all interactions are recorded in a tree where nodes signify GUI screens and edges correspond to actions taken by the crawler.
 
-The Win GUI Crawler has several features and the methods it employs will be briefly explained in this section.
-
-# Crawling
-
-As its name implies, the main objective of this tool is to automatically traverse a Windows application and collect image screenshots and related metadata. Crawlers are usually employed to extract data from websites and can take a depth first or breadth first approach, for Windows applications depth first search is more appropriate since traversal happens only in one direction (it is not always possible to go back to the previous screen). The crawler will create a tree structure where traversal will be recorded. In this tree nodes correspond to gui screens and edges correspond to actions that can take the application from one screen to another. Actions will correspond to clicking certain gui elements. To reduce the problem space and to make the traversal manageable new edges will be associated to newly found actions. For example, if the crawler is at screen A and can press buttons A1,A2,A3, let's say it presses A1 which takes it to screen B where the possible actions are A2,A3,B1,B2 the crawler will ignore A2,A3 since these two actions are already present in the previous screen and will thus only consider the new actions. In this way the complexity is reduced and excessive redundancy is avoided. A node will die when it doesn't produce new actions or when all it's children die. The application is fully explored when the root node is dead, meaning all nodes are dead. The crawler only takes screenshot at nodes which produce new actions meaning that they have new content, again to avoid excessive redundancy. Since there is no tag in the metadata that uniquely identifies gui elements, they are uniquely identified by an xpath generated from the xml metadata tree.
-
-# Filtering
+- ### Manual screenshot and metadata retrieval
+This feature allows users to manually extract data from an application by keypress. It doesn't record interactions but can prove useful when wanting to extract data from a specific screen.
+- ### Bounding box filter
+Labels that can be extracted from the metadata might correspond to elements that are not visible in the image and thus result in wrong labels. To clean up the labels a filtering scheme is applied which helps improve labeling accuracy.
 
 # Possible uses
+-     The main goal of the tool is to gather large amounts of (partially-)annotated data, which with a subsequent fine combed manual annotation step could produce quality data for machine learning methods.​
+- Another possible use can be to assist template matching based methods by automatically extracting images of GUI elements
 
-## Limitations
-
-There are several limitations with the current implementation. Firstly, applications which use GTK or other frameworks don't provide access to all element metadata. For example GIMP only provides access to the window containing the application and not to the content inside the window, other application like Adobe Reader have several panes containing gui element metadata that can't be accessed. These limitations are inherently present since WinAppDriver is the backbone and only Win32 framework metadata can be extracted. <br>
-Another limitation is due to the fact that some applications open windows/panes within a new process or within a window/pane that is not contained within the main application window. This could be fixed by opening WinAppDriver in Root mode, meaning that it is not affixed to a specific application or process, but to the entire Desktop. However, this solution comes with new issues, when dealing with the whole Desktop WinAppDriver needs to query every application that's open and this takes a lot longer and can lead to frequent crashes. Another issue arises in detecting which elements on the Desktop are linked to the application under test, since it is not discernible with a unique method that works on all applications. In some applications it might be impossible since there are no fixed naming conventions or there is no available information to link the windows and processes.
+# Limitations
+- Applications which do not use native Win32 API (e.g. Gtk or HMTL-based) are incompatible, they do not provide access to all GUI element metadata.
+- GUI element metadata from windows that are not linked to the main process or main application window can't be accessed.
