@@ -14,9 +14,9 @@ The Win GUI Crawler has several features which will be briefly explained in this
 As its name implies, the main objective of this tool is to automatically traverse a windows application and collect data. It crawls the application in a depth first manner and collects unique screenshots, thus extracting GUI images and xml metadata. Additionally all interactions are recorded in a tree where nodes signify GUI screens and edges correspond to actions taken by the crawler.
 
 - ### Manual screenshot and metadata retrieval
-This feature allows users to manually extract data from an application by keypress. It doesn't record interactions but can prove useful when wanting to extract data from a specific screen.
+This feature allows users to manually extract data from an application by keypress. It doesn't record interactions but proves useful when wanting to extract data from a specific screen or a relatively small subset of screens.
 - ### Bounding box filter
-Labels that can be extracted from the metadata might correspond to elements that are not visible in the image and thus result in wrong labels. To clean up the labels a filtering scheme is applied which helps improve labeling accuracy.
+Labels that can be extracted from the metadata might correspond to elements that are not visible in the image and thus result in wrong labeling. To clean up the labels a filtering scheme is applied which helps improve labeling accuracy.
 
 # Possible uses
 -     The main goal of the tool is to gather large amounts of (partially-)annotated data, which with a subsequent fine combed manual annotation step could produce quality data for machine learning methods.​
