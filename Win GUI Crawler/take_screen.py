@@ -73,17 +73,17 @@ def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
     window_w = abs(rect[0]-rect[2])
     window_h = abs(rect[1]-rect[3])
 
-    #limits width and height to screen size
-    if window_x < 0:
+    #limits width and height to screen size (actually better to leave it wider just in case)
+    if window_x < -GetSystemMetrics(0):
         window_w = window_w + window_x
         window_x = 0
-    if window_y < 0:
+    if window_y < -GetSystemMetrics(1):
         window_h = window_h + window_y
         window_y = 0
-    if abs(window_w) > GetSystemMetrics(0):
-        window_w = GetSystemMetrics(0)-window_x
-    if abs(window_h) > GetSystemMetrics(1):
-        window_h = GetSystemMetrics(1)-window_y
+    if abs(window_w) > GetSystemMetrics(0)*2:
+        window_w = GetSystemMetrics(0)*2-window_x
+    if abs(window_h) > GetSystemMetrics(1)*2:
+        window_h = GetSystemMetrics(1)*2-window_y
 
     #Take a screenshot and crop it to fit the application
     img = pyautogui.screenshot(region=(window_x,window_y,window_w,window_h))

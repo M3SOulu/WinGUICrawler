@@ -431,11 +431,11 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered,istree):
         tl = [int(el.attrib['x']), int(el.attrib['y'])]
         br = [tl[0]+int(el.attrib['width']), tl[1]+int(el.attrib['height'])]
         cropped = img[tl[1]:br[1],tl[0]:br[0]]
-        cropped_name = el.tag+":"+get_el_name(el)+".png"
+        cropped_name = el.tag+"-"+get_el_name(el)+".png"
         count = 1
         while os.path.exists(foldername_elements+cropped_name):
             count+=1
-            cropped_name = el.tag+":"+get_el_name(el)+"("+str(count)+")"+".png"
+            cropped_name = el.tag+"-"+get_el_name(el)+"("+str(count)+")"+".png"
         if cropped.size > 0:
             cv2.imwrite(foldername_elements+"images/"+cropped_name,cropped)
         isFilteredOut = ("True" if el in blacklist else "False")
