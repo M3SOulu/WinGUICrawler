@@ -12,7 +12,7 @@ directory = '%s/' % os.getcwd()+sys.argv[1]+"/"
 class Node(object):
     '''Creates a node object'''
 
-    def __init__(self, path, name, action, click_list): #action might be useless
+    def __init__(self, path, name, action, click_list, el_list): #action might be useless
         '''Defines x and y variables'''
         #name of the node
         self.name = name
@@ -24,6 +24,8 @@ class Node(object):
         self.visited = False
         #List of clickable actions that can be take at this node
         self.click_list = click_list
+        #List of unique elements present at this node
+        self.el_list = el_list
         #Alive means that either the node and/or it's children haven't been explored yet
         self.alive = True
         #Is there a screenshot of the node?

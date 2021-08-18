@@ -26,7 +26,7 @@ directory = '%s/' % os.getcwd()+"screens_temp/"
 class Node(object):
     '''Creates a node object'''
 
-    def __init__(self, path, name, action, click_list): #action might be useless
+    def __init__(self, path, name, action, click_list, el_list): #action might be useless
         '''Defines x and y variables'''
         #name of the node
         self.name = name
@@ -38,6 +38,8 @@ class Node(object):
         self.visited = False
         #List of clickable actions that can be take at this node
         self.click_list = click_list
+        #List of unique elements present at this node
+        self.el_list = el_list
         #Alive means that either the node and/or it's children haven't been explored yet
         self.alive = True
         #Is there a screenshot of the node?
@@ -82,11 +84,13 @@ def take_metadata(driver,clickable_items):
 
     #gui elements are put into a list by iterating over the xml tree
     list_elements = []
+    list_elements_xpath = []
     clickable_list = []
 
     tree = etree.fromstring(source.encode('utf-16'))
     for elt in tree.iter():
         list_elements.append(elt.attrib)
+        list_elements_xpath.append(get_unique_xpath(elt))
         if (elt.tag in clickable_items) and (elt.attrib['IsEnabled']=="True") and ('Name' in elt.attrib):
             clickable_list.append(get_unique_xpath(elt))
 
@@ -107,7 +111,7 @@ def take_metadata(driver,clickable_items):
         elt.attrib['y'] = str(int(elt.attrib['y']) - tl_y)
     source = etree.tostring(tree,encoding="unicode", method="xml")
     #returns the metadata, a list of gui elements and coordinate of the application bounding box
-    return source, clickable_list, list_elements, (tl_x, tl_y, br_x, br_y)
+    return source, clickable_list, list_elements, list_elements_xpath, (tl_x, tl_y, br_x, br_y)
 
 #This function takes an image screenshot, writes it and also writes the metadata onto an xml file
 def take_screen(driver,appended_name,xmlmeta,list_of_elements,rect):
@@ -187,10 +191,11 @@ def crawl():
     if not os.path.exists(directory+"/raw_screens"):
         os.mkdir(directory+"/raw_screens")
     #List of the types of elements that are considered clickable, i.e. permit interaction and could produce new screens
-    clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem","CheckBox"]
+    clickable_items = ["Button","SplitButton","MenuItem","TabItem","ListItem"]
 
     #A set that keeps track of all clickable items that have been seen during traversal
-    union_traversed = set([])
+    union_traversed_clickables = set([])
+    union_traversed_elements = set([])
 
     #opens the application via webdriver
     desired_caps = {}
@@ -242,7 +247,7 @@ def crawl():
         #Graph will be made of two dicts, one containing adjacency list and one containing node info
         graph = {}
         nodes = {}
-        rootNode = Node(rootNodeName,rootNodeName,None,None) #Path, Name, last action, list of unique clickables
+        rootNode = Node(rootNodeName,rootNodeName,None,None,None) #Path, Name, last action, list of unique clickables
         nodes[rootNodeName] = rootNode
 
     #Flag that signifies a dead end in the tree traversal, meaning the crawler needs to stop
@@ -262,7 +267,7 @@ def crawl():
             if current_node.visited == False:
                 #get metdata
                 try:
-                    xmlsource, clickable, els, rect = take_metadata(driver,clickable_items)
+                    xmlsource, clickable, els, els_xpath, rect = take_metadata(driver,clickable_items)
                 except Exception as error:
                     #If the application crashes unexpectedly (errors or close has been clicked), the node is killed
                     print("Caught exception, window might be closed")
@@ -282,10 +287,13 @@ def crawl():
 
                 #create list of unique clickables and save in node and create children
                 #they are considered unique if encountered for the first time during traversal
-                unique_list = list(set(clickable).difference(union_traversed))
-                current_node.click_list = unique_list
+                unique_clickable_list = list(set(clickable).difference(union_traversed_clickables))
+                current_node.click_list = unique_clickable_list
+                #same for other elements
+                unique_elements_list = list(set(els_xpath).difference(union_traversed_elements))
+                current_node.el_list = unique_elements_list
                 #Create all it's children that are reach with their respective clickable actions
-                for clickable_el in unique_list:
+                for clickable_el in unique_clickable_list:
                     #parse the name from path
                     clt = clickable_el.split("[@Name = \'")
                     clt2 = clt[-1][:-2]
@@ -296,21 +304,24 @@ def crawl():
                     child_name = current_node.name+"_+_"+clickable_el_name
                     child_path = current_node.path+"_+_"+clickable_el
                     child_nodes.append(child_path)
-                    nodes[child_path] = Node(child_path,child_name,clickable_el,None)
+                    nodes[child_path] = Node(child_path,child_name,clickable_el,None,None)
                 graph[current_node.path]=child_nodes
 
-                #If there are no unique clickables kill node, otherwise take screen
-                if len(unique_list) == 0:
+                #If there are no new unique clickales, kill node
+                if len(unique_clickable_list) == 0:
                     current_node.alive = False
                     DeadEnd = True
-                else:
+
+                #If there are new unique elements take screen
+                if len(unique_elements_list) != 0:
                     take_screen(driver,replace_illegal_char(current_node.name),xmlsource,els,rect)
                     current_node.screen = True
                     print("Taking screen of: ",current_node.name)
 
             #update union traversed
-            union_traversed = union_traversed.union(set(current_node.click_list))
+            union_traversed_clickables = union_traversed_clickables.union(set(current_node.click_list))
             print("Possible actions are: ",current_node.click_list)
+            union_traversed_elements = union_traversed_elements.union(set(current_node.el_list))
 
             #Check if all children are dead, if not, go to first alive child
             AllDead = True
