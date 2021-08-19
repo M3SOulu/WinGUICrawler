@@ -1,0 +1,8 @@
+filename,tag,name,type,offscreen,filtered_out,topleft,bottomright
+Window-GNU Image Manipulation Program.png,Window,GNU Image Manipulation Program,window,True,False,"[-5,-1]","[212,38]"
+TitleBar-.png,TitleBar,,title bar,False,False,"[20,2]","[211,38]"
+MenuBar-System.png,MenuBar,System,menu bar,True,False,"[10659,10673]","[10681,10695]"
+MenuItem-System.png,MenuItem,System,menu item,True,False,"[10659,10673]","[10681,10695]"
+Button-Restore.png,Button,Restore,button,False,False,"[0,0]","[71,38]"
+Button-Maximise.png,Button,Maximise,button,False,False,"[71,0]","[141,38]"
+Button-Close.png,Button,Close,button,False,False,"[141,0]","[212,38]"

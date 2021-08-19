@@ -1,0 +1,2525 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    197
+  ],
+  "bottomright": [
+    551,
+    997
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        192
+      ],
+      "bottomright": [
+        392,
+        934
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                390
+              ],
+              "bottomright": [
+                253,
+                438
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Sweden Krona",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Sweden Krona",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Switzerland Franc",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Switzerland Franc",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Syria Pound",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Syria Pound",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Taiwan New Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    194
+                  ],
+                  "bottomright": [
+                    390,
+                    242
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Taiwan New Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        201
+                      ],
+                      "bottomright": [
+                        372,
+                        229
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tanzania Shilling",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    242
+                  ],
+                  "bottomright": [
+                    390,
+                    291
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tanzania Shilling",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        250
+                      ],
+                      "bottomright": [
+                        372,
+                        278
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Thailand Baht",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    291
+                  ],
+                  "bottomright": [
+                    390,
+                    340
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Thailand Baht",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        299
+                      ],
+                      "bottomright": [
+                        372,
+                        327
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Trinidad and Tobago Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    340
+                  ],
+                  "bottomright": [
+                    390,
+                    389
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Trinidad and Tobago Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        348
+                      ],
+                      "bottomright": [
+                        372,
+                        376
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tunisia Dinar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    389
+                  ],
+                  "bottomright": [
+                    390,
+                    438
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tunisia Dinar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        397
+                      ],
+                      "bottomright": [
+                        372,
+                        425
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Turkey Lira",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    438
+                  ],
+                  "bottomright": [
+                    390,
+                    487
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Turkey Lira",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        446
+                      ],
+                      "bottomright": [
+                        372,
+                        474
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Turkmenistan Manat",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    487
+                  ],
+                  "bottomright": [
+                    390,
+                    536
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Turkmenistan Manat",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        495
+                      ],
+                      "bottomright": [
+                        372,
+                        523
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uganda Shilling",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    536
+                  ],
+                  "bottomright": [
+                    390,
+                    585
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uganda Shilling",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        544
+                      ],
+                      "bottomright": [
+                        372,
+                        572
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Ukraine Hryvna",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    585
+                  ],
+                  "bottomright": [
+                    390,
+                    634
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Ukraine Hryvna",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        593
+                      ],
+                      "bottomright": [
+                        372,
+                        621
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United Arab Emirates Dirham",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    634
+                  ],
+                  "bottomright": [
+                    390,
+                    683
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United Arab Emirates Dirham",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        642
+                      ],
+                      "bottomright": [
+                        372,
+                        670
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United Kingdom Pound",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    683
+                  ],
+                  "bottomright": [
+                    390,
+                    732
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United Kingdom Pound",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        691
+                      ],
+                      "bottomright": [
+                        372,
+                        719
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United States Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    732
+                  ],
+                  "bottomright": [
+                    390,
+                    781
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United States Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        740
+                      ],
+                      "bottomright": [
+                        372,
+                        767
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uruguay Peso",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    781
+                  ],
+                  "bottomright": [
+                    390,
+                    829
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uruguay Peso",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        789
+                      ],
+                      "bottomright": [
+                        372,
+                        816
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uzbekistan Som",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    830
+                  ],
+                  "bottomright": [
+                    390,
+                    878
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uzbekistan Som",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        838
+                      ],
+                      "bottomright": [
+                        372,
+                        865
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Venezuela Bolivar Soberano",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    879
+                  ],
+                  "bottomright": [
+                    390,
+                    927
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Venezuela Bolivar Soberano",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        887
+                      ],
+                      "bottomright": [
+                        372,
+                        914
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Vietnam Dong",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    928
+                  ],
+                  "bottomright": [
+                    390,
+                    928
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Vietnam Dong",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Yemen Rial",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Yemen Rial",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Zambia Kwacha",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Zambia Kwacha",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Guatemala Quetzal",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                438
+              ],
+              "bottomright": [
+                133,
+                522
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                522
+              ],
+              "bottomright": [
+                332,
+                570
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Guatemala Quetzal",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    522
+                  ],
+                  "bottomright": [
+                    284,
+                    570
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Guatemala Quetzal",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        70,
+                        522
+                      ],
+                      "bottomright": [
+                        284,
+                        570
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "1 Turkey Lira = 0,9081 Guatemala Quetzal",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                570
+              ],
+              "bottomright": [
+                292,
+                594
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Updated \u200e29\u200e/\u200e07\u200e/\u200e2021 \u200e9\u200e.\u200e52",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                594
+              ],
+              "bottomright": [
+                292,
+                618
+              ],
+              "children": []
+            },
+            {
+              "tag": "HyperLink",
+              "name": "Update rates",
+              "type": "link",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                618
+              ],
+              "bottomright": [
+                207,
+                665
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "",
+              "type": "text",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                667
+              ],
+              "bottomright": [
+                544,
+                728
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    234,
+                    667
+                  ],
+                  "bottomright": [
+                    387,
+                    728
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    667
+                  ],
+                  "bottomright": [
+                    544,
+                    728
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                732
+              ],
+              "bottomright": [
+                544,
+                990
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    928
+                  ],
+                  "bottomright": [
+                    387,
+                    990
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    863
+                  ],
+                  "bottomright": [
+                    231,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    863
+                  ],
+                  "bottomright": [
+                    387,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    863
+                  ],
+                  "bottomright": [
+                    544,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    798
+                  ],
+                  "bottomright": [
+                    231,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    798
+                  ],
+                  "bottomright": [
+                    387,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    798
+                  ],
+                  "bottomright": [
+                    544,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    732
+                  ],
+                  "bottomright": [
+                    231,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    732
+                  ],
+                  "bottomright": [
+                    387,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    732
+                  ],
+                  "bottomright": [
+                    544,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    928
+                  ],
+                  "bottomright": [
+                    544,
+                    990
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        198
+      ],
+      "bottomright": [
+        550,
+        246
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            149
+          ],
+          "bottomright": [
+            0,
+            149
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            343,
+            198
+          ],
+          "bottomright": [
+            412,
+            246
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            412,
+            198
+          ],
+          "bottomright": [
+            481,
+            246
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            481,
+            198
+          ],
+          "bottomright": [
+            550,
+            246
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        198
+      ],
+      "bottomright": [
+        550,
+        996
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            210
+          ],
+          "bottomright": [
+            167,
+            234
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            306
+          ],
+          "bottomright": [
+            544,
+            990
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Turkey Lira",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                306
+              ],
+              "bottomright": [
+                135,
+                390
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                390
+              ],
+              "bottomright": [
+                253,
+                438
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Sweden Krona",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Sweden Krona",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Switzerland Franc",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Switzerland Franc",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Syria Pound",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Syria Pound",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Taiwan New Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    194
+                  ],
+                  "bottomright": [
+                    390,
+                    242
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Taiwan New Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        201
+                      ],
+                      "bottomright": [
+                        372,
+                        229
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tanzania Shilling",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    242
+                  ],
+                  "bottomright": [
+                    390,
+                    291
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tanzania Shilling",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        250
+                      ],
+                      "bottomright": [
+                        372,
+                        278
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Thailand Baht",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    291
+                  ],
+                  "bottomright": [
+                    390,
+                    340
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Thailand Baht",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        299
+                      ],
+                      "bottomright": [
+                        372,
+                        327
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Trinidad and Tobago Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    340
+                  ],
+                  "bottomright": [
+                    390,
+                    389
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Trinidad and Tobago Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        348
+                      ],
+                      "bottomright": [
+                        372,
+                        376
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Tunisia Dinar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    389
+                  ],
+                  "bottomright": [
+                    390,
+                    438
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Tunisia Dinar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        397
+                      ],
+                      "bottomright": [
+                        372,
+                        425
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Turkey Lira",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    72,
+                    438
+                  ],
+                  "bottomright": [
+                    390,
+                    487
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Turkey Lira",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        89,
+                        446
+                      ],
+                      "bottomright": [
+                        372,
+                        474
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Turkmenistan Manat",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    487
+                  ],
+                  "bottomright": [
+                    390,
+                    536
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Turkmenistan Manat",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        495
+                      ],
+                      "bottomright": [
+                        372,
+                        523
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uganda Shilling",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    536
+                  ],
+                  "bottomright": [
+                    390,
+                    585
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uganda Shilling",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        544
+                      ],
+                      "bottomright": [
+                        372,
+                        572
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Ukraine Hryvna",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    585
+                  ],
+                  "bottomright": [
+                    390,
+                    634
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Ukraine Hryvna",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        593
+                      ],
+                      "bottomright": [
+                        372,
+                        621
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United Arab Emirates Dirham",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    634
+                  ],
+                  "bottomright": [
+                    390,
+                    683
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United Arab Emirates Dirham",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        642
+                      ],
+                      "bottomright": [
+                        372,
+                        670
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United Kingdom Pound",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    683
+                  ],
+                  "bottomright": [
+                    390,
+                    732
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United Kingdom Pound",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        691
+                      ],
+                      "bottomright": [
+                        372,
+                        719
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "United States Dollar",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    732
+                  ],
+                  "bottomright": [
+                    390,
+                    781
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "United States Dollar",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        740
+                      ],
+                      "bottomright": [
+                        372,
+                        767
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uruguay Peso",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    781
+                  ],
+                  "bottomright": [
+                    390,
+                    829
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uruguay Peso",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        789
+                      ],
+                      "bottomright": [
+                        372,
+                        816
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Uzbekistan Som",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    830
+                  ],
+                  "bottomright": [
+                    390,
+                    878
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Uzbekistan Som",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        838
+                      ],
+                      "bottomright": [
+                        372,
+                        865
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Venezuela Bolivar Soberano",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    879
+                  ],
+                  "bottomright": [
+                    390,
+                    927
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Venezuela Bolivar Soberano",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        887
+                      ],
+                      "bottomright": [
+                        372,
+                        914
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Vietnam Dong",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    928
+                  ],
+                  "bottomright": [
+                    390,
+                    928
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Vietnam Dong",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Yemen Rial",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Yemen Rial",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Zambia Kwacha",
+                  "type": "list item",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Zambia Kwacha",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        149
+                      ],
+                      "bottomright": [
+                        0,
+                        149
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Guatemala Quetzal",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                438
+              ],
+              "bottomright": [
+                133,
+                522
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                522
+              ],
+              "bottomright": [
+                332,
+                570
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Guatemala Quetzal",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    70,
+                    522
+                  ],
+                  "bottomright": [
+                    284,
+                    570
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Guatemala Quetzal",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        70,
+                        522
+                      ],
+                      "bottomright": [
+                        284,
+                        570
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "1 Turkey Lira = 0,9081 Guatemala Quetzal",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                570
+              ],
+              "bottomright": [
+                292,
+                594
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Updated \u200e29\u200e/\u200e07\u200e/\u200e2021 \u200e9\u200e.\u200e52",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                594
+              ],
+              "bottomright": [
+                292,
+                618
+              ],
+              "children": []
+            },
+            {
+              "tag": "HyperLink",
+              "name": "Update rates",
+              "type": "link",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                618
+              ],
+              "bottomright": [
+                207,
+                665
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "",
+              "type": "text",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                667
+              ],
+              "bottomright": [
+                544,
+                728
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    234,
+                    667
+                  ],
+                  "bottomright": [
+                    387,
+                    728
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    667
+                  ],
+                  "bottomright": [
+                    544,
+                    728
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                732
+              ],
+              "bottomright": [
+                544,
+                990
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    928
+                  ],
+                  "bottomright": [
+                    387,
+                    990
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    863
+                  ],
+                  "bottomright": [
+                    231,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    863
+                  ],
+                  "bottomright": [
+                    387,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    863
+                  ],
+                  "bottomright": [
+                    544,
+                    926
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    798
+                  ],
+                  "bottomright": [
+                    231,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    798
+                  ],
+                  "bottomright": [
+                    387,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    798
+                  ],
+                  "bottomright": [
+                    544,
+                    860
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    732
+                  ],
+                  "bottomright": [
+                    231,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    732
+                  ],
+                  "bottomright": [
+                    387,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    732
+                  ],
+                  "bottomright": [
+                    544,
+                    795
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    928
+                  ],
+                  "bottomright": [
+                    544,
+                    990
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Currency Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            142,
+            254
+          ],
+          "bottomright": [
+            262,
+            294
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            246
+          ],
+          "bottomright": [
+            550,
+            996
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                246
+              ],
+              "bottomright": [
+                130,
+                306
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        246
+      ],
+      "bottomright": [
+        550,
+        996
+      ],
+      "children": []
+    }
+  ]
+}

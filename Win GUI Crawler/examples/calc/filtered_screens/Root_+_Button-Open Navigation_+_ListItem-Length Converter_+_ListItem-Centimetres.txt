@@ -1,0 +1,1671 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    148
+  ],
+  "bottomright": [
+    551,
+    948
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        324
+      ],
+      "bottomright": [
+        251,
+        870
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1019
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1019
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                473
+              ],
+              "bottomright": [
+                251,
+                521
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Nanometres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    249,
+                    374
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Nanometres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        334
+                      ],
+                      "bottomright": [
+                        232,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Microns",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    374
+                  ],
+                  "bottomright": [
+                    249,
+                    423
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Microns",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        383
+                      ],
+                      "bottomright": [
+                        232,
+                        411
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Millimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    249,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Millimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        232,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Centimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    473
+                  ],
+                  "bottomright": [
+                    249,
+                    522
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Centimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        481
+                      ],
+                      "bottomright": [
+                        232,
+                        509
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Metres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    522
+                  ],
+                  "bottomright": [
+                    249,
+                    571
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Metres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        530
+                      ],
+                      "bottomright": [
+                        232,
+                        558
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilometres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    570
+                  ],
+                  "bottomright": [
+                    249,
+                    619
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilometres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        579
+                      ],
+                      "bottomright": [
+                        232,
+                        606
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Inches",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    620
+                  ],
+                  "bottomright": [
+                    249,
+                    669
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Inches",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        627
+                      ],
+                      "bottomright": [
+                        232,
+                        655
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Feet",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    669
+                  ],
+                  "bottomright": [
+                    249,
+                    718
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Feet",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        677
+                      ],
+                      "bottomright": [
+                        232,
+                        705
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Yards",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    718
+                  ],
+                  "bottomright": [
+                    249,
+                    767
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Yards",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        726
+                      ],
+                      "bottomright": [
+                        232,
+                        754
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Miles",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    767
+                  ],
+                  "bottomright": [
+                    249,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Miles",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        775
+                      ],
+                      "bottomright": [
+                        232,
+                        803
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Nautical Miles",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    816
+                  ],
+                  "bottomright": [
+                    249,
+                    865
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Nautical Miles",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        824
+                      ],
+                      "bottomright": [
+                        232,
+                        852
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1019
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                595
+              ],
+              "bottomright": [
+                544,
+                662
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    234,
+                    595
+                  ],
+                  "bottomright": [
+                    387,
+                    662
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    595
+                  ],
+                  "bottomright": [
+                    544,
+                    662
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                665
+              ],
+              "bottomright": [
+                544,
+                942
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    875
+                  ],
+                  "bottomright": [
+                    387,
+                    942
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    805
+                  ],
+                  "bottomright": [
+                    231,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    805
+                  ],
+                  "bottomright": [
+                    387,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    805
+                  ],
+                  "bottomright": [
+                    544,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    735
+                  ],
+                  "bottomright": [
+                    231,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    735
+                  ],
+                  "bottomright": [
+                    387,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    735
+                  ],
+                  "bottomright": [
+                    544,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    665
+                  ],
+                  "bottomright": [
+                    231,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    665
+                  ],
+                  "bottomright": [
+                    387,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    665
+                  ],
+                  "bottomright": [
+                    544,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    875
+                  ],
+                  "bottomright": [
+                    544,
+                    942
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        149
+      ],
+      "bottomright": [
+        550,
+        197
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            100
+          ],
+          "bottomright": [
+            0,
+            100
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                100
+              ],
+              "bottomright": [
+                0,
+                100
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            343,
+            149
+          ],
+          "bottomright": [
+            412,
+            197
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            412,
+            149
+          ],
+          "bottomright": [
+            481,
+            197
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            481,
+            149
+          ],
+          "bottomright": [
+            550,
+            197
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        149
+      ],
+      "bottomright": [
+        550,
+        947
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            161
+          ],
+          "bottomright": [
+            167,
+            185
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            257
+          ],
+          "bottomright": [
+            544,
+            942
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                100
+              ],
+              "bottomright": [
+                0,
+                100
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Inches",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                257
+              ],
+              "bottomright": [
+                135,
+                341
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                341
+              ],
+              "bottomright": [
+                197,
+                389
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Inches",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    70,
+                    341
+                  ],
+                  "bottomright": [
+                    149,
+                    389
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Inches",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        70,
+                        341
+                      ],
+                      "bottomright": [
+                        149,
+                        389
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Centimetres",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                389
+              ],
+              "bottomright": [
+                133,
+                473
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                473
+              ],
+              "bottomright": [
+                251,
+                521
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Nanometres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    249,
+                    374
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Nanometres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        334
+                      ],
+                      "bottomright": [
+                        232,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Microns",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    374
+                  ],
+                  "bottomright": [
+                    249,
+                    423
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Microns",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        383
+                      ],
+                      "bottomright": [
+                        232,
+                        411
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Millimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    249,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Millimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        232,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Centimetres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    72,
+                    473
+                  ],
+                  "bottomright": [
+                    249,
+                    522
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Centimetres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        89,
+                        481
+                      ],
+                      "bottomright": [
+                        232,
+                        509
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Metres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    522
+                  ],
+                  "bottomright": [
+                    249,
+                    571
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Metres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        530
+                      ],
+                      "bottomright": [
+                        232,
+                        558
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilometres",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    570
+                  ],
+                  "bottomright": [
+                    249,
+                    619
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilometres",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        579
+                      ],
+                      "bottomright": [
+                        232,
+                        606
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Inches",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    620
+                  ],
+                  "bottomright": [
+                    249,
+                    669
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Inches",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        627
+                      ],
+                      "bottomright": [
+                        232,
+                        655
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Feet",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    669
+                  ],
+                  "bottomright": [
+                    249,
+                    718
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Feet",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        677
+                      ],
+                      "bottomright": [
+                        232,
+                        705
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Yards",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    718
+                  ],
+                  "bottomright": [
+                    249,
+                    767
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Yards",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        726
+                      ],
+                      "bottomright": [
+                        232,
+                        754
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Miles",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    767
+                  ],
+                  "bottomright": [
+                    249,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Miles",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        775
+                      ],
+                      "bottomright": [
+                        232,
+                        803
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Nautical Miles",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    816
+                  ],
+                  "bottomright": [
+                    249,
+                    865
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Nautical Miles",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        824
+                      ],
+                      "bottomright": [
+                        232,
+                        852
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1019
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                595
+              ],
+              "bottomright": [
+                544,
+                662
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    234,
+                    595
+                  ],
+                  "bottomright": [
+                    387,
+                    662
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    595
+                  ],
+                  "bottomright": [
+                    544,
+                    662
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                665
+              ],
+              "bottomright": [
+                544,
+                942
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    875
+                  ],
+                  "bottomright": [
+                    387,
+                    942
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    805
+                  ],
+                  "bottomright": [
+                    231,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    805
+                  ],
+                  "bottomright": [
+                    387,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    805
+                  ],
+                  "bottomright": [
+                    544,
+                    872
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    735
+                  ],
+                  "bottomright": [
+                    231,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    735
+                  ],
+                  "bottomright": [
+                    387,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    735
+                  ],
+                  "bottomright": [
+                    544,
+                    802
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    665
+                  ],
+                  "bottomright": [
+                    231,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    665
+                  ],
+                  "bottomright": [
+                    387,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    665
+                  ],
+                  "bottomright": [
+                    544,
+                    732
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    875
+                  ],
+                  "bottomright": [
+                    544,
+                    942
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Length Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            142,
+            205
+          ],
+          "bottomright": [
+            237,
+            245
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            197
+          ],
+          "bottomright": [
+            550,
+            947
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                197
+              ],
+              "bottomright": [
+                130,
+                257
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    100
+                  ],
+                  "bottomright": [
+                    0,
+                    100
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        197
+      ],
+      "bottomright": [
+        550,
+        947
+      ],
+      "children": []
+    }
+  ]
+}

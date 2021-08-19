@@ -1,0 +1,1183 @@
+{
+  "tag": "Window",
+  "name": "Oracle VM VirtualBox Manager",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    481,
+    183
+  ],
+  "bottomright": [
+    1451,
+    777
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Import Virtual Appliance",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        361,
+        4
+      ],
+      "bottomright": [
+        1571,
+        993
+      ],
+      "children": [
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "True",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            -40
+          ],
+          "bottomright": [
+            0,
+            -40
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                241,
+                -3
+              ],
+              "bottomright": [
+                263,
+                19
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    241,
+                    -3
+                  ],
+                  "bottomright": [
+                    263,
+                    19
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Context help",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1429,
+                5
+              ],
+              "bottomright": [
+                1500,
+                49
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1500,
+                5
+              ],
+              "bottomright": [
+                1571,
+                49
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            362,
+            110
+          ],
+          "bottomright": [
+            1570,
+            992
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Import",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1320,
+                940
+              ],
+              "bottomright": [
+                1432,
+                974
+              ],
+              "children": []
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                362,
+                132
+              ],
+              "bottomright": [
+                1570,
+                914
+              ],
+              "children": [
+                {
+                  "tag": "Custom",
+                  "name": "",
+                  "type": "",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    398,
+                    132
+                  ],
+                  "bottomright": [
+                    1570,
+                    914
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "Appliance to import",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        410,
+                        144
+                      ],
+                      "bottomright": [
+                        1558,
+                        230
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "Appliance to import",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            424,
+                            178
+                          ],
+                          "bottomright": [
+                            1544,
+                            216
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1506,
+                                178
+                              ],
+                              "bottomright": [
+                                1544,
+                                214
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                424,
+                                178
+                              ],
+                              "bottomright": [
+                                1498,
+                                216
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Group",
+                      "name": "Appliance settings",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        410,
+                        238
+                      ],
+                      "bottomright": [
+                        1558,
+                        902
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "Appliance settings",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            424,
+                            272
+                          ],
+                          "bottomright": [
+                            1544,
+                            888
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                424,
+                                272
+                              ],
+                              "bottomright": [
+                                1544,
+                                656
+                              ],
+                              "children": [
+                                {
+                                  "tag": "List",
+                                  "name": "Detailed list of all components of all virtual machines of the current appliance Detailed list of all components of all virtual machines of the current appliance",
+                                  "type": "list",
+                                  "offscreen": "False",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    424,
+                                    272
+                                  ],
+                                  "bottomright": [
+                                    1544,
+                                    656
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                424,
+                                664
+                              ],
+                              "bottomright": [
+                                1544,
+                                760
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Edit",
+                                  "name": "",
+                                  "type": "edit",
+                                  "offscreen": "False",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    424,
+                                    664
+                                  ],
+                                  "bottomright": [
+                                    1544,
+                                    760
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "Custom",
+                                      "name": "",
+                                      "type": "",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        424,
+                                        664
+                                      ],
+                                      "bottomright": [
+                                        1544,
+                                        760
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "ToolBar",
+                              "name": "",
+                              "type": "tool bar",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                424,
+                                768
+                              ],
+                              "bottomright": [
+                                1544,
+                                806
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Edit",
+                                  "name": "",
+                                  "type": "edit",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    462,
+                                    774
+                                  ],
+                                  "bottomright": [
+                                    1506,
+                                    800
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ComboBox",
+                                  "name": " Down",
+                                  "type": "combo box",
+                                  "offscreen": "False",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    424,
+                                    768
+                                  ],
+                                  "bottomright": [
+                                    1544,
+                                    806
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "List",
+                                      "name": "",
+                                      "type": "list",
+                                      "offscreen": "True",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        0,
+                                        -40
+                                      ],
+                                      "bottomright": [
+                                        0,
+                                        -40
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "ListItem",
+                                          "name": "C:\\Users\\watas\\VirtualBox VMs",
+                                          "type": "list item",
+                                          "offscreen": "True",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            2,
+                                            -38
+                                          ],
+                                          "bottomright": [
+                                            172,
+                                            -14
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "ListItem",
+                                          "name": "Other...",
+                                          "type": "list item",
+                                          "offscreen": "True",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            2,
+                                            -14
+                                          ],
+                                          "bottomright": [
+                                            172,
+                                            10
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "ListItem",
+                                          "name": "Reset",
+                                          "type": "list item",
+                                          "offscreen": "True",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            2,
+                                            10
+                                          ],
+                                          "bottomright": [
+                                            172,
+                                            34
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "Edit",
+                                      "name": "",
+                                      "type": "edit",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        462,
+                                        774
+                                      ],
+                                      "bottomright": [
+                                        1506,
+                                        800
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "Text",
+                              "name": "MAC Address Policy:",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                424,
+                                814
+                              ],
+                              "bottomright": [
+                                568,
+                                852
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "ComboBox",
+                              "name": "MAC Address Policy: Down",
+                              "type": "combo box",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                576,
+                                814
+                              ],
+                              "bottomright": [
+                                1544,
+                                852
+                              ],
+                              "children": [
+                                {
+                                  "tag": "List",
+                                  "name": "",
+                                  "type": "list",
+                                  "offscreen": "True",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    0,
+                                    -40
+                                  ],
+                                  "bottomright": [
+                                    0,
+                                    -40
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "Include all network adapter MAC addresses",
+                                      "type": "list item",
+                                      "offscreen": "True",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        0,
+                                        -40
+                                      ],
+                                      "bottomright": [
+                                        1280,
+                                        -20
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "Include only NAT network adapter MAC addresses",
+                                      "type": "list item",
+                                      "offscreen": "True",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        0,
+                                        -20
+                                      ],
+                                      "bottomright": [
+                                        1280,
+                                        0
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "Generate new MAC addresses for all network adapters",
+                                      "type": "list item",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        0,
+                                        0
+                                      ],
+                                      "bottomright": [
+                                        1280,
+                                        20
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "Text",
+                              "name": "Additional Options:",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                424,
+                                860
+                              ],
+                              "bottomright": [
+                                568,
+                                888
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "CheckBox",
+                              "name": "Import hard drives as VDI Alt+I",
+                              "type": "checkbox",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                576,
+                                860
+                              ],
+                              "bottomright": [
+                                792,
+                                888
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Cancel",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1440,
+                940
+              ],
+              "bottomright": [
+                1552,
+                974
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Guided Mode Alt+G",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1062,
+                940
+              ],
+              "bottomright": [
+                1174,
+                974
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Restore Defaults Enter",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1182,
+                940
+              ],
+              "bottomright": [
+                1312,
+                974
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            362,
+            58
+          ],
+          "bottomright": [
+            410,
+            106
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        506,
+        186
+      ],
+      "bottomright": [
+        1450,
+        228
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            321,
+            116
+          ],
+          "bottomright": [
+            343,
+            138
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                321,
+                116
+              ],
+              "bottomright": [
+                343,
+                138
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1239,
+            184
+          ],
+          "bottomright": [
+            1310,
+            228
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1310,
+            184
+          ],
+          "bottomright": [
+            1380,
+            228
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1380,
+            184
+          ],
+          "bottomright": [
+            1451,
+            228
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "MenuBar",
+      "name": "",
+      "type": "menu bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        482,
+        228
+      ],
+      "bottomright": [
+        1450,
+        264
+      ],
+      "children": [
+        {
+          "tag": "MenuItem",
+          "name": "File Alt+F",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            482,
+            228
+          ],
+          "bottomright": [
+            542,
+            262
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Machine Alt+M",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            542,
+            228
+          ],
+          "bottomright": [
+            642,
+            262
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Help Alt+H",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            642,
+            228
+          ],
+          "bottomright": [
+            712,
+            262
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Custom",
+      "name": "",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        482,
+        264
+      ],
+      "bottomright": [
+        1450,
+        776
+      ],
+      "children": [
+        {
+          "tag": "SplitButton",
+          "name": "",
+          "type": "split button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            482,
+            264
+          ],
+          "bottomright": [
+            1450,
+            776
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                692,
+                264
+              ],
+              "bottomright": [
+                1450,
+                776
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    692,
+                    264
+                  ],
+                  "bottomright": [
+                    1450,
+                    352
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Preferences",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        692,
+                        264
+                      ],
+                      "bottomright": [
+                        802,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        802,
+                        264
+                      ],
+                      "bottomright": [
+                        810,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Import",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        810,
+                        264
+                      ],
+                      "bottomright": [
+                        886,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Export",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        886,
+                        264
+                      ],
+                      "bottomright": [
+                        958,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        958,
+                        264
+                      ],
+                      "bottomright": [
+                        966,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "New",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        966,
+                        264
+                      ],
+                      "bottomright": [
+                        1028,
+                        352
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Add",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1028,
+                        264
+                      ],
+                      "bottomright": [
+                        1090,
+                        352
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    692,
+                    352
+                  ],
+                  "bottomright": [
+                    1450,
+                    776
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        692,
+                        352
+                      ],
+                      "bottomright": [
+                        1450,
+                        776
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            692,
+                            352
+                          ],
+                          "bottomright": [
+                            1450,
+                            776
+                          ],
+                          "children": [
+                            {
+                              "tag": "Text",
+                              "name": "Welcome to VirtualBox!\nThe left part of application window contains global tools and lists all virtual machines and virtual machine groups on your computer. You can import, add and create new VMs using corresponding toolbar buttons. You can popup a tools of currently selected element using corresponding element button.\nYou can press the F1 key to get instant help, or visit www.virtualbox.org for more information and latest news.",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                710,
+                                364
+                              ],
+                              "bottomright": [
+                                1030,
+                                764
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1038,
+                                364
+                              ],
+                              "bottomright": [
+                                1438,
+                                764
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                482,
+                264
+              ],
+              "bottomright": [
+                690,
+                776
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    482,
+                    264
+                  ],
+                  "bottomright": [
+                    690,
+                    776
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Tools",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        482,
+                        264
+                      ],
+                      "bottomright": [
+                        690,
+                        352
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                686,
+                264
+              ],
+              "bottomright": [
+                696,
+                776
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

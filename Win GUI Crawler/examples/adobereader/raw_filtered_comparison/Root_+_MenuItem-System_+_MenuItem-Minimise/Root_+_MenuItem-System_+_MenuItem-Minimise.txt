@@ -1,0 +1,701 @@
+{
+  "tag": "Window",
+  "name": "Adobe Acrobat Reader DC (32-bit)",
+  "type": "window",
+  "offscreen": "True",
+  "filtered_out": "False",
+  "topleft": [
+    10,
+    0
+  ],
+  "bottomright": [
+    227,
+    39
+  ],
+  "children": [
+    {
+      "tag": "Pane",
+      "name": "TopTabBarContainerViewForDocs",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        0,
+        0
+      ],
+      "bottomright": [
+        1920,
+        54
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "AVHomeSearchBarView",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1030,
+            6
+          ],
+          "bottomright": [
+            1390,
+            48
+          ],
+          "children": [
+            {
+              "tag": "Edit",
+              "name": "",
+              "type": "edit",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1072,
+                10
+              ],
+              "bottomright": [
+                1348,
+                43
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "AVUITopRightCommandCluster",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1390,
+            1
+          ],
+          "bottomright": [
+            1920,
+            53
+          ],
+          "children": []
+        },
+        {
+          "tag": "Pane",
+          "name": "AVTabLinksContainerViewForDocs",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            1005,
+            54
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "AVFlipContainerView",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        0,
+        54
+      ],
+      "bottomright": [
+        1920,
+        956
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "AVDocumentMainView",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            54
+          ],
+          "bottomright": [
+            1920,
+            956
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "AVFlipContainerView",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                0,
+                54
+              ],
+              "bottomright": [
+                1920,
+                956
+              ],
+              "children": [
+                {
+                  "tag": "Pane",
+                  "name": "AVScrollView",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    331,
+                    54
+                  ],
+                  "bottomright": [
+                    1920,
+                    911
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "AVRightContainerView",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        331,
+                        54
+                      ],
+                      "bottomright": [
+                        1894,
+                        911
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "ScrollBar",
+                      "name": "",
+                      "type": "scroll bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1894,
+                        54
+                      ],
+                      "bottomright": [
+                        1920,
+                        911
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Line up",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1894,
+                            54
+                          ],
+                          "bottomright": [
+                            1920,
+                            80
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Thumb",
+                          "name": "Position",
+                          "type": "thumb",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1894,
+                            80
+                          ],
+                          "bottomright": [
+                            1920,
+                            856
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Page down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1894,
+                            856
+                          ],
+                          "bottomright": [
+                            1920,
+                            885
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Line down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1894,
+                            885
+                          ],
+                          "bottomright": [
+                            1920,
+                            911
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "AVScrollView",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    0,
+                    54
+                  ],
+                  "bottomright": [
+                    330,
+                    956
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "AVLeftContainerView",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        0,
+                        54
+                      ],
+                      "bottomright": [
+                        330,
+                        956
+                      ],
+                      "children": [
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            744
+                          ],
+                          "bottomright": [
+                            306,
+                            792
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            690
+                          ],
+                          "bottomright": [
+                            306,
+                            738
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            600
+                          ],
+                          "bottomright": [
+                            306,
+                            648
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            546
+                          ],
+                          "bottomright": [
+                            306,
+                            594
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            492
+                          ],
+                          "bottomright": [
+                            306,
+                            540
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            420
+                          ],
+                          "bottomright": [
+                            306,
+                            468
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            366
+                          ],
+                          "bottomright": [
+                            306,
+                            414
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            312
+                          ],
+                          "bottomright": [
+                            306,
+                            360
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            258
+                          ],
+                          "bottomright": [
+                            306,
+                            306
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            186
+                          ],
+                          "bottomright": [
+                            306,
+                            234
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            132
+                          ],
+                          "bottomright": [
+                            306,
+                            180
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "AVLeftRailEntryContainerView",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            24,
+                            78
+                          ],
+                          "bottomright": [
+                            306,
+                            126
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        35,
+        3
+      ],
+      "bottomright": [
+        226,
+        39
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            11,
+            11
+          ],
+          "bottomright": [
+            44,
+            44
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                11,
+                11
+              ],
+              "bottomright": [
+                44,
+                44
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Restore",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            15,
+            1
+          ],
+          "bottomright": [
+            86,
+            39
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            86,
+            1
+          ],
+          "bottomright": [
+            156,
+            39
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            156,
+            1
+          ],
+          "bottomright": [
+            227,
+            39
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "MenuBar",
+      "name": "Application",
+      "type": "menu bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        11,
+        11
+      ],
+      "bottomright": [
+        1931,
+        40
+      ],
+      "children": [
+        {
+          "tag": "MenuItem",
+          "name": "File",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            11,
+            45
+          ],
+          "bottomright": [
+            57,
+            74
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Edit",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            57,
+            45
+          ],
+          "bottomright": [
+            107,
+            74
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "View",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            107,
+            45
+          ],
+          "bottomright": [
+            164,
+            74
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Sign",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            164,
+            45
+          ],
+          "bottomright": [
+            219,
+            74
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Window",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            219,
+            45
+          ],
+          "bottomright": [
+            305,
+            74
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Help",
+          "type": "menu item",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            305,
+            45
+          ],
+          "bottomright": [
+            362,
+            74
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

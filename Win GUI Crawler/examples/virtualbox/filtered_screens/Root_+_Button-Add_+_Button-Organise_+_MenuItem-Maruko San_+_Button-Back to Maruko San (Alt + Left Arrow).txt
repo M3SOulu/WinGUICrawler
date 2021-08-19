@@ -1,0 +1,2226 @@
+{
+  "tag": "Window",
+  "name": "Oracle VM VirtualBox Manager",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    481,
+    223
+  ],
+  "bottomright": [
+    1451,
+    817
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Select a virtual machine file",
+      "type": "dialogue",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        492,
+        176
+      ],
+      "bottomright": [
+        1432,
+        886
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            493,
+            280
+          ],
+          "bottomright": [
+            1431,
+            760
+          ],
+          "children": [
+            {
+              "tag": "ToolBar",
+              "name": "Command Module",
+              "type": "tool bar",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                493,
+                280
+              ],
+              "bottomright": [
+                1431,
+                329
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "&Help",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1375,
+                    283
+                  ],
+                  "bottomright": [
+                    1417,
+                    324
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "CheckBox",
+                  "name": "Preview pane",
+                  "type": "checkbox",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1321,
+                    283
+                  ],
+                  "bottomright": [
+                    1363,
+                    324
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "SplitButton",
+                  "name": "Views",
+                  "type": "split button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1244,
+                    283
+                  ],
+                  "bottomright": [
+                    1321,
+                    324
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "View Slider",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1285,
+                        283
+                      ],
+                      "bottomright": [
+                        1306,
+                        324
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Organise",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    498,
+                    283
+                  ],
+                  "bottomright": [
+                    628,
+                    324
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "New folder",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    628,
+                    283
+                  ],
+                  "bottomright": [
+                    761,
+                    324
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "Control Host",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                493,
+                329
+              ],
+              "bottomright": [
+                727,
+                760
+              ],
+              "children": [
+                {
+                  "tag": "Tree",
+                  "name": "Tree View",
+                  "type": "tree",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    493,
+                    329
+                  ],
+                  "bottomright": [
+                    727,
+                    760
+                  ],
+                  "children": [
+                    {
+                      "tag": "ScrollBar",
+                      "name": "Vertical",
+                      "type": "scroll bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        701,
+                        329
+                      ],
+                      "bottomright": [
+                        727,
+                        760
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Line up",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            701,
+                            329
+                          ],
+                          "bottomright": [
+                            727,
+                            355
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Thumb",
+                          "name": "Position",
+                          "type": "thumb",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            701,
+                            355
+                          ],
+                          "bottomright": [
+                            727,
+                            677
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Page down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            701,
+                            677
+                          ],
+                          "bottomright": [
+                            727,
+                            734
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Line down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            701,
+                            734
+                          ],
+                          "bottomright": [
+                            727,
+                            760
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "TreeItem",
+                      "name": "Quick access",
+                      "type": "tree item",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        556,
+                        353
+                      ],
+                      "bottomright": [
+                        660,
+                        389
+                      ],
+                      "children": [
+                        {
+                          "tag": "TreeItem",
+                          "name": "Desktop (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            389
+                          ],
+                          "bottomright": [
+                            639,
+                            425
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Downloads (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            425
+                          ],
+                          "bottomright": [
+                            662,
+                            461
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Documents (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            461
+                          ],
+                          "bottomright": [
+                            663,
+                            497
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Pictures (pinned)",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            497
+                          ],
+                          "bottomright": [
+                            633,
+                            533
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "(old)gui_test-master",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            533
+                          ],
+                          "bottomright": [
+                            701,
+                            569
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "screens_temp",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            569
+                          ],
+                          "bottomright": [
+                            679,
+                            605
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Win GUI Crawler",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            605
+                          ],
+                          "bottomright": [
+                            700,
+                            641
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Win GUI Crawler",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            568,
+                            641
+                          ],
+                          "bottomright": [
+                            700,
+                            677
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "TreeItem",
+                      "name": "Desktop",
+                      "type": "tree item",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        0
+                      ],
+                      "bottomright": [
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "tag": "TreeItem",
+                          "name": "OneDrive",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            556,
+                            689
+                          ],
+                          "bottomright": [
+                            634,
+                            725
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "This PC",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            556,
+                            737
+                          ],
+                          "bottomright": [
+                            617,
+                            760
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Network",
+                          "type": "tree item",
+                          "offscreen": "True",
+                          "filtered_out": "True",
+                          "topleft": [
+                            0,
+                            0
+                          ],
+                          "bottomright": [
+                            0,
+                            0
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Image",
+              "name": "Thumbnail Module",
+              "type": "image",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1068,
+                335
+              ],
+              "bottomright": [
+                1425,
+                754
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Select a file to preview.",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1143,
+                532
+              ],
+              "bottomright": [
+                1329,
+                557
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "Shell Folder View",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                733,
+                329
+              ],
+              "bottomright": [
+                1036,
+                760
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "Items View",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    733,
+                    329
+                  ],
+                  "bottomright": [
+                    1036,
+                    760
+                  ],
+                  "children": [
+                    {
+                      "tag": "ScrollBar",
+                      "name": "Vertical Scroll Bar",
+                      "type": "scroll bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1010,
+                        329
+                      ],
+                      "bottomright": [
+                        1036,
+                        760
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Line up",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1010,
+                            329
+                          ],
+                          "bottomright": [
+                            1036,
+                            355
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Thumb",
+                          "name": "Position",
+                          "type": "thumb",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1010,
+                            355
+                          ],
+                          "bottomright": [
+                            1036,
+                            490
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Page down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1010,
+                            490
+                          ],
+                          "bottomright": [
+                            1036,
+                            734
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Line down",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1010,
+                            734
+                          ],
+                          "bottomright": [
+                            1036,
+                            760
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".anaconda",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        754,
+                        338
+                      ],
+                      "bottomright": [
+                        865,
+                        443
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            760,
+                            341
+                          ],
+                          "bottomright": [
+                            859,
+                            413
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            767,
+                            413
+                          ],
+                          "bottomright": [
+                            854,
+                            440
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".atom",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        882,
+                        338
+                      ],
+                      "bottomright": [
+                        993,
+                        443
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            888,
+                            341
+                          ],
+                          "bottomright": [
+                            987,
+                            413
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            912,
+                            413
+                          ],
+                          "bottomright": [
+                            964,
+                            440
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".cache",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        754,
+                        445
+                      ],
+                      "bottomright": [
+                        865,
+                        550
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            760,
+                            448
+                          ],
+                          "bottomright": [
+                            859,
+                            520
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            783,
+                            520
+                          ],
+                          "bottomright": [
+                            837,
+                            547
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".conda",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        882,
+                        445
+                      ],
+                      "bottomright": [
+                        993,
+                        550
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            888,
+                            448
+                          ],
+                          "bottomright": [
+                            987,
+                            520
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            909,
+                            520
+                          ],
+                          "bottomright": [
+                            968,
+                            547
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".continuum",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        754,
+                        552
+                      ],
+                      "bottomright": [
+                        865,
+                        657
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            760,
+                            555
+                          ],
+                          "bottomright": [
+                            859,
+                            627
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            763,
+                            627
+                          ],
+                          "bottomright": [
+                            858,
+                            654
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": ".VirtualBox",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        882,
+                        552
+                      ],
+                      "bottomright": [
+                        993,
+                        657
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            888,
+                            555
+                          ],
+                          "bottomright": [
+                            987,
+                            627
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            894,
+                            627
+                          ],
+                          "bottomright": [
+                            983,
+                            654
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "3D Objects",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        754,
+                        659
+                      ],
+                      "bottomright": [
+                        865,
+                        764
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            760,
+                            662
+                          ],
+                          "bottomright": [
+                            859,
+                            734
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            763,
+                            734
+                          ],
+                          "bottomright": [
+                            857,
+                            761
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Contacts",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        882,
+                        659
+                      ],
+                      "bottomright": [
+                        993,
+                        764
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            888,
+                            662
+                          ],
+                          "bottomright": [
+                            987,
+                            734
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            901,
+                            734
+                          ],
+                          "bottomright": [
+                            976,
+                            761
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Desktop",
+                      "type": "list item",
+                      "offscreen": "True",
+                      "filtered_out": "False",
+                      "topleft": [
+                        754,
+                        766
+                      ],
+                      "bottomright": [
+                        865,
+                        871
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "True",
+                          "filtered_out": "False",
+                          "topleft": [
+                            760,
+                            769
+                          ],
+                          "bottomright": [
+                            859,
+                            841
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "True",
+                          "filtered_out": "False",
+                          "topleft": [
+                            774,
+                            841
+                          ],
+                          "bottomright": [
+                            847,
+                            868
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Documents",
+                      "type": "list item",
+                      "offscreen": "True",
+                      "filtered_out": "False",
+                      "topleft": [
+                        882,
+                        766
+                      ],
+                      "bottomright": [
+                        993,
+                        871
+                      ],
+                      "children": [
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "True",
+                          "filtered_out": "False",
+                          "topleft": [
+                            888,
+                            769
+                          ],
+                          "bottomright": [
+                            987,
+                            841
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "Name",
+                          "type": "edit",
+                          "offscreen": "True",
+                          "filtered_out": "False",
+                          "topleft": [
+                            890,
+                            841
+                          ],
+                          "bottomright": [
+                            987,
+                            868
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Tree",
+              "name": "Application Controls",
+              "type": "tree",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "File name:",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            678,
+            790
+          ],
+          "bottomright": [
+            757,
+            815
+          ],
+          "children": []
+        },
+        {
+          "tag": "ComboBox",
+          "name": "File name:",
+          "type": "combo box",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            765,
+            786
+          ],
+          "bottomright": [
+            1105,
+            820
+          ],
+          "children": [
+            {
+              "tag": "Edit",
+              "name": "File name:",
+              "type": "edit",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                769,
+                791
+              ],
+              "bottomright": [
+                1076,
+                816
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Open",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1080,
+                787
+              ],
+              "bottomright": [
+                1104,
+                819
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "ComboBox",
+          "name": "Files of type:",
+          "type": "combo box",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1123,
+            786
+          ],
+          "bottomright": [
+            1405,
+            819
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Files of type:",
+              "type": "text",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                3,
+                3
+              ],
+              "bottomright": [
+                253,
+                30
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Open",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1380,
+                787
+              ],
+              "bottomright": [
+                1404,
+                818
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Open",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1123,
+            828
+          ],
+          "bottomright": [
+            1255,
+            867
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Cancel",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1273,
+            828
+          ],
+          "bottomright": [
+            1405,
+            867
+          ],
+          "children": []
+        },
+        {
+          "tag": "Thumb",
+          "name": "",
+          "type": "thumb",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1405,
+            859
+          ],
+          "bottomright": [
+            1431,
+            885
+          ],
+          "children": []
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            493,
+            221
+          ],
+          "bottomright": [
+            1431,
+            280
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                493,
+                225
+              ],
+              "bottomright": [
+                614,
+                273
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "Navigation buttons",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    499,
+                    228
+                  ],
+                  "bottomright": [
+                    614,
+                    273
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Back (Alt + Left Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        499,
+                        228
+                      ],
+                      "bottomright": [
+                        544,
+                        273
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Forward to Maruko San (Alt + Right Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        544,
+                        228
+                      ],
+                      "bottomright": [
+                        589,
+                        273
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Recent locations",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        589,
+                        228
+                      ],
+                      "bottomright": [
+                        611,
+                        273
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                614,
+                227
+              ],
+              "bottomright": [
+                650,
+                271
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "Up band toolbar",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    614,
+                    233
+                  ],
+                  "bottomright": [
+                    650,
+                    277
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Up to \"Desktop\" (Alt + Up Arrow)",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        614,
+                        233
+                      ],
+                      "bottomright": [
+                        650,
+                        269
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                650,
+                221
+              ],
+              "bottomright": [
+                1104,
+                277
+              ],
+              "children": [
+                {
+                  "tag": "ProgressBar",
+                  "name": "",
+                  "type": "progress bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    652,
+                    226
+                  ],
+                  "bottomright": [
+                    1102,
+                    273
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        652,
+                        226
+                      ],
+                      "bottomright": [
+                        1002,
+                        273
+                      ],
+                      "children": [
+                        {
+                          "tag": "ToolBar",
+                          "name": "Address: Maruko San",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            652,
+                            226
+                          ],
+                          "bottomright": [
+                            1002,
+                            273
+                          ],
+                          "children": [
+                            {
+                              "tag": "SplitButton",
+                              "name": "All locations",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                652,
+                                226
+                              ],
+                              "bottomright": [
+                                705,
+                                272
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "SplitButton",
+                              "name": "Maruko San",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                705,
+                                226
+                              ],
+                              "bottomright": [
+                                833,
+                                272
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ToolBar",
+                      "name": "Address band toolbar",
+                      "type": "tool bar",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        1002,
+                        226
+                      ],
+                      "bottomright": [
+                        1102,
+                        273
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Previous Locations",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            1002,
+                            226
+                          ],
+                          "bottomright": [
+                            1052,
+                            273
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Refresh \"Maruko San\" (F5)",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            1052,
+                            226
+                          ],
+                          "bottomright": [
+                            1102,
+                            273
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                1108,
+                248
+              ],
+              "bottomright": [
+                1114,
+                249
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                1114,
+                222
+              ],
+              "bottomright": [
+                1420,
+                275
+              ],
+              "children": [
+                {
+                  "tag": "Edit",
+                  "name": "SearchEditBox",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1114,
+                    225
+                  ],
+                  "bottomright": [
+                    1420,
+                    274
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                1424,
+                248
+              ],
+              "bottomright": [
+                1431,
+                249
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            517,
+            179
+          ],
+          "bottomright": [
+            1431,
+            221
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                329,
+                125
+              ],
+              "bottomright": [
+                351,
+                147
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    329,
+                    125
+                  ],
+                  "bottomright": [
+                    351,
+                    147
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1380,
+                177
+              ],
+              "bottomright": [
+                1432,
+                221
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        506,
+        226
+      ],
+      "bottomright": [
+        1450,
+        268
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            321,
+            156
+          ],
+          "bottomright": [
+            343,
+            178
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                321,
+                156
+              ],
+              "bottomright": [
+                343,
+                178
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1239,
+            224
+          ],
+          "bottomright": [
+            1310,
+            268
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1310,
+            224
+          ],
+          "bottomright": [
+            1380,
+            268
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1380,
+            224
+          ],
+          "bottomright": [
+            1451,
+            268
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "MenuBar",
+      "name": "",
+      "type": "menu bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        482,
+        268
+      ],
+      "bottomright": [
+        1450,
+        304
+      ],
+      "children": [
+        {
+          "tag": "MenuItem",
+          "name": "File Alt+F",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            482,
+            268
+          ],
+          "bottomright": [
+            542,
+            302
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Machine Alt+M",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            542,
+            268
+          ],
+          "bottomright": [
+            642,
+            302
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Help Alt+H",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            642,
+            268
+          ],
+          "bottomright": [
+            712,
+            302
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Custom",
+      "name": "",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        482,
+        304
+      ],
+      "bottomright": [
+        1450,
+        816
+      ],
+      "children": [
+        {
+          "tag": "SplitButton",
+          "name": "",
+          "type": "split button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            482,
+            304
+          ],
+          "bottomright": [
+            1450,
+            816
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                692,
+                304
+              ],
+              "bottomright": [
+                1450,
+                816
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    692,
+                    304
+                  ],
+                  "bottomright": [
+                    1450,
+                    392
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Preferences",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        692,
+                        304
+                      ],
+                      "bottomright": [
+                        802,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        802,
+                        304
+                      ],
+                      "bottomright": [
+                        810,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Import",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        810,
+                        304
+                      ],
+                      "bottomright": [
+                        886,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Export",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        886,
+                        304
+                      ],
+                      "bottomright": [
+                        958,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        958,
+                        304
+                      ],
+                      "bottomright": [
+                        966,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "New",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        966,
+                        304
+                      ],
+                      "bottomright": [
+                        1028,
+                        392
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Add",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1028,
+                        304
+                      ],
+                      "bottomright": [
+                        1090,
+                        392
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    692,
+                    392
+                  ],
+                  "bottomright": [
+                    1450,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        692,
+                        392
+                      ],
+                      "bottomright": [
+                        1450,
+                        816
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            692,
+                            392
+                          ],
+                          "bottomright": [
+                            1450,
+                            816
+                          ],
+                          "children": [
+                            {
+                              "tag": "Text",
+                              "name": "Welcome to VirtualBox!\nThe left part of application window contains global tools and lists all virtual machines and virtual machine groups on your computer. You can import, add and create new VMs using corresponding toolbar buttons. You can popup a tools of currently selected element using corresponding element button.\nYou can press the F1 key to get instant help, or visit www.virtualbox.org for more information and latest news.",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                710,
+                                404
+                              ],
+                              "bottomright": [
+                                1030,
+                                804
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1038,
+                                404
+                              ],
+                              "bottomright": [
+                                1438,
+                                804
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                482,
+                304
+              ],
+              "bottomright": [
+                690,
+                816
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    482,
+                    304
+                  ],
+                  "bottomright": [
+                    690,
+                    816
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Tools",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        482,
+                        304
+                      ],
+                      "bottomright": [
+                        690,
+                        392
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                686,
+                304
+              ],
+              "bottomright": [
+                696,
+                816
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

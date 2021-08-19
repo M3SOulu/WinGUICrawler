@@ -1,0 +1,1645 @@
+{
+  "tag": "Window",
+  "name": "Oracle VM VirtualBox Manager",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    481,
+    3
+  ],
+  "bottomright": [
+    1451,
+    597
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Create Virtual Machine",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        655,
+        18
+      ],
+      "bottomright": [
+        1277,
+        627
+      ],
+      "children": [
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "True",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            -220
+          ],
+          "bottomright": [
+            0,
+            -220
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                437,
+                -54
+              ],
+              "bottomright": [
+                459,
+                -32
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    437,
+                    -54
+                  ],
+                  "bottomright": [
+                    459,
+                    -32
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Context help",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1135,
+                19
+              ],
+              "bottomright": [
+                1206,
+                63
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1206,
+                19
+              ],
+              "bottomright": [
+                1277,
+                63
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            656,
+            124
+          ],
+          "bottomright": [
+            1276,
+            626
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Next Enter",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1026,
+                574
+              ],
+              "bottomright": [
+                1138,
+                608
+              ],
+              "children": []
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                656,
+                186
+              ],
+              "bottomright": [
+                1276,
+                548
+              ],
+              "children": [
+                {
+                  "tag": "Custom",
+                  "name": "",
+                  "type": "",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    692,
+                    186
+                  ],
+                  "bottomright": [
+                    1276,
+                    548
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        704,
+                        198
+                      ],
+                      "bottomright": [
+                        1264,
+                        294
+                      ],
+                      "children": [
+                        {
+                          "tag": "Edit",
+                          "name": "",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            704,
+                            198
+                          ],
+                          "bottomright": [
+                            1264,
+                            294
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                704,
+                                198
+                              ],
+                              "bottomright": [
+                                1264,
+                                294
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        704,
+                        302
+                      ],
+                      "bottomright": [
+                        1264,
+                        478
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "Name:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            704,
+                            310
+                          ],
+                          "bottomright": [
+                            818,
+                            330
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Edit",
+                          "name": "",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            826,
+                            302
+                          ],
+                          "bottomright": [
+                            1264,
+                            340
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Machine Folder:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            704,
+                            356
+                          ],
+                          "bottomright": [
+                            818,
+                            376
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ToolBar",
+                          "name": "",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            826,
+                            348
+                          ],
+                          "bottomright": [
+                            1264,
+                            386
+                          ],
+                          "children": [
+                            {
+                              "tag": "Edit",
+                              "name": "",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                864,
+                                354
+                              ],
+                              "bottomright": [
+                                1226,
+                                380
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "ComboBox",
+                              "name": " Down",
+                              "type": "combo box",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                826,
+                                348
+                              ],
+                              "bottomright": [
+                                1264,
+                                386
+                              ],
+                              "children": [
+                                {
+                                  "tag": "List",
+                                  "name": "",
+                                  "type": "list",
+                                  "offscreen": "True",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    0,
+                                    -220
+                                  ],
+                                  "bottomright": [
+                                    0,
+                                    -220
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "C:\\Users\\watas\\VirtualBox VMs",
+                                      "type": "list item",
+                                      "offscreen": "True",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        2,
+                                        -218
+                                      ],
+                                      "bottomright": [
+                                        172,
+                                        -194
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "Other...",
+                                      "type": "list item",
+                                      "offscreen": "True",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        2,
+                                        -194
+                                      ],
+                                      "bottomright": [
+                                        172,
+                                        -170
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "ListItem",
+                                      "name": "Reset",
+                                      "type": "list item",
+                                      "offscreen": "True",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        2,
+                                        -170
+                                      ],
+                                      "bottomright": [
+                                        172,
+                                        -146
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "Edit",
+                                  "name": "",
+                                  "type": "edit",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    864,
+                                    354
+                                  ],
+                                  "bottomright": [
+                                    1226,
+                                    380
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Type:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            704,
+                            402
+                          ],
+                          "bottomright": [
+                            818,
+                            422
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ComboBox",
+                          "name": "Type: Down",
+                          "type": "combo box",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            826,
+                            394
+                          ],
+                          "bottomright": [
+                            1208,
+                            432
+                          ],
+                          "children": [
+                            {
+                              "tag": "List",
+                              "name": "",
+                              "type": "list",
+                              "offscreen": "True",
+                              "filtered_out": "True",
+                              "topleft": [
+                                0,
+                                -220
+                              ],
+                              "bottomright": [
+                                0,
+                                -220
+                              ],
+                              "children": [
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Microsoft Windows",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -220
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -200
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Linux",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -200
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -180
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Solaris",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -180
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -160
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "BSD",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -160
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -140
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "IBM OS/2",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -140
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -120
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Mac OS X",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -120
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -100
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Other",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -100
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -80
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "Version:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            704,
+                            448
+                          ],
+                          "bottomright": [
+                            818,
+                            468
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "ComboBox",
+                          "name": "Version: Down",
+                          "type": "combo box",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            826,
+                            440
+                          ],
+                          "bottomright": [
+                            1208,
+                            478
+                          ],
+                          "children": [
+                            {
+                              "tag": "List",
+                              "name": "",
+                              "type": "list",
+                              "offscreen": "True",
+                              "filtered_out": "True",
+                              "topleft": [
+                                0,
+                                -220
+                              ],
+                              "bottomright": [
+                                0,
+                                -220
+                              ],
+                              "children": [
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 3.1",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -220
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -200
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 95",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -200
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -180
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 98",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -180
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -160
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows ME",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -160
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -140
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows NT 3.x",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -140
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -120
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows NT 4",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -120
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -100
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2000",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -100
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -80
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows XP (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -80
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -60
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows XP (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -60
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -40
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2003 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -40
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    -20
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2003 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    -20
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    0
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows Vista (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    0
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    20
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows Vista (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    20
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    40
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2008 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    40
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    60
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2008 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    60
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    80
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 7 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    80
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    100
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 7 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    100
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    120
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 8 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    120
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    140
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 8 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    140
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    160
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 8.1 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    160
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    180
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 8.1 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    180
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    200
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2012 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    200
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    220
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 10 (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    220
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    240
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 10 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    240
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    260
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Windows 2016 (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    260
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    280
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Other Windows (32-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    280
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    300
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "ListItem",
+                                  "name": "Other Windows (64-bit)",
+                                  "type": "list item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    0,
+                                    300
+                                  ],
+                                  "bottomright": [
+                                    1280,
+                                    320
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Image",
+                          "name": "",
+                          "type": "image",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1216,
+                            394
+                          ],
+                          "bottomright": [
+                            1264,
+                            442
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Cancel",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1146,
+                574
+              ],
+              "bottomright": [
+                1258,
+                608
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Expert Mode Alt+E",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                906,
+                574
+              ],
+              "bottomright": [
+                1018,
+                608
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Name and operating system",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                656,
+                146
+              ],
+              "bottomright": [
+                1276,
+                178
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            656,
+            72
+          ],
+          "bottomright": [
+            704,
+            120
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        506,
+        6
+      ],
+      "bottomright": [
+        1450,
+        48
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            321,
+            -64
+          ],
+          "bottomright": [
+            343,
+            -42
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                321,
+                -64
+              ],
+              "bottomright": [
+                343,
+                -42
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1239,
+            4
+          ],
+          "bottomright": [
+            1310,
+            48
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1310,
+            4
+          ],
+          "bottomright": [
+            1380,
+            48
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1380,
+            4
+          ],
+          "bottomright": [
+            1451,
+            48
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "MenuBar",
+      "name": "",
+      "type": "menu bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        482,
+        48
+      ],
+      "bottomright": [
+        1450,
+        84
+      ],
+      "children": [
+        {
+          "tag": "MenuItem",
+          "name": "File Alt+F",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            482,
+            48
+          ],
+          "bottomright": [
+            542,
+            82
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Machine Alt+M",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            542,
+            48
+          ],
+          "bottomright": [
+            642,
+            82
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Help Alt+H",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            642,
+            48
+          ],
+          "bottomright": [
+            712,
+            82
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Custom",
+      "name": "",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        482,
+        84
+      ],
+      "bottomright": [
+        1450,
+        596
+      ],
+      "children": [
+        {
+          "tag": "SplitButton",
+          "name": "",
+          "type": "split button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            482,
+            84
+          ],
+          "bottomright": [
+            1450,
+            596
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                692,
+                84
+              ],
+              "bottomright": [
+                1450,
+                596
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    692,
+                    84
+                  ],
+                  "bottomright": [
+                    1450,
+                    172
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Preferences",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        692,
+                        84
+                      ],
+                      "bottomright": [
+                        802,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        802,
+                        84
+                      ],
+                      "bottomright": [
+                        810,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Import",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        810,
+                        84
+                      ],
+                      "bottomright": [
+                        886,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Export",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        886,
+                        84
+                      ],
+                      "bottomright": [
+                        958,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        958,
+                        84
+                      ],
+                      "bottomright": [
+                        966,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "New",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        966,
+                        84
+                      ],
+                      "bottomright": [
+                        1028,
+                        172
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Add",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        1028,
+                        84
+                      ],
+                      "bottomright": [
+                        1090,
+                        172
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    692,
+                    172
+                  ],
+                  "bottomright": [
+                    1450,
+                    596
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        692,
+                        172
+                      ],
+                      "bottomright": [
+                        1450,
+                        596
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            692,
+                            172
+                          ],
+                          "bottomright": [
+                            1450,
+                            596
+                          ],
+                          "children": [
+                            {
+                              "tag": "Text",
+                              "name": "Welcome to VirtualBox!\nThe left part of application window contains global tools and lists all virtual machines and virtual machine groups on your computer. You can import, add and create new VMs using corresponding toolbar buttons. You can popup a tools of currently selected element using corresponding element button.\nYou can press the F1 key to get instant help, or visit www.virtualbox.org for more information and latest news.",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                710,
+                                184
+                              ],
+                              "bottomright": [
+                                1030,
+                                584
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                1038,
+                                184
+                              ],
+                              "bottomright": [
+                                1438,
+                                584
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                482,
+                84
+              ],
+              "bottomright": [
+                690,
+                596
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    482,
+                    84
+                  ],
+                  "bottomright": [
+                    690,
+                    596
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Tools",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        482,
+                        84
+                      ],
+                      "bottomright": [
+                        690,
+                        172
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                686,
+                84
+              ],
+              "bottomright": [
+                696,
+                596
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

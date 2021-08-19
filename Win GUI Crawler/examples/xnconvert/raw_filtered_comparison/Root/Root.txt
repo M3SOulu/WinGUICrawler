@@ -1,0 +1,831 @@
+{
+  "tag": "Window",
+  "name": "XnConvert",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    310,
+    110
+  ],
+  "bottomright": [
+    1592,
+    876
+  ],
+  "children": [
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        335,
+        113
+      ],
+      "bottomright": [
+        1591,
+        155
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            207,
+            81
+          ],
+          "bottomright": [
+            229,
+            103
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                207,
+                81
+              ],
+              "bottomright": [
+                229,
+                103
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1380,
+            111
+          ],
+          "bottomright": [
+            1451,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1451,
+            111
+          ],
+          "bottomright": [
+            1521,
+            155
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1521,
+            111
+          ],
+          "bottomright": [
+            1592,
+            155
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Group",
+      "name": "",
+      "type": "group",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        311,
+        155
+      ],
+      "bottomright": [
+        1591,
+        875
+      ],
+      "children": [
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            322,
+            166
+          ],
+          "bottomright": [
+            1580,
+            819
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "custom",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                324,
+                194
+              ],
+              "bottomright": [
+                1576,
+                815
+              ],
+              "children": [
+                {
+                  "tag": "Group",
+                  "name": "",
+                  "type": "group",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    324,
+                    194
+                  ],
+                  "bottomright": [
+                    1576,
+                    815
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        335,
+                        205
+                      ],
+                      "bottomright": [
+                        1565,
+                        724
+                      ],
+                      "children": [
+                        {
+                          "tag": "Text",
+                          "name": "View as:",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            348,
+                            218
+                          ],
+                          "bottomright": [
+                            408,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Small thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            417,
+                            218
+                          ],
+                          "bottomright": [
+                            571,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            581,
+                            218
+                          ],
+                          "bottomright": [
+                            696,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "Big thumbnails",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            706,
+                            218
+                          ],
+                          "bottomright": [
+                            843,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "RadioButton",
+                          "name": "List",
+                          "type": "radio button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            853,
+                            218
+                          ],
+                          "bottomright": [
+                            909,
+                            241
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Text",
+                          "name": "You can drag&drop your files on the list below.",
+                          "type": "text",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            348,
+                            250
+                          ],
+                          "bottomright": [
+                            1552,
+                            269
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "custom",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            348,
+                            278
+                          ],
+                          "bottomright": [
+                            1552,
+                            667
+                          ],
+                          "children": [
+                            {
+                              "tag": "Group",
+                              "name": "",
+                              "type": "group",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                348,
+                                278
+                              ],
+                              "bottomright": [
+                                1552,
+                                667
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Custom",
+                                  "name": "",
+                                  "type": "custom",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    361,
+                                    291
+                                  ],
+                                  "bottomright": [
+                                    1539,
+                                    654
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "List",
+                                      "name": "",
+                                      "type": "list",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        361,
+                                        291
+                                      ],
+                                      "bottomright": [
+                                        1539,
+                                        654
+                                      ],
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "Tree",
+                                      "name": "",
+                                      "type": "tree",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        0,
+                                        0
+                                      ],
+                                      "bottomright": [
+                                        0,
+                                        0
+                                      ],
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Add files...",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            348,
+                            676
+                          ],
+                          "bottomright": [
+                            464,
+                            711
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Add folder...",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            473,
+                            676
+                          ],
+                          "bottomright": [
+                            585,
+                            710
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Remove",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1319,
+                            676
+                          ],
+                          "bottomright": [
+                            1431,
+                            711
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Remove all",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1440,
+                            676
+                          ],
+                          "bottomright": [
+                            1552,
+                            710
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Remove filtered",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1297,
+                        730
+                      ],
+                      "bottomright": [
+                        1419,
+                        764
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Remove unfiltered",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1425,
+                        730
+                      ],
+                      "bottomright": [
+                        1565,
+                        764
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Edit",
+                      "name": "",
+                      "type": "edit",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        813,
+                        733
+                      ],
+                      "bottomright": [
+                        1291,
+                        761
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Hot folders...",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        335,
+                        770
+                      ],
+                      "bottomright": [
+                        447,
+                        804
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Tab",
+              "name": "Input: 0 file(s)",
+              "type": "tab",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                322,
+                166
+              ],
+              "bottomright": [
+                925,
+                193
+              ],
+              "children": [
+                {
+                  "tag": "TabItem",
+                  "name": "Input: 0 file(s)",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    322,
+                    166
+                  ],
+                  "bottomright": [
+                    461,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Actions [0/0]",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    461,
+                    166
+                  ],
+                  "bottomright": [
+                    590,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Output",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    590,
+                    166
+                  ],
+                  "bottomright": [
+                    675,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Status",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    675,
+                    166
+                  ],
+                  "bottomright": [
+                    754,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "Settings",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    754,
+                    166
+                  ],
+                  "bottomright": [
+                    846,
+                    193
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "TabItem",
+                  "name": "About",
+                  "type": "tab item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    846,
+                    166
+                  ],
+                  "bottomright": [
+                    925,
+                    193
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            322,
+            825
+          ],
+          "bottomright": [
+            921,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Presets:",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                324,
+                827
+              ],
+              "bottomright": [
+                380,
+                862
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                386,
+                829
+              ],
+              "bottomright": [
+                417,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                423,
+                832
+              ],
+              "bottomright": [
+                603,
+                857
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                609,
+                829
+              ],
+              "bottomright": [
+                640,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                646,
+                829
+              ],
+              "bottomright": [
+                677,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Export for NConvert...",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                723,
+                827
+              ],
+              "bottomright": [
+                919,
+                862
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1102,
+            825
+          ],
+          "bottomright": [
+            1170,
+            864
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1102,
+                829
+              ],
+              "bottomright": [
+                1133,
+                859
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "...",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1139,
+                829
+              ],
+              "bottomright": [
+                1170,
+                859
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Convert",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1350,
+            827
+          ],
+          "bottomright": [
+            1462,
+            862
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1468,
+            827
+          ],
+          "bottomright": [
+            1580,
+            861
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

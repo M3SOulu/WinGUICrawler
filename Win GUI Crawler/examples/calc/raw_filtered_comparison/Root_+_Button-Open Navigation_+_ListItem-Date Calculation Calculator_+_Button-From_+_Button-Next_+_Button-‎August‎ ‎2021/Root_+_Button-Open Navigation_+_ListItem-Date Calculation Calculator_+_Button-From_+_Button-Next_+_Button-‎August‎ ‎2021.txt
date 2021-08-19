@@ -1,0 +1,815 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    48
+  ],
+  "bottomright": [
+    551,
+    848
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        49
+      ],
+      "bottomright": [
+        550,
+        97
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            343,
+            49
+          ],
+          "bottomright": [
+            412,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            412,
+            49
+          ],
+          "bottomright": [
+            481,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            481,
+            49
+          ],
+          "bottomright": [
+            550,
+            97
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        49
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "True",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                241
+              ],
+              "bottomright": [
+                550,
+                776
+              ],
+              "children": [
+                {
+                  "tag": "Calendar",
+                  "name": "",
+                  "type": "calendar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    72,
+                    261
+                  ],
+                  "bottomright": [
+                    548,
+                    756
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "\u200e2021",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        90,
+                        261
+                      ],
+                      "bottomright": [
+                        412,
+                        321
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Previous",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        414,
+                        263
+                      ],
+                      "bottomright": [
+                        479,
+                        320
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Next",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        482,
+                        263
+                      ],
+                      "bottomright": [
+                        546,
+                        320
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Pane",
+                      "name": "",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        72,
+                        321
+                      ],
+                      "bottomright": [
+                        548,
+                        756
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "January",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            73,
+                            322
+                          ],
+                          "bottomright": [
+                            189,
+                            427
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "February",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            192,
+                            322
+                          ],
+                          "bottomright": [
+                            307,
+                            427
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "March",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            311,
+                            322
+                          ],
+                          "bottomright": [
+                            427,
+                            427
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "April",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            430,
+                            322
+                          ],
+                          "bottomright": [
+                            546,
+                            427
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "May",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            73,
+                            431
+                          ],
+                          "bottomright": [
+                            189,
+                            536
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "June",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            192,
+                            431
+                          ],
+                          "bottomright": [
+                            307,
+                            536
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "July",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            311,
+                            431
+                          ],
+                          "bottomright": [
+                            427,
+                            536
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "August",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            430,
+                            431
+                          ],
+                          "bottomright": [
+                            546,
+                            536
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "September",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            73,
+                            539
+                          ],
+                          "bottomright": [
+                            189,
+                            644
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "October",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            192,
+                            539
+                          ],
+                          "bottomright": [
+                            307,
+                            644
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "November",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            311,
+                            539
+                          ],
+                          "bottomright": [
+                            427,
+                            644
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "December",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            430,
+                            539
+                          ],
+                          "bottomright": [
+                            546,
+                            644
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "January",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            73,
+                            648
+                          ],
+                          "bottomright": [
+                            189,
+                            753
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "February",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            192,
+                            648
+                          ],
+                          "bottomright": [
+                            307,
+                            753
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "March",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            311,
+                            648
+                          ],
+                          "bottomright": [
+                            427,
+                            753
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "April",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            430,
+                            648
+                          ],
+                          "bottomright": [
+                            546,
+                            753
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            49
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            88,
+            61
+          ],
+          "bottomright": [
+            167,
+            85
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            175
+          ],
+          "bottomright": [
+            532,
+            535
+          ],
+          "children": [
+            {
+              "tag": "ComboBox",
+              "name": "Calculation mode",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                175
+              ],
+              "bottomright": [
+                379,
+                205
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Difference between dates",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    88,
+                    175
+                  ],
+                  "bottomright": [
+                    331,
+                    205
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Difference between dates",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        88,
+                        175
+                      ],
+                      "bottomright": [
+                        331,
+                        205
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "From",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                231
+              ],
+              "bottomright": [
+                252,
+                313
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "From",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    88,
+                    231
+                  ],
+                  "bottomright": [
+                    136,
+                    259
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    88,
+                    273
+                  ],
+                  "bottomright": [
+                    204,
+                    303
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "To",
+              "type": "calendar date picker",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                349
+              ],
+              "bottomright": [
+                252,
+                431
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "To",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    88,
+                    349
+                  ],
+                  "bottomright": [
+                    110,
+                    377
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "\u200e29\u200e \u200eJuly\u200e \u200e2021",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    88,
+                    391
+                  ],
+                  "bottomright": [
+                    204,
+                    422
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Difference",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                467
+              ],
+              "bottomright": [
+                532,
+                494
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Difference Same dates",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                494
+              ],
+              "bottomright": [
+                532,
+                534
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Date calculation mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            142,
+            105
+          ],
+          "bottomright": [
+            366,
+            145
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                97
+              ],
+              "bottomright": [
+                130,
+                157
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        97
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,1935 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    197
+  ],
+  "bottomright": [
+    551,
+    997
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        192
+      ],
+      "bottomright": [
+        248,
+        885
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                390
+              ],
+              "bottomright": [
+                207,
+                438
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Carats",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    194
+                  ],
+                  "bottomright": [
+                    246,
+                    243
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Carats",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        201
+                      ],
+                      "bottomright": [
+                        229,
+                        229
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Milligrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    243
+                  ],
+                  "bottomright": [
+                    246,
+                    292
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Milligrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        250
+                      ],
+                      "bottomright": [
+                        229,
+                        278
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Centigrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    292
+                  ],
+                  "bottomright": [
+                    246,
+                    340
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Centigrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        300
+                      ],
+                      "bottomright": [
+                        229,
+                        327
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Decigrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    341
+                  ],
+                  "bottomright": [
+                    246,
+                    390
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Decigrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        349
+                      ],
+                      "bottomright": [
+                        229,
+                        377
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Grams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    390
+                  ],
+                  "bottomright": [
+                    246,
+                    439
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Grams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        398
+                      ],
+                      "bottomright": [
+                        229,
+                        426
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Decagrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    438
+                  ],
+                  "bottomright": [
+                    246,
+                    487
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Decagrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        446
+                      ],
+                      "bottomright": [
+                        229,
+                        474
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Hectograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    488
+                  ],
+                  "bottomright": [
+                    246,
+                    537
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Hectograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        496
+                      ],
+                      "bottomright": [
+                        229,
+                        524
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    537
+                  ],
+                  "bottomright": [
+                    246,
+                    586
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        545
+                      ],
+                      "bottomright": [
+                        229,
+                        573
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Metric tonnes",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    586
+                  ],
+                  "bottomright": [
+                    246,
+                    634
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Metric tonnes",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        594
+                      ],
+                      "bottomright": [
+                        229,
+                        621
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Ounces",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    635
+                  ],
+                  "bottomright": [
+                    246,
+                    684
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Ounces",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        643
+                      ],
+                      "bottomright": [
+                        229,
+                        670
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pounds",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    684
+                  ],
+                  "bottomright": [
+                    246,
+                    733
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pounds",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        692
+                      ],
+                      "bottomright": [
+                        229,
+                        720
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Stone",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    733
+                  ],
+                  "bottomright": [
+                    246,
+                    782
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Stone",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        741
+                      ],
+                      "bottomright": [
+                        229,
+                        768
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Short tons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    782
+                  ],
+                  "bottomright": [
+                    246,
+                    831
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Short tons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        790
+                      ],
+                      "bottomright": [
+                        229,
+                        818
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Long tons (UK)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    831
+                  ],
+                  "bottomright": [
+                    246,
+                    880
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Long tons (UK)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        839
+                      ],
+                      "bottomright": [
+                        229,
+                        867
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Kilograms",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                438
+              ],
+              "bottomright": [
+                133,
+                522
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                522
+              ],
+              "bottomright": [
+                232,
+                570
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Kilograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    522
+                  ],
+                  "bottomright": [
+                    184,
+                    570
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        70,
+                        522
+                      ],
+                      "bottomright": [
+                        184,
+                        570
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                644
+              ],
+              "bottomright": [
+                544,
+                711
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    234,
+                    644
+                  ],
+                  "bottomright": [
+                    387,
+                    711
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    644
+                  ],
+                  "bottomright": [
+                    544,
+                    711
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                714
+              ],
+              "bottomright": [
+                544,
+                991
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    924
+                  ],
+                  "bottomright": [
+                    387,
+                    991
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    854
+                  ],
+                  "bottomright": [
+                    231,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    854
+                  ],
+                  "bottomright": [
+                    387,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    854
+                  ],
+                  "bottomright": [
+                    544,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    784
+                  ],
+                  "bottomright": [
+                    231,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    784
+                  ],
+                  "bottomright": [
+                    387,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    784
+                  ],
+                  "bottomright": [
+                    544,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    714
+                  ],
+                  "bottomright": [
+                    231,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    714
+                  ],
+                  "bottomright": [
+                    387,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    714
+                  ],
+                  "bottomright": [
+                    544,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    924
+                  ],
+                  "bottomright": [
+                    544,
+                    991
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        198
+      ],
+      "bottomright": [
+        550,
+        246
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            149
+          ],
+          "bottomright": [
+            0,
+            149
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            343,
+            198
+          ],
+          "bottomright": [
+            412,
+            246
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            412,
+            198
+          ],
+          "bottomright": [
+            481,
+            246
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            481,
+            198
+          ],
+          "bottomright": [
+            550,
+            246
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        198
+      ],
+      "bottomright": [
+        550,
+        996
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            210
+          ],
+          "bottomright": [
+            167,
+            234
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            306
+          ],
+          "bottomright": [
+            544,
+            991
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                149
+              ],
+              "bottomright": [
+                0,
+                149
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Pounds",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                306
+              ],
+              "bottomright": [
+                135,
+                390
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                390
+              ],
+              "bottomright": [
+                207,
+                438
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Carats",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    194
+                  ],
+                  "bottomright": [
+                    246,
+                    243
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Carats",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        201
+                      ],
+                      "bottomright": [
+                        229,
+                        229
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Milligrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    243
+                  ],
+                  "bottomright": [
+                    246,
+                    292
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Milligrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        250
+                      ],
+                      "bottomright": [
+                        229,
+                        278
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Centigrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    292
+                  ],
+                  "bottomright": [
+                    246,
+                    340
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Centigrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        300
+                      ],
+                      "bottomright": [
+                        229,
+                        327
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Decigrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    341
+                  ],
+                  "bottomright": [
+                    246,
+                    390
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Decigrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        349
+                      ],
+                      "bottomright": [
+                        229,
+                        377
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Grams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    390
+                  ],
+                  "bottomright": [
+                    246,
+                    439
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Grams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        398
+                      ],
+                      "bottomright": [
+                        229,
+                        426
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Decagrams",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    438
+                  ],
+                  "bottomright": [
+                    246,
+                    487
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Decagrams",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        446
+                      ],
+                      "bottomright": [
+                        229,
+                        474
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Hectograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    488
+                  ],
+                  "bottomright": [
+                    246,
+                    537
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Hectograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        496
+                      ],
+                      "bottomright": [
+                        229,
+                        524
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Kilograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    537
+                  ],
+                  "bottomright": [
+                    246,
+                    586
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        545
+                      ],
+                      "bottomright": [
+                        229,
+                        573
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Metric tonnes",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    586
+                  ],
+                  "bottomright": [
+                    246,
+                    634
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Metric tonnes",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        594
+                      ],
+                      "bottomright": [
+                        229,
+                        621
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Ounces",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    635
+                  ],
+                  "bottomright": [
+                    246,
+                    684
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Ounces",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        643
+                      ],
+                      "bottomright": [
+                        229,
+                        670
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Pounds",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    72,
+                    684
+                  ],
+                  "bottomright": [
+                    246,
+                    733
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Pounds",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        89,
+                        692
+                      ],
+                      "bottomright": [
+                        229,
+                        720
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Stone",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    733
+                  ],
+                  "bottomright": [
+                    246,
+                    782
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Stone",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        741
+                      ],
+                      "bottomright": [
+                        229,
+                        768
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Short tons (US)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    782
+                  ],
+                  "bottomright": [
+                    246,
+                    831
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Short tons (US)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        790
+                      ],
+                      "bottomright": [
+                        229,
+                        818
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Long tons (UK)",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    831
+                  ],
+                  "bottomright": [
+                    246,
+                    880
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Long tons (UK)",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        839
+                      ],
+                      "bottomright": [
+                        229,
+                        867
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Kilograms",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                438
+              ],
+              "bottomright": [
+                133,
+                522
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                522
+              ],
+              "bottomright": [
+                232,
+                570
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Kilograms",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    70,
+                    522
+                  ],
+                  "bottomright": [
+                    184,
+                    570
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Kilograms",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        70,
+                        522
+                      ],
+                      "bottomright": [
+                        184,
+                        570
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                644
+              ],
+              "bottomright": [
+                544,
+                711
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    234,
+                    644
+                  ],
+                  "bottomright": [
+                    387,
+                    711
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    644
+                  ],
+                  "bottomright": [
+                    544,
+                    711
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                714
+              ],
+              "bottomright": [
+                544,
+                991
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    924
+                  ],
+                  "bottomright": [
+                    387,
+                    991
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    854
+                  ],
+                  "bottomright": [
+                    231,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    854
+                  ],
+                  "bottomright": [
+                    387,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    854
+                  ],
+                  "bottomright": [
+                    544,
+                    921
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    784
+                  ],
+                  "bottomright": [
+                    231,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    784
+                  ],
+                  "bottomright": [
+                    387,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    784
+                  ],
+                  "bottomright": [
+                    544,
+                    851
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    714
+                  ],
+                  "bottomright": [
+                    231,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    714
+                  ],
+                  "bottomright": [
+                    387,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    714
+                  ],
+                  "bottomright": [
+                    544,
+                    781
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    924
+                  ],
+                  "bottomright": [
+                    544,
+                    991
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Weight and Mass Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            142,
+            254
+          ],
+          "bottomright": [
+            378,
+            294
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            246
+          ],
+          "bottomright": [
+            550,
+            996
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                246
+              ],
+              "bottomright": [
+                130,
+                306
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    149
+                  ],
+                  "bottomright": [
+                    0,
+                    149
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        246
+      ],
+      "bottomright": [
+        550,
+        996
+      ],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,1239 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    50
+  ],
+  "bottomright": [
+    551,
+    850
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        324
+      ],
+      "bottomright": [
+        211,
+        478
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                375
+              ],
+              "bottomright": [
+                211,
+                423
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Degrees",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    209,
+                    375
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Degrees",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        334
+                      ],
+                      "bottomright": [
+                        192,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Radians",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    375
+                  ],
+                  "bottomright": [
+                    209,
+                    424
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Radians",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        383
+                      ],
+                      "bottomright": [
+                        192,
+                        411
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gradians",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    209,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gradians",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        192,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "About equal to",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                423
+              ],
+              "bottomright": [
+                208,
+                447
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 Gradians",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                88,
+                451
+              ],
+              "bottomright": [
+                149,
+                478
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                497
+              ],
+              "bottomright": [
+                544,
+                564
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    234,
+                    497
+                  ],
+                  "bottomright": [
+                    387,
+                    564
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    497
+                  ],
+                  "bottomright": [
+                    544,
+                    564
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                567
+              ],
+              "bottomright": [
+                544,
+                844
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    777
+                  ],
+                  "bottomright": [
+                    387,
+                    844
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    707
+                  ],
+                  "bottomright": [
+                    231,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    707
+                  ],
+                  "bottomright": [
+                    387,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    707
+                  ],
+                  "bottomright": [
+                    544,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    637
+                  ],
+                  "bottomright": [
+                    231,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    637
+                  ],
+                  "bottomright": [
+                    387,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    637
+                  ],
+                  "bottomright": [
+                    544,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    77,
+                    567
+                  ],
+                  "bottomright": [
+                    231,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    233,
+                    567
+                  ],
+                  "bottomright": [
+                    387,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    567
+                  ],
+                  "bottomright": [
+                    544,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    390,
+                    777
+                  ],
+                  "bottomright": [
+                    544,
+                    844
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Positive Negative",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                77,
+                777
+              ],
+              "bottomright": [
+                231,
+                844
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        51
+      ],
+      "bottomright": [
+        550,
+        99
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            2
+          ],
+          "bottomright": [
+            0,
+            2
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                2
+              ],
+              "bottomright": [
+                0,
+                2
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            343,
+            51
+          ],
+          "bottomright": [
+            412,
+            99
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            412,
+            51
+          ],
+          "bottomright": [
+            481,
+            99
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            481,
+            51
+          ],
+          "bottomright": [
+            550,
+            99
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        51
+      ],
+      "bottomright": [
+        550,
+        849
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            63
+          ],
+          "bottomright": [
+            167,
+            87
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            159
+          ],
+          "bottomright": [
+            544,
+            844
+          ],
+          "children": [
+            {
+              "tag": "ProgressBar",
+              "name": "Not busy\u2026",
+              "type": "progress ring",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                2
+              ],
+              "bottomright": [
+                0,
+                2
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Convert from 0 Degrees",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                159
+              ],
+              "bottomright": [
+                135,
+                243
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Input unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                243
+              ],
+              "bottomright": [
+                214,
+                291
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Degrees",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    70,
+                    243
+                  ],
+                  "bottomright": [
+                    166,
+                    291
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Degrees",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        70,
+                        243
+                      ],
+                      "bottomright": [
+                        166,
+                        291
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Converts into 0 Radians",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                291
+              ],
+              "bottomright": [
+                133,
+                375
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Output unit",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                375
+              ],
+              "bottomright": [
+                211,
+                423
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Degrees",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    326
+                  ],
+                  "bottomright": [
+                    209,
+                    375
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Degrees",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        334
+                      ],
+                      "bottomright": [
+                        192,
+                        362
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Radians",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    72,
+                    375
+                  ],
+                  "bottomright": [
+                    209,
+                    424
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Radians",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        89,
+                        383
+                      ],
+                      "bottomright": [
+                        192,
+                        411
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Gradians",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    72,
+                    424
+                  ],
+                  "bottomright": [
+                    209,
+                    473
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Gradians",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        89,
+                        432
+                      ],
+                      "bottomright": [
+                        192,
+                        460
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "About equal to",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                423
+              ],
+              "bottomright": [
+                208,
+                447
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "0 Gradians",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                88,
+                451
+              ],
+              "bottomright": [
+                149,
+                478
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Display controls",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                234,
+                497
+              ],
+              "bottomright": [
+                544,
+                564
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Clear entry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    234,
+                    497
+                  ],
+                  "bottomright": [
+                    387,
+                    564
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Backspace",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    497
+                  ],
+                  "bottomright": [
+                    544,
+                    564
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Group",
+              "name": "Number pad",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                567
+              ],
+              "bottomright": [
+                544,
+                844
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Zero",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    777
+                  ],
+                  "bottomright": [
+                    387,
+                    844
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "One",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    707
+                  ],
+                  "bottomright": [
+                    231,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Two",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    707
+                  ],
+                  "bottomright": [
+                    387,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Three",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    707
+                  ],
+                  "bottomright": [
+                    544,
+                    774
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Four",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    637
+                  ],
+                  "bottomright": [
+                    231,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Five",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    637
+                  ],
+                  "bottomright": [
+                    387,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Six",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    637
+                  ],
+                  "bottomright": [
+                    544,
+                    704
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Seven",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    77,
+                    567
+                  ],
+                  "bottomright": [
+                    231,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Eight",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    233,
+                    567
+                  ],
+                  "bottomright": [
+                    387,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Nine",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    567
+                  ],
+                  "bottomright": [
+                    544,
+                    634
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Decimal Separator",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    390,
+                    777
+                  ],
+                  "bottomright": [
+                    544,
+                    844
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Positive Negative",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                77,
+                777
+              ],
+              "bottomright": [
+                231,
+                844
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Angle Converter mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            142,
+            107
+          ],
+          "bottomright": [
+            222,
+            147
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            99
+          ],
+          "bottomright": [
+            550,
+            849
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                99
+              ],
+              "bottomright": [
+                130,
+                159
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    2
+                  ],
+                  "bottomright": [
+                    0,
+                    2
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        99
+      ],
+      "bottomright": [
+        550,
+        849
+      ],
+      "children": []
+    }
+  ]
+}

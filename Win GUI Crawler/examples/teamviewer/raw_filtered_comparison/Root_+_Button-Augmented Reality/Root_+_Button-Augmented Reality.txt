@@ -1,0 +1,781 @@
+{
+  "tag": "Window",
+  "name": "TeamViewer",
+  "type": "dialogue",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    0,
+    0
+  ],
+  "bottomright": [
+    1318,
+    956
+  ],
+  "children": [
+    {
+      "tag": "Pane",
+      "name": "Ready to connect (secure connection)",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        1,
+        45
+      ],
+      "bottomright": [
+        1317,
+        106
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            8,
+            51
+          ],
+          "bottomright": [
+            302,
+            100
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Connection",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                8,
+                51
+              ],
+              "bottomright": [
+                144,
+                100
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Extras",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                144,
+                51
+              ],
+              "bottomright": [
+                229,
+                100
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Help",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                229,
+                51
+              ],
+              "bottomright": [
+                302,
+                100
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Feedback",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            306,
+            57
+          ],
+          "bottomright": [
+            417,
+            93
+          ],
+          "children": []
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            923,
+            45
+          ],
+          "bottomright": [
+            1310,
+            106
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1117,
+                57
+              ],
+              "bottomright": [
+                1309,
+                94
+              ],
+              "children": []
+            },
+            {
+              "tag": "Edit",
+              "name": "",
+              "type": "edit",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                930,
+                61
+              ],
+              "bottomright": [
+                1110,
+                89
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "Navigation",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        1,
+        151
+      ],
+      "bottomright": [
+        109,
+        955
+      ],
+      "children": [
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            847
+          ],
+          "bottomright": [
+            108,
+            955
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            151
+          ],
+          "bottomright": [
+            108,
+            277
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Remote Control",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            277
+          ],
+          "bottomright": [
+            108,
+            349
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Remote Management",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            349
+          ],
+          "bottomright": [
+            108,
+            421
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Meeting",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            421
+          ],
+          "bottomright": [
+            108,
+            493
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Computers & Contacts",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            493
+          ],
+          "bottomright": [
+            108,
+            565
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Chat",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            565
+          ],
+          "bottomright": [
+            108,
+            637
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Augmented Reality",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            637
+          ],
+          "bottomright": [
+            108,
+            709
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "More Solutions",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            709
+          ],
+          "bottomright": [
+            108,
+            781
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "StateBar",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        109,
+        885
+      ],
+      "bottomright": [
+        1317,
+        955
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Ready to connect (secure connection)",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            885
+          ],
+          "bottomright": [
+            1287,
+            955
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "InfoBanner",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        1,
+        106
+      ],
+      "bottomright": [
+        1317,
+        151
+      ],
+      "children": [
+        {
+          "tag": "Button",
+          "name": "Free license (non-commercial use only) - Maruko San",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            416,
+            113
+          ],
+          "bottomright": [
+            902,
+            144
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "Ready to connect (secure connection)",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        109,
+        151
+      ],
+      "bottomright": [
+        1317,
+        885
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            136,
+            173
+          ],
+          "bottomright": [
+            856,
+            458
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "TeamViewer Pilot",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                136,
+                173
+              ],
+              "bottomright": [
+                386,
+                219
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Partner ID",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                136,
+                248
+              ],
+              "bottomright": [
+                856,
+                287
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Partner ID",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                136,
+                290
+              ],
+              "bottomright": [
+                541,
+                350
+              ],
+              "children": [
+                {
+                  "tag": "Edit",
+                  "name": "Partner ID",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    144,
+                    301
+                  ],
+                  "bottomright": [
+                    444,
+                    338
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Open",
+                  "type": "button",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    111,
+                    291
+                  ],
+                  "bottomright": [
+                    135,
+                    317
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Connect",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                136,
+                394
+              ],
+              "bottomright": [
+                381,
+                454
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            136,
+            592
+          ],
+          "bottomright": [
+            1000,
+            860
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Try out TeamViewer Pilot now:",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                136,
+                592
+              ],
+              "bottomright": [
+                1000,
+                622
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Scan QR code or visit tvpilot.app",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                145,
+                800
+              ],
+              "bottomright": [
+                409,
+                860
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Install and launch the TeamViewer Pilot app",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                440,
+                800
+              ],
+              "bottomright": [
+                704,
+                860
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Enter the ID shown on your smartphone",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                735,
+                800
+              ],
+              "bottomright": [
+                999,
+                860
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                163,
+                644
+              ],
+              "bottomright": [
+                391,
+                778
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                458,
+                644
+              ],
+              "bottomright": [
+                686,
+                778
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                753,
+                644
+              ],
+              "bottomright": [
+                981,
+                778
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "See through the eyes of your customers and collaborate as if you were there:",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            136,
+            480
+          ],
+          "bottomright": [
+            736,
+            540
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Watch video",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            136,
+            540
+          ],
+          "bottomright": [
+            251,
+            570
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        25,
+        3
+      ],
+      "bottomright": [
+        1317,
+        45
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            -71,
+            -13
+          ],
+          "bottomright": [
+            -49,
+            9
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                -71,
+                -13
+              ],
+              "bottomright": [
+                -49,
+                9
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1106,
+            1
+          ],
+          "bottomright": [
+            1177,
+            45
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1177,
+            1
+          ],
+          "bottomright": [
+            1247,
+            45
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1247,
+            1
+          ],
+          "bottomright": [
+            1318,
+            45
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -200,7 +200,6 @@ def crawl():
     #opens the application via webdriver
     desired_caps = {}
     #desired_caps["app"] = r"C:\Users\watas\AppData\Roaming\Zoom\bin\Zoom.exe"
-    #desired_caps["app"] = "C:\Windows\System32\explorer.exe"
     desired_caps["app"] = r"C:\Windows\System32\mspaint.exe"
     #desired_caps["app"] = r"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
     #desired_caps["app"] = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
@@ -209,7 +208,7 @@ def crawl():
     #desired_caps["app"] = r"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe"
     #desired_caps["app"] = r"C:\Program Files\XnConvert\xnconvert.exe"
     #desired_caps["app"] = r"C:\Program Files\TeamViewer\TeamViewer.exe"
-    #desired_caps["app"] = r"C:\Program Files\Notepad++\notepad++.exe"
+    #desired_caps["app"] = r"C:\Program Files\GIMP 2\bin\gimp-2.10.exe"
 
     #Wait 2s, to make sure application has opened and possible splash screens are gone (some apps may require more time)
     desired_caps["appium:ms:waitForAppLaunch"] = 2

@@ -1,0 +1,1059 @@
+{
+  "tag": "Window",
+  "name": "TeamViewer",
+  "type": "dialogue",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    0,
+    8
+  ],
+  "bottomright": [
+    1920,
+    1028
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Grant Easy Access",
+      "type": "dialogue",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        676,
+        340
+      ],
+      "bottomright": [
+        1245,
+        687
+      ],
+      "children": [
+        {
+          "tag": "Button",
+          "name": "Assign",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            993,
+            637
+          ],
+          "bottomright": [
+            1106,
+            671
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Cancel",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1116,
+            637
+          ],
+          "bottomright": [
+            1229,
+            671
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Assign this device to a TeamViewer account to connect securely without requiring additional passwords.",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            700,
+            410
+          ],
+          "bottomright": [
+            1236,
+            448
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "E-mail",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            745,
+            488
+          ],
+          "bottomright": [
+            790,
+            507
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Password",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            723,
+            529
+          ],
+          "bottomright": [
+            790,
+            548
+          ],
+          "children": []
+        },
+        {
+          "tag": "Edit",
+          "name": "Password",
+          "type": "edit",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            814,
+            488
+          ],
+          "bottomright": [
+            1071,
+            507
+          ],
+          "children": []
+        },
+        {
+          "tag": "Edit",
+          "name": "",
+          "type": "edit",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            814,
+            532
+          ],
+          "bottomright": [
+            1071,
+            551
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Create account",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            808,
+            568
+          ],
+          "bottomright": [
+            911,
+            589
+          ],
+          "children": []
+        },
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            701,
+            343
+          ],
+          "bottomright": [
+            1244,
+            385
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                451,
+                237
+              ],
+              "bottomright": [
+                473,
+                259
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    451,
+                    237
+                  ],
+                  "bottomright": [
+                    473,
+                    259
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1193,
+                341
+              ],
+              "bottomright": [
+                1245,
+                385
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "Ready to connect (secure connection)",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        0,
+        42
+      ],
+      "bottomright": [
+        1920,
+        103
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            7,
+            48
+          ],
+          "bottomright": [
+            301,
+            97
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Connection",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                7,
+                48
+              ],
+              "bottomright": [
+                143,
+                97
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Extras",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                143,
+                48
+              ],
+              "bottomright": [
+                228,
+                97
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Help",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                228,
+                48
+              ],
+              "bottomright": [
+                301,
+                97
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Feedback",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            305,
+            54
+          ],
+          "bottomright": [
+            416,
+            90
+          ],
+          "children": []
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1526,
+            42
+          ],
+          "bottomright": [
+            1913,
+            103
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1720,
+                54
+              ],
+              "bottomright": [
+                1912,
+                91
+              ],
+              "children": []
+            },
+            {
+              "tag": "Edit",
+              "name": "",
+              "type": "edit",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1533,
+                58
+              ],
+              "bottomright": [
+                1713,
+                86
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "Navigation",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        0,
+        148
+      ],
+      "bottomright": [
+        384,
+        1028
+      ],
+      "children": [
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            920
+          ],
+          "bottomright": [
+            383,
+            1028
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            148
+          ],
+          "bottomright": [
+            383,
+            274
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Remote Control",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            274
+          ],
+          "bottomright": [
+            383,
+            346
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Remote Management",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            346
+          ],
+          "bottomright": [
+            383,
+            418
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Meeting",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            418
+          ],
+          "bottomright": [
+            383,
+            490
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Computers & Contacts",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            490
+          ],
+          "bottomright": [
+            383,
+            562
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Chat",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            562
+          ],
+          "bottomright": [
+            383,
+            634
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Augmented Reality",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            634
+          ],
+          "bottomright": [
+            383,
+            706
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "More Solutions",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            706
+          ],
+          "bottomright": [
+            383,
+            778
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "StateBar",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        384,
+        958
+      ],
+      "bottomright": [
+        1920,
+        1028
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Ready to connect (secure connection)",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            444,
+            958
+          ],
+          "bottomright": [
+            1890,
+            1028
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "InfoBanner",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        0,
+        103
+      ],
+      "bottomright": [
+        1920,
+        148
+      ],
+      "children": [
+        {
+          "tag": "Button",
+          "name": "Free license (non-commercial use only) - Maruko San",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            717,
+            110
+          ],
+          "bottomright": [
+            1203,
+            141
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "Ready to connect (secure connection)",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        384,
+        148
+      ],
+      "bottomright": [
+        1920,
+        958
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            411,
+            505
+          ],
+          "bottomright": [
+            816,
+            730
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Unattended Access",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                411,
+                505
+              ],
+              "bottomright": [
+                691,
+                551
+              ],
+              "children": []
+            },
+            {
+              "tag": "CheckBox",
+              "name": "Start TeamViewer with Windows",
+              "type": "checkbox",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                411,
+                580
+              ],
+              "bottomright": [
+                751,
+                616
+              ],
+              "children": []
+            },
+            {
+              "tag": "CheckBox",
+              "name": "Grant easy access",
+              "type": "checkbox",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                411,
+                623
+              ],
+              "bottomright": [
+                620,
+                659
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            411,
+            170
+          ],
+          "bottomright": [
+            816,
+            437
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Allow Remote Control",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                411,
+                170
+              ],
+              "bottomright": [
+                731,
+                216
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                411,
+                245
+              ],
+              "bottomright": [
+                816,
+                330
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "Your ID",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    432,
+                    245
+                  ],
+                  "bottomright": [
+                    758,
+                    273
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Edit",
+                  "name": "Your ID",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    432,
+                    273
+                  ],
+                  "bottomright": [
+                    758,
+                    333
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                411,
+                345
+              ],
+              "bottomright": [
+                816,
+                430
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "Password",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    432,
+                    345
+                  ],
+                  "bottomright": [
+                    758,
+                    373
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Edit",
+                  "name": "Password",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    432,
+                    373
+                  ],
+                  "bottomright": [
+                    758,
+                    433
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            871,
+            170
+          ],
+          "bottomright": [
+            1276,
+            695
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "Control Remote Computer",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                871,
+                170
+              ],
+              "bottomright": [
+                1258,
+                216
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Partner ID",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                871,
+                245
+              ],
+              "bottomright": [
+                1276,
+                284
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "Partner ID",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                871,
+                287
+              ],
+              "bottomright": [
+                1276,
+                347
+              ],
+              "children": [
+                {
+                  "tag": "Edit",
+                  "name": "Partner ID",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    879,
+                    298
+                  ],
+                  "bottomright": [
+                    1179,
+                    335
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Open",
+                  "type": "button",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    846,
+                    288
+                  ],
+                  "bottomright": [
+                    870,
+                    314
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "RadioButton",
+              "name": "Remote control",
+              "type": "radio button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                871,
+                379
+              ],
+              "bottomright": [
+                1060,
+                415
+              ],
+              "children": []
+            },
+            {
+              "tag": "RadioButton",
+              "name": "File transfer",
+              "type": "radio button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                871,
+                422
+              ],
+              "bottomright": [
+                1026,
+                458
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Connect",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                871,
+                497
+              ],
+              "bottomright": [
+                1116,
+                557
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        24,
+        0
+      ],
+      "bottomright": [
+        1920,
+        42
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            8
+          ],
+          "bottomright": [
+            22,
+            30
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                0,
+                8
+              ],
+              "bottomright": [
+                22,
+                30
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1707,
+            19
+          ],
+          "bottomright": [
+            1778,
+            41
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Restore",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1778,
+            19
+          ],
+          "bottomright": [
+            1848,
+            41
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1848,
+            19
+          ],
+          "bottomright": [
+            1931,
+            41
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

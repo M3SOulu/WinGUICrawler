@@ -1,0 +1,805 @@
+{
+  "tag": "Window",
+  "name": "Oracle VM VirtualBox Manager",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    140,
+    179
+  ],
+  "bottomright": [
+    1110,
+    773
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Export Virtual Appliance",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        0,
+        0
+      ],
+      "bottomright": [
+        1252,
+        1031
+      ],
+      "children": [
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "True",
+          "filtered_out": "True",
+          "topleft": [
+            -341,
+            -44
+          ],
+          "bottomright": [
+            -341,
+            -44
+          ],
+          "children": [
+            {
+              "tag": "MenuBar",
+              "name": "System",
+              "type": "menu bar",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                -113,
+                -7
+              ],
+              "bottomright": [
+                -91,
+                15
+              ],
+              "children": [
+                {
+                  "tag": "MenuItem",
+                  "name": "System",
+                  "type": "menu item",
+                  "offscreen": "True",
+                  "filtered_out": "False",
+                  "topleft": [
+                    -113,
+                    -7
+                  ],
+                  "bottomright": [
+                    -91,
+                    15
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Context help",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1110,
+                1
+              ],
+              "bottomright": [
+                1181,
+                45
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1181,
+                1
+              ],
+              "bottomright": [
+                1252,
+                45
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            106
+          ],
+          "bottomright": [
+            1251,
+            1030
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Next Enter",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1001,
+                978
+              ],
+              "bottomright": [
+                1113,
+                1012
+              ],
+              "children": []
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1,
+                168
+              ],
+              "bottomright": [
+                1251,
+                952
+              ],
+              "children": [
+                {
+                  "tag": "Custom",
+                  "name": "",
+                  "type": "",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    37,
+                    168
+                  ],
+                  "bottomright": [
+                    1251,
+                    952
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        49,
+                        180
+                      ],
+                      "bottomright": [
+                        1239,
+                        236
+                      ],
+                      "children": [
+                        {
+                          "tag": "Edit",
+                          "name": "",
+                          "type": "edit",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            49,
+                            180
+                          ],
+                          "bottomright": [
+                            1239,
+                            236
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                49,
+                                180
+                              ],
+                              "bottomright": [
+                                1239,
+                                236
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "List",
+                      "name": "",
+                      "type": "list",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        49,
+                        244
+                      ],
+                      "bottomright": [
+                        1239,
+                        940
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Cancel",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1121,
+                978
+              ],
+              "bottomright": [
+                1233,
+                1012
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Expert Mode Alt+E",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                881,
+                978
+              ],
+              "bottomright": [
+                993,
+                1012
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "Virtual machines to export",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1,
+                128
+              ],
+              "bottomright": [
+                1251,
+                160
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1,
+            54
+          ],
+          "bottomright": [
+            49,
+            102
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        165,
+        182
+      ],
+      "bottomright": [
+        1109,
+        224
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "True",
+          "filtered_out": "False",
+          "topleft": [
+            -20,
+            112
+          ],
+          "bottomright": [
+            2,
+            134
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "True",
+              "filtered_out": "False",
+              "topleft": [
+                -20,
+                112
+              ],
+              "bottomright": [
+                2,
+                134
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            898,
+            180
+          ],
+          "bottomright": [
+            969,
+            224
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            969,
+            180
+          ],
+          "bottomright": [
+            1039,
+            224
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1039,
+            180
+          ],
+          "bottomright": [
+            1110,
+            224
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "MenuBar",
+      "name": "",
+      "type": "menu bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        141,
+        224
+      ],
+      "bottomright": [
+        1109,
+        260
+      ],
+      "children": [
+        {
+          "tag": "MenuItem",
+          "name": "File Alt+F",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            141,
+            224
+          ],
+          "bottomright": [
+            201,
+            258
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Machine Alt+M",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            201,
+            224
+          ],
+          "bottomright": [
+            301,
+            258
+          ],
+          "children": []
+        },
+        {
+          "tag": "MenuItem",
+          "name": "Help Alt+H",
+          "type": "menu item",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            301,
+            224
+          ],
+          "bottomright": [
+            371,
+            258
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Custom",
+      "name": "",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        141,
+        260
+      ],
+      "bottomright": [
+        1109,
+        772
+      ],
+      "children": [
+        {
+          "tag": "SplitButton",
+          "name": "",
+          "type": "split button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            141,
+            260
+          ],
+          "bottomright": [
+            1109,
+            772
+          ],
+          "children": [
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                351,
+                260
+              ],
+              "bottomright": [
+                1109,
+                772
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    351,
+                    260
+                  ],
+                  "bottomright": [
+                    1109,
+                    348
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "Preferences",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        351,
+                        260
+                      ],
+                      "bottomright": [
+                        461,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        461,
+                        260
+                      ],
+                      "bottomright": [
+                        469,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Import",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        469,
+                        260
+                      ],
+                      "bottomright": [
+                        545,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Export",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        545,
+                        260
+                      ],
+                      "bottomright": [
+                        617,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        617,
+                        260
+                      ],
+                      "bottomright": [
+                        625,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "New",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        625,
+                        260
+                      ],
+                      "bottomright": [
+                        687,
+                        348
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Add",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        687,
+                        260
+                      ],
+                      "bottomright": [
+                        749,
+                        348
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    351,
+                    348
+                  ],
+                  "bottomright": [
+                    1109,
+                    772
+                  ],
+                  "children": [
+                    {
+                      "tag": "Custom",
+                      "name": "",
+                      "type": "",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        351,
+                        348
+                      ],
+                      "bottomright": [
+                        1109,
+                        772
+                      ],
+                      "children": [
+                        {
+                          "tag": "Custom",
+                          "name": "",
+                          "type": "",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            351,
+                            348
+                          ],
+                          "bottomright": [
+                            1109,
+                            772
+                          ],
+                          "children": [
+                            {
+                              "tag": "Text",
+                              "name": "Welcome to VirtualBox!\nThe left part of application window contains global tools and lists all virtual machines and virtual machine groups on your computer. You can import, add and create new VMs using corresponding toolbar buttons. You can popup a tools of currently selected element using corresponding element button.\nYou can press the F1 key to get instant help, or visit www.virtualbox.org for more information and latest news.",
+                              "type": "text",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                369,
+                                360
+                              ],
+                              "bottomright": [
+                                689,
+                                760
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                697,
+                                360
+                              ],
+                              "bottomright": [
+                                1097,
+                                760
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Custom",
+              "name": "",
+              "type": "",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                141,
+                260
+              ],
+              "bottomright": [
+                349,
+                772
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    141,
+                    260
+                  ],
+                  "bottomright": [
+                    349,
+                    772
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Tools",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        141,
+                        260
+                      ],
+                      "bottomright": [
+                        349,
+                        348
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                345,
+                260
+              ],
+              "bottomright": [
+                355,
+                772
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

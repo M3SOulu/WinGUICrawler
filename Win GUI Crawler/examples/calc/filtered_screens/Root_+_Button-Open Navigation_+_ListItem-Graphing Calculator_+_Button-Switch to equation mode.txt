@@ -1,0 +1,1191 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    48
+  ],
+  "bottomright": [
+    551,
+    848
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        268,
+        49
+      ],
+      "bottomright": [
+        550,
+        97
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            0
+          ],
+          "bottomright": [
+            0,
+            0
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                0
+              ],
+              "bottomright": [
+                0,
+                0
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            343,
+            49
+          ],
+          "bottomright": [
+            412,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            412,
+            49
+          ],
+          "bottomright": [
+            481,
+            97
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            481,
+            49
+          ],
+          "bottomright": [
+            550,
+            97
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        49
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": [
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            88,
+            61
+          ],
+          "bottomright": [
+            167,
+            85
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Switch to graph mode",
+          "type": "toggle switch",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            436,
+            103
+          ],
+          "bottomright": [
+            532,
+            148
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "x",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                512,
+                121
+              ],
+              "bottomright": [
+                519,
+                141
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "x",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                512,
+                121
+              ],
+              "bottomright": [
+                519,
+                141
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            70,
+            163
+          ],
+          "bottomright": [
+            550,
+            373
+          ],
+          "children": [
+            {
+              "tag": "Group",
+              "name": "Function Input Panel",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                163
+              ],
+              "bottomright": [
+                550,
+                236
+              ],
+              "children": [
+                {
+                  "tag": "List",
+                  "name": "Function Input List",
+                  "type": "list",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    163
+                  ],
+                  "bottomright": [
+                    550,
+                    236
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Function Input List Item",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        72,
+                        163
+                      ],
+                      "bottomright": [
+                        549,
+                        236
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "Function Input List Item",
+                          "type": "group",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            74,
+                            163
+                          ],
+                          "bottomright": [
+                            548,
+                            233
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Hide equation 1",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                74,
+                                163
+                              ],
+                              "bottomright": [
+                                140,
+                                233
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Enter an expression",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                140,
+                                164
+                              ],
+                              "bottomright": [
+                                546,
+                                230
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Text",
+                                  "name": "Enter an expression",
+                                  "type": "text",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    140,
+                                    175
+                                  ],
+                                  "bottomright": [
+                                    546,
+                                    220
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "List",
+          "name": "Scientific Operator Panels",
+          "type": "list",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            73,
+            373
+          ],
+          "bottomright": [
+            547,
+            430
+          ],
+          "children": [
+            {
+              "tag": "ListItem",
+              "name": "Trigonometry",
+              "type": "list item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                73,
+                373
+              ],
+              "bottomright": [
+                269,
+                430
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Trigonometry",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    74,
+                    374
+                  ],
+                  "bottomright": [
+                    267,
+                    428
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Trigonometry",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        124,
+                        389
+                      ],
+                      "bottomright": [
+                        230,
+                        412
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ListItem",
+              "name": "Inequalities",
+              "type": "list item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                269,
+                373
+              ],
+              "bottomright": [
+                449,
+                430
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Inequalities",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    270,
+                    374
+                  ],
+                  "bottomright": [
+                    447,
+                    428
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Inequalities",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        320,
+                        389
+                      ],
+                      "bottomright": [
+                        410,
+                        412
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ListItem",
+              "name": "Functions",
+              "type": "list item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                449,
+                373
+              ],
+              "bottomright": [
+                546,
+                430
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Functions",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    451,
+                    374
+                  ],
+                  "bottomright": [
+                    546,
+                    428
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Function",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        500,
+                        389
+                      ],
+                      "bottomright": [
+                        546,
+                        412
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Inverse Function",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            74,
+            431
+          ],
+          "bottomright": [
+            165,
+            487
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Pi",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            431
+          ],
+          "bottomright": [
+            260,
+            487
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Euler's number",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            431
+          ],
+          "bottomright": [
+            355,
+            487
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "Display controls",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            431
+          ],
+          "bottomright": [
+            544,
+            487
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Clear",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                358,
+                431
+              ],
+              "bottomright": [
+                449,
+                487
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Backspace",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                431
+              ],
+              "bottomright": [
+                544,
+                487
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Group",
+          "name": "Scientific functions",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            74,
+            490
+          ],
+          "bottomright": [
+            165,
+            841
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Square",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                490
+              ],
+              "bottomright": [
+                165,
+                546
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Square root",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                549
+              ],
+              "bottomright": [
+                165,
+                605
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "'X' to the exponent",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                608
+              ],
+              "bottomright": [
+                165,
+                664
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Ten to the exponent",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                668
+              ],
+              "bottomright": [
+                165,
+                724
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Log",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                727
+              ],
+              "bottomright": [
+                165,
+                783
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Natural log",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                74,
+                786
+              ],
+              "bottomright": [
+                165,
+                842
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Reciprocal",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            490
+          ],
+          "bottomright": [
+            260,
+            546
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Absolute Value",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            490
+          ],
+          "bottomright": [
+            355,
+            546
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "X",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            490
+          ],
+          "bottomright": [
+            449,
+            546
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Y",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            453,
+            490
+          ],
+          "bottomright": [
+            544,
+            546
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Left parenthesis",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            549
+          ],
+          "bottomright": [
+            260,
+            605
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Right parenthesis",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            549
+          ],
+          "bottomright": [
+            355,
+            605
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Equals",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            549
+          ],
+          "bottomright": [
+            449,
+            605
+          ],
+          "children": []
+        },
+        {
+          "tag": "Group",
+          "name": "Standard operators",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            453,
+            549
+          ],
+          "bottomright": [
+            544,
+            841
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Divide by",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                549
+              ],
+              "bottomright": [
+                544,
+                605
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Multiply by",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                608
+              ],
+              "bottomright": [
+                544,
+                664
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Minus",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                668
+              ],
+              "bottomright": [
+                544,
+                724
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Plus",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                727
+              ],
+              "bottomright": [
+                544,
+                783
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Submit",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                453,
+                786
+              ],
+              "bottomright": [
+                544,
+                842
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Positive Negative",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            786
+          ],
+          "bottomright": [
+            260,
+            842
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Zero",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            786
+          ],
+          "bottomright": [
+            355,
+            842
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "One",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            727
+          ],
+          "bottomright": [
+            260,
+            783
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Two",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            727
+          ],
+          "bottomright": [
+            355,
+            783
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Three",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            727
+          ],
+          "bottomright": [
+            449,
+            783
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Four",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            668
+          ],
+          "bottomright": [
+            260,
+            724
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Five",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            668
+          ],
+          "bottomright": [
+            355,
+            724
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Six",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            668
+          ],
+          "bottomright": [
+            449,
+            724
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Seven",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            169,
+            608
+          ],
+          "bottomright": [
+            260,
+            664
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Eight",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            264,
+            608
+          ],
+          "bottomright": [
+            355,
+            664
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Nine",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            608
+          ],
+          "bottomright": [
+            449,
+            664
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Decimal Separator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            358,
+            786
+          ],
+          "bottomright": [
+            449,
+            842
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Graphing Calculator mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            142,
+            105
+          ],
+          "bottomright": [
+            268,
+            145
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            97
+          ],
+          "bottomright": [
+            550,
+            847
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                97
+              ],
+              "bottomright": [
+                130,
+                157
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        97
+      ],
+      "bottomright": [
+        550,
+        847
+      ],
+      "children": []
+    }
+  ]
+}

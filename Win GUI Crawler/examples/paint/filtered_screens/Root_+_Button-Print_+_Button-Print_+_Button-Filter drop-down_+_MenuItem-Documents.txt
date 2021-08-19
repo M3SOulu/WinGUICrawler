@@ -1,0 +1,3945 @@
+{
+  "tag": "Window",
+  "name": "Untitled - Paint",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    394,
+    80
+  ],
+  "bottomright": [
+    1910,
+    934
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Paint",
+      "type": "dialogue",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        1002,
+        365
+      ],
+      "bottomright": [
+        1303,
+        649
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Save Print Output As",
+          "type": "dialogue",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            970,
+            176
+          ],
+          "bottomright": [
+            1910,
+            886
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                971,
+                280
+              ],
+              "bottomright": [
+                1909,
+                794
+              ],
+              "children": [
+                {
+                  "tag": "ToolBar",
+                  "name": "Command Module",
+                  "type": "tool bar",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    971,
+                    280
+                  ],
+                  "bottomright": [
+                    1909,
+                    329
+                  ],
+                  "children": [
+                    {
+                      "tag": "Button",
+                      "name": "&Help",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1853,
+                        283
+                      ],
+                      "bottomright": [
+                        1895,
+                        324
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "SplitButton",
+                      "name": "Views",
+                      "type": "split button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1764,
+                        283
+                      ],
+                      "bottomright": [
+                        1841,
+                        324
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "View Slider",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1805,
+                            283
+                          ],
+                          "bottomright": [
+                            1826,
+                            324
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Organise",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        976,
+                        283
+                      ],
+                      "bottomright": [
+                        1108,
+                        324
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "New folder",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1108,
+                        283
+                      ],
+                      "bottomright": [
+                        1241,
+                        324
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "Control Host",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    971,
+                    329
+                  ],
+                  "bottomright": [
+                    1205,
+                    696
+                  ],
+                  "children": [
+                    {
+                      "tag": "Tree",
+                      "name": "Tree View",
+                      "type": "tree",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        971,
+                        329
+                      ],
+                      "bottomright": [
+                        1205,
+                        696
+                      ],
+                      "children": [
+                        {
+                          "tag": "ScrollBar",
+                          "name": "Vertical",
+                          "type": "scroll bar",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1179,
+                            329
+                          ],
+                          "bottomright": [
+                            1205,
+                            696
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Line up",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1179,
+                                329
+                              ],
+                              "bottomright": [
+                                1205,
+                                355
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Page up",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1179,
+                                355
+                              ],
+                              "bottomright": [
+                                1205,
+                                410
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Thumb",
+                              "name": "Position",
+                              "type": "thumb",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1179,
+                                410
+                              ],
+                              "bottomright": [
+                                1205,
+                                638
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Page down",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1179,
+                                638
+                              ],
+                              "bottomright": [
+                                1205,
+                                670
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Line down",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1179,
+                                670
+                              ],
+                              "bottomright": [
+                                1205,
+                                696
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Quick access",
+                          "type": "tree item",
+                          "offscreen": "True",
+                          "filtered_out": "True",
+                          "topleft": [
+                            0,
+                            0
+                          ],
+                          "bottomright": [
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "tag": "TreeItem",
+                              "name": "Desktop (pinned)",
+                              "type": "tree item",
+                              "offscreen": "True",
+                              "filtered_out": "True",
+                              "topleft": [
+                                0,
+                                0
+                              ],
+                              "bottomright": [
+                                0,
+                                0
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "Downloads (pinned)",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                329
+                              ],
+                              "bottomright": [
+                                1140,
+                                365
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "Documents (pinned)",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                365
+                              ],
+                              "bottomright": [
+                                1141,
+                                401
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "Pictures (pinned)",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                401
+                              ],
+                              "bottomright": [
+                                1111,
+                                437
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "(old)GUI test scripts",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                437
+                              ],
+                              "bottomright": [
+                                1179,
+                                473
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "(old)gui_test-master",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                473
+                              ],
+                              "bottomright": [
+                                1179,
+                                509
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "aws_prolific-master",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                509
+                              ],
+                              "bottomright": [
+                                1179,
+                                545
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "screens_temp",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1046,
+                                545
+                              ],
+                              "bottomright": [
+                                1157,
+                                581
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "TreeItem",
+                          "name": "Desktop",
+                          "type": "tree item",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            0,
+                            0
+                          ],
+                          "bottomright": [
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "tag": "TreeItem",
+                              "name": "OneDrive",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1034,
+                                593
+                              ],
+                              "bottomright": [
+                                1112,
+                                629
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "This PC",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1034,
+                                641
+                              ],
+                              "bottomright": [
+                                1095,
+                                677
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "TreeItem",
+                              "name": "Network",
+                              "type": "tree item",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1034,
+                                689
+                              ],
+                              "bottomright": [
+                                1105,
+                                696
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "Shell Folder View",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1211,
+                    329
+                  ],
+                  "bottomright": [
+                    1909,
+                    696
+                  ],
+                  "children": [
+                    {
+                      "tag": "List",
+                      "name": "Items View",
+                      "type": "list",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1211,
+                        329
+                      ],
+                      "bottomright": [
+                        1909,
+                        696
+                      ],
+                      "children": [
+                        {
+                          "tag": "ScrollBar",
+                          "name": "Horizontal Scroll Bar",
+                          "type": "scroll bar",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1211,
+                            670
+                          ],
+                          "bottomright": [
+                            1909,
+                            696
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Column left",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1211,
+                                670
+                              ],
+                              "bottomright": [
+                                1237,
+                                696
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Thumb",
+                              "name": "Position",
+                              "type": "thumb",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1237,
+                                670
+                              ],
+                              "bottomright": [
+                                1664,
+                                696
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Page right",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1664,
+                                670
+                              ],
+                              "bottomright": [
+                                1883,
+                                696
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Column right",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1883,
+                                670
+                              ],
+                              "bottomright": [
+                                1909,
+                                696
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Header",
+                          "name": "Header",
+                          "type": "header",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1211,
+                            329
+                          ],
+                          "bottomright": [
+                            2266,
+                            370
+                          ],
+                          "children": [
+                            {
+                              "tag": "SplitButton",
+                              "name": "Name",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1211,
+                                329
+                              ],
+                              "bottomright": [
+                                1670,
+                                370
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Button",
+                                  "name": "Filter drop-down",
+                                  "type": "button",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    1645,
+                                    329
+                                  ],
+                                  "bottomright": [
+                                    1668,
+                                    370
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "SplitButton",
+                              "name": "Date modified",
+                              "type": "split button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                329
+                              ],
+                              "bottomright": [
+                                1913,
+                                370
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Button",
+                                  "name": "Filter drop-down",
+                                  "type": "button",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    1888,
+                                    329
+                                  ],
+                                  "bottomright": [
+                                    1911,
+                                    370
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "SplitButton",
+                              "name": "Type",
+                              "type": "split button",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                329
+                              ],
+                              "bottomright": [
+                                2116,
+                                370
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Button",
+                                  "name": "Filter drop-down",
+                                  "type": "button",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    2091,
+                                    329
+                                  ],
+                                  "bottomright": [
+                                    2114,
+                                    370
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "SplitButton",
+                              "name": "Size",
+                              "type": "split button",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                329
+                              ],
+                              "bottomright": [
+                                2251,
+                                370
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Button",
+                                  "name": "Filter drop-down",
+                                  "type": "button",
+                                  "offscreen": "True",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    2226,
+                                    329
+                                  ],
+                                  "bottomright": [
+                                    2249,
+                                    370
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ListItem",
+                          "name": "AccessibilityInsights",
+                          "type": "list item",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1232,
+                            379
+                          ],
+                          "bottomright": [
+                            2245,
+                            412
+                          ],
+                          "children": [
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1238,
+                                379
+                              ],
+                              "bottomright": [
+                                1265,
+                                412
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Name",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1265,
+                                379
+                              ],
+                              "bottomright": [
+                                1670,
+                                412
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Date modified",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                379
+                              ],
+                              "bottomright": [
+                                1913,
+                                412
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Type",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                379
+                              ],
+                              "bottomright": [
+                                2116,
+                                412
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Size",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                379
+                              ],
+                              "bottomright": [
+                                2251,
+                                412
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ListItem",
+                          "name": "Custom Office Templates",
+                          "type": "list item",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1232,
+                            410
+                          ],
+                          "bottomright": [
+                            2245,
+                            443
+                          ],
+                          "children": [
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1238,
+                                410
+                              ],
+                              "bottomright": [
+                                1265,
+                                443
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Name",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1265,
+                                410
+                              ],
+                              "bottomright": [
+                                1670,
+                                443
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Date modified",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                410
+                              ],
+                              "bottomright": [
+                                1913,
+                                443
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Type",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                410
+                              ],
+                              "bottomright": [
+                                2116,
+                                443
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Size",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                410
+                              ],
+                              "bottomright": [
+                                2251,
+                                443
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ListItem",
+                          "name": "FeedbackHub",
+                          "type": "list item",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1232,
+                            441
+                          ],
+                          "bottomright": [
+                            2245,
+                            474
+                          ],
+                          "children": [
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1238,
+                                441
+                              ],
+                              "bottomright": [
+                                1265,
+                                474
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Name",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1265,
+                                441
+                              ],
+                              "bottomright": [
+                                1670,
+                                474
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Date modified",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                441
+                              ],
+                              "bottomright": [
+                                1913,
+                                474
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Type",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                441
+                              ],
+                              "bottomright": [
+                                2116,
+                                474
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Size",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                441
+                              ],
+                              "bottomright": [
+                                2251,
+                                474
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ListItem",
+                          "name": "New folder",
+                          "type": "list item",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1232,
+                            472
+                          ],
+                          "bottomright": [
+                            2245,
+                            505
+                          ],
+                          "children": [
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1238,
+                                472
+                              ],
+                              "bottomright": [
+                                1265,
+                                505
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Name",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1265,
+                                472
+                              ],
+                              "bottomright": [
+                                1670,
+                                505
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Date modified",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                472
+                              ],
+                              "bottomright": [
+                                1913,
+                                505
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Type",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                472
+                              ],
+                              "bottomright": [
+                                2116,
+                                505
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Size",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                472
+                              ],
+                              "bottomright": [
+                                2251,
+                                505
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ListItem",
+                          "name": "Zoom",
+                          "type": "list item",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1232,
+                            503
+                          ],
+                          "bottomright": [
+                            2245,
+                            536
+                          ],
+                          "children": [
+                            {
+                              "tag": "Image",
+                              "name": "",
+                              "type": "image",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1238,
+                                503
+                              ],
+                              "bottomright": [
+                                1265,
+                                536
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Name",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1265,
+                                503
+                              ],
+                              "bottomright": [
+                                1670,
+                                536
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Date modified",
+                              "type": "edit",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1670,
+                                503
+                              ],
+                              "bottomright": [
+                                1913,
+                                536
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Type",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1913,
+                                503
+                              ],
+                              "bottomright": [
+                                2116,
+                                536
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Edit",
+                              "name": "Size",
+                              "type": "edit",
+                              "offscreen": "True",
+                              "filtered_out": "False",
+                              "topleft": [
+                                2116,
+                                503
+                              ],
+                              "bottomright": [
+                                2251,
+                                536
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Text",
+                  "name": "File name:",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    986,
+                    714
+                  ],
+                  "bottomright": [
+                    1159,
+                    747
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "ComboBox",
+                  "name": "File name:",
+                  "type": "combo box",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1159,
+                    714
+                  ],
+                  "bottomright": [
+                    1901,
+                    747
+                  ],
+                  "children": [
+                    {
+                      "tag": "Edit",
+                      "name": "File name:",
+                      "type": "edit",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1162,
+                        717
+                      ],
+                      "bottomright": [
+                        1872,
+                        744
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Open",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1876,
+                        715
+                      ],
+                      "bottomright": [
+                        1900,
+                        746
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Text",
+                  "name": "Save as type:",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    986,
+                    750
+                  ],
+                  "bottomright": [
+                    1159,
+                    783
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "ComboBox",
+                  "name": "Save as type:",
+                  "type": "combo box",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1159,
+                    750
+                  ],
+                  "bottomright": [
+                    1901,
+                    783
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "",
+                      "type": "text",
+                      "offscreen": "True",
+                      "filtered_out": "False",
+                      "topleft": [
+                        3,
+                        3
+                      ],
+                      "bottomright": [
+                        713,
+                        30
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Open",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1876,
+                        751
+                      ],
+                      "bottomright": [
+                        1900,
+                        782
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Tree",
+                  "name": "Save Fields",
+                  "type": "tree",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Tree",
+                  "name": "Application Controls",
+                  "type": "tree",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    0
+                  ],
+                  "bottomright": [
+                    0,
+                    0
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ToolBar",
+              "name": "",
+              "type": "tool bar",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                981,
+                835
+              ],
+              "bottomright": [
+                1121,
+                867
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Hide Folders",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    981,
+                    835
+                  ],
+                  "bottomright": [
+                    1113,
+                    867
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Save",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1601,
+                828
+              ],
+              "bottomright": [
+                1733,
+                867
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Cancel",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1751,
+                828
+              ],
+              "bottomright": [
+                1883,
+                867
+              ],
+              "children": []
+            },
+            {
+              "tag": "Thumb",
+              "name": "",
+              "type": "thumb",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1883,
+                859
+              ],
+              "bottomright": [
+                1909,
+                885
+              ],
+              "children": []
+            },
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                971,
+                221
+              ],
+              "bottomright": [
+                1909,
+                280
+              ],
+              "children": [
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    971,
+                    225
+                  ],
+                  "bottomright": [
+                    1092,
+                    273
+                  ],
+                  "children": [
+                    {
+                      "tag": "ToolBar",
+                      "name": "Navigation buttons",
+                      "type": "tool bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        977,
+                        228
+                      ],
+                      "bottomright": [
+                        1092,
+                        273
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Back to Documents (Alt + Left Arrow)",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            977,
+                            228
+                          ],
+                          "bottomright": [
+                            1022,
+                            273
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Forward (Alt + Right Arrow)",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1022,
+                            228
+                          ],
+                          "bottomright": [
+                            1067,
+                            273
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Recent locations",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1067,
+                            228
+                          ],
+                          "bottomright": [
+                            1089,
+                            273
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1092,
+                    227
+                  ],
+                  "bottomright": [
+                    1128,
+                    271
+                  ],
+                  "children": [
+                    {
+                      "tag": "ToolBar",
+                      "name": "Up band toolbar",
+                      "type": "tool bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1092,
+                        233
+                      ],
+                      "bottomright": [
+                        1128,
+                        277
+                      ],
+                      "children": [
+                        {
+                          "tag": "Button",
+                          "name": "Up to \"This PC\" (Alt + Up Arrow)",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1092,
+                            233
+                          ],
+                          "bottomright": [
+                            1128,
+                            269
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1128,
+                    221
+                  ],
+                  "bottomright": [
+                    1582,
+                    277
+                  ],
+                  "children": [
+                    {
+                      "tag": "ProgressBar",
+                      "name": "",
+                      "type": "progress bar",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1130,
+                        226
+                      ],
+                      "bottomright": [
+                        1580,
+                        273
+                      ],
+                      "children": [
+                        {
+                          "tag": "Pane",
+                          "name": "",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1130,
+                            226
+                          ],
+                          "bottomright": [
+                            1480,
+                            273
+                          ],
+                          "children": [
+                            {
+                              "tag": "ToolBar",
+                              "name": "Address: Documents",
+                              "type": "tool bar",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1130,
+                                226
+                              ],
+                              "bottomright": [
+                                1480,
+                                273
+                              ],
+                              "children": [
+                                {
+                                  "tag": "SplitButton",
+                                  "name": "All locations",
+                                  "type": "split button",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    1130,
+                                    226
+                                  ],
+                                  "bottomright": [
+                                    1183,
+                                    272
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "SplitButton",
+                                  "name": "This PC",
+                                  "type": "split button",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    1183,
+                                    226
+                                  ],
+                                  "bottomright": [
+                                    1273,
+                                    272
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "SplitButton",
+                                  "name": "Documents",
+                                  "type": "split button",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    1273,
+                                    226
+                                  ],
+                                  "bottomright": [
+                                    1397,
+                                    272
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ToolBar",
+                          "name": "Address band toolbar",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1480,
+                            226
+                          ],
+                          "bottomright": [
+                            1580,
+                            273
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Previous Locations",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1480,
+                                226
+                              ],
+                              "bottomright": [
+                                1530,
+                                273
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Refresh \"Documents\" (F5)",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                1530,
+                                226
+                              ],
+                              "bottomright": [
+                                1580,
+                                273
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1586,
+                    248
+                  ],
+                  "bottomright": [
+                    1592,
+                    249
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1592,
+                    222
+                  ],
+                  "bottomright": [
+                    1898,
+                    275
+                  ],
+                  "children": [
+                    {
+                      "tag": "Edit",
+                      "name": "SearchEditBox",
+                      "type": "edit",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        1592,
+                        225
+                      ],
+                      "bottomright": [
+                        1898,
+                        274
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1902,
+                    248
+                  ],
+                  "bottomright": [
+                    1909,
+                    249
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "TitleBar",
+              "name": "",
+              "type": "title bar",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                995,
+                179
+              ],
+              "bottomright": [
+                1909,
+                221
+              ],
+              "children": [
+                {
+                  "tag": "MenuBar",
+                  "name": "System",
+                  "type": "menu bar",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    971,
+                    187
+                  ],
+                  "bottomright": [
+                    1004,
+                    220
+                  ],
+                  "children": [
+                    {
+                      "tag": "MenuItem",
+                      "name": "System",
+                      "type": "menu item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        971,
+                        187
+                      ],
+                      "bottomright": [
+                        1004,
+                        220
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1858,
+                    177
+                  ],
+                  "bottomright": [
+                    1910,
+                    221
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Printing",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            433
+          ],
+          "bottomright": [
+            1302,
+            453
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Untitled",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            458
+          ],
+          "bottomright": [
+            1302,
+            478
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "on the",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            483
+          ],
+          "bottomright": [
+            1302,
+            503
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Microsoft Print to PDF",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            508
+          ],
+          "bottomright": [
+            1302,
+            528
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "on PORTPROMPT:",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            533
+          ],
+          "bottomright": [
+            1302,
+            553
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "on PORTPROMPT:",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            558
+          ],
+          "bottomright": [
+            1302,
+            578
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Cancel",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1107,
+            595
+          ],
+          "bottomright": [
+            1197,
+            630
+          ],
+          "children": []
+        },
+        {
+          "tag": "TitleBar",
+          "name": "",
+          "type": "title bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            1003,
+            368
+          ],
+          "bottomright": [
+            1302,
+            410
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "UIRibbonDockTop",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        395,
+        125
+      ],
+      "bottomright": [
+        1909,
+        298
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "Ribbon",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            395,
+            125
+          ],
+          "bottomright": [
+            1909,
+            298
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "Ribbon",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                395,
+                125
+              ],
+              "bottomright": [
+                1909,
+                298
+              ],
+              "children": [
+                {
+                  "tag": "Pane",
+                  "name": "",
+                  "type": "pane",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    395,
+                    125
+                  ],
+                  "bottomright": [
+                    1909,
+                    345
+                  ],
+                  "children": [
+                    {
+                      "tag": "Pane",
+                      "name": "Ribbon",
+                      "type": "pane",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        395,
+                        78
+                      ],
+                      "bottomright": [
+                        1909,
+                        298
+                      ],
+                      "children": [
+                        {
+                          "tag": "ToolBar",
+                          "name": "Quick Access Toolbar",
+                          "type": "tool bar",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            448,
+                            86
+                          ],
+                          "bottomright": [
+                            576,
+                            118
+                          ],
+                          "children": [
+                            {
+                              "tag": "Button",
+                              "name": "Save",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                448,
+                                84
+                              ],
+                              "bottomright": [
+                                480,
+                                118
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Undo",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                480,
+                                84
+                              ],
+                              "bottomright": [
+                                512,
+                                118
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Redo",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                512,
+                                84
+                              ],
+                              "bottomright": [
+                                544,
+                                118
+                              ],
+                              "children": []
+                            },
+                            {
+                              "tag": "Button",
+                              "name": "Print",
+                              "type": "button",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                544,
+                                84
+                              ],
+                              "bottomright": [
+                                576,
+                                118
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Customise Quick Access Toolbar",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            577,
+                            86
+                          ],
+                          "bottomright": [
+                            596,
+                            119
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "File tab",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            395,
+                            125
+                          ],
+                          "bottomright": [
+                            479,
+                            159
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Tab",
+                          "name": "Ribbon tabs",
+                          "type": "tab",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            479,
+                            125
+                          ],
+                          "bottomright": [
+                            1845,
+                            159
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "False",
+                              "topleft": [
+                                479,
+                                125
+                              ],
+                              "bottomright": [
+                                1845,
+                                159
+                              ],
+                              "children": [
+                                {
+                                  "tag": "TabItem",
+                                  "name": "Home",
+                                  "type": "tab item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    479,
+                                    125
+                                  ],
+                                  "bottomright": [
+                                    561,
+                                    159
+                                  ],
+                                  "children": []
+                                },
+                                {
+                                  "tag": "TabItem",
+                                  "name": "View",
+                                  "type": "tab item",
+                                  "offscreen": "False",
+                                  "filtered_out": "False",
+                                  "topleft": [
+                                    562,
+                                    125
+                                  ],
+                                  "bottomright": [
+                                    636,
+                                    159
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Minimise the Ribbon",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1845,
+                            126
+                          ],
+                          "bottomright": [
+                            1877,
+                            158
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Button",
+                          "name": "Help",
+                          "type": "button",
+                          "offscreen": "False",
+                          "filtered_out": "False",
+                          "topleft": [
+                            1877,
+                            126
+                          ],
+                          "bottomright": [
+                            1909,
+                            158
+                          ],
+                          "children": []
+                        },
+                        {
+                          "tag": "Pane",
+                          "name": "Lower Ribbon",
+                          "type": "pane",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            395,
+                            159
+                          ],
+                          "bottomright": [
+                            1909,
+                            298
+                          ],
+                          "children": [
+                            {
+                              "tag": "Custom",
+                              "name": "",
+                              "type": "",
+                              "offscreen": "False",
+                              "filtered_out": "True",
+                              "topleft": [
+                                395,
+                                159
+                              ],
+                              "bottomright": [
+                                1909,
+                                298
+                              ],
+                              "children": [
+                                {
+                                  "tag": "Custom",
+                                  "name": "Home",
+                                  "type": "",
+                                  "offscreen": "False",
+                                  "filtered_out": "True",
+                                  "topleft": [
+                                    395,
+                                    159
+                                  ],
+                                  "bottomright": [
+                                    1909,
+                                    298
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Clipboard",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        401,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        549,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Group",
+                                          "name": "Paste",
+                                          "type": "group",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            404,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            466,
+                                            265
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "SplitButton",
+                                              "name": "Paste",
+                                              "type": "split button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                404,
+                                                166
+                                              ],
+                                              "bottomright": [
+                                                466,
+                                                222
+                                              ],
+                                              "children": []
+                                            },
+                                            {
+                                              "tag": "SplitButton",
+                                              "name": "Paste",
+                                              "type": "split button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                404,
+                                                222
+                                              ],
+                                              "bottomright": [
+                                                466,
+                                                265
+                                              ],
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Cut",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            466,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            527,
+                                            198
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Copy",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            466,
+                                            198
+                                          ],
+                                          "bottomright": [
+                                            539,
+                                            230
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Image",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        551,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        720,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Group",
+                                          "name": "Select",
+                                          "type": "group",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            554,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            616,
+                                            265
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "SplitButton",
+                                              "name": "Select",
+                                              "type": "split button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                554,
+                                                166
+                                              ],
+                                              "bottomright": [
+                                                616,
+                                                222
+                                              ],
+                                              "children": []
+                                            },
+                                            {
+                                              "tag": "SplitButton",
+                                              "name": "Select",
+                                              "type": "split button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                554,
+                                                222
+                                              ],
+                                              "bottomright": [
+                                                616,
+                                                265
+                                              ],
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Crop",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            616,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            687,
+                                            198
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Resize",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            616,
+                                            198
+                                          ],
+                                          "bottomright": [
+                                            697,
+                                            230
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "SplitButton",
+                                          "name": "Rotate",
+                                          "type": "split button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            616,
+                                            230
+                                          ],
+                                          "bottomright": [
+                                            710,
+                                            262
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Tools",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        722,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        837,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Button",
+                                          "name": "Pencil",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            725,
+                                            178
+                                          ],
+                                          "bottomright": [
+                                            759,
+                                            210
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Fill with colour",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            759,
+                                            178
+                                          ],
+                                          "bottomright": [
+                                            795,
+                                            210
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Text",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            795,
+                                            178
+                                          ],
+                                          "bottomright": [
+                                            827,
+                                            210
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Rubber",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            725,
+                                            222
+                                          ],
+                                          "bottomright": [
+                                            759,
+                                            254
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Colour picker",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            759,
+                                            222
+                                          ],
+                                          "bottomright": [
+                                            795,
+                                            254
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Magnifier",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            795,
+                                            222
+                                          ],
+                                          "bottomright": [
+                                            827,
+                                            254
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "False",
+                                      "topleft": [
+                                        839,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        914,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Group",
+                                          "name": "Brushes",
+                                          "type": "group",
+                                          "offscreen": "False",
+                                          "filtered_out": "False",
+                                          "topleft": [
+                                            842,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            904,
+                                            264
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "SplitButton",
+                                              "name": "Brushes",
+                                              "type": "split button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                842,
+                                                166
+                                              ],
+                                              "bottomright": [
+                                                904,
+                                                222
+                                              ],
+                                              "children": []
+                                            },
+                                            {
+                                              "tag": "Button",
+                                              "name": "Brushes",
+                                              "type": "button",
+                                              "offscreen": "False",
+                                              "filtered_out": "False",
+                                              "topleft": [
+                                                842,
+                                                222
+                                              ],
+                                              "bottomright": [
+                                                904,
+                                                264
+                                              ],
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Shapes",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        916,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        1208,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Group",
+                                          "name": "Shapes",
+                                          "type": "group",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            919,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1098,
+                                            260
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "List",
+                                              "name": "Shapes",
+                                              "type": "list",
+                                              "offscreen": "False",
+                                              "filtered_out": "True",
+                                              "topleft": [
+                                                920,
+                                                170
+                                              ],
+                                              "bottomright": [
+                                                1072,
+                                                260
+                                              ],
+                                              "children": [
+                                                {
+                                                  "tag": "Custom",
+                                                  "name": "",
+                                                  "type": "",
+                                                  "offscreen": "False",
+                                                  "filtered_out": "True",
+                                                  "topleft": [
+                                                    921,
+                                                    170
+                                                  ],
+                                                  "bottomright": [
+                                                    1071,
+                                                    260
+                                                  ],
+                                                  "children": [
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Line",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "False",
+                                                      "topleft": [
+                                                        921,
+                                                        170
+                                                      ],
+                                                      "bottomright": [
+                                                        951,
+                                                        200
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Curve",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        951,
+                                                        170
+                                                      ],
+                                                      "bottomright": [
+                                                        981,
+                                                        200
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Oval",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        981,
+                                                        170
+                                                      ],
+                                                      "bottomright": [
+                                                        1011,
+                                                        200
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Rectangle",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1011,
+                                                        170
+                                                      ],
+                                                      "bottomright": [
+                                                        1041,
+                                                        200
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Rounded rectangle",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1041,
+                                                        170
+                                                      ],
+                                                      "bottomright": [
+                                                        1071,
+                                                        200
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Polygon",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "False",
+                                                      "topleft": [
+                                                        921,
+                                                        200
+                                                      ],
+                                                      "bottomright": [
+                                                        951,
+                                                        230
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Triangle",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        951,
+                                                        200
+                                                      ],
+                                                      "bottomright": [
+                                                        981,
+                                                        230
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Right-angled triangle",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        981,
+                                                        200
+                                                      ],
+                                                      "bottomright": [
+                                                        1011,
+                                                        230
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Diamond",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1011,
+                                                        200
+                                                      ],
+                                                      "bottomright": [
+                                                        1041,
+                                                        230
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Pentagon",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1041,
+                                                        200
+                                                      ],
+                                                      "bottomright": [
+                                                        1071,
+                                                        230
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Hexagon",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "False",
+                                                      "topleft": [
+                                                        921,
+                                                        230
+                                                      ],
+                                                      "bottomright": [
+                                                        951,
+                                                        260
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Right arrow",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        951,
+                                                        230
+                                                      ],
+                                                      "bottomright": [
+                                                        981,
+                                                        260
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Left arrow",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        981,
+                                                        230
+                                                      ],
+                                                      "bottomright": [
+                                                        1011,
+                                                        260
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Up arrow",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1011,
+                                                        230
+                                                      ],
+                                                      "bottomright": [
+                                                        1041,
+                                                        260
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Down arrow",
+                                                      "type": "list item",
+                                                      "offscreen": "False",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        1041,
+                                                        230
+                                                      ],
+                                                      "bottomright": [
+                                                        1071,
+                                                        260
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Four-point star",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Five-point star",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Six-point star",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Rounded rectangular callout",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Oval callout",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Cloud callout",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Heart",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "ListItem",
+                                                      "name": "Lightning",
+                                                      "type": "list item",
+                                                      "offscreen": "True",
+                                                      "filtered_out": "True",
+                                                      "topleft": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "bottomright": [
+                                                        0,
+                                                        0
+                                                      ],
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "Button",
+                                              "name": "Row up",
+                                              "type": "button",
+                                              "offscreen": "False",
+                                              "filtered_out": "True",
+                                              "topleft": [
+                                                1072,
+                                                170
+                                              ],
+                                              "bottomright": [
+                                                1094,
+                                                201
+                                              ],
+                                              "children": []
+                                            },
+                                            {
+                                              "tag": "Button",
+                                              "name": "Row down",
+                                              "type": "button",
+                                              "offscreen": "False",
+                                              "filtered_out": "True",
+                                              "topleft": [
+                                                1072,
+                                                201
+                                              ],
+                                              "bottomright": [
+                                                1094,
+                                                229
+                                              ],
+                                              "children": []
+                                            },
+                                            {
+                                              "tag": "Button",
+                                              "name": "Shapes",
+                                              "type": "button",
+                                              "offscreen": "False",
+                                              "filtered_out": "True",
+                                              "topleft": [
+                                                1072,
+                                                229
+                                              ],
+                                              "bottomright": [
+                                                1094,
+                                                259
+                                              ],
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "SplitButton",
+                                          "name": "Outline",
+                                          "type": "split button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1098,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1198,
+                                            198
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "SplitButton",
+                                          "name": "Fill",
+                                          "type": "split button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1098,
+                                            198
+                                          ],
+                                          "bottomright": [
+                                            1167,
+                                            230
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        1210,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        1285,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "SplitButton",
+                                          "name": "Size",
+                                          "type": "split button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1213,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1275,
+                                            265
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "Colours",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        1287,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        1816,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Button",
+                                          "name": "Colour 1",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1290,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1352,
+                                            265
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Colour 2",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1352,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1414,
+                                            265
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Group",
+                                          "name": "",
+                                          "type": "group",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1414,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1744,
+                                            265
+                                          ],
+                                          "children": []
+                                        },
+                                        {
+                                          "tag": "Button",
+                                          "name": "Edit colours",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1744,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1806,
+                                            265
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "ToolBar",
+                                      "name": "",
+                                      "type": "tool bar",
+                                      "offscreen": "False",
+                                      "filtered_out": "True",
+                                      "topleft": [
+                                        1818,
+                                        163
+                                      ],
+                                      "bottomright": [
+                                        1898,
+                                        297
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "Button",
+                                          "name": "Edit with Paint 3D",
+                                          "type": "button",
+                                          "offscreen": "False",
+                                          "filtered_out": "True",
+                                          "topleft": [
+                                            1821,
+                                            166
+                                          ],
+                                          "bottomright": [
+                                            1888,
+                                            265
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        395,
+        298
+      ],
+      "bottomright": [
+        1909,
+        894
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "Using Brush tool on Canvas",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            395,
+            298
+          ],
+          "bottomright": [
+            1909,
+            894
+          ],
+          "children": [
+            {
+              "tag": "ScrollBar",
+              "name": "Vertical",
+              "type": "scroll bar",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                1883,
+                298
+              ],
+              "bottomright": [
+                1909,
+                894
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Line up",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1883,
+                    298
+                  ],
+                  "bottomright": [
+                    1909,
+                    324
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1883,
+                    324
+                  ],
+                  "bottomright": [
+                    1909,
+                    816
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page down",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1883,
+                    816
+                  ],
+                  "bottomright": [
+                    1909,
+                    868
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Line down",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    1883,
+                    868
+                  ],
+                  "bottomright": [
+                    1909,
+                    894
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        395,
+        80
+      ],
+      "bottomright": [
+        1909,
+        298
+      ],
+      "children": []
+    },
+    {
+      "tag": "StatusBar",
+      "name": "",
+      "type": "status bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        395,
+        894
+      ],
+      "bottomright": [
+        1909,
+        933
+      ],
+      "children": [
+        {
+          "tag": "Pane",
+          "name": "",
+          "type": "pane",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1595,
+            897
+          ],
+          "bottomright": [
+            1880,
+            932
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "100%",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1598,
+                897
+              ],
+              "bottomright": [
+                1658,
+                932
+              ],
+              "children": []
+            },
+            {
+              "tag": "Button",
+              "name": "Zoom out",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1664,
+                897
+              ],
+              "bottomright": [
+                1697,
+                932
+              ],
+              "children": []
+            },
+            {
+              "tag": "Slider",
+              "name": "Zoom slider",
+              "type": "slider",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                1697,
+                897
+              ],
+              "bottomright": [
+                1847,
+                932
+              ],
+              "children": [
+                {
+                  "tag": "Button",
+                  "name": "Page left",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1708,
+                    909
+                  ],
+                  "bottomright": [
+                    1764,
+                    915
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Thumb",
+                  "name": "Position",
+                  "type": "thumb",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1764,
+                    899
+                  ],
+                  "bottomright": [
+                    1781,
+                    928
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Button",
+                  "name": "Page right",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    1781,
+                    909
+                  ],
+                  "bottomright": [
+                    1836,
+                    915
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Button",
+              "name": "Zoom in",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                1847,
+                897
+              ],
+              "bottomright": [
+                1880,
+                932
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            395,
+            896
+          ],
+          "bottomright": [
+            640,
+            933
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            642,
+            896
+          ],
+          "bottomright": [
+            885,
+            933
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "1152 \u00d7 648\u200fpx",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            887,
+            896
+          ],
+          "bottomright": [
+            1130,
+            933
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1132,
+            896
+          ],
+          "bottomright": [
+            1375,
+            933
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1377,
+            896
+          ],
+          "bottomright": [
+            1588,
+            933
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1590,
+            896
+          ],
+          "bottomright": [
+            1885,
+            933
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        419,
+        83
+      ],
+      "bottomright": [
+        1909,
+        128
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            395,
+            91
+          ],
+          "bottomright": [
+            428,
+            124
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                395,
+                91
+              ],
+              "bottomright": [
+                428,
+                124
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1698,
+            81
+          ],
+          "bottomright": [
+            1769,
+            125
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1769,
+            81
+          ],
+          "bottomright": [
+            1839,
+            125
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1839,
+            81
+          ],
+          "bottomright": [
+            1910,
+            125
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

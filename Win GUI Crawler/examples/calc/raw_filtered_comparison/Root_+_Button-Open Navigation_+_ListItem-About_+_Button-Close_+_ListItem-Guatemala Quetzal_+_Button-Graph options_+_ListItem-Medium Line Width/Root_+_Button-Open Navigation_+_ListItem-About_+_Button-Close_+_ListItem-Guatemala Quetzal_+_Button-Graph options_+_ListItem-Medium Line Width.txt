@@ -1,0 +1,1244 @@
+{
+  "tag": "Window",
+  "name": "Calculator",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    69,
+    59
+  ],
+  "bottomright": [
+    551,
+    859
+  ],
+  "children": [
+    {
+      "tag": "Window",
+      "name": "Pop-upHost",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        102,
+        687
+      ],
+      "bottomright": [
+        510,
+        909
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            0
+          ],
+          "bottomright": [
+            1990,
+            1020
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Close",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                70,
+                0
+              ],
+              "bottomright": [
+                1990,
+                1020
+              ],
+              "children": []
+            },
+            {
+              "tag": "ComboBox",
+              "name": "",
+              "type": "combo box",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                101,
+                746
+              ],
+              "bottomright": [
+                509,
+                794
+              ],
+              "children": [
+                {
+                  "tag": "ListItem",
+                  "name": "Small Line Width",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    103,
+                    694
+                  ],
+                  "bottomright": [
+                    508,
+                    745
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "Small Line Width",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        155,
+                        719
+                      ],
+                      "bottomright": [
+                        455,
+                        720
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Medium Line Width",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    103,
+                    745
+                  ],
+                  "bottomright": [
+                    508,
+                    796
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "Medium Line Width",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        155,
+                        768
+                      ],
+                      "bottomright": [
+                        455,
+                        771
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Large Line Width",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    103,
+                    796
+                  ],
+                  "bottomright": [
+                    508,
+                    847
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "Large Line Width",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        155,
+                        818
+                      ],
+                      "bottomright": [
+                        455,
+                        822
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ListItem",
+                  "name": "Extra Large Line Width",
+                  "type": "list item",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    103,
+                    847
+                  ],
+                  "bottomright": [
+                    508,
+                    898
+                  ],
+                  "children": [
+                    {
+                      "tag": "Group",
+                      "name": "Extra Large Line Width",
+                      "type": "group",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        155,
+                        869
+                      ],
+                      "bottomright": [
+                        455,
+                        875
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Button",
+                  "name": "Close",
+                  "type": "button",
+                  "offscreen": "False",
+                  "filtered_out": "False",
+                  "topleft": [
+                    70,
+                    0
+                  ],
+                  "bottomright": [
+                    1990,
+                    1020
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "Text",
+              "name": "Theme",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                101,
+                818
+              ],
+              "bottomright": [
+                509,
+                849
+              ],
+              "children": []
+            },
+            {
+              "tag": "Group",
+              "name": "Theme",
+              "type": "group",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                101,
+                859
+              ],
+              "bottomright": [
+                309,
+                863
+              ],
+              "children": [
+                {
+                  "tag": "RadioButton",
+                  "name": "Always light",
+                  "type": "radio button",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    859
+                  ],
+                  "bottomright": [
+                    280,
+                    863
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "RadioButton",
+                  "name": "Match app theme",
+                  "type": "radio button",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    11
+                  ],
+                  "bottomright": [
+                    0,
+                    11
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "ScrollBar",
+              "name": "Vertical",
+              "type": "scroll bar",
+              "offscreen": "True",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                11
+              ],
+              "bottomright": [
+                0,
+                11
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        268,
+        60
+      ],
+      "bottomright": [
+        550,
+        108
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            11
+          ],
+          "bottomright": [
+            0,
+            11
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                0,
+                11
+              ],
+              "bottomright": [
+                0,
+                11
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            343,
+            60
+          ],
+          "bottomright": [
+            412,
+            108
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Maximise Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            412,
+            60
+          ],
+          "bottomright": [
+            481,
+            108
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close Calculator",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            481,
+            60
+          ],
+          "bottomright": [
+            550,
+            108
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "Window",
+      "name": "Calculator",
+      "type": "window",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        60
+      ],
+      "bottomright": [
+        550,
+        858
+      ],
+      "children": [
+        {
+          "tag": "Window",
+          "name": "Pop-up",
+          "type": "window",
+          "offscreen": "True",
+          "filtered_out": "True",
+          "topleft": [
+            0,
+            11
+          ],
+          "bottomright": [
+            0,
+            11
+          ],
+          "children": [
+            {
+              "tag": "Pane",
+              "name": "",
+              "type": "pane",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                75,
+                254
+              ],
+              "bottomright": [
+                534,
+                864
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "Graph Options",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    273
+                  ],
+                  "bottomright": [
+                    509,
+                    312
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Text",
+                  "name": "Window",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    331
+                  ],
+                  "bottomright": [
+                    411,
+                    378
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "HyperLink",
+                  "name": "Reset view",
+                  "type": "link",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    411,
+                    331
+                  ],
+                  "bottomright": [
+                    508,
+                    378
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Edit",
+                  "name": "X-Min",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    378
+                  ],
+                  "bottomright": [
+                    297,
+                    460
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "X-Min",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        101,
+                        378
+                      ],
+                      "bottomright": [
+                        297,
+                        406
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Edit",
+                  "name": "X-Max",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    312,
+                    378
+                  ],
+                  "bottomright": [
+                    508,
+                    460
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "X-Max",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        312,
+                        378
+                      ],
+                      "bottomright": [
+                        508,
+                        406
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Edit",
+                  "name": "Y-Min",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    475
+                  ],
+                  "bottomright": [
+                    297,
+                    558
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Y-Min",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        101,
+                        475
+                      ],
+                      "bottomright": [
+                        297,
+                        503
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Edit",
+                  "name": "Y-Max",
+                  "type": "edit",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    312,
+                    475
+                  ],
+                  "bottomright": [
+                    508,
+                    558
+                  ],
+                  "children": [
+                    {
+                      "tag": "Text",
+                      "name": "Y-Max",
+                      "type": "text",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        312,
+                        475
+                      ],
+                      "bottomright": [
+                        508,
+                        503
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Text",
+                  "name": "Units",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    583
+                  ],
+                  "bottomright": [
+                    509,
+                    615
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Group",
+                  "name": "Units",
+                  "type": "group",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    624
+                  ],
+                  "bottomright": [
+                    509,
+                    681
+                  ],
+                  "children": [
+                    {
+                      "tag": "RadioButton",
+                      "name": "Radians",
+                      "type": "radio button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        101,
+                        624
+                      ],
+                      "bottomright": [
+                        236,
+                        681
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "RadioButton",
+                      "name": "Degrees",
+                      "type": "radio button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        238,
+                        624
+                      ],
+                      "bottomright": [
+                        372,
+                        681
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "RadioButton",
+                      "name": "Gradians",
+                      "type": "radio button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        374,
+                        624
+                      ],
+                      "bottomright": [
+                        509,
+                        681
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Text",
+                  "name": "Line Thickness",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    705
+                  ],
+                  "bottomright": [
+                    509,
+                    737
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "ComboBox",
+                  "name": "",
+                  "type": "combo box",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    746
+                  ],
+                  "bottomright": [
+                    509,
+                    794
+                  ],
+                  "children": [
+                    {
+                      "tag": "ListItem",
+                      "name": "Small Line Width",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        103,
+                        694
+                      ],
+                      "bottomright": [
+                        508,
+                        745
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "Small Line Width",
+                          "type": "group",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            155,
+                            719
+                          ],
+                          "bottomright": [
+                            455,
+                            720
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Medium Line Width",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        103,
+                        745
+                      ],
+                      "bottomright": [
+                        508,
+                        796
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "Medium Line Width",
+                          "type": "group",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            155,
+                            768
+                          ],
+                          "bottomright": [
+                            455,
+                            771
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Large Line Width",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        103,
+                        796
+                      ],
+                      "bottomright": [
+                        508,
+                        847
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "Large Line Width",
+                          "type": "group",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            155,
+                            818
+                          ],
+                          "bottomright": [
+                            455,
+                            822
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ListItem",
+                      "name": "Extra Large Line Width",
+                      "type": "list item",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        103,
+                        847
+                      ],
+                      "bottomright": [
+                        508,
+                        898
+                      ],
+                      "children": [
+                        {
+                          "tag": "Group",
+                          "name": "Extra Large Line Width",
+                          "type": "group",
+                          "offscreen": "False",
+                          "filtered_out": "True",
+                          "topleft": [
+                            155,
+                            869
+                          ],
+                          "bottomright": [
+                            455,
+                            875
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "Button",
+                      "name": "Close",
+                      "type": "button",
+                      "offscreen": "False",
+                      "filtered_out": "False",
+                      "topleft": [
+                        70,
+                        0
+                      ],
+                      "bottomright": [
+                        1990,
+                        1020
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "Text",
+                  "name": "Theme",
+                  "type": "text",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    818
+                  ],
+                  "bottomright": [
+                    509,
+                    849
+                  ],
+                  "children": []
+                },
+                {
+                  "tag": "Group",
+                  "name": "Theme",
+                  "type": "group",
+                  "offscreen": "False",
+                  "filtered_out": "True",
+                  "topleft": [
+                    101,
+                    859
+                  ],
+                  "bottomright": [
+                    309,
+                    863
+                  ],
+                  "children": [
+                    {
+                      "tag": "RadioButton",
+                      "name": "Always light",
+                      "type": "radio button",
+                      "offscreen": "False",
+                      "filtered_out": "True",
+                      "topleft": [
+                        101,
+                        859
+                      ],
+                      "bottomright": [
+                        280,
+                        863
+                      ],
+                      "children": []
+                    },
+                    {
+                      "tag": "RadioButton",
+                      "name": "Match app theme",
+                      "type": "radio button",
+                      "offscreen": "True",
+                      "filtered_out": "True",
+                      "topleft": [
+                        0,
+                        11
+                      ],
+                      "bottomright": [
+                        0,
+                        11
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "ScrollBar",
+                  "name": "Vertical",
+                  "type": "scroll bar",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    11
+                  ],
+                  "bottomright": [
+                    0,
+                    11
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "Text",
+          "name": "Calculator",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            88,
+            72
+          ],
+          "bottomright": [
+            167,
+            96
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Switch to equation mode",
+          "type": "toggle switch",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            436,
+            114
+          ],
+          "bottomright": [
+            532,
+            159
+          ],
+          "children": [
+            {
+              "tag": "Text",
+              "name": "x",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                512,
+                132
+              ],
+              "bottomright": [
+                519,
+                152
+              ],
+              "children": []
+            },
+            {
+              "tag": "Text",
+              "name": "x",
+              "type": "text",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                512,
+                132
+              ],
+              "bottomright": [
+                519,
+                152
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Group",
+          "name": "Graph viewing window, x-axis bounded by 0 and 0, y-axis bounded by 0 and 0, displaying 0 equations",
+          "type": "group",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            174
+          ],
+          "bottomright": [
+            550,
+            858
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Start tracing",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            358,
+            191
+          ],
+          "bottomright": [
+            418,
+            248
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Share",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            417,
+            191
+          ],
+          "bottomright": [
+            476,
+            248
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Graph options",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            474,
+            191
+          ],
+          "bottomright": [
+            534,
+            248
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Zoom In",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            474,
+            668
+          ],
+          "bottomright": [
+            534,
+            728
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Zoom Out",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            474,
+            725
+          ],
+          "bottomright": [
+            534,
+            785
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Graph View",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            474,
+            782
+          ],
+          "bottomright": [
+            534,
+            842
+          ],
+          "children": []
+        },
+        {
+          "tag": "Text",
+          "name": "Graphing Calculator mode",
+          "type": "text",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            142,
+            116
+          ],
+          "bottomright": [
+            268,
+            156
+          ],
+          "children": []
+        },
+        {
+          "tag": "Custom",
+          "name": "",
+          "type": "custom",
+          "offscreen": "False",
+          "filtered_out": "True",
+          "topleft": [
+            70,
+            108
+          ],
+          "bottomright": [
+            550,
+            858
+          ],
+          "children": [
+            {
+              "tag": "Button",
+              "name": "Open Navigation",
+              "type": "button",
+              "offscreen": "False",
+              "filtered_out": "True",
+              "topleft": [
+                70,
+                108
+              ],
+              "bottomright": [
+                130,
+                168
+              ],
+              "children": [
+                {
+                  "tag": "Text",
+                  "name": "",
+                  "type": "text",
+                  "offscreen": "True",
+                  "filtered_out": "True",
+                  "topleft": [
+                    0,
+                    11
+                  ],
+                  "bottomright": [
+                    0,
+                    11
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Pane",
+      "name": "",
+      "type": "pane",
+      "offscreen": "False",
+      "filtered_out": "True",
+      "topleft": [
+        70,
+        108
+      ],
+      "bottomright": [
+        550,
+        858
+      ],
+      "children": []
+    }
+  ]
+}

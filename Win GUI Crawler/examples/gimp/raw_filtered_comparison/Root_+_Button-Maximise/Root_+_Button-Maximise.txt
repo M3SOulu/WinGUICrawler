@@ -1,0 +1,115 @@
+{
+  "tag": "Window",
+  "name": "GNU Image Manipulation Program",
+  "type": "window",
+  "offscreen": "False",
+  "filtered_out": "False",
+  "topleft": [
+    0,
+    8
+  ],
+  "bottomright": [
+    1920,
+    1028
+  ],
+  "children": [
+    {
+      "tag": "TitleBar",
+      "name": "",
+      "type": "title bar",
+      "offscreen": "False",
+      "filtered_out": "False",
+      "topleft": [
+        24,
+        0
+      ],
+      "bottomright": [
+        1920,
+        42
+      ],
+      "children": [
+        {
+          "tag": "MenuBar",
+          "name": "System",
+          "type": "menu bar",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            0,
+            8
+          ],
+          "bottomright": [
+            22,
+            30
+          ],
+          "children": [
+            {
+              "tag": "MenuItem",
+              "name": "System",
+              "type": "menu item",
+              "offscreen": "False",
+              "filtered_out": "False",
+              "topleft": [
+                0,
+                8
+              ],
+              "bottomright": [
+                22,
+                30
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "tag": "Button",
+          "name": "Minimise",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1707,
+            19
+          ],
+          "bottomright": [
+            1778,
+            41
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Restore",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1778,
+            19
+          ],
+          "bottomright": [
+            1848,
+            41
+          ],
+          "children": []
+        },
+        {
+          "tag": "Button",
+          "name": "Close",
+          "type": "button",
+          "offscreen": "False",
+          "filtered_out": "False",
+          "topleft": [
+            1848,
+            19
+          ],
+          "bottomright": [
+            1931,
+            41
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

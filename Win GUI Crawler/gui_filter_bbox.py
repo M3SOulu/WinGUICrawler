@@ -330,8 +330,9 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered,istree):
     draw_list = []
 
     #If two elements are overlaping, and one is a window
+    #Might not be a good idead in some cases
     #Check if the window is the other elemnts parent, if not then it's probably covering it, so blacklist the other element
-    for el_pair in list_of_overlapping_current:
+    """for el_pair in list_of_overlapping_current:
         isWindow0 = (el_pair[0].tag == "Window")
         isWindow1 = (el_pair[1].tag == "Window")
         if (isWindow0 and (not isWindow1)):
@@ -339,7 +340,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered,istree):
                 blacklist.append(el_pair[1])
         if (isWindow1 and (not isWindow0)):
             if not check_parent(el_pair[0],el_pair[1]):
-                blacklist.append(el_pair[0])
+                blacklist.append(el_pair[0])"""
 
     #Direct sibling and parent-child that overlap are fine, the rest are inspected
     for el_pair in list_of_overlapping_current:
@@ -373,6 +374,7 @@ def filter_bbox(imgname_previous,imgname_current,all_filtered,istree):
     for el_pair in blacklist_tough_cases:
         #Prioritise elements with content, because panes,menus,... are sometimes not visible and don't matter in the image
         type_prioritised = ["ListItem","MenuItem","Image","Button","SplitButton","TabItem","Text","HyperLink","ScrollBar","Thumb"]
+
         if not ((el_pair[0] in blacklist) and (el_pair[1] in blacklist)):
             if (el_pair[0].tag in type_prioritised) and (el_pair[1].tag not in type_prioritised):
                 blacklist.append(el_pair[1])
