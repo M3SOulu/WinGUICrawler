@@ -18,7 +18,7 @@
       "name": "Word Options",
       "type": "window",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         97,
         0
@@ -33,7 +33,7 @@
           "name": "",
           "type": "Pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             99,
             45
@@ -48,7 +48,7 @@
               "name": "Word Options",
               "type": "Group",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 99,
                 45
@@ -63,7 +63,7 @@
                   "name": "Categories",
                   "type": "List",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     108,
                     56
@@ -256,7 +256,7 @@
                   "name": "General",
                   "type": "Pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     320,
                     56
@@ -303,7 +303,7 @@
                       "name": "User Interface options",
                       "type": "Group",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         340,
                         191
@@ -334,7 +334,7 @@
                           "name": "When using multiple displays",
                           "type": "Group",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             387,
                             221
@@ -349,7 +349,7 @@
                               "name": "Optimize for best appearance",
                               "type": "Radio Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 387,
                                 221
@@ -383,7 +383,7 @@
                           "name": "Show Mini Toolbar on selection",
                           "type": "CheckBox",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             359,
                             293
@@ -1507,7 +1507,7 @@
                               "name": "",
                               "type": "SplitButton",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 455,
                                 284
@@ -1522,7 +1522,7 @@
                                   "name": "",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     455,
                                     284
@@ -1537,7 +1537,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         459,
                                         289
@@ -1555,7 +1555,7 @@
                                   "name": "More Options",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     487,
                                     284
@@ -1588,7 +1588,7 @@
                                   "name": "Headings",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     26,
                                     336
@@ -1604,7 +1604,7 @@
                                   "name": "Pages",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     123,
                                     336
@@ -1620,7 +1620,7 @@
                                   "name": "Results",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     209,
                                     336
@@ -1646,7 +1646,7 @@
               "name": "Task Pane Options",
               "type": "menu item",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 417,
                 214
@@ -1772,7 +1772,7 @@
                               "name": "Type to search and use the up and down arrows keys to navigate",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 546,
                                 66
@@ -1805,7 +1805,7 @@
                               "name": "Marko Savic",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 982,
                                 58
@@ -1821,7 +1821,7 @@
                               "name": "Ribbon Display Options",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1169,
                                 58
@@ -1837,7 +1837,7 @@
                               "name": "Minimize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1238,
                                 58
@@ -1853,7 +1853,7 @@
                               "name": "Maximize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1307,
                                 58
@@ -1916,7 +1916,7 @@
                                   "name": "Home",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     91,
                                     113
@@ -1932,7 +1932,7 @@
                                   "name": "Insert",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     186,
                                     113
@@ -1948,7 +1948,7 @@
                                   "name": "Design",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     278,
                                     113
@@ -1964,7 +1964,7 @@
                                   "name": "Layout",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     380,
                                     113
@@ -1980,7 +1980,7 @@
                                   "name": "References",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     480,
                                     113
@@ -1996,7 +1996,7 @@
                                   "name": "Mailings",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     618,
                                     113
@@ -2012,7 +2012,7 @@
                                   "name": "Review",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     733,
                                     113
@@ -2028,7 +2028,7 @@
                                   "name": "View",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     835,
                                     113
@@ -2044,7 +2044,7 @@
                                   "name": "Help",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     918,
                                     113
@@ -2060,7 +2060,7 @@
                                   "name": "Share",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     1153,
                                     109
@@ -2075,7 +2075,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         1177,
                                         122
@@ -2091,7 +2091,7 @@
                                       "name": "Share",
                                       "type": "Text",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         1201,
                                         117
@@ -2109,7 +2109,7 @@
                                   "name": "Comments",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     1266,
                                     109
@@ -2124,7 +2124,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         1290,
                                         122
@@ -2140,7 +2140,7 @@
                                       "name": "Comments",
                                       "type": "Text",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         1314,
                                         117
@@ -2175,7 +2175,7 @@
                                   "name": "AutoSave",
                                   "type": "Toggle Switch",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     12,
                                     159
@@ -2191,7 +2191,7 @@
                                   "name": "Save",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     171,
                                     158
@@ -2207,7 +2207,7 @@
                                   "name": "Can't Undo",
                                   "type": "SplitButton",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     214,
                                     158
@@ -2222,7 +2222,7 @@
                                       "name": "Can't Undo",
                                       "type": "Button",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         214,
                                         158
@@ -2238,7 +2238,7 @@
                                       "name": "More Options",
                                       "type": "Menu Item",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         251,
                                         158
@@ -2256,7 +2256,7 @@
                                   "name": "Can't Repeat",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     271,
                                     158
@@ -2272,7 +2272,7 @@
                                   "name": "Customize Toolbar",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     315,
                                     158
@@ -2408,7 +2408,7 @@
                               "name": "Focus ",
                               "type": "Text",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 952,
                                 758
@@ -2424,7 +2424,7 @@
                               "name": "Read Mode",
                               "type": "Tab Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1045,
                                 758
@@ -2440,7 +2440,7 @@
                               "name": "Print Layout",
                               "type": "Tab Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1105,
                                 758
@@ -2456,7 +2456,7 @@
                               "name": "Web Layout",
                               "type": "Tab Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1165,
                                 758
@@ -2472,7 +2472,7 @@
                               "name": "Zoom Out",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1226,
                                 758
@@ -2519,7 +2519,7 @@
                                   "name": "Zoom In",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     1260,
                                     758
@@ -2596,7 +2596,7 @@
           "name": "System",
           "type": "menu bar",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             0,
             45
@@ -2611,7 +2611,7 @@
               "name": "System",
               "type": "menu item",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 0,
                 45

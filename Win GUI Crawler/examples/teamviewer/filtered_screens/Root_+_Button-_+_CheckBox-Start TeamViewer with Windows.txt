@@ -18,7 +18,7 @@
       "name": "Disable \"Start TeamViewer with Windows\"",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         381,
         317
@@ -33,7 +33,7 @@
           "name": "Disable",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             840,
             523
@@ -49,7 +49,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             967,
             523
@@ -65,7 +65,7 @@
           "name": "Do you really want to disable \"Start TeamViewer with Windows\"?",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             504,
             379
@@ -129,7 +129,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1058,
                 318
@@ -149,7 +149,7 @@
       "name": "TeamViewer",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         381,
         317
@@ -164,7 +164,7 @@
           "name": "OK",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             967,
             523
@@ -180,7 +180,7 @@
           "name": "The ID you entered is invalid. Please doublecheck the ID with your partner.",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             504,
             379
@@ -244,7 +244,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1058,
                 318

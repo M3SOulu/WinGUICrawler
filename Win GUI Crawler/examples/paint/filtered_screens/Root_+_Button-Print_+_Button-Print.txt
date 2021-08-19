@@ -48,7 +48,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 971,
                 280
@@ -161,7 +161,7 @@
                   "name": "Control Host",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     971,
                     329
@@ -176,7 +176,7 @@
                       "name": "Tree View",
                       "type": "tree",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         971,
                         329
@@ -367,7 +367,7 @@
                               "name": "(old)GUI test scripts",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 437
@@ -383,7 +383,7 @@
                               "name": "(old)gui_test-master",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 473
@@ -399,7 +399,7 @@
                               "name": "aws_prolific-master",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 509
@@ -415,7 +415,7 @@
                               "name": "screens_temp",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 545
@@ -502,7 +502,7 @@
                   "name": "Shell Folder View",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1211,
                     329
@@ -517,7 +517,7 @@
                       "name": "Items View",
                       "type": "list",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1211,
                         329
@@ -1943,7 +1943,7 @@
           "name": "Printing",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             433
@@ -1959,7 +1959,7 @@
           "name": "Untitled",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             458
@@ -1975,7 +1975,7 @@
           "name": "on the",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             483
@@ -1991,7 +1991,7 @@
           "name": "Microsoft Print to PDF",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             508
@@ -2007,7 +2007,7 @@
           "name": "on PORTPROMPT:",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             533
@@ -2023,7 +2023,7 @@
           "name": "on PORTPROMPT:",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             558
@@ -2039,7 +2039,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1107,
             595

@@ -18,7 +18,7 @@
       "name": "Save As",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         690,
         92
@@ -33,7 +33,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             691,
             196
@@ -48,7 +48,7 @@
               "name": "Command Module",
               "type": "tool bar",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 691,
                 196
@@ -130,7 +130,7 @@
               "name": "Control Host",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 691,
                 245
@@ -145,7 +145,7 @@
                   "name": "Tree View",
                   "type": "tree",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     691,
                     245
@@ -455,7 +455,7 @@
               "name": "Shell Folder View",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 931,
                 245
@@ -470,7 +470,7 @@
                   "name": "Items View",
                   "type": "list",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     931,
                     245
@@ -1256,7 +1256,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             691,
             137
@@ -1271,7 +1271,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 691,
                 141
@@ -1286,7 +1286,7 @@
                   "name": "Navigation buttons",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     697,
                     144
@@ -1368,7 +1368,7 @@
                   "name": "Up band toolbar",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     812,
                     149
@@ -1403,7 +1403,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 848,
                 137
@@ -1418,7 +1418,7 @@
                   "name": "",
                   "type": "progress bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     850,
                     142
@@ -1433,7 +1433,7 @@
                       "name": "",
                       "type": "pane",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         850,
                         142
@@ -1448,7 +1448,7 @@
                           "name": "Address: This PC",
                           "type": "tool bar",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             850,
                             142
@@ -1499,7 +1499,7 @@
                       "name": "Address band toolbar",
                       "type": "tool bar",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1200,
                         142
@@ -1568,7 +1568,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1312,
                 138
@@ -1583,7 +1583,7 @@
                   "name": "SearchEditBox",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1312,
                     141
@@ -2212,7 +2212,7 @@
                                           "name": "Rotate",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             616,
                                             230
@@ -2245,7 +2245,7 @@
                                           "name": "Pencil",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             725,
                                             178
@@ -2261,7 +2261,7 @@
                                           "name": "Fill with colour",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             759,
                                             178
@@ -2277,7 +2277,7 @@
                                           "name": "Text",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             795,
                                             178
@@ -2293,7 +2293,7 @@
                                           "name": "Rubber",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             725,
                                             222
@@ -2309,7 +2309,7 @@
                                           "name": "Colour picker",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             759,
                                             222
@@ -2325,7 +2325,7 @@
                                           "name": "Magnifier",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             795,
                                             222
@@ -2373,7 +2373,7 @@
                                               "name": "Brushes",
                                               "type": "split button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 842,
                                                 166
@@ -2389,7 +2389,7 @@
                                               "name": "Brushes",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 842,
                                                 222
@@ -2469,7 +2469,7 @@
                                                       "name": "Line",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         921,
                                                         170
@@ -2485,7 +2485,7 @@
                                                       "name": "Curve",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         170
@@ -2501,7 +2501,7 @@
                                                       "name": "Oval",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         981,
                                                         170
@@ -2517,7 +2517,7 @@
                                                       "name": "Rectangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1011,
                                                         170
@@ -2533,7 +2533,7 @@
                                                       "name": "Rounded rectangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1041,
                                                         170
@@ -2549,7 +2549,7 @@
                                                       "name": "Polygon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         921,
                                                         200
@@ -2565,7 +2565,7 @@
                                                       "name": "Triangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         200
@@ -2581,7 +2581,7 @@
                                                       "name": "Right-angled triangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         981,
                                                         200
@@ -2597,7 +2597,7 @@
                                                       "name": "Diamond",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1011,
                                                         200
@@ -2613,7 +2613,7 @@
                                                       "name": "Pentagon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1041,
                                                         200
@@ -2629,7 +2629,7 @@
                                                       "name": "Hexagon",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         921,
                                                         230
@@ -2645,7 +2645,7 @@
                                                       "name": "Right arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         230
@@ -2661,7 +2661,7 @@
                                                       "name": "Left arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         981,
                                                         230
@@ -2677,7 +2677,7 @@
                                                       "name": "Up arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1011,
                                                         230
@@ -2693,7 +2693,7 @@
                                                       "name": "Down arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1041,
                                                         230
@@ -2841,7 +2841,7 @@
                                               "name": "Row up",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1072,
                                                 170
@@ -2857,7 +2857,7 @@
                                               "name": "Row down",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1072,
                                                 201
@@ -2873,7 +2873,7 @@
                                               "name": "Shapes",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1072,
                                                 229
@@ -2891,7 +2891,7 @@
                                           "name": "Outline",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1098,
                                             166
@@ -2907,7 +2907,7 @@
                                           "name": "Fill",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1098,
                                             198
@@ -2940,7 +2940,7 @@
                                           "name": "Size",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1213,
                                             166
@@ -2973,7 +2973,7 @@
                                           "name": "Colour 1",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1290,
                                             166
@@ -2989,7 +2989,7 @@
                                           "name": "Colour 2",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1352,
                                             166

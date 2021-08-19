@@ -707,7 +707,7 @@
               "name": "",
               "type": "title bar",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 560,
                 269

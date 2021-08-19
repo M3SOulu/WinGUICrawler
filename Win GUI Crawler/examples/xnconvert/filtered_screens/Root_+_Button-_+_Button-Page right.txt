@@ -18,7 +18,7 @@
       "name": "Load script",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         321,
         155
@@ -33,7 +33,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             322,
             259
@@ -48,7 +48,7 @@
               "name": "Command Module",
               "type": "tool bar",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 322,
                 259
@@ -79,7 +79,7 @@
                   "name": "Preview pane",
                   "type": "checkbox",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1150,
                     262
@@ -433,7 +433,7 @@
                           "name": "OneDrive",
                           "type": "tree item",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             385,
                             668
@@ -519,7 +519,7 @@
               "name": "Shell Folder View",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 562,
                 308
@@ -534,7 +534,7 @@
                   "name": "Items View",
                   "type": "list",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     562,
                     308
@@ -995,7 +995,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             322,
             200
@@ -1010,7 +1010,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 322,
                 204
@@ -1025,7 +1025,7 @@
                   "name": "Navigation buttons",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     328,
                     207
@@ -1615,7 +1615,7 @@
                           "name": "View as:",
                           "type": "text",
                           "offscreen": "False",
-                          "filtered_out": "True",
+                          "filtered_out": "False",
                           "topleft": [
                             348,
                             218
@@ -1695,7 +1695,7 @@
                           "name": "You can drag&drop your files on the list below.",
                           "type": "text",
                           "offscreen": "False",
-                          "filtered_out": "True",
+                          "filtered_out": "False",
                           "topleft": [
                             348,
                             250
@@ -1794,7 +1794,7 @@
                           "name": "Add files...",
                           "type": "button",
                           "offscreen": "False",
-                          "filtered_out": "True",
+                          "filtered_out": "False",
                           "topleft": [
                             348,
                             676
@@ -1810,7 +1810,7 @@
                           "name": "Add folder...",
                           "type": "button",
                           "offscreen": "False",
-                          "filtered_out": "True",
+                          "filtered_out": "False",
                           "topleft": [
                             473,
                             676
@@ -1908,7 +1908,7 @@
                       "name": "Hot folders...",
                       "type": "button",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         335,
                         770
@@ -2043,7 +2043,7 @@
           "name": "",
           "type": "custom",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             322,
             825
@@ -2058,7 +2058,7 @@
               "name": "Presets:",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 324,
                 827
@@ -2074,7 +2074,7 @@
               "name": "",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 386,
                 829
@@ -2090,7 +2090,7 @@
               "name": "",
               "type": "combo box",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 423,
                 832
@@ -2123,7 +2123,7 @@
               "name": "",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 609,
                 829
@@ -2139,7 +2139,7 @@
               "name": "",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 646,
                 829
@@ -2155,7 +2155,7 @@
               "name": "Export for NConvert...",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 723,
                 827
@@ -2188,7 +2188,7 @@
               "name": "...",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1102,
                 829
@@ -2204,7 +2204,7 @@
               "name": "...",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1139,
                 829

@@ -18,7 +18,7 @@
       "name": "Sign in to set up Office",
       "type": "window",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         0,
         0
@@ -33,7 +33,7 @@
           "name": "",
           "type": "Pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             2,
             45
@@ -48,7 +48,7 @@
               "name": "Sign in to set up Office",
               "type": "Custom Control",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 2,
                 45
@@ -552,7 +552,7 @@
               "name": "Sign in",
               "type": "Hyperlink",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1023,
                 66

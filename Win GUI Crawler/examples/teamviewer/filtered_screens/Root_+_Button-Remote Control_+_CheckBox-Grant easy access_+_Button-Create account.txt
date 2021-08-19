@@ -18,7 +18,7 @@
       "name": "Grant Easy Access",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         375,
         305
@@ -33,7 +33,7 @@
           "name": "Create TeamViewer account",
           "type": "dialogue",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             315,
             164
@@ -353,7 +353,7 @@
               "name": "",
               "type": "title bar",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 316,
                 167
@@ -988,7 +988,7 @@
               "name": "Unattended Access",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 136,
                 508
@@ -1004,7 +1004,7 @@
               "name": "Start TeamViewer with Windows",
               "type": "checkbox",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 136,
                 583
@@ -1053,7 +1053,7 @@
               "name": "Allow Remote Control",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 136,
                 173
@@ -1084,7 +1084,7 @@
                   "name": "Your ID",
                   "type": "text",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     157,
                     248
@@ -1133,7 +1133,7 @@
                   "name": "Password",
                   "type": "text",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     157,
                     348
@@ -1184,7 +1184,7 @@
               "name": "Control Remote Computer",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 173
@@ -1200,7 +1200,7 @@
               "name": "Partner ID",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 248
@@ -1216,7 +1216,7 @@
               "name": "Partner ID",
               "type": "combo box",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 290
@@ -1231,7 +1231,7 @@
                   "name": "Partner ID",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     604,
                     301
@@ -1265,7 +1265,7 @@
               "name": "Remote control",
               "type": "radio button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 382
@@ -1281,7 +1281,7 @@
               "name": "File transfer",
               "type": "radio button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 425
@@ -1297,7 +1297,7 @@
               "name": "Connect",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 500

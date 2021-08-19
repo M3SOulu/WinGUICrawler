@@ -2153,7 +2153,7 @@
               "name": "Marko Savic",
               "type": "Menu Item",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1372,
                 11
@@ -2168,7 +2168,7 @@
                   "name": "Marko Savic",
                   "type": "Image",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1505,
                     16
@@ -2186,7 +2186,7 @@
               "name": "Help",
               "type": "Button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1655,
                 11
@@ -2202,7 +2202,7 @@
               "name": "Minimize",
               "type": "Button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1724,
                 11

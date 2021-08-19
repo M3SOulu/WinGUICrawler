@@ -33,7 +33,7 @@
           "name": "",
           "type": "Pane",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             748,
             475

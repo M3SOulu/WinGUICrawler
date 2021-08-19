@@ -18,7 +18,7 @@
       "name": "",
       "type": "pane",
       "offscreen": "False",
-      "filtered_out": "True",
+      "filtered_out": "False",
       "topleft": [
         448,
         186
@@ -33,7 +33,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             448,
             364

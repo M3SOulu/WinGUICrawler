@@ -49,7 +49,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             854,
             152

@@ -18,7 +18,7 @@
       "name": "Grant Easy Access",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         676,
         340
@@ -33,7 +33,7 @@
           "name": "Create TeamViewer account",
           "type": "dialogue",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             616,
             199
@@ -163,7 +163,7 @@
               "name": "Your name",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 640,
                 352
@@ -195,7 +195,7 @@
               "name": "Confirm password",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 640,
                 498
@@ -243,7 +243,7 @@
               "name": "Password",
               "type": "edit",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 842,
                 352
@@ -291,7 +291,7 @@
               "name": "",
               "type": "edit",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 842,
                 498
@@ -307,7 +307,7 @@
               "name": "",
               "type": "image",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 628,
                 542
@@ -323,7 +323,7 @@
               "name": "",
               "type": "image",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 640,
                 542
@@ -339,7 +339,7 @@
               "name": "General Privacy Policy",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 640,
                 587
@@ -371,7 +371,7 @@
               "name": "",
               "type": "tab",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 617,
                 261
@@ -503,7 +503,7 @@
           "name": "Assign",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             993,
             637
@@ -519,7 +519,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1116,
             637
@@ -631,7 +631,7 @@
           "name": "",
           "type": "title bar",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             701,
             343
@@ -679,7 +679,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1193,
                 341
@@ -1199,7 +1199,7 @@
                   "name": "Your ID",
                   "type": "text",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     432,
                     245
@@ -1315,7 +1315,7 @@
               "name": "Partner ID",
               "type": "text",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 871,
                 245
@@ -1346,7 +1346,7 @@
                   "name": "Partner ID",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     879,
                     298

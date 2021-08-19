@@ -18,7 +18,7 @@
       "name": "Open",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         54,
         58
@@ -33,7 +33,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             55,
             162
@@ -48,7 +48,7 @@
               "name": "Command Module",
               "type": "tool bar",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 55,
                 162
@@ -384,7 +384,7 @@
                           "name": "screens_temp",
                           "type": "tree item",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             130,
                             355
@@ -551,7 +551,7 @@
               "name": "Shell Folder View",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 295,
                 211
@@ -566,7 +566,7 @@
                   "name": "Items View",
                   "type": "list",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     295,
                     211
@@ -1255,7 +1255,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             55,
             103
@@ -1270,7 +1270,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 55,
                 107
@@ -1285,7 +1285,7 @@
                   "name": "Navigation buttons",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     61,
                     110
@@ -1352,7 +1352,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 176,
                 109
@@ -1367,7 +1367,7 @@
                   "name": "Up band toolbar",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     176,
                     115
@@ -1402,7 +1402,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 212,
                 103
@@ -1417,7 +1417,7 @@
                   "name": "",
                   "type": "progress bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     214,
                     108
@@ -1432,7 +1432,7 @@
                       "name": "",
                       "type": "pane",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         214,
                         108
@@ -1447,7 +1447,7 @@
                           "name": "Address: C:\\Users\\watas\\AppData\\Local\\Microsoft\\Office\\UnsavedFiles",
                           "type": "tool bar",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             214,
                             108
@@ -1514,7 +1514,7 @@
                       "name": "Address band toolbar",
                       "type": "tool bar",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         564,
                         108
@@ -1567,7 +1567,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 670,
                 130
@@ -1583,7 +1583,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 676,
                 104
@@ -1598,7 +1598,7 @@
                   "name": "SearchEditBox",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     676,
                     107
@@ -1616,7 +1616,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 986,
                 130
@@ -1682,7 +1682,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 942,
                 59
@@ -1840,7 +1840,7 @@
                               "name": "",
                               "type": "SplitButton",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 490,
                                 284
@@ -1855,7 +1855,7 @@
                                   "name": "",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     490,
                                     284
@@ -1870,7 +1870,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         494,
                                         289
@@ -1888,7 +1888,7 @@
                                   "name": "More Options",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     522,
                                     284
@@ -1921,7 +1921,7 @@
                                   "name": "Headings",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     61,
                                     336
@@ -1937,7 +1937,7 @@
                                   "name": "Pages",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     158,
                                     336
@@ -1953,7 +1953,7 @@
                                   "name": "Results",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     244,
                                     336
@@ -1979,7 +1979,7 @@
               "name": "Task Pane Options",
               "type": "menu item",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 452,
                 214
@@ -2138,7 +2138,7 @@
                               "name": "Marko Savic",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1017,
                                 58
@@ -2154,7 +2154,7 @@
                               "name": "Ribbon Display Options",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1204,
                                 58
@@ -2170,7 +2170,7 @@
                               "name": "Minimize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1273,
                                 58
@@ -2186,7 +2186,7 @@
                               "name": "Maximize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1342,
                                 58
@@ -2202,7 +2202,7 @@
                               "name": "Close",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1411,
                                 58
@@ -2218,7 +2218,7 @@
                               "name": "File Tab",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 44,
                                 109
@@ -2249,7 +2249,7 @@
                                   "name": "Home",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     126,
                                     113
@@ -2265,7 +2265,7 @@
                                   "name": "Insert",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     221,
                                     113
@@ -2281,7 +2281,7 @@
                                   "name": "Design",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     313,
                                     113
@@ -2297,7 +2297,7 @@
                                   "name": "Layout",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     415,
                                     113
@@ -2313,7 +2313,7 @@
                                   "name": "References",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     515,
                                     113
@@ -2329,7 +2329,7 @@
                                   "name": "Mailings",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     653,
                                     113
@@ -2345,7 +2345,7 @@
                                   "name": "Review",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     768,
                                     113
@@ -2361,7 +2361,7 @@
                                   "name": "View",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     870,
                                     113
@@ -2377,7 +2377,7 @@
                                   "name": "Help",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     953,
                                     113
@@ -2508,7 +2508,7 @@
                                   "name": "AutoSave",
                                   "type": "Toggle Switch",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     47,
                                     159
@@ -2524,7 +2524,7 @@
                                   "name": "Save",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     206,
                                     158
@@ -2540,7 +2540,7 @@
                                   "name": "Can't Undo",
                                   "type": "SplitButton",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     249,
                                     158
@@ -2555,7 +2555,7 @@
                                       "name": "Can't Undo",
                                       "type": "Button",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         249,
                                         158
@@ -2571,7 +2571,7 @@
                                       "name": "More Options",
                                       "type": "Menu Item",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         286,
                                         158
@@ -2589,7 +2589,7 @@
                                   "name": "Can't Repeat",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     306,
                                     158
@@ -2605,7 +2605,7 @@
                                   "name": "Customize Toolbar",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     350,
                                     158
@@ -2725,7 +2725,7 @@
                               "name": "Word Count ",
                               "type": "Text",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 44,
                                 758
@@ -2914,7 +2914,7 @@
       "name": "",
       "type": "title bar",
       "offscreen": "False",
-      "filtered_out": "True",
+      "filtered_out": "False",
       "topleft": [
         86,
         67

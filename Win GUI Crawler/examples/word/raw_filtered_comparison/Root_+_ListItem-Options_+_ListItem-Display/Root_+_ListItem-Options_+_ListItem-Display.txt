@@ -18,7 +18,7 @@
       "name": "Word Options",
       "type": "window",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         341,
         11
@@ -33,7 +33,7 @@
           "name": "",
           "type": "Pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             343,
             56
@@ -48,7 +48,7 @@
               "name": "Word Options",
               "type": "Group",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 343,
                 56
@@ -63,7 +63,7 @@
                   "name": "Categories",
                   "type": "List",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     352,
                     67
@@ -94,7 +94,7 @@
                       "name": "Display",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         353,
                         109
@@ -110,7 +110,7 @@
                       "name": "Proofing",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         353,
                         150
@@ -126,7 +126,7 @@
                       "name": "Save",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         353,
                         191
@@ -142,7 +142,7 @@
                       "name": "Language",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         353,
                         232
@@ -256,7 +256,7 @@
                   "name": "Display",
                   "type": "Pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     564,
                     67
@@ -303,7 +303,7 @@
                       "name": "Page display options",
                       "type": "Group",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         584,
                         202
@@ -318,7 +318,7 @@
                           "name": "Show white space between pages in Print Layout view",
                           "type": "CheckBox",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             603,
                             202
@@ -334,7 +334,7 @@
                           "name": "Show highlighter marks",
                           "type": "CheckBox",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             603,
                             238
@@ -711,7 +711,7 @@
               "name": "Context help",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1523,
                 21
@@ -727,7 +727,7 @@
               "name": "Close",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1556,
                 21
@@ -885,7 +885,7 @@
                               "name": "",
                               "type": "SplitButton",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 457,
                                 380
@@ -900,7 +900,7 @@
                                   "name": "",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     457,
                                     380
@@ -915,7 +915,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         461,
                                         385
@@ -933,7 +933,7 @@
                                   "name": "More Options",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     489,
                                     380
@@ -1024,7 +1024,7 @@
               "name": "Task Pane Options",
               "type": "menu item",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 419,
                 310
@@ -1199,7 +1199,7 @@
                               "name": "Ribbon Display Options",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1655,
                                 11
@@ -1215,7 +1215,7 @@
                               "name": "Minimize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1724,
                                 11
@@ -1326,7 +1326,7 @@
                                   "name": "Design",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     280,
                                     66
@@ -1342,7 +1342,7 @@
                                   "name": "Layout",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     382,
                                     66
@@ -1698,7 +1698,7 @@
                                       "name": "Font",
                                       "type": "Group",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         253,
                                         108
@@ -1713,7 +1713,7 @@
                                           "name": "Font",
                                           "type": "ComboBox",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             265,
                                             125
@@ -1728,7 +1728,7 @@
                                               "name": "Font",
                                               "type": "Edit Box",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 266,
                                                 127
@@ -1744,7 +1744,7 @@
                                               "name": "Open",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 407,
                                                 126
@@ -1762,7 +1762,7 @@
                                           "name": "Font Size",
                                           "type": "ComboBox",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             428,
                                             125
@@ -1777,7 +1777,7 @@
                                               "name": "Font Size",
                                               "type": "Edit Box",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 429,
                                                 127
@@ -1793,7 +1793,7 @@
                                               "name": "Open",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 473,
                                                 126
@@ -1811,7 +1811,7 @@
                                           "name": "Grow Font",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             494,
                                             125
@@ -1827,7 +1827,7 @@
                                           "name": "Shrink Font",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             528,
                                             125
@@ -1843,7 +1843,7 @@
                                           "name": "Change Case",
                                           "type": "Menu Item",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             569,
                                             125
@@ -1859,7 +1859,7 @@
                                           "name": "Clear Formatting",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             630,
                                             125
@@ -1907,7 +1907,7 @@
                                           "name": "Underline",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             333,
                                             174
@@ -1922,7 +1922,7 @@
                                               "name": "Underline",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 333,
                                                 174
@@ -1938,7 +1938,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 365,
                                                 174
@@ -1956,7 +1956,7 @@
                                           "name": "Strikethrough",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             389,
                                             174
@@ -1972,7 +1972,7 @@
                                           "name": "Subscript",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             423,
                                             174
@@ -1988,7 +1988,7 @@
                                           "name": "Superscript",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             457,
                                             174
@@ -2004,7 +2004,7 @@
                                           "name": "Text Effects and Typography",
                                           "type": "Menu Item",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             498,
                                             174
@@ -2020,7 +2020,7 @@
                                           "name": "Text Highlight Color",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             552,
                                             174
@@ -2035,7 +2035,7 @@
                                               "name": "Text Highlight Color",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 552,
                                                 174
@@ -2051,7 +2051,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 584,
                                                 174
@@ -2069,7 +2069,7 @@
                                           "name": "Font Color",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             608,
                                             174
@@ -2084,7 +2084,7 @@
                                               "name": "Font Color",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 608,
                                                 174
@@ -2100,7 +2100,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 640,
                                                 174
@@ -2118,7 +2118,7 @@
                                           "name": "Font...",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             650,
                                             226
@@ -2151,7 +2151,7 @@
                                           "name": "Bullets",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             686,
                                             126
@@ -2166,7 +2166,7 @@
                                               "name": "Bullets",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 686,
                                                 126
@@ -2182,7 +2182,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 718,
                                                 126
@@ -2200,7 +2200,7 @@
                                           "name": "Numbering",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             742,
                                             126
@@ -2215,7 +2215,7 @@
                                               "name": "Numbering",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 742,
                                                 126
@@ -2231,7 +2231,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 774,
                                                 126
@@ -2249,7 +2249,7 @@
                                           "name": "Multilevel List",
                                           "type": "Menu Item",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             798,
                                             126
@@ -2265,7 +2265,7 @@
                                           "name": "Decrease Indent",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             859,
                                             126
@@ -2281,7 +2281,7 @@
                                           "name": "Increase Indent",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             893,
                                             126
@@ -2297,7 +2297,7 @@
                                           "name": "Sort...",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             934,
                                             126
@@ -2313,7 +2313,7 @@
                                           "name": "Show All",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             975,
                                             126
@@ -2329,7 +2329,7 @@
                                           "name": "Align Left",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             686,
                                             174
@@ -2345,7 +2345,7 @@
                                           "name": "Center",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             720,
                                             174
@@ -2361,7 +2361,7 @@
                                           "name": "Align Right",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             754,
                                             174
@@ -2377,7 +2377,7 @@
                                           "name": "Justify",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             788,
                                             174
@@ -2393,7 +2393,7 @@
                                           "name": "Line and Paragraph Spacing",
                                           "type": "Menu Item",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             829,
                                             174
@@ -2409,7 +2409,7 @@
                                           "name": "Shading",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             890,
                                             174
@@ -2424,7 +2424,7 @@
                                               "name": "Shading",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 890,
                                                 174
@@ -2440,7 +2440,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 922,
                                                 174
@@ -2458,7 +2458,7 @@
                                           "name": "Borders",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             946,
                                             174
@@ -2473,7 +2473,7 @@
                                               "name": "Borders",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 946,
                                                 174
@@ -2489,7 +2489,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 978,
                                                 174
@@ -2507,7 +2507,7 @@
                                           "name": "Paragraph...",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             995,
                                             226
@@ -2555,7 +2555,7 @@
                                               "name": "",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1031,
                                                 115
@@ -2603,7 +2603,7 @@
                                                   "name": "Row up",
                                                   "type": "Button",
                                                   "offscreen": "False",
-                                                  "filtered_out": "True",
+                                                  "filtered_out": "False",
                                                   "topleft": [
                                                     1346,
                                                     115
@@ -2618,7 +2618,7 @@
                                                       "name": "",
                                                       "type": "Image",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1352,
                                                         125
@@ -2636,7 +2636,7 @@
                                                   "name": "Row Down",
                                                   "type": "Button",
                                                   "offscreen": "False",
-                                                  "filtered_out": "True",
+                                                  "filtered_out": "False",
                                                   "topleft": [
                                                     1346,
                                                     147
@@ -2651,7 +2651,7 @@
                                                       "name": "",
                                                       "type": "Image",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1352,
                                                         155
@@ -2669,7 +2669,7 @@
                                                   "name": "Styles",
                                                   "type": "Button",
                                                   "offscreen": "False",
-                                                  "filtered_out": "True",
+                                                  "filtered_out": "False",
                                                   "topleft": [
                                                     1346,
                                                     176
@@ -2684,7 +2684,7 @@
                                                       "name": "",
                                                       "type": "Image",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         1352,
                                                         185
@@ -2706,7 +2706,7 @@
                                           "name": "Styles...",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1361,
                                             226
@@ -2739,7 +2739,7 @@
                                           "name": "Find",
                                           "type": "SplitButton",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1397,
                                             111
@@ -2754,7 +2754,7 @@
                                               "name": "Find",
                                               "type": "Button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1397,
                                                 111
@@ -2770,7 +2770,7 @@
                                               "name": "More Options",
                                               "type": "Menu Item",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1472,
                                                 111
@@ -2788,7 +2788,7 @@
                                           "name": "Replace...",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1397,
                                             145
@@ -2804,7 +2804,7 @@
                                           "name": "Select",
                                           "type": "Menu Item",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1397,
                                             179
@@ -2837,7 +2837,7 @@
                                           "name": "Dictate",
                                           "type": "Button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1525,
                                             111
@@ -3086,7 +3086,7 @@
                                   "name": "Customize Toolbar",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     317,
                                     254
@@ -3222,7 +3222,7 @@
                               "name": "Focus ",
                               "type": "Text",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1455,
                                 999
@@ -3238,7 +3238,7 @@
                               "name": "Read Mode",
                               "type": "Tab Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1548,
                                 999

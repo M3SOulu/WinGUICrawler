@@ -649,7 +649,7 @@
               "name": "Help",
               "type": "Button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1655,
                 11
@@ -665,7 +665,7 @@
               "name": "Minimize",
               "type": "Button",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1724,
                 11

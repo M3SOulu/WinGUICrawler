@@ -18,7 +18,7 @@
       "name": "Grant Easy Access",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         676,
         340
@@ -388,7 +388,7 @@
           "name": "Assign",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             993,
             637
@@ -404,7 +404,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1116,
             637

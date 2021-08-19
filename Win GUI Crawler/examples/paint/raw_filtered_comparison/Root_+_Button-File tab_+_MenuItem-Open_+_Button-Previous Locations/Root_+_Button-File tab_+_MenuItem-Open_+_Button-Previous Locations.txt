@@ -18,7 +18,7 @@
       "name": "Open",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         690,
         92
@@ -304,7 +304,7 @@
                           "name": "Desktop (pinned)",
                           "type": "tree item",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             766,
                             245
@@ -1464,7 +1464,7 @@
           "name": "",
           "type": "pane",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             691,
             137
@@ -1479,7 +1479,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 691,
                 141
@@ -1494,7 +1494,7 @@
                   "name": "Navigation buttons",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     697,
                     144
@@ -1576,7 +1576,7 @@
                   "name": "Up band toolbar",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     812,
                     149
@@ -1611,7 +1611,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 848,
                 137
@@ -1626,7 +1626,7 @@
                   "name": "",
                   "type": "progress bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     850,
                     142
@@ -1641,7 +1641,7 @@
                       "name": "Address band toolbar",
                       "type": "tool bar",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1250,
                         142
@@ -1840,7 +1840,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 1312,
                 138
@@ -1855,7 +1855,7 @@
                   "name": "SearchEditBox",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1312,
                     141
@@ -2484,7 +2484,7 @@
                                           "name": "Rotate",
                                           "type": "split button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             616,
                                             230
@@ -2517,7 +2517,7 @@
                                           "name": "Pencil",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             725,
                                             178
@@ -2533,7 +2533,7 @@
                                           "name": "Fill with colour",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             759,
                                             178
@@ -2549,7 +2549,7 @@
                                           "name": "Text",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             795,
                                             178
@@ -2565,7 +2565,7 @@
                                           "name": "Rubber",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             725,
                                             222
@@ -2581,7 +2581,7 @@
                                           "name": "Colour picker",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             759,
                                             222
@@ -2597,7 +2597,7 @@
                                           "name": "Magnifier",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             795,
                                             222
@@ -3245,7 +3245,7 @@
                                           "name": "Colour 1",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1290,
                                             166
@@ -3261,7 +3261,7 @@
                                           "name": "Colour 2",
                                           "type": "button",
                                           "offscreen": "False",
-                                          "filtered_out": "True",
+                                          "filtered_out": "False",
                                           "topleft": [
                                             1352,
                                             166

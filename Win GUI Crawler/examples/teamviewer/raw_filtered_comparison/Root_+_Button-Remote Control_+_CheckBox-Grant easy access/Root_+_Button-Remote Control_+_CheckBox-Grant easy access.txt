@@ -18,7 +18,7 @@
       "name": "Grant Easy Access",
       "type": "dialogue",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         375,
         305
@@ -129,7 +129,7 @@
           "name": "",
           "type": "edit",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             513,
             497
@@ -649,7 +649,7 @@
               "name": "Start TeamViewer with Windows",
               "type": "checkbox",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 136,
                 583
@@ -745,7 +745,7 @@
                   "name": "Your ID",
                   "type": "edit",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     157,
                     276
@@ -778,7 +778,7 @@
                   "name": "Password",
                   "type": "text",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     157,
                     348
@@ -926,7 +926,7 @@
               "name": "File transfer",
               "type": "radio button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 425
@@ -942,7 +942,7 @@
               "name": "Connect",
               "type": "button",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 596,
                 500

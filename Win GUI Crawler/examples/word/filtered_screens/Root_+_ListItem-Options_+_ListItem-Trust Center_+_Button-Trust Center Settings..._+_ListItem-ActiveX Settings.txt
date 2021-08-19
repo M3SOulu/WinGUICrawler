@@ -18,7 +18,7 @@
       "name": "Word Options",
       "type": "window",
       "offscreen": "False",
-      "filtered_out": "False",
+      "filtered_out": "True",
       "topleft": [
         341,
         11
@@ -33,7 +33,7 @@
           "name": "Trust Center",
           "type": "window",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             366,
             11
@@ -48,7 +48,7 @@
               "name": "",
               "type": "Pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 367,
                 56
@@ -63,7 +63,7 @@
                   "name": "Trust Center",
                   "type": "Group",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     367,
                     56
@@ -78,7 +78,7 @@
                       "name": "Categories",
                       "type": "List",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         376,
                         67
@@ -501,7 +501,7 @@
                   "name": "Context help",
                   "type": "button",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1464,
                     12
@@ -517,7 +517,7 @@
                   "name": "Close",
                   "type": "button",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1535,
                     12
@@ -582,7 +582,7 @@
                       "name": "General",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         68
@@ -598,7 +598,7 @@
                       "name": "Display",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         109
@@ -614,7 +614,7 @@
                       "name": "Proofing",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         150
@@ -630,7 +630,7 @@
                       "name": "Save",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         191
@@ -646,7 +646,7 @@
                       "name": "Language",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         232
@@ -662,7 +662,7 @@
                       "name": "Ease of Access",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         273
@@ -678,7 +678,7 @@
                       "name": "Advanced",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         314
@@ -694,7 +694,7 @@
                       "name": "Customize Ribbon",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         358
@@ -710,7 +710,7 @@
                       "name": "Quick Access Toolbar",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         399
@@ -726,7 +726,7 @@
                       "name": "Add-ins",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         443
@@ -742,7 +742,7 @@
                       "name": "Trust Center",
                       "type": "List Item",
                       "offscreen": "False",
-                      "filtered_out": "True",
+                      "filtered_out": "False",
                       "topleft": [
                         353,
                         484
@@ -923,7 +923,7 @@
                   "name": "OK",
                   "type": "Button",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1350,
                     981
@@ -939,7 +939,7 @@
                   "name": "Cancel",
                   "type": "Button",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1477,
                     981
@@ -955,7 +955,7 @@
                   "name": "Size box",
                   "type": "Thumb",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1580,
                     1006
@@ -975,7 +975,7 @@
           "name": "",
           "type": "title bar",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             352,
             22
@@ -1164,7 +1164,7 @@
                               "name": "",
                               "type": "SplitButton",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 457,
                                 237
@@ -1179,7 +1179,7 @@
                                   "name": "",
                                   "type": "Button",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     457,
                                     237
@@ -1194,7 +1194,7 @@
                                       "name": "",
                                       "type": "Image",
                                       "offscreen": "False",
-                                      "filtered_out": "True",
+                                      "filtered_out": "False",
                                       "topleft": [
                                         461,
                                         242
@@ -1212,7 +1212,7 @@
                                   "name": "More Options",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     489,
                                     237
@@ -1303,7 +1303,7 @@
               "name": "Task Pane Options",
               "type": "menu item",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 419,
                 167
@@ -1478,7 +1478,7 @@
                               "name": "Ribbon Display Options",
                               "type": "Menu Item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1655,
                                 11
@@ -1494,7 +1494,7 @@
                               "name": "Minimize",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1724,
                                 11
@@ -1510,7 +1510,7 @@
                               "name": "Restore Down",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1793,
                                 11
@@ -1526,7 +1526,7 @@
                               "name": "Close",
                               "type": "Button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1862,
                                 11
@@ -1605,7 +1605,7 @@
                                   "name": "Design",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     280,
                                     66
@@ -1621,7 +1621,7 @@
                                   "name": "Layout",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     382,
                                     66
@@ -1637,7 +1637,7 @@
                                   "name": "References",
                                   "type": "Tab Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     482,
                                     66
@@ -1929,7 +1929,7 @@
                                   "name": "Customize Toolbar",
                                   "type": "Menu Item",
                                   "offscreen": "False",
-                                  "filtered_out": "True",
+                                  "filtered_out": "False",
                                   "topleft": [
                                     317,
                                     111
@@ -2065,7 +2065,7 @@
                               "name": "Focus ",
                               "type": "Text",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1455,
                                 999
@@ -2081,7 +2081,7 @@
                               "name": "Read Mode",
                               "type": "Tab Item",
                               "offscreen": "False",
-                              "filtered_out": "True",
+                              "filtered_out": "False",
                               "topleft": [
                                 1548,
                                 999
@@ -2222,7 +2222,7 @@
       "name": "",
       "type": "title bar",
       "offscreen": "False",
-      "filtered_out": "True",
+      "filtered_out": "False",
       "topleft": [
         44,
         11

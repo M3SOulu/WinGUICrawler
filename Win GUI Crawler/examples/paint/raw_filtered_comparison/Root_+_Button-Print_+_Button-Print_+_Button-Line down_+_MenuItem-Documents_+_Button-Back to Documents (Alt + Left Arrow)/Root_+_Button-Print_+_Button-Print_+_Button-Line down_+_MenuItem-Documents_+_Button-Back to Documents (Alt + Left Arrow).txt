@@ -33,7 +33,7 @@
           "name": "Save Print Output As",
           "type": "dialogue",
           "offscreen": "False",
-          "filtered_out": "False",
+          "filtered_out": "True",
           "topleft": [
             970,
             176
@@ -48,7 +48,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 971,
                 280
@@ -63,7 +63,7 @@
                   "name": "Command Module",
                   "type": "tool bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     971,
                     280
@@ -161,7 +161,7 @@
                   "name": "Control Host",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     971,
                     329
@@ -176,7 +176,7 @@
                       "name": "Tree View",
                       "type": "tree",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         971,
                         329
@@ -222,7 +222,7 @@
                               "name": "Page up",
                               "type": "button",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1179,
                                 355
@@ -351,7 +351,7 @@
                               "name": "Pictures (pinned)",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 365
@@ -367,7 +367,7 @@
                               "name": "(old)GUI test scripts",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 401
@@ -383,7 +383,7 @@
                               "name": "(old)gui_test-master",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 437
@@ -399,7 +399,7 @@
                               "name": "aws_prolific-master",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 473
@@ -415,7 +415,7 @@
                               "name": "screens_temp",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1046,
                                 509
@@ -448,7 +448,7 @@
                               "name": "OneDrive",
                               "type": "tree item",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1034,
                                 557
@@ -502,7 +502,7 @@
                   "name": "Shell Folder View",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1211,
                     329
@@ -517,7 +517,7 @@
                       "name": "Items View",
                       "type": "list",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1211,
                         329
@@ -762,7 +762,7 @@
                           "name": "AccessibilityInsights",
                           "type": "list item",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             1232,
                             379
@@ -777,7 +777,7 @@
                               "name": "",
                               "type": "image",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1238,
                                 379
@@ -1496,7 +1496,7 @@
               "name": "",
               "type": "pane",
               "offscreen": "False",
-              "filtered_out": "False",
+              "filtered_out": "True",
               "topleft": [
                 971,
                 221
@@ -1511,7 +1511,7 @@
                   "name": "",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     971,
                     225
@@ -1526,7 +1526,7 @@
                       "name": "Navigation buttons",
                       "type": "tool bar",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         977,
                         228
@@ -1643,7 +1643,7 @@
                   "name": "",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1128,
                     221
@@ -1658,7 +1658,7 @@
                       "name": "",
                       "type": "progress bar",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1130,
                         226
@@ -1673,7 +1673,7 @@
                           "name": "",
                           "type": "pane",
                           "offscreen": "False",
-                          "filtered_out": "False",
+                          "filtered_out": "True",
                           "topleft": [
                             1130,
                             226
@@ -1688,7 +1688,7 @@
                               "name": "Address: Documents",
                               "type": "tool bar",
                               "offscreen": "False",
-                              "filtered_out": "False",
+                              "filtered_out": "True",
                               "topleft": [
                                 1130,
                                 226
@@ -1824,7 +1824,7 @@
                   "name": "",
                   "type": "pane",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     1592,
                     222
@@ -1839,7 +1839,7 @@
                       "name": "SearchEditBox",
                       "type": "edit",
                       "offscreen": "False",
-                      "filtered_out": "False",
+                      "filtered_out": "True",
                       "topleft": [
                         1592,
                         225
@@ -1890,7 +1890,7 @@
                   "name": "System",
                   "type": "menu bar",
                   "offscreen": "False",
-                  "filtered_out": "False",
+                  "filtered_out": "True",
                   "topleft": [
                     971,
                     187
@@ -1943,7 +1943,7 @@
           "name": "Printing",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             433
@@ -1959,7 +1959,7 @@
           "name": "Untitled",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             458
@@ -1975,7 +1975,7 @@
           "name": "on the",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             483
@@ -1991,7 +1991,7 @@
           "name": "Microsoft Print to PDF",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             508
@@ -2007,7 +2007,7 @@
           "name": "on PORTPROMPT:",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             533
@@ -2023,7 +2023,7 @@
           "name": "on PORTPROMPT:",
           "type": "text",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             558
@@ -2039,7 +2039,7 @@
           "name": "Cancel",
           "type": "button",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1107,
             595
@@ -2055,7 +2055,7 @@
           "name": "",
           "type": "title bar",
           "offscreen": "False",
-          "filtered_out": "True",
+          "filtered_out": "False",
           "topleft": [
             1003,
             368
@@ -2871,7 +2871,7 @@
                                                       "name": "Curve",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         170
@@ -2951,7 +2951,7 @@
                                                       "name": "Triangle",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         200
@@ -3031,7 +3031,7 @@
                                                       "name": "Right arrow",
                                                       "type": "list item",
                                                       "offscreen": "False",
-                                                      "filtered_out": "True",
+                                                      "filtered_out": "False",
                                                       "topleft": [
                                                         951,
                                                         230
@@ -3259,7 +3259,7 @@
                                               "name": "Shapes",
                                               "type": "button",
                                               "offscreen": "False",
-                                              "filtered_out": "True",
+                                              "filtered_out": "False",
                                               "topleft": [
                                                 1072,
                                                 229
@@ -3504,7 +3504,7 @@
               "name": "Vertical",
               "type": "scroll bar",
               "offscreen": "False",
-              "filtered_out": "True",
+              "filtered_out": "False",
               "topleft": [
                 1883,
                 298
@@ -3519,7 +3519,7 @@
                   "name": "Line up",
                   "type": "button",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1883,
                     298
@@ -3535,7 +3535,7 @@
                   "name": "Position",
                   "type": "thumb",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1883,
                     324
@@ -3551,7 +3551,7 @@
                   "name": "Page down",
                   "type": "button",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1883,
                     816
@@ -3567,7 +3567,7 @@
                   "name": "Line down",
                   "type": "button",
                   "offscreen": "False",
-                  "filtered_out": "True",
+                  "filtered_out": "False",
                   "topleft": [
                     1883,
                     868
