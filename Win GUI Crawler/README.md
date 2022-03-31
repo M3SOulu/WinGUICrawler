@@ -5,7 +5,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependancies (assuming you have python3 installed).
 
 ```bash
-pip install Appium-Python-Client
+pip install Appium-Python-Client==1.3.0
 pip install pyautogui
 pip install pywin32==225
 pip install keyboard
