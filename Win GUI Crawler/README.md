@@ -65,7 +65,7 @@ python dfs_crawl.py 10 #the crawler runs 10 passes
 
  Run:
 ```Python
-python dfs_crawl.py screens_temp
+python visualize_graph.py screens_temp
 ```
 This will produce an .svg image of the graph. Making it possible for the nodes and their states to be inspected visually.
 
